@@ -1,0 +1,376 @@
+{
+  "generatedAt": "2026-08-09T17:26:40.295128",
+  "totalTests": 360,
+  "periods": 3,
+  "configs": 120,
+  "currentStrategy": {
+    "stop_loss": -5,
+    "take_profit": 8,
+    "long_monthly": 4000,
+    "short_ratio": 0.3,
+    "dd_multiplier": 1.0
+  },
+  "optimizedStrategy": {
+    "stop_loss": -3,
+    "take_profit": 12,
+    "long_monthly": 6000,
+    "short_ratio": 0.35,
+    "dd_multiplier": 2.0
+  },
+  "topPerforming": [
+    {
+      "period": "1年 (2024-12~2025-12)",
+      "params": {
+        "stop_loss": -3,
+        "take_profit": 12,
+        "long_monthly": 6000,
+        "short_ratio": 0.35,
+        "dd_multiplier": 2.0
+      },
+      "result": {
+        "total": 111541.35,
+        "pnl_pct": 11.54,
+        "num_trades": 12
+      }
+    },
+    {
+      "period": "1年 (2024-12~2025-12)",
+      "params": {
+        "stop_loss": -3,
+        "take_profit": 8,
+        "long_monthly": 6000,
+        "short_ratio": 0.35,
+        "dd_multiplier": 2.0
+      },
+      "result": {
+        "total": 111094.38,
+        "pnl_pct": 11.09,
+        "num_trades": 12
+      }
+    },
+    {
+      "period": "1年 (2024-12~2025-12)",
+      "params": {
+        "stop_loss": -5,
+        "take_profit": 12,
+        "long_monthly": 6000,
+        "short_ratio": 0.35,
+        "dd_multiplier": 1.5
+      },
+      "result": {
+        "total": 110444.59,
+        "pnl_pct": 10.44,
+        "num_trades": 12
+      }
+    },
+    {
+      "period": "1年 (2024-12~2025-12)",
+      "params": {
+        "stop_loss": -7,
+        "take_profit": 12,
+        "long_monthly": 6000,
+        "short_ratio": 0.25,
+        "dd_multiplier": 2.0
+      },
+      "result": {
+        "total": 110353.61,
+        "pnl_pct": 10.35,
+        "num_trades": 12
+      }
+    },
+    {
+      "period": "1年 (2024-12~2025-12)",
+      "params": {
+        "stop_loss": -5,
+        "take_profit": 12,
+        "long_monthly": 6000,
+        "short_ratio": 0.25,
+        "dd_multiplier": 2.0
+      },
+      "result": {
+        "total": 110353.61,
+        "pnl_pct": 10.35,
+        "num_trades": 12
+      }
+    },
+    {
+      "period": "1年 (2024-12~2025-12)",
+      "params": {
+        "stop_loss": -7,
+        "take_profit": 5,
+        "long_monthly": 6000,
+        "short_ratio": 0.35,
+        "dd_multiplier": 2.0
+      },
+      "result": {
+        "total": 110225.35,
+        "pnl_pct": 10.23,
+        "num_trades": 12
+      }
+    },
+    {
+      "period": "1年 (2024-12~2025-12)",
+      "params": {
+        "stop_loss": -3,
+        "take_profit": 5,
+        "long_monthly": 6000,
+        "short_ratio": 0.35,
+        "dd_multiplier": 2.0
+      },
+      "result": {
+        "total": 110225.35,
+        "pnl_pct": 10.23,
+        "num_trades": 12
+      }
+    },
+    {
+      "period": "1年 (2024-12~2025-12)",
+      "params": {
+        "stop_loss": -5,
+        "take_profit": 5,
+        "long_monthly": 6000,
+        "short_ratio": 0.35,
+        "dd_multiplier": 2.0
+      },
+      "result": {
+        "total": 110225.35,
+        "pnl_pct": 10.23,
+        "num_trades": 12
+      }
+    },
+    {
+      "period": "1年 (2024-12~2025-12)",
+      "params": {
+        "stop_loss": -3,
+        "take_profit": 8,
+        "long_monthly": 6000,
+        "short_ratio": 0.25,
+        "dd_multiplier": 2.0
+      },
+      "result": {
+        "total": 110057.62,
+        "pnl_pct": 10.06,
+        "num_trades": 12
+      }
+    },
+    {
+      "period": "1年 (2024-12~2025-12)",
+      "params": {
+        "stop_loss": -3,
+        "take_profit": 5,
+        "long_monthly": 6000,
+        "short_ratio": 0.25,
+        "dd_multiplier": 2.0
+      },
+      "result": {
+        "total": 109431.5,
+        "pnl_pct": 9.43,
+        "num_trades": 12
+      }
+    }
+  ],
+  "worstPerforming": [
+    {
+      "period": "1年 (2025-06~2026-06)",
+      "params": {
+        "stop_loss": -3,
+        "take_profit": 12,
+        "long_monthly": 2000,
+        "short_ratio": 0.15,
+        "dd_multiplier": 1.0
+      },
+      "result": {
+        "total": 101199.19,
+        "pnl_pct": 1.2,
+        "num_trades": 12
+      }
+    },
+    {
+      "period": "1年 (2025-06~2026-06)",
+      "params": {
+        "stop_loss": -5,
+        "take_profit": 12,
+        "long_monthly": 2000,
+        "short_ratio": 0.15,
+        "dd_multiplier": 1.0
+      },
+      "result": {
+        "total": 101199.19,
+        "pnl_pct": 1.2,
+        "num_trades": 12
+      }
+    },
+    {
+      "period": "1年 (2025-06~2026-06)",
+      "params": {
+        "stop_loss": -3,
+        "take_profit": 8,
+        "long_monthly": 2000,
+        "short_ratio": 0.15,
+        "dd_multiplier": 1.5
+      },
+      "result": {
+        "total": 101152.47,
+        "pnl_pct": 1.15,
+        "num_trades": 12
+      }
+    },
+    {
+      "period": "1年 (2025-06~2026-06)",
+      "params": {
+        "stop_loss": -7,
+        "take_profit": 5,
+        "long_monthly": 2000,
+        "short_ratio": 0.25,
+        "dd_multiplier": 1.0
+      },
+      "result": {
+        "total": 101102.63,
+        "pnl_pct": 1.1,
+        "num_trades": 12
+      }
+    },
+    {
+      "period": "1年 (2025-06~2026-06)",
+      "params": {
+        "stop_loss": -5,
+        "take_profit": 5,
+        "long_monthly": 2000,
+        "short_ratio": 0.15,
+        "dd_multiplier": 2.0
+      },
+      "result": {
+        "total": 101098.79,
+        "pnl_pct": 1.1,
+        "num_trades": 12
+      }
+    },
+    {
+      "period": "1年 (2025-06~2026-06)",
+      "params": {
+        "stop_loss": -7,
+        "take_profit": 8,
+        "long_monthly": 2000,
+        "short_ratio": 0.15,
+        "dd_multiplier": 1.0
+      },
+      "result": {
+        "total": 101051.29,
+        "pnl_pct": 1.05,
+        "num_trades": 12
+      }
+    },
+    {
+      "period": "1年 (2025-06~2026-06)",
+      "params": {
+        "stop_loss": -5,
+        "take_profit": 8,
+        "long_monthly": 2000,
+        "short_ratio": 0.15,
+        "dd_multiplier": 1.0
+      },
+      "result": {
+        "total": 101051.29,
+        "pnl_pct": 1.05,
+        "num_trades": 12
+      }
+    },
+    {
+      "period": "1年 (2025-06~2026-06)",
+      "params": {
+        "stop_loss": -7,
+        "take_profit": 5,
+        "long_monthly": 2000,
+        "short_ratio": 0.15,
+        "dd_multiplier": 1.5
+      },
+      "result": {
+        "total": 100997.61,
+        "pnl_pct": 1.0,
+        "num_trades": 12
+      }
+    },
+    {
+      "period": "1年 (2025-06~2026-06)",
+      "params": {
+        "stop_loss": -3,
+        "take_profit": 5,
+        "long_monthly": 2000,
+        "short_ratio": 0.15,
+        "dd_multiplier": 1.5
+      },
+      "result": {
+        "total": 100997.61,
+        "pnl_pct": 1.0,
+        "num_trades": 12
+      }
+    },
+    {
+      "period": "1年 (2025-06~2026-06)",
+      "params": {
+        "stop_loss": -7,
+        "take_profit": 5,
+        "long_monthly": 2000,
+        "short_ratio": 0.15,
+        "dd_multiplier": 1.0
+      },
+      "result": {
+        "total": 100896.43,
+        "pnl_pct": 0.9,
+        "num_trades": 12
+      }
+    }
+  ],
+  "paramImportance": {
+    "stop_loss": {
+      "-3": 4.46,
+      "-5": 4.16,
+      "-7": 4.25
+    },
+    "take_profit": {
+      "12": 4.7,
+      "8": 4.19,
+      "5": 3.98
+    },
+    "long_monthly": {
+      "6000": 5.5,
+      "4000": 4.39,
+      "2000": 3.1
+    },
+    "short_ratio": {
+      "0.35": 4.84,
+      "0.25": 4.49,
+      "0.15": 3.51
+    },
+    "dd_multiplier": {
+      "2.0": 4.73,
+      "1.5": 4.19,
+      "1.0": 3.97
+    }
+  },
+  "recommendations": [
+    {
+      "param": "stop_loss",
+      "current": -5,
+      "suggested": -3,
+      "reason": "回测最优止损线为-3%。-3%止损在所有周期中平均收益最高。"
+    },
+    {
+      "param": "short_ratio",
+      "current": 0.3,
+      "suggested": 0.35,
+      "reason": "回测最优短线仓位35%。说明市场环境中短线仓位应该更保守。"
+    },
+    {
+      "param": "methodology",
+      "current": "RSI<30超卖买入",
+      "suggested": "RSI<25 + 价格<MA20 + 大盘非熊市 + 只做1/3仓位",
+      "reason": "回溯中单纯依赖RSI超卖在单边下跌中反复触发止损。增加过滤条件（更低的RSI阈值、MA20确认、大盘环境判断）能显著减少无效交易。"
+    }
+  ],
+  "summary": {
+    "avgPnl": 4.3,
+    "bestPnl": 11.54,
+    "worstPnl": 1.2
+  }
+}

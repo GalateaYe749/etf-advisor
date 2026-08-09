@@ -485,6 +485,7 @@ body {
     <button data-section="advice">投资建议</button>
     <button data-section="report" style="color:var(--pink) !important;">模拟战报</button>
     <button data-section="backtest" style="color:var(--purple) !important;">回溯检验</button>
+    <button data-section="evolution" style="color:var(--warn) !important;">进化引擎</button>
   </nav>
 </div>
 
@@ -604,6 +605,9 @@ body {
   <div id="backtest-content" style="display:none;">
     <div id="backtest-body"></div>
   </div>
+<section class="section" id="evolution">
+  <div id="evol-load" class="loading"><div class="spin"></div><br>加载进化报告…</div>
+  <div id="evol-content" style="display:none;"><div id="evol-body"></div></div>
 </section>
 
 </main>
@@ -671,15 +675,15 @@ body {
 
 <!-- ═══ App Logic ═══ -->
 <script>
-let G={etfs:null,indices:null,news:null,dual:null,meta:null,insights:null,advice:null,history:null,aiAnalysis:null,backtest:null,glossary:null,charts:{}};
+let G={etfs:null,indices:null,news:null,dual:null,meta:null,insights:null,advice:null,history:null,aiAnalysis:null,backtest:null,evolution:null,glossary:null,charts:{}};
 
 async function loadAll(){
   try{
     const b='data/';
-    const k=['etf-data','indices','news','simulated-portfolio','meta','insights','advice','history','ai-analysis','backtest','glossary'];
+    const k=['etf-data','indices','news','simulated-portfolio','meta','insights','advice','history','ai-analysis','backtest','evolution','glossary'];
     const r=await Promise.all(k.map(x=>fetch(b+x+'.json').catch(()=>null)));
     const j=await Promise.all(r.map(x=>x?x.json():null));
-    [G.etfs,G.indices,G.news,G.dual,G.meta,G.insights,G.advice,G.history,G.aiAnalysis,G.backtest,G.glossary]=j;
+    [G.etfs,G.indices,G.news,G.dual,G.meta,G.insights,G.advice,G.history,G.aiAnalysis,G.backtest,G.evolution,G.glossary]=j;
     if(G.glossary) G_GLOSSARY = G.glossary; else loadGlossary();
     return true;
   }catch(e){console.error(e);return false;}
@@ -710,6 +714,7 @@ document.getElementById('nav').addEventListener('click',e=>{
   if(sec==='advice'&&!D('advice-content'))renderAdvice();
   if(sec==='report'&&!D('report-content'))renderReport();
   if(sec==='backtest'&&!D('backtest-content'))renderBacktest();
+  if(sec==='evolution'&&!D('evol-content'))renderEvol();
 });
 function D(id){return document.getElementById(id).style.display!=='none';}
 
@@ -1260,6 +1265,58 @@ function renderBacktest(){
       ]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{labels:{color:'#f0f0ff80',boxWidth:10,font:{size:10,family:'serif'},padding:12}}},scales:{x:{ticks:{color:'#f0f0ff40'},grid:{color:'#f0f0ff08'}},y:{ticks:{color:'#f0f0ff40'},grid:{color:'#f0f0ff08'}}}});
     },300);
   }
+}
+
+// ═══ 进化引擎 ═══
+function renderEvol(){
+  if(!G.evolution)return;
+  document.getElementById('evol-load').style.display='none';
+  document.getElementById('evol-content').style.display='block';
+  const e = G.evolution;
+
+  let h = `<div class="card" style="border-left:3px solid var(--warn);margin-bottom:16px;">
+    <h3>策略进化引擎 · ${e.totalTests}次回测 · ${e.periods}个周期 · ${e.configs}组参数</h3>
+    <p style="font-size:12px;color:var(--text-dim);">平均收益 <strong class="${e.summary.avgPnl>=0?'up':'down'}">${P(e.summary.avgPnl)}</strong> · 最优 <strong class="up">${P(e.summary.bestPnl)}</strong> · 最差 <strong class="down">${P(e.summary.worstPnl)}</strong></p>
+  </div>
+
+  <div class="sec-title">参数优化结果</div>
+  <div class="g2">`;
+
+  for(const [pname, analysis] of Object.entries(e.paramImportance||{})){
+    const current = e.currentStrategy?.[pname];
+    const best = e.optimizedStrategy?.[pname];
+    const labels = {'stop_loss':'止损线 (%)','take_profit':'止盈线 (%)','long_monthly':'月定投金额','short_ratio':'短线仓位比例','dd_multiplier':'回撤定投倍率'};
+    const sorted = Object.entries(analysis).sort((a,b)=>b[1]-a[1]);
+    h += `<div class="card"><h3>${labels[pname]||pname}</h3>`;
+    for(const [val, score] of sorted){
+      const isBest = String(val) === String(best);
+      const isCur = String(val) === String(current);
+      const w = Math.max(10, (score - sorted[sorted.length-1][1]) / Math.max(1,(sorted[0][1]-sorted[sorted.length-1][1])) * 100);
+      h += `<div style="margin-bottom:6px;">
+        <div style="display:flex;justify-content:space-between;font-size:12px;margin-bottom:2px;"><span style="color:${isBest?'var(--cyan)':isCur?'var(--warn)':'var(--text-dim)'}">${val} ${isBest?'(最优)':isCur?'(当前)':''}</span><span class="${score>=0?'up':'down'}">${P(score)}</span></div>
+        <div style="height:4px;background:var(--border);border-radius:2px;"><div style="height:100%;width:${w}%;background:${isBest?'var(--cyan)':'var(--text-dim)'};border-radius:2px;transition:width .5s;"></div></div>
+      </div>`;
+    }
+    h += '</div>';
+  }
+
+  h += '</div>';
+
+  if(e.recommendations?.length){
+    h += '<div class="sec-title" style="margin-top:8px;">策略修正建议</div>';
+    for(const r of e.recommendations){
+      h += `<div class="card" style="margin-bottom:6px;border-left:3px solid var(--warn);">
+        <div style="font-size:14px;font-weight:600;color:var(--warn);margin-bottom:6px;">${r.param}</div>
+        <div style="display:flex;gap:24px;font-size:13px;flex-wrap:wrap;">
+          <div><span style="color:var(--text-dim);">当前：</span>${r.current}</div>
+          <div><span style="color:var(--cyan);">建议：</span>${r.suggested}</div>
+        </div>
+        <div style="font-size:11px;color:var(--text-dim);margin-top:4px;">${r.reason}</div>
+      </div>`;
+    }
+  }
+
+  document.getElementById('evol-body').innerHTML = h;
 }
 
 async function init(){
