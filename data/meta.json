@@ -1,0 +1,37 @@
+{
+  "version": "1.0.0",
+  "lastUpdate": "2026-08-09T04:39:24.367Z",
+  "etfCount": 5,
+  "indexCount": 5,
+  "newsCount": 15,
+  "simStartedAt": "2026-08-09",
+  "simTotalValue": 100000,
+  "simPnlPct": 0,
+  "trackedETFs": [
+    {
+      "code": "561380",
+      "name": "电网设备ETF国泰",
+      "type": "行业"
+    },
+    {
+      "code": "510300",
+      "name": "沪深300ETF",
+      "type": "宽基"
+    },
+    {
+      "code": "510500",
+      "name": "中证500ETF",
+      "type": "宽基"
+    },
+    {
+      "code": "159915",
+      "name": "创业板ETF",
+      "type": "宽基"
+    },
+    {
+      "code": "563360",
+      "name": "中证A500ETF",
+      "type": "宽基"
+    }
+  ]
+}

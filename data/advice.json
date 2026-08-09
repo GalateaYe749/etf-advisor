@@ -1,0 +1,29 @@
+{
+  "date": "2026-08-09",
+  "marketStatus": "neutral",
+  "summary": "部分品种进入吸引力区间，可小额定投布局",
+  "actions": [
+    {
+      "etf": "561380",
+      "name": "电网设备ETF国泰",
+      "nav": 0.754,
+      "action": "可关注",
+      "reason": "从高点回撤69.07%，深度回调，可分批建仓"
+    }
+  ],
+  "riskLevel": "中等",
+  "simPortfolio": {
+    "cash": 100000,
+    "holdingsValue": "0.00",
+    "totalValue": "100000.00",
+    "totalCost": "0.00",
+    "pnl": "0.00",
+    "pnlPct": "0.00"
+  },
+  "notes": [
+    "[neutral] 沪深300今日微涨0.93%，市场横盘震荡",
+    "[opportunity] 电网设备ETF国泰 从高点回撤69.07%，已进入深度回调区",
+    "[warning] 电网设备ETF国泰 近3月跌15.69%，短期趋势偏弱，暂不建议加仓",
+    "[neutral] 模拟组合空仓中，等待合适的入场信号"
+  ]
+}
