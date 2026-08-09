@@ -726,9 +726,27 @@ function renderAI(){
   document.getElementById('ai-date').textContent=a.date||'--';
   document.getElementById('ai-macro').textContent=a.macroOutlook||'暂无宏观分析';
 
-  // 科技政策
+  // 科技政策动态 → 改为逐条新闻分析
   const tp=document.getElementById('ai-tech-policy');
-  if(a.techPolicyHighlights?.length){
+  if(a.newsAnalysis?.length){
+    tp.innerHTML=a.newsAnalysis.map(h=>`
+      <div class="card" style="margin-bottom:10px;">
+        <div style="display:flex;align-items:center;gap:10px;margin-bottom:8px;">
+          <span style="font-size:14px;font-weight:600;color:#f4eeff;">📡 ${h.title}</span>
+          <span class="badge neu" style="font-size:10px;">${h.source||''}</span>
+          <span class="badge" style="font-size:10px;background:${h.confidence==='高'?'rgba(0,221,255,0.12)':h.confidence==='中'?'rgba(255,190,110,0.12)':'rgba(240,240,255,0.04)'};color:${h.confidence==='高'?'var(--cyan)':h.confidence==='中'?'var(--warn)':'var(--dim-cyan)'}">把握 ${h.confidence||'中'}</span>
+        </div>
+        <div style="font-size:13px;color:#eee6f4;margin-bottom:6px;line-height:1.7;">
+          <span style="color:var(--cyan);">📋 </span><strong>是什么：</strong>${h.what}
+        </div>
+        <div style="font-size:13px;color:#d8d0e8;margin-bottom:6px;line-height:1.7;">
+          <span style="color:var(--purple);">🔍 </span><strong>为什么重要：</strong>${h.why}
+        </div>
+        <div style="font-size:13px;color:var(--cyan);line-height:1.7;padding:8px 12px;border-left:2px solid var(--cyan);background:rgba(0,221,255,0.03);border-radius:0 6px 6px 0;">
+          <strong>📈 投资影响：</strong>${h.impact}
+        </div>
+      </div>`).join('');
+  }else if(a.techPolicyHighlights?.length){
     tp.innerHTML=a.techPolicyHighlights.map(h=>`
       <div class="card" style="margin-bottom:10px;">
         <div style="font-size:15px;color:#f4eeff;margin-bottom:6px;">${h.topic}</div>
@@ -746,9 +764,11 @@ function renderAI(){
         <div style="display:flex;align-items:center;gap:12px;margin-bottom:8px;">
           <strong style="font-size:15px;color:#f4eeff;">${e.name} (${e.code})</strong>
           <span class="badge" style="background:${dc}18;color:${dc};font-size:13px;">${e.direction}</span>
+          <span class="badge" style="background:${e.confidence==='高'?'rgba(0,221,255,0.1)':e.confidence==='中'?'rgba(255,190,110,0.1)':'rgba(240,240,255,0.04)'};color:${e.confidence==='高'?'var(--cyan)':e.confidence==='中'?'var(--warn)':'var(--dim-cyan)'};font-size:11px;">信心 ${e.confidence||'中'}</span>
         </div>
         <div style="font-size:13px;color:#eee6f4;">${e.reason}</div>
-        ${e.newsDrivers?.length?`<div style="margin-top:6px;font-size:12px;color:#9cc8d4;">📡 ${e.newsDrivers.map(d=>'"'+d+'"').join(' · ')}</div>`:''}
+        ${e.keyDrivers?.length?`<div style="margin-top:6px;font-size:12px;color:#9cc8d4;">📡 关键驱动：${e.keyDrivers.map(d=>'「'+d+'」').join(' · ')}</div>`:''}
+        ${e.newsDrivers?.length?`<div style="margin-top:6px;font-size:12px;color:#9cc8d4;">📡 ${e.newsDrivers.map(d=>'「'+d+'」').join(' · ')}</div>`:''}
       </div>`;
     }).join('');
   }else{ea.innerHTML='<div class="empty">暂无品种分析</div>';}
