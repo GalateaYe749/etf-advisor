@@ -801,7 +801,6 @@ function renderETFDetail(){
 
 // ETF专属新闻加载
 async function loadETFNews(code){try{var r=await fetch('data/etf-news.json');if(!r.ok)return;var d=await r.json();var n=d[code];var e=document.getElementById('etf-news-list');if(!e)return;if(!n||n.length===0){e.innerHTML='<div class="empty">暂无该ETF相关资讯</div>';return;}e.innerHTML=n.map(function(x){return'<div class="news-item"><a href="'+x.url+'" target="_blank">'+x.title+'</a>'+(x.summary?'<div style="font-size:11px;color:#9cc8d4;margin-top:3px;">'+x.summary+'</div>':'')+'<div class="nm"><span>'+x.source+'</span><span>'+x.time+'</span></div></div>'}).join('')}catch(e){}}
-}
 
 function renderAI(){
   if(!G.aiAnalysis)return;
