@@ -1,7 +1,7 @@
 {
   "startedAt": "2026-08-09",
   "longTerm": {
-    "cash": 9004.9,
+    "cash": 6019.8,
     "holdings": [
       {
         "etf": "561380",
@@ -23,21 +23,21 @@
     "snapshots": [
       {
         "date": "2026-08-09",
-        "totalValue": 9985.1,
-        "cash": 9004.9,
+        "totalValue": 7000,
+        "cash": 6019.8,
         "holdingsValue": 980.2
       }
     ]
   },
   "shortTerm": {
-    "cash": 0,
+    "cash": 3000.0,
     "holdings": [],
     "trades": [],
     "snapshots": [
       {
         "date": "2026-08-09",
-        "totalValue": 0,
-        "cash": 0,
+        "totalValue": 3000,
+        "cash": 3000,
         "holdingsValue": 0
       }
     ]
