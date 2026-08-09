@@ -1,17 +1,11 @@
 {
   "startedAt": "2026-08-09",
   "longTerm": {
-    "cash": 58980.8,
+    "cash": 6019.8,
     "holdings": [
       {
-        "etf": "510300",
-        "shares": 2000,
-        "cost": 4.7556,
-        "date": "2026-08-09"
-      },
-      {
         "etf": "561380",
-        "shares": 2000,
+        "shares": 1300,
         "cost": 0.754,
         "date": "2026-08-09"
       }
@@ -20,42 +14,33 @@
       {
         "date": "2026-08-09",
         "action": "buy",
-        "etf": "510300",
-        "shares": 2000,
-        "price": 4.7556,
-        "reason": "⚡AI分析建议：央行降准降息+GDP超预期+沪深300合理估值，长线定投建仓"
-      },
-      {
-        "date": "2026-08-09",
-        "action": "buy",
         "etf": "561380",
-        "shares": 2000,
+        "shares": 1300,
         "price": 0.754,
-        "reason": "电网设备深度回调(年内回撤超15%)，电网投资6000亿+特高压加速+能源保供逻辑坚实，长线小额定投建仓"
+        "reason": "Galatea实际持仓：电网设备ETF长期持有"
       }
     ],
     "snapshots": [
       {
         "date": "2026-08-09",
-        "totalValue": 70000,
-        "cash": 58980.8,
-        "holdingsValue": 11019.2
+        "totalValue": 7000,
+        "cash": 6019.8,
+        "holdingsValue": 980.2
       }
     ]
   },
   "shortTerm": {
-    "cash": 30000,
+    "cash": 3000,
     "holdings": [],
     "trades": [],
     "snapshots": [
       {
         "date": "2026-08-09",
-        "totalValue": 30000,
-        "cash": 30000,
+        "totalValue": 3000,
+        "cash": 3000,
         "holdingsValue": 0
       }
-    ],
-    "activeSignals": []
+    ]
   },
   "rules": {
     "totalCash": 100000,
@@ -80,5 +65,6 @@
       "time": "17:12",
       "text": "正式启动模拟投资。今天建仓了两笔：①长线买入沪深300ETF 2000份——降准降息预期明确，宽基是最稳的起点；②长线小额定投电网设备ETF 2000份——板块回调15%+是定投窗口，但仓位控制在总资产2%以内作为试探。短线账户暂时空仓——所有ETF短线信号都是「观望」，强行操作不如等待。"
     }
-  ]
+  ],
+  "totalCapital": 10000
 }
