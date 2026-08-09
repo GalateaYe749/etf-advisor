@@ -817,7 +817,7 @@ function renderAI(){
       <div class="card" style="margin-bottom:10px;">
         <div style="display:flex;align-items:center;gap:10px;margin-bottom:8px;">
           <span style="font-size:14px;font-weight:600;color:#f4eeff;"> ${h.title}</span>
-          <span class="badge neu" style="font-size:10px;">${h.source||''}</span>
+          <span class="badge neu" style="font-size:10px;">${h.source||''}</span><span class="badge" style="font-size:10px;background:${h.importance==='高'?'rgba(255,51,136,0.12)':h.importance==='中'?'rgba(255,190,110,0.12)':'rgba(240,240,255,0.04)'};color:${h.importance==='高'?'var(--pink)':h.importance==='中'?'var(--warn)':'var(--dim-cyan)'}">${h.importance||'--'}</span>
           <span class="badge" style="font-size:10px;background:${h.confidence==='高'?'rgba(0,221,255,0.12)':h.confidence==='中'?'rgba(255,190,110,0.12)':'rgba(240,240,255,0.04)'};color:${h.confidence==='高'?'var(--cyan)':h.confidence==='中'?'var(--warn)':'var(--dim-cyan)'}">把握 ${h.confidence||'中'}</span>
         </div>
         <div style="font-size:13px;color:#eee6f4;margin-bottom:6px;line-height:1.7;">
