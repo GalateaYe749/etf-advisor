@@ -249,9 +249,9 @@ body {
   border-color:var(--dim-cyan); transform:translateY(-2px);
   box-shadow:0 0 24px rgba(0,221,255,0.08);
 }
-.etf-card .eh { display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:10px; }
+.etf-card .eh { margin-bottom: 6px; }
 .etf-card .en { font-size:16px; font-weight:600; color:#f0e8ff; font-family:serif; }
-.etf-card .ec { font-size:11px; color:#c080b0; letter-spacing:.5px; font-family:serif; }
+.etf-card .ec { font-size:11px; color:#c080b0; letter-spacing:.3px; font-family:serif; margin-left:8px; font-weight:400; }
 .etf-card .ev { font-size:30px; font-weight:700; color:#f0e8ff; letter-spacing:-1px; font-family:serif; }
 .etf-card .er { display:flex; gap:14px; margin-top:10px; flex-wrap:wrap; }
 .etf-card .er-item { text-align:center; }
@@ -264,12 +264,13 @@ body {
 }
 .etf-card .tag.pink { background:rgba(255,51,136,0.08); color:var(--pink); border-color:rgba(255,51,136,0.12); }
 .etf-sig {
-  position:absolute; top:14px; right:14px; font-size:10px;
-  padding:3px 10px; border-radius:10px; letter-spacing:.5px;
+  display: inline-block;
+  font-size:10px; padding:3px 10px; border-radius:10px; letter-spacing:.5px;
+  margin-bottom:8px;
 }
 .etf-sig.buy { background:rgba(0,221,255,0.1); color:var(--cyan); }
 .etf-sig.sell { background:rgba(255,51,136,0.1); color:var(--pink); }
-.etf-sig.neu { background:rgba(255,255,255,0.04); color:var(--dim-cyan); }
+.etf-sig.neu { background:rgba(240,240,255,0.04); color:var(--dim-cyan); }
 
 /* ═══ Stats ═══ */
 .stat-row { display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:10px; margin-bottom:20px; }
@@ -631,8 +632,8 @@ function renderDash(){
     const ss=e.shortSignal;let sig='',sc='';
     if(ss?.signal?.includes('买入')){sig=ss.signal;sc='buy';}else if(ss?.signal?.includes('卖出')){sig=ss.signal;sc='sell';}else if(ss?.signal!=='数据不足'){sig=ss.signal;sc='neu';}
     return`<div class="etf-card" onclick="switchETF('${e.code}')">
+      <div class="eh"><div class="en">${e.name} <span class="ec">${e.code}</span></div></div>
       ${sig?`<div class="etf-sig ${sc}">${sig}</div>`:''}
-      <div class="eh"><div class="en">${e.name}</div><div class="ec">${e.code}</div></div>
       <div class="ev">${e.nav?F(e.nav,4):'--'}</div>
       <div class="er">${e.returns?Object.entries(e.returns).slice(0,4).map(([k,v])=>`<div class="er-item"><div class="er-val ${C(v)}">${P(v)}</div><div class="er-lbl">${k}</div></div>`).join(''):''}</div>
       <div class="et"><span class="tag pink">${e.type}</span>${(e.tags||[]).slice(0,2).map(t=>`<span class="tag">${t}</span>`).join('')}${e.drawdownFromHigh?`<span class="tag pink">回撤${Math.abs(e.drawdownFromHigh)}%</span>`:''}</div>
