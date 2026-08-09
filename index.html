@@ -482,6 +482,7 @@ body {
     <button data-section="longterm">长线仓位</button>
     <button data-section="shortterm">短线交易室</button>
     <button data-section="news">财经资讯</button>
+    <button data-section="daily">每日报告</button>
     <button data-section="advice">投资建议</button>
     <button data-section="report" style="color:var(--pink) !important;">模拟战报</button>
     <button data-section="backtest" style="color:var(--purple) !important;">回溯检验</button>
@@ -508,6 +509,12 @@ body {
     <div style="display:flex;gap:8px;margin-bottom:20px;flex-wrap:wrap;" id="etf-tabs"></div>
     <div id="etf-detail"></div>
   </div>
+</section>
+
+<!-- ===== 每日报告 ===== -->
+<section class="section" id="daily">
+  <div id="daily-load" class="loading"><div class="spin"></div><br>加载每日报告…</div>
+  <div id="daily-content" style="display:none;"><div id="daily-body"></div></div>
 </section>
 
 <!-- ═══════ AI ANALYSIS ═══════ -->
@@ -677,14 +684,14 @@ body {
 
 <!-- ═══ App Logic ═══ -->
 <script>
-let G={etfs:null,indices:null,news:null,dual:null,meta:null,insights:null,advice:null,history:null,aiAnalysis:null,backtest:null,evolution:null,glossary:null,charts:{}};
+let G={etfs:null,indices:null,news:null,dual:null,meta:null,insights:null,advice:null,history:null,aiAnalysis:null,backtest:null,evolution:null,glossary:null,dailyReport:null,charts:{}};
 
 async function loadAll(){
   try{
     const b='data/';
-    const k=['etf-data','indices','news','simulated-portfolio','meta','insights','advice','history','ai-analysis','backtest','evolution','glossary'];
+    const k=['etf-data','indices','news','simulated-portfolio','meta','insights','advice','history','ai-analysis','backtest','evolution','glossary','daily-report'];
     const results=await Promise.all(k.map(async name=>{try{const resp=await fetch(b+name+'.json');if(!resp.ok)return null;return await resp.json()}catch(e){return null}}));
-    [G.etfs,G.indices,G.news,G.dual,G.meta,G.insights,G.advice,G.history,G.aiAnalysis,G.backtest,G.evolution,G.glossary]=results;
+    [G.etfs,G.indices,G.news,G.dual,G.meta,G.insights,G.advice,G.history,G.aiAnalysis,G.backtest,G.evolution,G.glossary,G.dailyReport]=results;
     if(G.glossary) G_GLOSSARY = G.glossary; else loadGlossary();
     return true;
   }catch(e){console.error(e);return false;}
@@ -712,6 +719,7 @@ document.getElementById('nav').addEventListener('click',e=>{
   if(sec==='longterm'&&!D('long-content'))renderLong();
   if(sec==='shortterm'&&!D('short-content'))renderShort();
   if(sec==='news'&&!D('news-content'))renderNews();
+  if(sec==='daily'&&!D('daily-content'))renderDaily();
   if(sec==='advice'&&!D('advice-content'))renderAdvice();
   if(sec==='report'&&!D('report-content'))renderReport();
   if(sec==='backtest'&&!D('backtest-content'))renderBacktest();
@@ -1208,7 +1216,26 @@ function renderReport(){
   if(allSnapshots.length>=2){setTimeout(function(){var ctx=document.getElementById('reportChart');if(!ctx)return;if(G.charts.reportChart)G.charts.reportChart.destroy();var ss=allSnapshots,stSnap=(st.snapshots||[]).length>0?st.snapshots[st.snapshots.length-1].totalValue||(G.dual.totalCapital?G.dual.totalCapital*0.30:0):(G.dual.totalCapital?G.dual.totalCapital*0.30:0);G.charts.reportChart=new Chart(ctx,{type:'line',data:{labels:ss.map(function(s){return s.date.slice(5)}),datasets:[{label:'总资产',data:ss.map(function(s){return s.totalValue+(stSnap-(totalCapital*0.30))}),borderColor:'#ff3388',borderWidth:2,pointRadius:0,fill:true,backgroundColor:'rgba(255,51,136,.06)',tension:0.35},{label:'长线',data:ss.map(function(s){return s.totalValue}),borderColor:'#00ddff',borderWidth:1.5,pointRadius:0,fill:false,tension:0.35},{label:'本金 '+F(totalCapital/10000)+'万',data:Array(ss.length).fill(totalCapital),borderColor:'#f0f0ff20',borderWidth:1,borderDash:[5,5],pointRadius:0}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{labels:{color:'#f0f0ff80',boxWidth:10,font:{size:10,family:'serif'},padding:12}}},scales:{x:{ticks:{color:'#f0f0ff40'},grid:{color:'#f0f0ff08'}},y:{ticks:{color:'#f0f0ff40'},grid:{color:'#f0f0ff08'}}}}})},300);}
 }
 
-async function init(){
+function renderDaily(){
+  document.getElementById("daily-load").style.display="none";
+  document.getElementById("daily-content").style.display="block";
+  if(!G.dailyReport){document.getElementById("daily-body").innerHTML='<div class="empty">报告尚未生成</div>';return}
+  var r=G.dailyReport,p=r.portfolio||{},lt=p.longTerm||{},st=p.shortTerm||{};
+  var h='<div class="card" style="border-left:3px solid var(--cyan);margin-bottom:16px;"><h3>每日投资报告 '+r.date+'</h3><div style="font-size:13px;color:#d8d0e8;line-height:1.8;">'+r.todaySummary+'</div></div>';
+  h+='<div class="card" style="margin-bottom:10px;"><h3>账户状态</h3><div class="portfolio-summary"><div class="stat-card"><div class="sl">总资产</div><div class="sv">'+F(p.totalCapital)+'</div></div><div class="stat-card"><div class="sl">长线</div><div class="sv" style="color:var(--cyan)">'+F(lt.cash+(lt.holdings?lt.holdings.reduce(function(s,x){return s+(x.value||0)},0):0))+'</div><div class="ss">现金'+F(lt.cash)+'+'+((lt.holdings||[]).length)+'只持仓</div></div><div class="stat-card"><div class="sl">短线</div><div class="sv" style="color:var(--pink)">'+F(st.cash)+'</div><div class="ss">现金</div></div></div></div>';
+  h+='<div class="sec-title">今日操作建议</div>';
+  var recs=r.recommendations||[];
+  for(var i=0;i<recs.length;i++){
+    var rec=recs[i],prio=rec.priority;
+    var pc=prio===1?'var(--cyan)':prio===2?'var(--purple)':'var(--text-dim)';
+    h+='<div class="card" style="margin-bottom:8px;border-left:3px solid '+pc+';"><div style="display:flex;gap:12px;align-items:center;flex-wrap:wrap;"><span class="badge" style="background:'+pc+'18;color:'+pc+';font-size:16px;">#'+prio+'</span><div style="flex:1;"><div style="font-size:15px;font-weight:600;color:#f4eeff;">'+rec.action+'</div><div style="font-size:13px;color:#9cc8d4;">'+rec.target+' — '+rec.amount+'</div></div></div><div style="font-size:13px;color:#d8d0e8;line-height:1.7;margin-top:8px;">'+rec.reason+'</div><div style="font-size:11px;color:var(--warn);margin-top:4px;">'+rec.risk+'</div></div>';
+  }
+  if(r.keyNews&&r.keyNews.length){h+='<div class="sec-title" style="margin-top:16px;">关键新闻</div>';for(var j=0;j<r.keyNews.length;j++){var kw=r.keyNews[j];var ic=kw.impact.indexOf('利好')>=0?'var(--cyan)':kw.impact.indexOf('利空')>=0?'var(--pink)':'var(--text-dim)';h+='<div class="insight" style="border-color:'+ic+';"><strong>'+kw.title+'</strong> <span style="color:var(--text-dim);font-size:11px;">'+kw.source+'</span><div style="color:'+ic+';margin-top:2px;">'+kw.impact+'</div></div>'}}
+  if(r.lookAhead){h+='<div class="sec-title" style="margin-top:16px;">前瞻</div><div class="card"><div class="insight neutral"><strong>明天：</strong>'+r.lookAhead.tomorrow+'</div><div class="insight neutral"><strong>本周：</strong>'+r.lookAhead.thisWeek+'</div><div class="insight neutral"><strong>本月：</strong>'+r.lookAhead.thisMonth+'</div></div>'}
+  document.getElementById("daily-body").innerHTML=h;
+}
+
+async function init(){async function init(){
   const timeout=setTimeout(()=>{if(!G.etfs)document.getElementById('dash-load').innerHTML='<div class="empty" style="padding:60px;">数据加载超时<br>请刷新页面重试</div>';},10000);
   const ok=await loadAll();
   clearTimeout(timeout);
