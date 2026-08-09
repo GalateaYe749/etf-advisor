@@ -850,7 +850,7 @@ function renderAI(){
           <span class="badge" style="background:${dc}18;color:${dc};font-size:13px;">${e.direction}</span>
           <span class="badge" style="background:${e.confidence==='高'?'rgba(0,221,255,0.1)':e.confidence==='中'?'rgba(255,190,110,0.1)':'rgba(240,240,255,0.04)'};color:${e.confidence==='高'?'var(--cyan)':e.confidence==='中'?'var(--warn)':'var(--dim-cyan)'};font-size:11px;">信心 ${e.confidence||'中'}</span>
         </div>
-        <div style="font-size:13px;color:#eee6f4;">${e.reason}</div>
+        <div style="font-size:13px;color:#eee6f4;margin-bottom:4px;">${e.reason}</div>${e.longTermAdvice?'<div style="font-size:12px;color:var(--cyan);padding:6px 10px;background:rgba(0,221,255,0.03);border-radius:4px;margin-bottom:4px;">\\u{1F4C8} 长线建议：'+e.longTermAdvice+'</div>':''}
         ${e.keyDrivers?.length?`<div style="margin-top:6px;font-size:12px;color:#9cc8d4;"> 关键驱动：${e.keyDrivers.map(d=>'「'+d+'」').join(' · ')}</div>`:''}
         ${e.newsDrivers?.length?`<div style="margin-top:6px;font-size:12px;color:#9cc8d4;"> ${e.newsDrivers.map(d=>'「'+d+'」').join(' · ')}</div>`:''}
       </div>`;
