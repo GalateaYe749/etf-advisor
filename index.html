@@ -483,6 +483,7 @@ body {
     <button data-section="shortterm">短线交易室</button>
     <button data-section="news">财经资讯</button>
     <button data-section="advice">投资建议</button>
+    <button data-section="report" style="color:var(--pink) !important;">模拟战报</button>
   </nav>
 </div>
 
@@ -591,6 +592,14 @@ body {
   </div>
 </section>
 
+<!-- ===== 模拟战报 ===== -->
+<section class="section" id="report">
+  <div id="report-load" class="loading"><div class="spin"></div><br>加载战报…</div>
+  <div id="report-content" style="display:none;">
+    <div id="report-body"></div>
+  </div>
+</section>
+
 </main>
 
 <footer class="footer">
@@ -693,6 +702,7 @@ document.getElementById('nav').addEventListener('click',e=>{
   if(sec==='shortterm'&&!D('short-content'))renderShort();
   if(sec==='news'&&!D('news-content'))renderNews();
   if(sec==='advice'&&!D('advice-content'))renderAdvice();
+  if(sec==='report'&&!D('report-content'))renderReport();
 });
 function D(id){return document.getElementById(id).style.display!=='none';}
 
@@ -1025,6 +1035,132 @@ function renderAdvice(){
     </div>
     ${(a.notes||[]).length>0?`<div class="card" style="margin-top:16px;"><h3>详细说明</h3>${a.notes.map(n=>`<div class="insight neutral" style="margin-bottom:3px;font-size:12px;">${n}</div>`).join('')}</div>`:''}
   `;
+}
+
+// ═══ 模拟战报 ═══
+function renderReport(){
+  if(!G.dual||!G.etfs||!G.indices)return;
+  document.getElementById('report-load').style.display='none';
+  document.getElementById('report-content').style.display='block';
+
+  const lt = G.dual.longTerm || {cash:70000,holdings:[],trades:[],snapshots:[]};
+  const st = G.dual.shortTerm || {cash:30000,holdings:[],trades:[],snapshots:[]};
+
+  let ltHv=0, stHv=0;
+  const getPrice = (code) => { const e=G.etfs.find(x=>x.code===code); return e?e.nav:null; };
+  for(const h of lt.holdings||[]){ const p=getPrice(h.etf); if(p)ltHv+=h.shares*p; }
+  for(const h of st.holdings||[]){ const p=getPrice(h.etf); if(p)stHv+=h.shares*p; }
+  const ltTotal = lt.cash + ltHv;
+  const stTotal = st.cash + stHv;
+  const total = ltTotal + stTotal;
+  const totalPnl = total - 100000;
+  const totalPnlPct = (total/100000-1)*100;
+
+  // 基准对比（沪深300）
+  const hs300 = G.indices.find(i=>i?.name?.includes('沪深300'));
+  const hs300Price = hs300 ? hs300.price : null;
+
+  // 所有交易合并
+  const allTrades = [
+    ...(lt.trades||[]).map(t=>({...t,account:'长线'})),
+    ...(st.trades||[]).map(t=>({...t,account:'短线'}))
+  ].sort((a,b)=>a.date>b.date?-1:1);
+
+  let html = `
+    <div class="card" style="border-left:3px solid var(--pink);margin-bottom:16px;">
+      <h3>模拟投资 <span style="color:var(--cyan);">起始 ¥100,000</span> · 启动 ${G.dual.startedAt||'--'} · 大盘 ${hs300Price||'--'}</h3>
+    </div>
+
+    <div class="portfolio-summary">
+      <div class="stat-card"><div class="sl">总资产</div><div class="sv" style="color:${totalPnl>=0?'var(--cyan)':'var(--pink)'}">${F(total)}</div><div class="ss ${totalPnl>=0?'up':'down'}">${P(totalPnlPct)}</div></div>
+      <div class="stat-card"><div class="sl">长线账户</div><div class="sv" style="color:var(--cyan)">${F(ltTotal)}</div><div class="ss">现金 ${F(lt.cash)} · 持仓 ${F(ltHv)}</div></div>
+      <div class="stat-card"><div class="sl">短线账户</div><div class="sv" style="color:var(--pink)">${F(stTotal)}</div><div class="ss">现金 ${F(st.cash)} · 持仓 ${F(stHv)}</div></div>
+      <div class="stat-card"><div class="sl">累计盈亏</div><div class="sv ${totalPnl>=0?'up':'down'}">${P(totalPnlPct)}</div><div class="ss">${totalPnl>=0?'盈利':'亏损'}  ${F(Math.abs(totalPnl))} 元</div></div>
+      <div class="stat-card"><div class="sl">交易次数</div><div class="sv" style="color:var(--warn)">${allTrades.length}</div><div class="ss">买入 ${allTrades.filter(t=>t.action==='buy').length} · 卖出 ${allTrades.filter(t=>t.action==='sell').length}</div></div>
+    </div>
+  `;
+
+  // 持仓明细
+  html += '<div class="sec-title" style="margin-top:8px;">当前持仓</div>';
+  const allHoldings = [
+    ...(lt.holdings||[]).map(h=>({...h,account:'长线'})),
+    ...(st.holdings||[]).map(h=>({...h,account:'短线'}))
+  ];
+  if(allHoldings.length===0){
+    html += '<div class="empty">暂无持仓，等待入场</div>';
+  }else{
+    html += '<div class="g1">';
+    for(const h of allHoldings){
+      const e = G.etfs.find(x=>x.code===h.etf);
+      const p = getPrice(h.etf) || h.cost;
+      const mv = h.shares * p;
+      const pnl = mv - h.shares * h.cost;
+      const pnlPct = (p/h.cost-1)*100;
+      html += `<div class="card" style="margin-bottom:6px;">
+        <div style="display:flex;align-items:center;gap:16px;flex-wrap:wrap;">
+          <div style="flex:1;">
+            <div style="font-size:14px;font-weight:600;color:#f4eeff;">${e?.name||h.etf} <span style="font-size:11px;color:#9cc8d4;">${h.etf}</span></div>
+            <div style="font-size:12px;color:var(--text-dim);margin-top:2px;">${h.shares}份 · 成本 ${F(h.cost,4)} · 现价 ${F(p,4)}</div>
+          </div>
+          <div style="text-align:right;">
+            <div style="font-size:18px;font-weight:700;color:#f4eeff;">${F(mv)}</div>
+            <div class="${pnl>=0?'up':'down'}" style="font-size:13px;font-weight:600;">${P(pnlPct)}</div>
+          </div>
+          <span class="badge ${h.account==='长线'?'up':'warn'}">${h.account}</span>
+        </div>
+        <div style="font-size:11px;color:var(--text-dim);margin-top:6px;">买入于 ${h.date||'--'}</div>
+      </div>`;
+    }
+    html += '</div>';
+  }
+
+  // 交易记录
+  html += '<div class="sec-title" style="margin-top:16px;">交易记录</div>';
+  if(allTrades.length===0){
+    html += '<div class="empty">暂无交易</div>';
+  }else{
+    for(const t of allTrades){
+      const e = G.etfs.find(x=>x.code===t.etf);
+      const actColor = t.action==='buy'?'var(--cyan)':'var(--pink)';
+      const actLabel = t.action==='buy'?'买入':'卖出';
+      html += `<div class="card" style="margin-bottom:4px;border-left:3px solid ${actColor};">
+        <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;">
+          <div>
+            <span style="font-size:11px;color:var(--text-dim);">${t.date}</span>
+            <strong style="color:${actColor};margin:0 8px;">${actLabel}</strong>
+            <span style="color:#f4eeff;">${e?.name||t.etf} ${t.shares}份 @ ${F(t.price,4)}</span>
+            <span class="badge ${t.account==='长线'?'up':'warn'}" style="margin-left:8px;">${t.account}</span>
+          </div>
+          <div style="font-size:15px;font-weight:700;color:#f4eeff;">${F(t.shares*t.price)}</div>
+        </div>
+        <div style="font-size:11px;color:var(--text-dim);margin-top:4px;">${t.reason||''}</div>
+      </div>`;
+    }
+  }
+
+  // 资金曲线
+  const allSnapshots = (lt.snapshots||[]).length > 0 ? lt.snapshots : [];
+  if(allSnapshots.length >= 2){
+    html += '<div class="sec-title" style="margin-top:16px;">资金曲线</div><div class="card" style="margin-bottom:16px;"><div class="chart-wrap"><canvas id="reportChart"></canvas></div></div>';
+  }
+
+  document.getElementById('report-body').innerHTML = html;
+
+  // Draw chart
+  if(allSnapshots.length >= 2){
+    setTimeout(()=>{
+      const ctx=document.getElementById('reportChart');
+      if(!ctx||G.charts.reportChart){if(G.charts.reportChart)G.charts.reportChart.destroy();}
+      if(!ctx)return;
+      const ss = allSnapshots;
+      const stTotalSnaps = (st.snapshots||[]).length > 0 ? st.snapshots[st.snapshots.length-1]?.totalValue || 30000 : 30000;
+      G.charts.reportChart = new Chart(ctx,{type:'line',data:{labels:ss.map(s=>s.date.slice(5)),datasets:[
+        {label:'总资产',data:ss.map(s=>s.totalValue + (stTotalSnaps-30000)),borderColor:'#ff3388',borderWidth:2,pointRadius:0,fill:true,backgroundColor:'rgba(255,51,136,.06)',tension:.35},
+        {label:'长线',data:ss.map(s=>s.totalValue),borderColor:'#00ddff',borderWidth:1.5,pointRadius:0,fill:false,tension:.35},
+        {label:'本金 100k',data:Array(ss.length).fill(100000),borderColor:'#f0f0ff20',borderWidth:1,borderDash:[5,5],pointRadius:0}
+      ]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{labels:{color:'#f0f0ff80',boxWidth:10,font:{size:10,family:'serif'},padding:12}}},scales:{x:{ticks:{color:'#f0f0ff40'},grid:{color:'#f0f0ff08'}},y:{ticks:{color:'#f0f0ff40'},grid:{color:'#f0f0ff08'}}}});
+    },300);
+  }
 }
 
 async function init(){
