@@ -484,6 +484,7 @@ body {
     <button data-section="news">财经资讯</button>
     <button data-section="advice">投资建议</button>
     <button data-section="report" style="color:var(--pink) !important;">模拟战报</button>
+    <button data-section="backtest" style="color:var(--purple) !important;">回溯检验</button>
   </nav>
 </div>
 
@@ -598,6 +599,11 @@ body {
   <div id="report-content" style="display:none;">
     <div id="report-body"></div>
   </div>
+<section class="section" id="backtest">
+  <div id="backtest-load" class="loading"><div class="spin"></div><br>加载回溯报告…</div>
+  <div id="backtest-content" style="display:none;">
+    <div id="backtest-body"></div>
+  </div>
 </section>
 
 </main>
@@ -665,15 +671,15 @@ body {
 
 <!-- ═══ App Logic ═══ -->
 <script>
-let G={etfs:null,indices:null,news:null,dual:null,meta:null,insights:null,advice:null,history:null,aiAnalysis:null,glossary:null,charts:{}};
+let G={etfs:null,indices:null,news:null,dual:null,meta:null,insights:null,advice:null,history:null,aiAnalysis:null,backtest:null,glossary:null,charts:{}};
 
 async function loadAll(){
   try{
     const b='data/';
-    const k=['etf-data','indices','news','simulated-portfolio','meta','insights','advice','history','ai-analysis','glossary'];
+    const k=['etf-data','indices','news','simulated-portfolio','meta','insights','advice','history','ai-analysis','backtest','glossary'];
     const r=await Promise.all(k.map(x=>fetch(b+x+'.json').catch(()=>null)));
     const j=await Promise.all(r.map(x=>x?x.json():null));
-    [G.etfs,G.indices,G.news,G.dual,G.meta,G.insights,G.advice,G.history,G.aiAnalysis,G.glossary]=j;
+    [G.etfs,G.indices,G.news,G.dual,G.meta,G.insights,G.advice,G.history,G.aiAnalysis,G.backtest,G.glossary]=j;
     if(G.glossary) G_GLOSSARY = G.glossary; else loadGlossary();
     return true;
   }catch(e){console.error(e);return false;}
@@ -703,6 +709,7 @@ document.getElementById('nav').addEventListener('click',e=>{
   if(sec==='news'&&!D('news-content'))renderNews();
   if(sec==='advice'&&!D('advice-content'))renderAdvice();
   if(sec==='report'&&!D('report-content'))renderReport();
+  if(sec==='backtest'&&!D('backtest-content'))renderBacktest();
 });
 function D(id){return document.getElementById(id).style.display!=='none';}
 
@@ -1157,6 +1164,98 @@ function renderReport(){
       G.charts.reportChart = new Chart(ctx,{type:'line',data:{labels:ss.map(s=>s.date.slice(5)),datasets:[
         {label:'总资产',data:ss.map(s=>s.totalValue + (stTotalSnaps-30000)),borderColor:'#ff3388',borderWidth:2,pointRadius:0,fill:true,backgroundColor:'rgba(255,51,136,.06)',tension:.35},
         {label:'长线',data:ss.map(s=>s.totalValue),borderColor:'#00ddff',borderWidth:1.5,pointRadius:0,fill:false,tension:.35},
+        {label:'本金 100k',data:Array(ss.length).fill(100000),borderColor:'#f0f0ff20',borderWidth:1,borderDash:[5,5],pointRadius:0}
+      ]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{labels:{color:'#f0f0ff80',boxWidth:10,font:{size:10,family:'serif'},padding:12}}},scales:{x:{ticks:{color:'#f0f0ff40'},grid:{color:'#f0f0ff08'}},y:{ticks:{color:'#f0f0ff40'},grid:{color:'#f0f0ff08'}}}});
+    },300);
+  }
+}
+
+// ═══ 回溯检验 ═══
+function renderBacktest(){
+  if(!G.backtest)return;
+  document.getElementById('backtest-load').style.display='none';
+  document.getElementById('backtest-content').style.display='block';
+
+  const b = G.backtest;
+  const r = b.result;
+  const s = b.simulation;
+
+  let html = `
+    <div class="card" style="border-left:3px solid var(--purple);margin-bottom:16px;">
+      <h3>回溯模拟 <span style="color:var(--purple);">${s.startDate} - ${s.endDate}</span> · 起始 ${s.startCapital.toLocaleString()} 元</h3>
+      <p style="font-size:12px;color:var(--text-dim);margin-top:4px;">模拟方法：每周三做一次决策，只使用当天之前的数据。长线定投+短线波段，规则与当前策略完全一致。</p>
+    </div>
+
+    <div class="portfolio-summary">
+      <div class="stat-card"><div class="sl">最终资产</div><div class="sv" style="color:${r.finalPnlPct>=0?'var(--cyan)':'var(--pink)'}">${F(r.finalTotal)}</div><div class="ss ${r.finalPnlPct>=0?'up':'down'}">${P(r.finalPnlPct)}</div></div>
+      <div class="stat-card"><div class="sl">长线账户</div><div class="sv" style="color:${r.longTotal>=75000?'var(--cyan)':'var(--pink)'}">${F(r.longTotal)}</div><div class="ss">投入70,000 · 收益率${P((r.longTotal/70000-1)*100)}</div></div>
+      <div class="stat-card"><div class="sl">短线账户</div><div class="sv" style="color:var(--pink)">${F(r.shortTotal)}</div><div class="ss">投入30,000 · 收益率${P((r.shortTotal/30000-1)*100)}</div></div>
+      <div class="stat-card"><div class="sl">交易次数</div><div class="sv" style="color:var(--warn)">${r.totalTrades}</div><div class="ss">买入 ${r.buyTrades} · 卖出 ${r.sellTrades}</div></div>
+      <div class="stat-card"><div class="sl">累计盈亏</div><div class="sv ${r.finalPnl>=0?'up':'down'}">${P(r.finalPnlPct)}</div><div class="ss">${r.finalPnl>=0?'盈利':'亏损'} ${F(Math.abs(r.finalPnl))} 元</div></div>
+    </div>
+  `;
+
+  // 资金曲线
+  if(b.snapshots?.length){
+    html += '<div class="card" style="margin-bottom:16px;"><h3>资金曲线（月频快照）</h3><div class="chart-wrap"><canvas id="backtestChart"></canvas></div></div>';
+  }
+
+  // 教训
+  html += '<div class="sec-title">回溯教训</div>';
+  for(const l of (b.lessons||[])){
+    html += `<div class="card" style="margin-bottom:8px;border-left:3px solid var(--purple);">
+      <div style="font-size:15px;font-weight:600;color:#f4eeff;margin-bottom:4px;">${l.title}</div>
+      <div style="font-size:12px;color:var(--text-dim);margin-bottom:6px;">${l.detail||''}</div>
+      <div style="font-size:13px;color:#d8d0e8;line-height:1.7;">${l.lesson}</div>
+    </div>`;
+  }
+
+  // 策略修正
+  if(b.strategyPatches?.length){
+    html += '<div class="sec-title" style="margin-top:16px;">策略修正方案</div>';
+    for(const p of b.strategyPatches){
+      html += `<div class="card" style="margin-bottom:6px;">
+        <div style="font-size:14px;font-weight:600;color:var(--purple);margin-bottom:6px;">${p.rule}</div>
+        <div style="display:flex;gap:20px;font-size:13px;flex-wrap:wrap;">
+          <div><span style="color:var(--text-dim);">旧：</span>${p.old}</div>
+          <div><span style="color:var(--cyan);">新：</span>${p.new}</div>
+        </div>
+        <div style="font-size:11px;color:var(--text-dim);margin-top:4px;">${p.reason}</div>
+      </div>`;
+    }
+  }
+
+  // 交易记录
+  html += '<div class="sec-title" style="margin-top:16px;">交易记录（最近30笔）</div>';
+  for(const t of (b.trades||[]).slice(-20)){
+    const actColor = t.action==='buy'?'var(--cyan)':'var(--pink)';
+    const actLabel = t.action==='buy'?'买入':'卖出';
+    html += `<div class="card" style="margin-bottom:3px;border-left:3px solid ${actColor};">
+      <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;font-size:12px;">
+        <div>
+          <span style="color:var(--text-dim);">${t.date}</span>
+          <strong style="color:${actColor};margin:0 8px;">${actLabel}</strong>
+          ${t.etf} ${t.shares}份 @ ${F(t.price,4)}
+          <span class="badge ${t.account==='长线'?'up':'warn'}" style="margin-left:6px;">${t.account}</span>
+        </div>
+        <span style="font-weight:700;color:#f4eeff;">${t.action==='buy'?'-':''}${F(t.shares*t.price)}</span>
+      </div>
+      <div style="font-size:11px;color:var(--text-dim);">${t.reason||''}</div>
+    </div>`;
+  }
+
+  document.getElementById('backtest-body').innerHTML = html;
+
+  // Chart
+  if(b.snapshots?.length){
+    setTimeout(()=>{
+      const ctx=document.getElementById('backtestChart');
+      if(!ctx)return;
+      if(G.charts.backtestChart)G.charts.backtestChart.destroy();
+      const ss=b.snapshots;
+      G.charts.backtestChart = new Chart(ctx,{type:'line',data:{labels:ss.map(s=>s.date.slice(5)),datasets:[
+        {label:'总资产',data:ss.map(s=>s.total),borderColor:'#9955dd',borderWidth:2,pointRadius:0,fill:true,backgroundColor:'rgba(153,85,221,.08)',tension:.35},
+        {label:'长线',data:ss.map(s=>s.longTotal),borderColor:'#00ddff',borderWidth:1.5,pointRadius:0,fill:false,tension:.35},
         {label:'本金 100k',data:Array(ss.length).fill(100000),borderColor:'#f0f0ff20',borderWidth:1,borderDash:[5,5],pointRadius:0}
       ]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{labels:{color:'#f0f0ff80',boxWidth:10,font:{size:10,family:'serif'},padding:12}}},scales:{x:{ticks:{color:'#f0f0ff40'},grid:{color:'#f0f0ff08'}},y:{ticks:{color:'#f0f0ff40'},grid:{color:'#f0f0ff08'}}}});
     },300);
