@@ -827,21 +827,25 @@ function showChartAnalysis(etf){
   try{
     var el=document.getElementById('etf-chart-analysis');if(!el||!etf||!etf.trends||etf.trends.length<14)return;
     var trends=etf.trends,d=trends.map(function(t){return t.y});
-    var latest=d[d.length-1],ma20=0;for(var i=Math.max(0,d.length-20);i<d.length;i++)ma20+=d[i];ma20/=Math.min(20,d.length);
+    var latest=d[d.length-1];var ma20=0;for(var i=Math.max(0,d.length-20);i<d.length;i++)ma20+=d[i];ma20/=Math.min(20,d.length);
     var d5=d.slice(-5);var trend5=d5[d5.length-1]>d5[0]?'反弹中':'下跌中';
     var highRecent=Math.max.apply(null,d.slice(-60));var ddRecent=Math.round((latest/highRecent-1)*10000)/100;
-    var rsi=etf.tech?etf.tech.rsi14:'?';
-    var rsiStatus=Number(rsi)>70?'超买区，短期有回调压力':Number(rsi)>50?'偏强，多头占优':Number(rsi)>30?'偏弱，空头占优':'超卖区，反弹概率较大';
-    var arr=etf.tech?etf.tech.maArrangement:'?';
-    var arrMsg=arr==='多头排列'?'均线多头排列说明上升趋势较强':arr==='空头排列'?'均线空头排列是典型下跌信号，不宜入场':'均线缠绕说明多空力量均衡，方向不明';
+    var rsi=etf.tech&&etf.tech.rsi14?etf.tech.rsi14:'?';
+    var rsiVal=Number(rsi),rsiStatus;if(rsiVal>70)rsiStatus='超买区，短期有回调压力';else if(rsiVal>50)rsiStatus='偏强，多头占优';else if(rsiVal>30)rsiStatus='偏弱，空头占优';else rsiStatus='超卖区，反弹概率较大';
+    var arr=etf.tech&&etf.tech.maArrangement?etf.tech.maArrangement:'?';
+    var arrMsg;if(arr==='多头排列')arrMsg='均线多头排列说明上升趋势较强';else if(arr==='空头排列')arrMsg='均线空头排列是典型下跌信号，不宜入场';else arrMsg='均线缠绕说明多空力量均衡，方向不明';
+    var rsiAdvice;if(rsiVal<40)rsiAdvice='当前位置不适合追空，RSI若继续下行至30以下可能是短线买入信号。';else if(rsiVal>65)rsiAdvice='当前位置不宜追涨，RSI若继续上行至70以上可能出现回调。';else rsiAdvice='当前位置可上可下，等待RSI给出更明确的方向信号。';
+    var ddAdvice;if(ddRecent<-30)ddAdvice='深度回撤，历史上此类跌幅后中位数反弹幅度在15-25%。但反弹时间不确定，可能需要数周至数月。';else if(ddRecent<-15)ddAdvice='中等回撤，风险已经释放了相当部分，但可能还有下行空间。';else if(ddRecent<-5)ddAdvice='轻度回撤，属于正常波动范围。';else ddAdvice='几乎无回撤，处于高位区域，追高风险较大。';
+    var maAdvice=ma20>latest?'价格在MA20下方运行，中期偏弱。':'价格在MA20上方运行，中期偏强。';
+    var maLineAdvice=latest>ma20?'当前价格站上MA20，短线偏多。':'当前价格跌破MA20，短线偏空，重新站上MA20是趋势反转的第一个信号。';
+    var overall;if(rsiVal<30&&ddRecent<-30)overall='技术面极度超卖+深度回撤，短期出现技术性反弹概率较大。但反转需要基本面配合，目前仅适合小仓位试探。';else if(rsiVal>70&&ddRecent>-5)overall='技术面极度超买+几乎无回撤，短期回调风险远大于继续上涨的机会。建议减仓或至少不追加。';else if(ddRecent<-50)overall='虽然回撤极深，但RSI未到超卖区说明下跌可能还未结束。等待更明确的反转信号（底背离、金叉或放量阳线）。';else overall='技术面方向不明朗，既没有明确的买入信号也没有强烈的卖出信号。维持现有仓位，等待市场选择方向。';
     
-    var h='<div class="card" style="margin-top:14px;border-left:3px solid var(--purple);"><h3>图表综合分析</h3>';
-    h+='<div style="font-size:13px;color:#d8d0e8;line-height:1.8;">';
-    h+='<p><strong style="color:var(--cyan);">1. 净值走势：</strong>近5日'+trend5+'，当前净值 '+F(latest,4)+'，距60日高点回撤 '+F(ddRecent,2)+'%。'+(ma20>latest?'价格在MA20下方运行，中期偏弱。':'价格在MA20上方运行，中期偏强。')+'</p>';
-    h+='<p><strong style="color:#ff9f43;">2. RSI分析：</strong>RSI='+rsi+'，处于'+rsiStatus+'。'+(Number(rsi)<40?'当前位置不适合追空，RSI若继续下行至30以下可能是短线买入信号。':Number(rsi)>65?'当前位置不宜追涨，RSI若继续上行至70以上可能出现回调。':'当前位置可上可下，等待RSI给出更明确的方向信号。')+'</p>';
-    h+='<p><strong style="color:var(--pink);">3. 回撤分析：</strong>该ETF当前从60日高点回撤 '+F(ddRecent,2)+'%。'+(ddRecent<-30?'深度回撤，历史上此类跌幅后中位数反弹幅度在15-25%。但反弹时间不确定，可能需要数周至数月。':ddRecent<-15?'中等回撤，风险已经释放了相当部分，但可能还有下行空间。':ddRecent<-5?'轻度回撤，属于正常波动范围。':'几乎无回撤，处于高位区域，追高风险较大。')+'</p>';
-    h+='<p><strong style="color:var(--purple);">4. 均线结构：</strong>'+arrMsg+'。MA20='+F(ma20,4)+'是中期多空分界线，'+(latest>ma20?'当前价格站上MA20，短线偏多。':'当前价格跌破MA20，短线偏空，重新站上MA20是趋势反转的第一个信号。')+'</p>';
-    h+='<p><strong style="color:var(--warn);">5. 综合判断：</strong>'+(rsi<30&&ddRecent<-30?'技术面极度超卖+深度回撤，短期出现技术性反弹概率较大。但反转需要基本面配合，目前仅适合小仓位试探。':rsi>70&&ddRecent>-5?'技术面极度超买+几乎无回撤，短期回调风险远大于继续上涨的机会。建议减仓或至少不追加。':ddRecent<-50?'虽然回撤极深，但RSI未到超卖区说明下跌可能还未结束。等待更明确的反转信号（底背离、金叉或放量阳线）。':'技术面方向不明朗，既没有明确的买入信号也没有强烈的卖出信号。维持现有仓位，等待市场选择方向。')+'</p>';
+    var h='<div class="card" style="margin-top:14px;border-left:3px solid var(--purple);"><h3>图表综合分析</h3><div style="font-size:13px;color:#d8d0e8;line-height:1.8;">';
+    h+='<p><strong style="color:var(--cyan);">1. 净值走势：</strong>近5日'+trend5+'，当前净值 '+F(latest,4)+'，距60日高点回撤 '+F(ddRecent,2)+'%。'+maAdvice+'</p>';
+    h+='<p><strong style="color:#ff9f43;">2. RSI分析：</strong>RSI='+rsi+'，处于'+rsiStatus+'。'+rsiAdvice+'</p>';
+    h+='<p><strong style="color:var(--pink);">3. 回撤分析：</strong>该ETF当前从60日高点回撤 '+F(ddRecent,2)+'%。'+ddAdvice+'</p>';
+    h+='<p><strong style="color:var(--purple);">4. 均线结构：</strong>'+arrMsg+'。MA20='+F(ma20,4)+'是中期多空分界线，'+maLineAdvice+'</p>';
+    h+='<p><strong style="color:var(--warn);">5. 综合判断：</strong>'+overall+'</p>';
     h+='</div></div>';
     el.innerHTML=h;
   }catch(e){}
