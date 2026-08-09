@@ -1,19 +1,47 @@
 {
-  "cash": 100000,
-  "holdings": [],
-  "trades": [],
-  "snapshots": [
-    {
-      "date": "2026-08-09",
-      "totalValue": 100000,
-      "cash": 100000,
-      "holdingsValue": 0,
-      "pnl": 0,
-      "pnlPct": 0
-    }
-  ],
-  "adviceLog": [],
   "startedAt": "2026-08-09",
-  "benchmark": "沪深300",
+  "longTerm": {
+    "cash": 70000,
+    "holdings": [],
+    "trades": [],
+    "snapshots": [
+      {
+        "date": "2026-08-09",
+        "totalValue": 70000,
+        "cash": 70000,
+        "holdingsValue": 0
+      }
+    ]
+  },
+  "shortTerm": {
+    "cash": 30000,
+    "holdings": [],
+    "trades": [],
+    "snapshots": [
+      {
+        "date": "2026-08-09",
+        "totalValue": 30000,
+        "cash": 30000,
+        "holdingsValue": 0
+      }
+    ],
+    "activeSignals": []
+  },
+  "rules": {
+    "totalCash": 100000,
+    "longRatio": 0.7,
+    "shortRatio": 0.3,
+    "shortRules": {
+      "stopLoss": -0.05,
+      "takeProfit": 0.08,
+      "noBuyBelowMA": 20,
+      "maxSinglePosition": 0.5,
+      "maxDailyTrades": 1
+    },
+    "longRules": {
+      "monthlyInvest": 4000,
+      "rebalanceMonth": 3
+    }
+  },
   "corrections": []
 }

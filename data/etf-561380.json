@@ -6,6 +6,7 @@
     "电网",
     "电力设备"
   ],
+  "tradeMode": "both",
   "nav": 0.754,
   "navDate": "2026-08-06",
   "navHigh": 2.4381,
@@ -18,7 +19,580 @@
     "6m": -0.26,
     "1y": 65.87
   },
+  "tech": {
+    "ma": {
+      "ma5": "0.7398",
+      "ma10": "0.7240",
+      "ma20": "0.7230",
+      "ma60": "1.4431"
+    },
+    "maArrangement": "多头排列",
+    "distFromMA20": "4.29",
+    "rsi14": "62.5",
+    "macd": {
+      "dif": "-0.1238",
+      "dea": "-0.1725",
+      "bar": "0.0974",
+      "signal": "红柱"
+    },
+    "bollinger": {
+      "upper": "0.7684",
+      "mid": "0.7230",
+      "lower": "0.6776",
+      "position": "轨内"
+    }
+  },
+  "shortSignal": {
+    "signal": "🟡 买入观察",
+    "strength": 2,
+    "reasons": [
+      "RSI偏强",
+      "高于MA20",
+      "MACD红柱放大",
+      "多头排列"
+    ]
+  },
   "trends": [
+    {
+      "x": 1762876800000,
+      "y": 1.6058,
+      "equityReturn": -1.72,
+      "unitMoney": ""
+    },
+    {
+      "x": 1762963200000,
+      "y": 1.6363,
+      "equityReturn": 1.9,
+      "unitMoney": ""
+    },
+    {
+      "x": 1763049600000,
+      "y": 1.5928,
+      "equityReturn": -2.66,
+      "unitMoney": ""
+    },
+    {
+      "x": 1763308800000,
+      "y": 1.577,
+      "equityReturn": -0.99,
+      "unitMoney": ""
+    },
+    {
+      "x": 1763395200000,
+      "y": 1.5514,
+      "equityReturn": -1.62,
+      "unitMoney": ""
+    },
+    {
+      "x": 1763481600000,
+      "y": 1.5465,
+      "equityReturn": -0.32,
+      "unitMoney": ""
+    },
+    {
+      "x": 1763568000000,
+      "y": 1.5386,
+      "equityReturn": -0.51,
+      "unitMoney": ""
+    },
+    {
+      "x": 1763654400000,
+      "y": 1.4635,
+      "equityReturn": -4.88,
+      "unitMoney": ""
+    },
+    {
+      "x": 1763913600000,
+      "y": 1.4711,
+      "equityReturn": 0.52,
+      "unitMoney": ""
+    },
+    {
+      "x": 1764000000000,
+      "y": 1.4988,
+      "equityReturn": 1.88,
+      "unitMoney": ""
+    },
+    {
+      "x": 1764086400000,
+      "y": 1.5032,
+      "equityReturn": 0.29,
+      "unitMoney": ""
+    },
+    {
+      "x": 1764172800000,
+      "y": 1.5028,
+      "equityReturn": -0.03,
+      "unitMoney": ""
+    },
+    {
+      "x": 1764259200000,
+      "y": 1.5247,
+      "equityReturn": 1.46,
+      "unitMoney": ""
+    },
+    {
+      "x": 1764518400000,
+      "y": 1.5525,
+      "equityReturn": 1.82,
+      "unitMoney": ""
+    },
+    {
+      "x": 1764604800000,
+      "y": 1.5397,
+      "equityReturn": -0.82,
+      "unitMoney": ""
+    },
+    {
+      "x": 1764691200000,
+      "y": 1.5376,
+      "equityReturn": -0.14,
+      "unitMoney": ""
+    },
+    {
+      "x": 1764777600000,
+      "y": 1.542,
+      "equityReturn": 0.29,
+      "unitMoney": ""
+    },
+    {
+      "x": 1764864000000,
+      "y": 1.5839,
+      "equityReturn": 2.72,
+      "unitMoney": ""
+    },
+    {
+      "x": 1765123200000,
+      "y": 1.6014,
+      "equityReturn": 1.1,
+      "unitMoney": ""
+    },
+    {
+      "x": 1765209600000,
+      "y": 1.5984,
+      "equityReturn": -0.19,
+      "unitMoney": ""
+    },
+    {
+      "x": 1765296000000,
+      "y": 1.6063,
+      "equityReturn": 0.49,
+      "unitMoney": ""
+    },
+    {
+      "x": 1765382400000,
+      "y": 1.5886,
+      "equityReturn": -1.1,
+      "unitMoney": ""
+    },
+    {
+      "x": 1765468800000,
+      "y": 1.6356,
+      "equityReturn": 2.96,
+      "unitMoney": ""
+    },
+    {
+      "x": 1765728000000,
+      "y": 1.626,
+      "equityReturn": -0.59,
+      "unitMoney": ""
+    },
+    {
+      "x": 1765814400000,
+      "y": 1.5812,
+      "equityReturn": -2.76,
+      "unitMoney": ""
+    },
+    {
+      "x": 1765900800000,
+      "y": 1.6106,
+      "equityReturn": 1.86,
+      "unitMoney": ""
+    },
+    {
+      "x": 1765987200000,
+      "y": 1.5819,
+      "equityReturn": -1.78,
+      "unitMoney": ""
+    },
+    {
+      "x": 1766073600000,
+      "y": 1.6034,
+      "equityReturn": 1.36,
+      "unitMoney": ""
+    },
+    {
+      "x": 1766332800000,
+      "y": 1.6403,
+      "equityReturn": 2.3,
+      "unitMoney": ""
+    },
+    {
+      "x": 1766419200000,
+      "y": 1.6403,
+      "equityReturn": 0,
+      "unitMoney": ""
+    },
+    {
+      "x": 1766505600000,
+      "y": 1.6597,
+      "equityReturn": 1.18,
+      "unitMoney": ""
+    },
+    {
+      "x": 1766592000000,
+      "y": 1.6733,
+      "equityReturn": 0.82,
+      "unitMoney": ""
+    },
+    {
+      "x": 1766678400000,
+      "y": 1.6792,
+      "equityReturn": 0.35,
+      "unitMoney": ""
+    },
+    {
+      "x": 1766937600000,
+      "y": 1.657,
+      "equityReturn": -1.32,
+      "unitMoney": ""
+    },
+    {
+      "x": 1767024000000,
+      "y": 1.6539,
+      "equityReturn": -0.19,
+      "unitMoney": ""
+    },
+    {
+      "x": 1767110400000,
+      "y": 1.6458,
+      "equityReturn": -0.49,
+      "unitMoney": ""
+    },
+    {
+      "x": 1767542400000,
+      "y": 1.6727,
+      "equityReturn": 1.63,
+      "unitMoney": ""
+    },
+    {
+      "x": 1767628800000,
+      "y": 1.6878,
+      "equityReturn": 0.9,
+      "unitMoney": ""
+    },
+    {
+      "x": 1767715200000,
+      "y": 1.7107,
+      "equityReturn": 1.36,
+      "unitMoney": ""
+    },
+    {
+      "x": 1767801600000,
+      "y": 1.7121,
+      "equityReturn": 0.08,
+      "unitMoney": ""
+    },
+    {
+      "x": 1767888000000,
+      "y": 1.7499,
+      "equityReturn": 2.21,
+      "unitMoney": ""
+    },
+    {
+      "x": 1768147200000,
+      "y": 1.7739,
+      "equityReturn": 1.37,
+      "unitMoney": ""
+    },
+    {
+      "x": 1768233600000,
+      "y": 1.8033,
+      "equityReturn": 1.66,
+      "unitMoney": ""
+    },
+    {
+      "x": 1768320000000,
+      "y": 1.79,
+      "equityReturn": -0.74,
+      "unitMoney": ""
+    },
+    {
+      "x": 1768406400000,
+      "y": 1.8148,
+      "equityReturn": 1.39,
+      "unitMoney": ""
+    },
+    {
+      "x": 1768492800000,
+      "y": 1.8496,
+      "equityReturn": 1.92,
+      "unitMoney": ""
+    },
+    {
+      "x": 1768752000000,
+      "y": 1.9679,
+      "equityReturn": 6.4,
+      "unitMoney": ""
+    },
+    {
+      "x": 1768838400000,
+      "y": 1.9616,
+      "equityReturn": -0.32,
+      "unitMoney": ""
+    },
+    {
+      "x": 1768924800000,
+      "y": 1.9465,
+      "equityReturn": -0.77,
+      "unitMoney": ""
+    },
+    {
+      "x": 1769011200000,
+      "y": 1.9198,
+      "equityReturn": -1.37,
+      "unitMoney": ""
+    },
+    {
+      "x": 1769097600000,
+      "y": 1.9442,
+      "equityReturn": 1.27,
+      "unitMoney": ""
+    },
+    {
+      "x": 1769356800000,
+      "y": 1.9431,
+      "equityReturn": -0.06,
+      "unitMoney": ""
+    },
+    {
+      "x": 1769443200000,
+      "y": 1.9268,
+      "equityReturn": -0.84,
+      "unitMoney": ""
+    },
+    {
+      "x": 1769529600000,
+      "y": 1.9335,
+      "equityReturn": 0.35,
+      "unitMoney": ""
+    },
+    {
+      "x": 1769616000000,
+      "y": 1.8835,
+      "equityReturn": -2.59,
+      "unitMoney": ""
+    },
+    {
+      "x": 1769702400000,
+      "y": 1.8838,
+      "equityReturn": 0.02,
+      "unitMoney": ""
+    },
+    {
+      "x": 1769961600000,
+      "y": 1.8944,
+      "equityReturn": 0.56,
+      "unitMoney": ""
+    },
+    {
+      "x": 1770048000000,
+      "y": 1.9638,
+      "equityReturn": 3.66,
+      "unitMoney": ""
+    },
+    {
+      "x": 1770134400000,
+      "y": 1.9703,
+      "equityReturn": 0.33,
+      "unitMoney": ""
+    },
+    {
+      "x": 1770220800000,
+      "y": 1.8765,
+      "equityReturn": -4.76,
+      "unitMoney": ""
+    },
+    {
+      "x": 1770307200000,
+      "y": 1.89,
+      "equityReturn": 0.72,
+      "unitMoney": ""
+    },
+    {
+      "x": 1770566400000,
+      "y": 1.9503,
+      "equityReturn": 3.19,
+      "unitMoney": ""
+    },
+    {
+      "x": 1770652800000,
+      "y": 1.9734,
+      "equityReturn": 1.18,
+      "unitMoney": ""
+    },
+    {
+      "x": 1770739200000,
+      "y": 1.9721,
+      "equityReturn": -0.07,
+      "unitMoney": ""
+    },
+    {
+      "x": 1770825600000,
+      "y": 2.0305,
+      "equityReturn": 2.96,
+      "unitMoney": ""
+    },
+    {
+      "x": 1770912000000,
+      "y": 1.9812,
+      "equityReturn": -2.43,
+      "unitMoney": ""
+    },
+    {
+      "x": 1771862400000,
+      "y": 2.0589,
+      "equityReturn": 3.92,
+      "unitMoney": ""
+    },
+    {
+      "x": 1771948800000,
+      "y": 2.0694,
+      "equityReturn": 0.51,
+      "unitMoney": ""
+    },
+    {
+      "x": 1772035200000,
+      "y": 2.1328,
+      "equityReturn": 3.06,
+      "unitMoney": ""
+    },
+    {
+      "x": 1772121600000,
+      "y": 2.136,
+      "equityReturn": 0.15,
+      "unitMoney": ""
+    },
+    {
+      "x": 1772380800000,
+      "y": 2.1761,
+      "equityReturn": 1.88,
+      "unitMoney": ""
+    },
+    {
+      "x": 1772467200000,
+      "y": 2.0907,
+      "equityReturn": -3.92,
+      "unitMoney": ""
+    },
+    {
+      "x": 1772553600000,
+      "y": 2.1448,
+      "equityReturn": 2.59,
+      "unitMoney": ""
+    },
+    {
+      "x": 1772640000000,
+      "y": 2.2269,
+      "equityReturn": 3.83,
+      "unitMoney": ""
+    },
+    {
+      "x": 1772726400000,
+      "y": 2.239,
+      "equityReturn": 0.54,
+      "unitMoney": ""
+    },
+    {
+      "x": 1772985600000,
+      "y": 2.2522,
+      "equityReturn": 0.59,
+      "unitMoney": ""
+    },
+    {
+      "x": 1773072000000,
+      "y": 2.2721,
+      "equityReturn": 0.88,
+      "unitMoney": ""
+    },
+    {
+      "x": 1773158400000,
+      "y": 2.2618,
+      "equityReturn": -0.45,
+      "unitMoney": ""
+    },
+    {
+      "x": 1773244800000,
+      "y": 2.2371,
+      "equityReturn": -1.09,
+      "unitMoney": ""
+    },
+    {
+      "x": 1773331200000,
+      "y": 2.1727,
+      "equityReturn": -2.88,
+      "unitMoney": ""
+    },
+    {
+      "x": 1773590400000,
+      "y": 2.12,
+      "equityReturn": -2.43,
+      "unitMoney": ""
+    },
+    {
+      "x": 1773676800000,
+      "y": 2.0531,
+      "equityReturn": -3.16,
+      "unitMoney": ""
+    },
+    {
+      "x": 1773763200000,
+      "y": 2.0871,
+      "equityReturn": 1.66,
+      "unitMoney": ""
+    },
+    {
+      "x": 1773849600000,
+      "y": 2.0213,
+      "equityReturn": -3.15,
+      "unitMoney": ""
+    },
+    {
+      "x": 1773936000000,
+      "y": 1.9924,
+      "equityReturn": -1.43,
+      "unitMoney": ""
+    },
+    {
+      "x": 1774195200000,
+      "y": 1.939,
+      "equityReturn": -2.68,
+      "unitMoney": ""
+    },
+    {
+      "x": 1774281600000,
+      "y": 1.9832,
+      "equityReturn": 2.28,
+      "unitMoney": ""
+    },
+    {
+      "x": 1774368000000,
+      "y": 2.0423,
+      "equityReturn": 2.98,
+      "unitMoney": ""
+    },
+    {
+      "x": 1774454400000,
+      "y": 1.9985,
+      "equityReturn": -2.14,
+      "unitMoney": ""
+    },
+    {
+      "x": 1774540800000,
+      "y": 2.0078,
+      "equityReturn": 0.47,
+      "unitMoney": ""
+    },
     {
       "x": 1774800000000,
       "y": 2.0185,
@@ -560,5 +1134,5 @@
       "unitMoney": ""
     }
   ],
-  "fetchedAt": "2026-08-09T04:39:18.761Z"
+  "fetchedAt": "2026-08-09T07:30:00.644Z"
 }
