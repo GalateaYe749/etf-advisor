@@ -407,34 +407,29 @@ body {
 .term {
   border-bottom: 1.5px dotted var(--cyan);
   cursor: help;
-  position: relative;
   color: #b0d8ff;
   transition: color .2s;
 }
 .term:hover { color: var(--cyan); }
-.term::after {
-  content: attr(data-tip);
-  position: absolute; bottom: calc(100% + 8px); left: 50%;
-  transform: translateX(-50%);
-  background: rgba(13,7,22,0.95);
+
+.tooltip-popup {
+  position: fixed;
+  background: rgba(8,4,14,0.97);
   border: 1px solid var(--cyan);
   color: #eee6f4;
-  padding: 10px 14px;
+  padding: 12px 16px;
   border-radius: 8px;
   font-size: 13px;
-  line-height: 1.6;
-  white-space: normal;
-  width: 280px;
-  max-width: 90vw;
-  z-index: 1000;
+  line-height: 1.7;
+  max-width: 300px;
+  z-index: 9999;
   pointer-events: none;
+  box-shadow: 0 0 24px rgba(0,221,255,0.2);
   opacity: 0;
-  transition: opacity .2s;
-  box-shadow: 0 0 20px rgba(0,221,255,0.15);
-  text-align: left;
+  transition: opacity .15s;
   letter-spacing: 0;
 }
-.term:hover::after { opacity: 1; }
+.tooltip-popup.show { opacity: 1; }
 
 /* ═══ 百科 ═══ */
 .wiki-cat { margin-bottom: 24px; }
@@ -856,45 +851,62 @@ function renderAI(){
   setTimeout(()=>highlightTerms(document.getElementById('ai-content')), 200);
 }
 
-// ═══ TERM TOOLTIP SYSTEM ═══
+// ═══ TERM TOOLTIP SYSTEM (JS-driven, no parent clip) ═══
 let G_GLOSSARY = null;
+let _tooltipEl = null;
+function getTooltip(){
+  if(!_tooltipEl){
+    _tooltipEl = document.createElement('div');
+    _tooltipEl.className = 'tooltip-popup';
+    document.body.appendChild(_tooltipEl);
+  }
+  return _tooltipEl;
+}
 async function loadGlossary(){
   if(G_GLOSSARY)return G_GLOSSARY;
   try{const r=await fetch('data/glossary.json');G_GLOSSARY=await r.json();return G_GLOSSARY;}catch(e){return null;}
 }
 function highlightTerms(container){
   if(!G_GLOSSARY)return;
-  // 收集所有术语
   const allTerms = {};
   for(const cat of G_GLOSSARY.categories||[]){
-    for(const [term, def] of Object.entries(cat.terms||{})){
-      allTerms[term] = def;
-    }
+    for(const [term, def] of Object.entries(cat.terms||{})){ allTerms[term] = def; }
   }
-  // 按长度降序排列（先匹配长的，避免短术语截断长术语）
   const sorted = Object.keys(allTerms).sort((a,b)=>b.length-a.length);
 
   function processNode(node){
-    if(node.nodeType===3){ // 文本节点
+    if(node.nodeType===3){
       let text = node.textContent;
-      let replaced = false;
       for(const term of sorted){
         if(text.includes(term)){
-          const span = document.createElement('span');
           const idx = text.indexOf(term);
           if(idx>0) node.parentNode.insertBefore(document.createTextNode(text.slice(0,idx)), node);
+          const span = document.createElement('span');
           span.className = 'term';
-          span.setAttribute('data-tip', allTerms[term]);
           span.textContent = term;
+          span.addEventListener('mouseenter', function(e){
+            const tp = getTooltip();
+            tp.textContent = allTerms[term];
+            tp.classList.add('show');
+            const rect = this.getBoundingClientRect();
+            let top = rect.top - tp.offsetHeight - 8;
+            if(top < 10) top = rect.bottom + 8;
+            let left = rect.left + rect.width/2 - tp.offsetWidth/2;
+            if(left < 10) left = 10;
+            if(left + tp.offsetWidth > window.innerWidth - 10) left = window.innerWidth - tp.offsetWidth - 10;
+            tp.style.top = top + 'px';
+            tp.style.left = left + 'px';
+          });
+          span.addEventListener('mouseleave', function(){
+            getTooltip().classList.remove('show');
+          });
           node.parentNode.insertBefore(span, node);
-          const rest = text.slice(idx + term.length);
-          node.textContent = rest;
-          if(rest && rest.includes(term)){ processNode(node); }
-          replaced = true;
-          break;
+          node.textContent = text.slice(idx + term.length);
+          if(node.textContent && sorted.some(t=>node.textContent.includes(t))){ processNode(node); }
+          return;
         }
       }
-    }else if(node.nodeType===1 && !['SCRIPT','STYLE','A','BUTTON','INPUT','.term'].includes(node.tagName) && !node.classList.contains('term')){
+    }else if(node.nodeType===1 && !['SCRIPT','STYLE','A','BUTTON','INPUT','CODE','PRE'].includes(node.tagName) && !node.classList.contains('term') && !node.classList.contains('tooltip-popup')){
       for(const child of [...node.childNodes]){ processNode(child); }
     }
   }
