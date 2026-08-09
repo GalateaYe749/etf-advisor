@@ -402,6 +402,56 @@ body {
   body{font-size:13px}
   .nav button{padding:6px 12px;font-size:11px}
 }
+
+/* ═══ 术语提示 ═══ */
+.term {
+  border-bottom: 1.5px dotted var(--cyan);
+  cursor: help;
+  position: relative;
+  color: #b0d8ff;
+  transition: color .2s;
+}
+.term:hover { color: var(--cyan); }
+.term::after {
+  content: attr(data-tip);
+  position: absolute; bottom: calc(100% + 8px); left: 50%;
+  transform: translateX(-50%);
+  background: rgba(13,7,22,0.95);
+  border: 1px solid var(--cyan);
+  color: #eee6f4;
+  padding: 10px 14px;
+  border-radius: 8px;
+  font-size: 13px;
+  line-height: 1.6;
+  white-space: normal;
+  width: 280px;
+  max-width: 90vw;
+  z-index: 1000;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity .2s;
+  box-shadow: 0 0 20px rgba(0,221,255,0.15);
+  text-align: left;
+  letter-spacing: 0;
+}
+.term:hover::after { opacity: 1; }
+
+/* ═══ 百科 ═══ */
+.wiki-cat { margin-bottom: 24px; }
+.wiki-cat h2 { font-family:'STCaiyun',serif; font-size:22px; letter-spacing:2px; color:var(--pink); margin-bottom:12px; }
+.wiki-term {
+  background: var(--card-bg); border: 1px solid var(--card-border); border-radius: 8px;
+  padding: 12px 16px; margin-bottom: 8px;
+}
+.wiki-term .wt { font-size: 14px; font-weight: 600; color: var(--cyan); margin-bottom: 4px; }
+.wiki-term .wd { font-size: 13px; color: #d8d0e8; line-height: 1.7; }
+
+.wiki-method { margin-bottom: 24px; }
+.wiki-method h2 { font-family:'STCaiyun',serif; font-size:22px; letter-spacing:2px; color:var(--purple); margin-bottom:12px; }
+.wiki-method .step {
+  background: var(--card-bg); border: 1px solid var(--card-border); border-left: 3px solid var(--purple); border-radius: 8px;
+  padding: 12px 16px; margin-bottom: 6px; font-size: 13px; color: #d8d0e8; line-height: 1.7;
+}
 </style>
 </head>
 <body>
@@ -433,6 +483,7 @@ body {
     <button data-section="dashboard" class="active">大盘看板</button>
     <button data-section="etfs">ETF 分析</button>
     <button data-section="aianalysis">AI 深度分析</button>
+    <button data-section="wiki">📚 投资百科</button>
     <button data-section="longterm">长线仓位</button>
     <button data-section="shortterm">短线交易室</button>
     <button data-section="news">财经资讯</button>
@@ -480,6 +531,13 @@ body {
       <h3>⚠️ 风险提示</h3>
       <div id="ai-risks"></div>
     </div>
+  </div>
+</section>
+
+<section class="section" id="wiki">
+  <div id="wiki-load" class="loading"><div class="spin"></div><br>加载投资百科…</div>
+  <div id="wiki-content" style="display:none;">
+    <div id="wiki-body"></div>
   </div>
 </section>
 
@@ -603,15 +661,16 @@ body {
 
 <!-- ═══ App Logic ═══ -->
 <script>
-let G={etfs:null,indices:null,news:null,dual:null,meta:null,insights:null,advice:null,history:null,aiAnalysis:null,charts:{}};
+let G={etfs:null,indices:null,news:null,dual:null,meta:null,insights:null,advice:null,history:null,aiAnalysis:null,glossary:null,charts:{}};
 
 async function loadAll(){
   try{
     const b='data/';
-    const k=['etf-data','indices','news','simulated-portfolio','meta','insights','advice','history','ai-analysis'];
-    const r=await Promise.all(k.map(x=>fetch(b+x+'.json')));
-    const j=await Promise.all(r.map(x=>x.json()));
-    [G.etfs,G.indices,G.news,G.dual,G.meta,G.insights,G.advice,G.history,G.aiAnalysis]=j;
+    const k=['etf-data','indices','news','simulated-portfolio','meta','insights','advice','history','ai-analysis','glossary'];
+    const r=await Promise.all(k.map(x=>fetch(b+x+'.json').catch(()=>null)));
+    const j=await Promise.all(r.map(x=>x?x.json():null));
+    [G.etfs,G.indices,G.news,G.dual,G.meta,G.insights,G.advice,G.history,G.aiAnalysis,G.glossary]=j;
+    if(G.glossary) G_GLOSSARY = G.glossary; else loadGlossary();
     return true;
   }catch(e){console.error(e);return false;}
 }
@@ -634,6 +693,7 @@ document.getElementById('nav').addEventListener('click',e=>{
   document.getElementById(sec).classList.add('active');
   if(sec==='etfs'&&!D('etfs-content'))renderETFs();
   if(sec==='aianalysis'&&!D('ai-content'))renderAI();
+  if(sec==='wiki'&&!D('wiki-content'))renderWiki();
   if(sec==='longterm'&&!D('long-content'))renderLong();
   if(sec==='shortterm'&&!D('short-content'))renderShort();
   if(sec==='news'&&!D('news-content'))renderNews();
@@ -791,6 +851,85 @@ function renderAI(){
   if(a.keyRisks?.length){
     rk.innerHTML=a.keyRisks.map(r=>`<div class="insight warning" style="margin-bottom:4px;">⚠️ ${r}</div>`).join('');
   }else{rk.innerHTML='<div class="empty">暂无特定风险提示</div>';}
+
+  // 对AI分析内容区域做术语标注
+  setTimeout(()=>highlightTerms(document.getElementById('ai-content')), 200);
+}
+
+// ═══ TERM TOOLTIP SYSTEM ═══
+let G_GLOSSARY = null;
+async function loadGlossary(){
+  if(G_GLOSSARY)return G_GLOSSARY;
+  try{const r=await fetch('data/glossary.json');G_GLOSSARY=await r.json();return G_GLOSSARY;}catch(e){return null;}
+}
+function highlightTerms(container){
+  if(!G_GLOSSARY)return;
+  // 收集所有术语
+  const allTerms = {};
+  for(const cat of G_GLOSSARY.categories||[]){
+    for(const [term, def] of Object.entries(cat.terms||{})){
+      allTerms[term] = def;
+    }
+  }
+  // 按长度降序排列（先匹配长的，避免短术语截断长术语）
+  const sorted = Object.keys(allTerms).sort((a,b)=>b.length-a.length);
+
+  function processNode(node){
+    if(node.nodeType===3){ // 文本节点
+      let text = node.textContent;
+      let replaced = false;
+      for(const term of sorted){
+        if(text.includes(term)){
+          const span = document.createElement('span');
+          const idx = text.indexOf(term);
+          if(idx>0) node.parentNode.insertBefore(document.createTextNode(text.slice(0,idx)), node);
+          span.className = 'term';
+          span.setAttribute('data-tip', allTerms[term]);
+          span.textContent = term;
+          node.parentNode.insertBefore(span, node);
+          const rest = text.slice(idx + term.length);
+          node.textContent = rest;
+          if(rest && rest.includes(term)){ processNode(node); }
+          replaced = true;
+          break;
+        }
+      }
+    }else if(node.nodeType===1 && !['SCRIPT','STYLE','A','BUTTON','INPUT','.term'].includes(node.tagName) && !node.classList.contains('term')){
+      for(const child of [...node.childNodes]){ processNode(child); }
+    }
+  }
+  processNode(container);
+}
+
+// ═══ WIKI ═══
+function renderWiki(){
+  document.getElementById('wiki-load').style.display='none';
+  document.getElementById('wiki-content').style.display='block';
+  if(!G_GLOSSARY){ document.getElementById('wiki-body').innerHTML='<div class="empty">百科数据加载失败</div>'; return; }
+
+  let html = '';
+
+  // 术语词典
+  html += '<div class="sec-title">术语词典</div>';
+  for(const cat of (G_GLOSSARY.categories||[])){
+    html += `<div class="wiki-cat"><h2>${cat.icon} ${cat.name}</h2>`;
+    for(const [term, def] of Object.entries(cat.terms||{})){
+      html += `<div class="wiki-term"><div class="wt">${term}</div><div class="wd">${def}</div></div>`;
+    }
+    html += '</div>';
+  }
+
+  // 投资方法
+  html += '<div class="sec-title" style="margin-top:8px;">投资方法</div>';
+  for(const m of (G_GLOSSARY.methods||[])){
+    html += `<div class="wiki-method"><h2>${m.title}</h2>`;
+    for(const s of (m.steps||[])){
+      html += `<div class="step">${s}</div>`;
+    }
+    html += '</div>';
+  }
+
+  document.getElementById('wiki-body').innerHTML = html;
 }
 
 function renderLong(){
