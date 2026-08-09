@@ -1,6 +1,6 @@
 {
   "159766": {
-    "updatedAt": "2026-08-09T12:22:04.191Z",
+    "updatedAt": "2026-08-09T12:26:09.761Z",
     "sentiment": "正面偏多",
     "totalNews": 3,
     "positive": 2,
@@ -50,7 +50,7 @@
     ]
   },
   "159869": {
-    "updatedAt": "2026-08-09T12:22:04.191Z",
+    "updatedAt": "2026-08-09T12:26:09.761Z",
     "sentiment": "中性",
     "totalNews": 1,
     "positive": 0,
@@ -74,7 +74,7 @@
     ]
   },
   "159915": {
-    "updatedAt": "2026-08-09T12:22:04.193Z",
+    "updatedAt": "2026-08-09T12:26:09.762Z",
     "sentiment": "正面偏多",
     "totalNews": 6,
     "positive": 3,
@@ -163,7 +163,7 @@
     ]
   },
   "159920": {
-    "updatedAt": "2026-08-09T12:22:04.194Z",
+    "updatedAt": "2026-08-09T12:26:09.762Z",
     "sentiment": "中性",
     "totalNews": 0,
     "positive": 0,
@@ -173,7 +173,7 @@
     "articles": []
   },
   "159928": {
-    "updatedAt": "2026-08-09T12:22:04.194Z",
+    "updatedAt": "2026-08-09T12:26:09.763Z",
     "sentiment": "正面偏多",
     "totalNews": 2,
     "positive": 2,
@@ -210,7 +210,7 @@
     ]
   },
   "159941": {
-    "updatedAt": "2026-08-09T12:22:04.194Z",
+    "updatedAt": "2026-08-09T12:26:09.763Z",
     "sentiment": "正面偏多",
     "totalNews": 4,
     "positive": 1,
@@ -273,7 +273,7 @@
     ]
   },
   "159992": {
-    "updatedAt": "2026-08-09T12:22:04.194Z",
+    "updatedAt": "2026-08-09T12:26:09.763Z",
     "sentiment": "中性",
     "totalNews": 1,
     "positive": 0,
@@ -297,13 +297,13 @@
     ]
   },
   "159995": {
-    "updatedAt": "2026-08-09T12:22:04.194Z",
+    "updatedAt": "2026-08-09T12:26:09.764Z",
     "sentiment": "正面偏多",
-    "totalNews": 1,
+    "totalNews": 2,
     "positive": 1,
     "negative": 0,
-    "neutral": 0,
-    "reasoning": "共1条相关资讯，其中1条偏正面。综合评分最高的前几条指向基本面改善信号，整体偏积极。",
+    "neutral": 1,
+    "reasoning": "共2条相关资讯，其中1条偏正面。综合评分最高的前几条指向基本面改善信号，整体偏积极。",
     "articles": [
       {
         "title": "2025年首季中国经济印象：起步稳后劲足",
@@ -317,11 +317,24 @@
         "recency": 30,
         "importance": 35,
         "analysis": "该消息对芯片ETF构成一定程度的利好。原因：「突破」等积极信号表明板块基本面在改善。该信息与该ETF底层资产高度相关，可能推动资金流入。"
+      },
+      {
+        "title": "消费向善要杜绝科技向恶",
+        "summary": "来源：北京商报 从啄木鸟维修平台乱收费到“电子签”高利贷，从窃取个人隐私到骚扰电话黑产、“手机抽奖”新套路……“3·15”晚会曝光的一系列利用高科技侵害消费者权益的案例引发...",
+        "url": "https://finance.sina.com.cn/jjxw/2025-03-17/doc-inepwnvf4244530.shtml",
+        "source": "新浪财经",
+        "time": "1742142666",
+        "score": 37,
+        "direction": "中性",
+        "relevance": 70,
+        "recency": 30,
+        "importance": 0,
+        "analysis": "该消息对芯片ETF的影响偏中性，更多是行业背景信息。与该ETF有一定关联，但不足以构成明确的方向判断。"
       }
     ]
   },
   "510300": {
-    "updatedAt": "2026-08-09T12:22:04.194Z",
+    "updatedAt": "2026-08-09T12:26:09.764Z",
     "sentiment": "正面偏多",
     "totalNews": 6,
     "positive": 4,
@@ -410,7 +423,7 @@
     ]
   },
   "510500": {
-    "updatedAt": "2026-08-09T12:22:04.195Z",
+    "updatedAt": "2026-08-09T12:26:09.765Z",
     "sentiment": "正面偏多",
     "totalNews": 2,
     "positive": 1,
@@ -447,27 +460,14 @@
     ]
   },
   "512480": {
-    "updatedAt": "2026-08-09T12:22:04.195Z",
+    "updatedAt": "2026-08-09T12:26:09.765Z",
     "sentiment": "正面偏多",
-    "totalNews": 2,
+    "totalNews": 1,
     "positive": 1,
     "negative": 0,
-    "neutral": 1,
-    "reasoning": "共2条相关资讯，其中1条偏正面。综合评分最高的前几条指向基本面改善信号，整体偏积极。",
+    "neutral": 0,
+    "reasoning": "共1条相关资讯，其中1条偏正面。综合评分最高的前几条指向基本面改善信号，整体偏积极。",
     "articles": [
-      {
-        "title": "光伏硅料八巨头签署倡议",
-        "summary": "",
-        "url": "https://topic.eastmoney.com/detail/gfgljtqscy.html",
-        "source": "东方财富",
-        "time": "08-09",
-        "score": 50,
-        "direction": "中性",
-        "relevance": 50,
-        "recency": 100,
-        "importance": 0,
-        "analysis": "该消息对半导体ETF的影响偏中性，更多是行业背景信息。与该ETF有一定关联，但不足以构成明确的方向判断。"
-      },
       {
         "title": "2025年首季中国经济印象：起步稳后劲足",
         "summary": "■闫立良 在热火与振奋中，2025年第一季度即将过去。电影、冰雪、文旅、以旧换新等点亮消费市场，“杭州六小龙”的科技突破、2025中国国际半导体展呈现的半导体产业链最新技术...",
@@ -484,7 +484,7 @@
     ]
   },
   "512660": {
-    "updatedAt": "2026-08-09T12:22:04.195Z",
+    "updatedAt": "2026-08-09T12:26:09.765Z",
     "sentiment": "中性",
     "totalNews": 0,
     "positive": 0,
@@ -494,7 +494,7 @@
     "articles": []
   },
   "512690": {
-    "updatedAt": "2026-08-09T12:22:04.195Z",
+    "updatedAt": "2026-08-09T12:26:09.765Z",
     "sentiment": "正面偏多",
     "totalNews": 2,
     "positive": 2,
@@ -531,7 +531,7 @@
     ]
   },
   "512800": {
-    "updatedAt": "2026-08-09T12:22:04.196Z",
+    "updatedAt": "2026-08-09T12:26:09.766Z",
     "sentiment": "正面偏多",
     "totalNews": 11,
     "positive": 7,
@@ -685,13 +685,13 @@
     ]
   },
   "513060": {
-    "updatedAt": "2026-08-09T12:22:04.196Z",
+    "updatedAt": "2026-08-09T12:26:09.767Z",
     "sentiment": "正面偏多",
-    "totalNews": 1,
+    "totalNews": 2,
     "positive": 1,
     "negative": 0,
-    "neutral": 0,
-    "reasoning": "共1条相关资讯，其中1条偏正面。综合评分最高的前几条指向基本面改善信号，整体偏积极。",
+    "neutral": 1,
+    "reasoning": "共2条相关资讯，其中1条偏正面。综合评分最高的前几条指向基本面改善信号，整体偏积极。",
     "articles": [
       {
         "title": "2025年首季中国经济印象：起步稳后劲足",
@@ -705,11 +705,24 @@
         "recency": 30,
         "importance": 35,
         "analysis": "该消息对恒生科技ETF构成一定程度的利好。原因：「突破」等积极信号表明板块基本面在改善。虽非直接相关，但市场情绪传导可能带来间接正面影响。"
+      },
+      {
+        "title": "消费向善要杜绝科技向恶",
+        "summary": "来源：北京商报 从啄木鸟维修平台乱收费到“电子签”高利贷，从窃取个人隐私到骚扰电话黑产、“手机抽奖”新套路……“3·15”晚会曝光的一系列利用高科技侵害消费者权益的案例引发...",
+        "url": "https://finance.sina.com.cn/jjxw/2025-03-17/doc-inepwnvf4244530.shtml",
+        "source": "新浪财经",
+        "time": "1742142666",
+        "score": 37,
+        "direction": "中性",
+        "relevance": 70,
+        "recency": 30,
+        "importance": 0,
+        "analysis": "该消息对恒生科技ETF的影响偏中性，更多是行业背景信息。与该ETF有一定关联，但不足以构成明确的方向判断。"
       }
     ]
   },
   "513500": {
-    "updatedAt": "2026-08-09T12:22:04.197Z",
+    "updatedAt": "2026-08-09T12:26:09.769Z",
     "sentiment": "正面偏多",
     "totalNews": 7,
     "positive": 4,
@@ -811,55 +824,27 @@
     ]
   },
   "515790": {
-    "updatedAt": "2026-08-09T12:22:04.197Z",
+    "updatedAt": "2026-08-09T12:26:09.770Z",
     "sentiment": "中性",
-    "totalNews": 1,
+    "totalNews": 0,
     "positive": 0,
     "negative": 0,
-    "neutral": 1,
-    "reasoning": "共1条相关资讯，信号方向不明确（正0/负0/中1），建议持续观察等待更明确的信号。",
-    "articles": [
-      {
-        "title": "光伏硅料八巨头签署倡议",
-        "summary": "",
-        "url": "https://topic.eastmoney.com/detail/gfgljtqscy.html",
-        "source": "东方财富",
-        "time": "08-09",
-        "score": 64,
-        "direction": "中性",
-        "relevance": 85,
-        "recency": 100,
-        "importance": 0,
-        "analysis": "该消息对光伏ETF的影响偏中性，更多是行业背景信息。与该ETF有一定关联，但不足以构成明确的方向判断。"
-      }
-    ]
+    "neutral": 0,
+    "reasoning": "共0条相关资讯，信号方向不明确（正0/负0/中0），建议持续观察等待更明确的信号。",
+    "articles": []
   },
   "516160": {
-    "updatedAt": "2026-08-09T12:22:04.197Z",
+    "updatedAt": "2026-08-09T12:26:09.770Z",
     "sentiment": "中性",
-    "totalNews": 1,
+    "totalNews": 0,
     "positive": 0,
     "negative": 0,
-    "neutral": 1,
-    "reasoning": "共1条相关资讯，信号方向不明确（正0/负0/中1），建议持续观察等待更明确的信号。",
-    "articles": [
-      {
-        "title": "光伏硅料八巨头签署倡议",
-        "summary": "",
-        "url": "https://topic.eastmoney.com/detail/gfgljtqscy.html",
-        "source": "东方财富",
-        "time": "08-09",
-        "score": 50,
-        "direction": "中性",
-        "relevance": 50,
-        "recency": 100,
-        "importance": 0,
-        "analysis": "该消息对新能源ETF的影响偏中性，更多是行业背景信息。与该ETF有一定关联，但不足以构成明确的方向判断。"
-      }
-    ]
+    "neutral": 0,
+    "reasoning": "共0条相关资讯，信号方向不明确（正0/负0/中0），建议持续观察等待更明确的信号。",
+    "articles": []
   },
   "518880": {
-    "updatedAt": "2026-08-09T12:22:04.198Z",
+    "updatedAt": "2026-08-09T12:26:09.770Z",
     "sentiment": "正面偏多",
     "totalNews": 2,
     "positive": 1,
@@ -896,7 +881,7 @@
     ]
   },
   "561380": {
-    "updatedAt": "2026-08-09T12:22:04.198Z",
+    "updatedAt": "2026-08-09T12:26:09.770Z",
     "sentiment": "正面偏多",
     "totalNews": 2,
     "positive": 1,
@@ -933,7 +918,7 @@
     ]
   },
   "563360": {
-    "updatedAt": "2026-08-09T12:22:04.199Z",
+    "updatedAt": "2026-08-09T12:26:09.771Z",
     "sentiment": "正面偏多",
     "totalNews": 4,
     "positive": 3,
@@ -996,7 +981,7 @@
     ]
   },
   "588000": {
-    "updatedAt": "2026-08-09T12:22:04.200Z",
+    "updatedAt": "2026-08-09T12:26:09.772Z",
     "sentiment": "正面偏多",
     "totalNews": 6,
     "positive": 3,
