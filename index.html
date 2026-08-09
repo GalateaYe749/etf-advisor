@@ -1154,8 +1154,18 @@ function renderReport(){
   function getPrice(code){ var e=G.etfs.find(function(x){return x.code===code}); return e?e.nav:null; }
   for(var i=0;i<(lt.holdings||[]).length;i++){ var p=getPrice(lt.holdings[i].etf); if(p)ltHv+=lt.holdings[i].shares*p; }
   for(var i=0;i<(st.holdings||[]).length;i++){ var p=getPrice(st.holdings[i].etf); if(p)stHv+=st.holdings[i].shares*p; }
+  // 叠加手动交易计算有效持仓
+  var manualLT=getManualTrades('longTerm'),manualST=getManualTrades('shortTerm');
+  var effLtCash=lt.cash,effStCash=st.cash;
+  var manualHoldings={};
+  for(var mi=0;mi<manualLT.length;mi++){var mt=manualLT[mi];if(mt.action==='buy')effLtCash-=mt.shares*mt.price;else effLtCash+=mt.shares*mt.price;if(!manualHoldings[mt.etf])manualHoldings[mt.etf]=0;manualHoldings[mt.etf]+=(mt.action==='buy'?1:-1)*mt.shares}
+  for(var mj=0;mj<manualST.length;mj++){var ms=manualST[mj];if(ms.action==='buy')effStCash-=ms.shares*ms.price;else effStCash+=ms.shares*ms.price;if(!manualHoldings[ms.etf])manualHoldings[ms.etf]=0;manualHoldings[ms.etf]+=(ms.action==='buy'?1:-1)*ms.shares}
+  var totalCapital=G.dual.totalCapital||100000;
   var ltTotal=lt.cash+ltHv, stTotal=st.cash+stHv, total=ltTotal+stTotal;
-  var totalPnl=total-100000, totalPnlPct=(total/100000-1)*100;
+  var totalPnl=total-totalCapital, totalPnlPct=(total/totalCapital-1)*100;
+  // 有效组合（含手动）
+  var effLtTotal=effLtCash+ltHv;for(var ek in manualHoldings){var ep=getPrice(ek);if(ep)effLtTotal+=manualHoldings[ek]*ep}
+  var effTotal=effLtTotal+stTotal;
   var hs300=G.indices.find(function(i){return i&&i.name.indexOf('沪深300')>=0});
   var hs300Price=hs300?hs300.price:null;
   var manualLT=getManualTrades('longTerm'),manualST=getManualTrades('shortTerm');
@@ -1165,8 +1175,8 @@ function renderReport(){
   var h='<div class="card" style="border-left:3px solid var(--pink);margin-bottom:16px;"><h3>模拟投资 <span style="color:var(--cyan);">起始 100,000</span> 启动 '+G.dual.startedAt+' 沪深300 '+hs300Price+'</h3></div>';
   h+='<div class="portfolio-summary">';
   h+='<div class="stat-card"><div class="sl">总资产</div><div class="sv" style="color:'+(totalPnl>=0?'var(--cyan)':'var(--pink)')+'">'+F(total)+'</div><div class="ss '+(totalPnl>=0?'up':'down')+'">'+P(totalPnlPct)+'</div></div>';
-  h+='<div class="stat-card"><div class="sl">长线账户</div><div class="sv" style="color:var(--cyan)">'+F(ltTotal)+'</div><div class="ss">现金 '+F(lt.cash)+' 持仓 '+F(ltHv)+'</div></div>';
-  h+='<div class="stat-card"><div class="sl">短线账户</div><div class="sv" style="color:var(--pink)">'+F(stTotal)+'</div><div class="ss">现金 '+F(st.cash)+' 持仓 '+F(stHv)+'</div></div>';
+  h+='<div class="stat-card"><div class="sl">长线账户</div><div class="sv" style="color:var(--cyan)">'+F(ltTotal)+'</div><div class="ss">现金 '+F(lt.cash)+' 持仓 '+F(ltHv)+(Object.keys(manualHoldings).length>0?' (含手动)':'')+'</div></div>';
+  h+='<div class="stat-card"><div class="sl">短线账户</div><div class="sv" style="color:var(--pink)">'+F(stTotal)+'</div><div class="ss">现金 '+F(st.cash)+' 持仓 '+F(stHv)+(manualST.length>0?' (含手动)':'')+'</div></div>';
   h+='<div class="stat-card"><div class="sl">累计盈亏</div><div class="sv '+(totalPnl>=0?'up':'down')+'">'+P(totalPnlPct)+'</div><div class="ss">'+(totalPnl>=0?'盈利':'亏损')+' '+F(Math.abs(totalPnl))+' 元</div></div>';
   h+='<div class="stat-card"><div class="sl">交易次数</div><div class="sv" style="color:var(--warn)">'+allTrades.length+'</div><div class="ss">买 '+allTrades.filter(function(t){return t.action==='buy'}).length+' 卖 '+allTrades.filter(function(t){return t.action==='sell'}).length+'</div></div></div>';
 
@@ -1217,21 +1227,49 @@ function doManualTrade(){
     if(!etf||!etf.nav){alert('无法获取ETF价格');return}
     var price=etf.nav,cost=qty*price;
     var accName=account==='longTerm'?'长线':'短线';
-    if(action==='sell'){
-      var holds=G.dual[account].holdings||[];
-      var h=holds.find(function(x){return x.etf===etfCode});
-      if(!h||h.shares<qty){alert('持仓不足，当前持有'+(h?h.shares:0)+'份');return}
+    // 计算当前有效持仓（数据+手动）
+    var baseAccount=G.dual[account];
+    var manualTrades=getManualTrades(account);
+    var effectiveCash=baseAccount.cash;
+    var effectiveHoldings={};
+    // 从基础持仓开始
+    for(var i=0;i<(baseAccount.holdings||[]).length;i++){
+      var hh=baseAccount.holdings[i];
+      effectiveHoldings[hh.etf]=(effectiveHoldings[hh.etf]||0)+hh.shares;
     }
-    if(!confirm('确认'+accName+'账户 '+ (action==='buy'?'买入':'卖出') +' '+etf.name+'\n'+qty+'份 @ '+F(price,4)+' = '+F(cost)+'元？'))return;
+    // 叠加手动交易
+    for(var j=0;j<manualTrades.length;j++){
+      var mt=manualTrades[j];
+      if(mt.action==='buy'){
+        effectiveCash-=mt.shares*mt.price;
+        effectiveHoldings[mt.etf]=(effectiveHoldings[mt.etf]||0)+mt.shares;
+      }else{
+        effectiveCash+=mt.shares*mt.price;
+        effectiveHoldings[mt.etf]=(effectiveHoldings[mt.etf]||0)-mt.shares;
+      }
+    }
+    if(action==='sell'){
+      var held=effectiveHoldings[etfCode]||0;
+      if(held<qty){alert('持仓不足！当前持有 '+held+'份 '+etf.name);return}
+      if(effectiveCash+qty*price<0){alert('现金不足');return}
+    }
+    if(action==='buy'){
+      if(effectiveCash<cost){alert('现金不足！可用 '+F(effectiveCash)+'元，需要 '+F(cost)+'元');return}
+    }
+    if(!confirm('确认'+accName+'账户 '+(action==='buy'?'买入':'卖出')+' '+etf.name+'\n'+qty+'份 @ '+F(price,4)+' = '+F(cost)+'元？\n\n交易后预估现金: '+F(action==='buy'?effectiveCash-cost:effectiveCash+cost)+'元'))return;
     var trade={date:new Date().toISOString().slice(0,10),action:action,etf:etfCode,shares:qty,price:price,reason:'手动'+(action==='buy'?'买入':'卖出')};
     var saved=JSON.parse(localStorage.getItem('etf-manual-trades')||'{}');
     if(!saved[account])saved[account]=[];
     saved[account].push(trade);
     localStorage.setItem('etf-manual-trades',JSON.stringify(saved));
-    alert('交易已记录：'+accName+'账户 '+ (action==='buy'?'买入':'卖出')+' '+etf.name+' '+qty+'份。刷新页面查看更新。');
+    alert('交易已记录：'+accName+'账户 '+(action==='buy'?'买入':'卖出')+' '+etf.name+' '+qty+'份 @ '+F(price,4)+'\n预估现金: '+F(action==='buy'?effectiveCash-cost:effectiveCash+cost)+'元\n\n刷新页面查看更新。');
     location.reload();
   }catch(e){alert('交易失败: '+e.message)}
 }
+function clearManualTrades(){
+  if(confirm('确认清除所有手动交易记录？此操作不可恢复。')){localStorage.removeItem('etf-manual-trades');location.reload()}
+}
+
 function getManualTrades(account){
   try{var s=JSON.parse(localStorage.getItem('etf-manual-trades')||'{}');return s[account]||[]}catch(e){return[]}
 }
