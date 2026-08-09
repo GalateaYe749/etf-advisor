@@ -681,9 +681,14 @@ async function loadAll(){
   try{
     const b='data/';
     const k=['etf-data','indices','news','simulated-portfolio','meta','insights','advice','history','ai-analysis','backtest','evolution','glossary'];
-    const r=await Promise.all(k.map(x=>fetch(b+x+'.json').catch(()=>null)));
-    const j=await Promise.all(r.map(x=>x?x.json():null));
-    [G.etfs,G.indices,G.news,G.dual,G.meta,G.insights,G.advice,G.history,G.aiAnalysis,G.backtest,G.evolution,G.glossary]=j;
+    const results = await Promise.all(k.map(async name => {
+      try {
+        const resp = await fetch(b+name+'.json');
+        if(!resp.ok) return null;
+        return await resp.json();
+      }catch(e){ return null; }
+    }));
+    [G.etfs,G.indices,G.news,G.dual,G.meta,G.insights,G.advice,G.history,G.aiAnalysis,G.backtest,G.evolution,G.glossary]=results;
     if(G.glossary) G_GLOSSARY = G.glossary; else loadGlossary();
     return true;
   }catch(e){console.error(e);return false;}
@@ -1320,9 +1325,11 @@ function renderEvol(){
 }
 
 async function init(){
+  const timeout=setTimeout(()=>{if(!G.etfs)document.getElementById('dash-load').innerHTML='<div class="empty" style="padding:60px;"> 数据加载超时<br><span style="font-size:12px;">请刷新页面重试</span></div>';},10000);
   const ok=await loadAll();
+  clearTimeout(timeout);
   if(ok)renderDash();
-  else document.getElementById('dash-load').innerHTML='<div class="empty" style="padding:60px;"> 数据加载失败<br>请刷新页面重试</div>';
+  else document.getElementById('dash-load').innerHTML='<div class="empty" style="padding:60px;"> 数据加载失败<br><span style="font-size:12px;">请刷新页面重试</span></div>';
 }
 init();
 </script>
