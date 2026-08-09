@@ -785,6 +785,7 @@ function renderETFDetail(){
       </div>
       <div style="display:flex;gap:14px;margin-top:12px;flex-wrap:wrap;font-size:12px;">${e.returns?Object.entries(e.returns).map(([k,v])=>`<span class="${C(v)}" style="font-weight:600;">${k} ${P(v)}</span>`).join(' <span style="color:var(--dim-cyan)">|</span> '):''}</div>
     </div>${si}${th}
+    <div class="card" id="etf-news-card" style="margin-bottom:14px;"><h3>相关资讯</h3><div id="etf-news-list" style="margin-top:8px;"></div></div>
     <div class="card"><h3>净值走势 + MA20</h3><div class="chart-wrap"><canvas id="etfChart"></canvas></div></div>`;
   if(e.trends?.length){
     const ctx=document.getElementById('etfChart');if(G.charts.etfChart)G.charts.etfChart.destroy();
@@ -794,6 +795,12 @@ function renderETFDetail(){
     if(e.trends.length>=20){const m=[];for(let i=0;i<d.length;i++){const s=d.slice(Math.max(0,i-19),i+1);m.push(s.reduce((a,b)=>a+b)/s.length)}ds.push({label:'MA20',data:m,borderColor:'#ff3388',borderWidth:1,borderDash:[5,3],pointRadius:0,fill:false})}
     G.charts.etfChart=new Chart(ctx,{type:'line',data:{labels:lb,datasets:ds},options:{responsive:true,maintainAspectRatio:false,interaction:{intersect:false,mode:'index'},plugins:{legend:{labels:{color:'#f0f0ff80',boxWidth:10,font:{size:10,family:'serif'},padding:10}}},scales:{x:{ticks:{maxTicksLimit:10,color:'#f0f0ff40'},grid:{color:'#f0f0ff08'}},y:{ticks:{color:'#f0f0ff40'},grid:{color:'#f0f0ff08'}}}}});
   }
+  // 加载该ETF的专属新闻
+  loadETFNews(e.code);
+  }
+
+// ETF专属新闻加载
+async function loadETFNews(code){try{var r=await fetch('data/etf-news.json');if(!r.ok)return;var d=await r.json();var n=d[code];var e=document.getElementById('etf-news-list');if(!e)return;if(!n||n.length===0){e.innerHTML='<div class="empty">暂无该ETF相关资讯</div>';return;}e.innerHTML=n.map(function(x){return'<div class="news-item"><a href="'+x.url+'" target="_blank">'+x.title+'</a>'+(x.summary?'<div style="font-size:11px;color:#9cc8d4;margin-top:3px;">'+x.summary+'</div>':'')+'<div class="nm"><span>'+x.source+'</span><span>'+x.time+'</span></div></div>'}).join('')}catch(e){}}
 }
 
 function renderAI(){
