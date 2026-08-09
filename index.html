@@ -785,6 +785,7 @@ function renderETFDetail(){
       </div>
       <div style="display:flex;gap:14px;margin-top:12px;flex-wrap:wrap;font-size:12px;">${e.returns?Object.entries(e.returns).map(([k,v])=>`<span class="${C(v)}" style="font-weight:600;">${k} ${P(v)}</span>`).join(' <span style="color:var(--dim-cyan)">|</span> '):''}</div>
     </div>${si}${th}
+    <div id="etf-long-advice"></div>
     <div class="card" id="etf-news-card" style="margin-bottom:14px;"><h3>相关资讯</h3><div id="etf-news-list" style="margin-top:8px;"></div></div>
     <div class="card"><h3>净值走势 + MA20</h3><div class="chart-wrap"><canvas id="etfChart"></canvas></div></div>`;
   if(e.trends?.length){
@@ -797,7 +798,21 @@ function renderETFDetail(){
   }
   // 加载该ETF的专属新闻
   loadETFNews(e.code);
+  // 加载该ETF的长线建议
+  showLongAdvice(e.code);
   }
+
+function showLongAdvice(code){
+  try{
+    if(!G.aiAnalysis||!G.aiAnalysis.etfAnalysis)return;
+    var found=G.aiAnalysis.etfAnalysis.find(function(x){return x.code===code});
+    if(!found||!found.longTermAdvice)return;
+    var el=document.getElementById('etf-long-advice');
+    if(!el)return;
+    var dc=found.direction==='偏多'?'var(--cyan)':found.direction==='偏空'?'var(--pink)':'var(--warn)';
+    el.innerHTML='<div class="card" style="margin-bottom:14px;border-left:3px solid var(--cyan);"><h3>长线操作建议</h3><div style="display:flex;align-items:center;gap:12px;margin-bottom:8px;"><span class="badge" style="background:'+dc+'18;color:'+dc+';font-size:13px;">'+found.direction+'</span><span class="badge" style="background:'+(found.confidence==='高'?'rgba(0,221,255,0.1)':found.confidence==='中'?'rgba(255,190,110,0.1)':'rgba(240,240,255,0.04)')+';color:'+(found.confidence==='高'?'var(--cyan)':found.confidence==='中'?'var(--warn)':'var(--dim-cyan)')+';font-size:11px;">信心 '+found.confidence+'</span></div><div style="font-size:13px;color:#d8d0e8;line-height:1.7;margin-bottom:8px;">'+found.reason+'</div><div style="font-size:14px;color:var(--cyan);padding:10px 12px;background:rgba(0,221,255,0.04);border-radius:6px;line-height:1.7;"><strong>长线策略：</strong>'+found.longTermAdvice+'</div></div>';
+  }catch(e){}
+}
 
 // ETF专属新闻加载(含逐条分析+评分排序)
 async function loadETFNews(code){try{var r=await fetch('data/etf-news-analysis.json');if(!r.ok)return;var d=await r.json();var an=d[code];var el=document.getElementById('etf-news-list');if(!el)return;var h='';if(!an||!an.articles||an.articles.length===0){h+='<div class="empty">暂无该ETF相关资讯</div>'}else{var sc=an.sentiment.indexOf('正面')>=0||an.sentiment.indexOf('偏多')>=0?'var(--cyan)':an.sentiment.indexOf('负面')>=0||an.sentiment.indexOf('偏空')>=0?'var(--pink)':'var(--warn)';h+='<div class="card" style="margin-bottom:10px;border-left:3px solid '+sc+';"><div style="font-size:14px;font-weight:600;color:#f4eeff;margin-bottom:6px;">新闻情绪分析</div>';h+='<div style="display:flex;gap:16px;margin-bottom:8px;flex-wrap:wrap;"><span style="font-size:13px;color:'+sc+';"><strong>'+an.sentiment+'</strong></span><span class="badge up">正面 '+an.positive+'条</span><span class="badge down">负面 '+an.negative+'条</span><span class="badge neu">中性 '+an.neutral+'条</span></div>';h+='<div style="font-size:12px;color:#d8d0e8;line-height:1.7;">'+an.reasoning+'</div></div>';h+='<div style="font-size:11px;color:var(--text-dim);margin-bottom:8px;">共 '+an.articles.length+' 条相关资讯 · 按综合评分排序</div>';for(var i=0;i<an.articles.length;i++){var a=an.articles[i];var dirColor=a.direction==='利好'?'var(--cyan)':a.direction==='利空'?'var(--pink)':'var(--warn)';var scoreColor=a.score>=70?'var(--cyan)':a.score>=50?'var(--warn)':'var(--text-dim)';h+='<div class="card" style="margin-bottom:6px;border-left:3px solid '+dirColor+';"><div style="display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:8px;"><div style="flex:1;"><a href="'+a.url+'" target="_blank" style="color:#f4eeff;text-decoration:none;font-size:13px;font-weight:600;">'+a.title+'</a>'+(a.summary?'<div style="font-size:11px;color:#9cc8d4;margin-top:3px;">'+a.summary+'</div>':'')+'<div style="font-size:11px;color:var(--text-dim);margin-top:2px;">'+a.source+' · '+a.time+'</div></div><div style="text-align:right;min-width:60px;"><span class="badge" style="background:'+scoreColor+'18;color:'+scoreColor+';font-size:12px;font-weight:700;">'+a.score+'分</span><div style="font-size:9px;color:var(--text-dim);margin-top:2px;">'+a.direction+'</div></div></div><div style="font-size:12px;color:#d8d0e8;line-height:1.7;margin-top:8px;padding:8px 10px;background:rgba(255,255,255,0.015);border-radius:4px;">'+a.analysis+'</div><div style="display:flex;gap:12px;margin-top:4px;font-size:10px;color:var(--text-dim);"><span>时效 '+a.recency+'%</span><span>相关 '+a.relevance+'%</span><span>重要 '+a.importance+'%</span></div></div>'}}el.innerHTML=h}catch(e){}}
