@@ -1,7 +1,7 @@
 {
   "startedAt": "2026-08-09",
   "longTerm": {
-    "cash": 6019.8,
+    "cash": 9004.9,
     "holdings": [
       {
         "etf": "561380",
@@ -17,27 +17,27 @@
         "etf": "561380",
         "shares": 1300,
         "price": 0.754,
-        "reason": "Galatea实际持仓：电网设备ETF长期持有"
+        "reason": "此前买入，长期持有电网设备ETF"
       }
     ],
     "snapshots": [
       {
         "date": "2026-08-09",
-        "totalValue": 7000,
-        "cash": 6019.8,
+        "totalValue": 9985.1,
+        "cash": 9004.9,
         "holdingsValue": 980.2
       }
     ]
   },
   "shortTerm": {
-    "cash": 3000,
+    "cash": 0,
     "holdings": [],
     "trades": [],
     "snapshots": [
       {
         "date": "2026-08-09",
-        "totalValue": 3000,
-        "cash": 3000,
+        "totalValue": 0,
+        "cash": 0,
         "holdingsValue": 0
       }
     ]
