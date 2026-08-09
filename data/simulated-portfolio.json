@@ -1,9 +1,25 @@
 {
   "startedAt": "2026-08-09",
   "longTerm": {
-    "cash": 70000,
-    "holdings": [],
-    "trades": [],
+    "cash": 60488.8,
+    "holdings": [
+      {
+        "etf": "510300",
+        "shares": 2000,
+        "cost": 4.7556,
+        "date": "2026-08-09"
+      }
+    ],
+    "trades": [
+      {
+        "date": "2026-08-09",
+        "action": "buy",
+        "etf": "510300",
+        "shares": 2000,
+        "price": 4.7556,
+        "reason": "⚡AI分析建议：央行降准降息+GDP超预期+沪深300合理估值，长线定投建仓"
+      }
+    ],
     "snapshots": [
       {
         "date": "2026-08-09",
