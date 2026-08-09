@@ -922,6 +922,46 @@ function renderAI(){
     rk.innerHTML=a.keyRisks.map(r=>`<div class="insight warning" style="margin-bottom:4px;">${r}</div>`).join('');
   }else{rk.innerHTML='<div class="empty">暂无特定风险提示</div>';}
 
+  // 策略反思
+  if(a.reflection){
+    var rf=a.reflection;
+    var rh='<div class="sec-title" style="margin-top:16px;">策略反思与迭代</div>';
+    // 今日建议跟踪
+    if(rf.trackRecord&&rf.trackRecord.length){
+      rh+='<div class="card" style="margin-bottom:10px;"><h3>今日建议跟踪</h3>';
+      for(var i=0;i<rf.trackRecord.length;i++){
+        var t=rf.trackRecord[i];
+        rh+='<div class="card" style="margin-bottom:6px;border-left:3px solid var(--cyan);padding:12px;"><div style="font-size:13px;font-weight:600;color:#f4eeff;margin-bottom:4px;">'+t.advice+'</div><div style="font-size:11px;color:#9cc8d4;">'+t.basis+'</div><div style="font-size:12px;color:var(--warn);margin-top:4px;">后续：'+t.followUp+'</div></div>';
+      }
+      rh+='</div>';
+    }
+    // 策略反思
+    if(rf.strategyReflection){
+      var sr=rf.strategyReflection;
+      rh+='<div class="card" style="margin-bottom:10px;"><h3>策略健康检查</h3>';
+      rh+='<div class="g2">';
+      rh+='<div class="card"><h3>做对的</h3>'+ (sr.whatWorking||[]).map(function(w){return '<div class="insight positive" style="margin-bottom:4px;">'+w+'</div>'}).join('') +'</div>';
+      rh+='<div class="card"><h3>需关注</h3>'+ (sr.whatToWatch||[]).map(function(w){return '<div class="insight warning" style="margin-bottom:4px;">'+w+'</div>'}).join('') +'</div>';
+      rh+='</div>';
+      if(sr.rulesEvolving&&sr.rulesEvolving.length){
+        rh+='<div class="card"><h3>规则迭代</h3>'+sr.rulesEvolving.map(function(r){return '<div class="insight neutral" style="margin-bottom:3px;">'+r+'</div>'}).join('')+'</div>';
+      }
+      rh+='</div>';
+    }
+    // 自我纠错
+    if(rf.todayMistakes&&rf.todayMistakes.length){
+      rh+='<div class="card" style="margin-bottom:10px;border-left:3px solid var(--pink);"><h3>自我纠错</h3>'+rf.todayMistakes.map(function(m){return '<div class="insight correction" style="margin-bottom:3px;">'+m+'</div>'}).join('')+'</div>';
+    }
+    rh+='<div class="card" style="border-left:3px solid var(--purple);"><h3>个性化投资框架</h3><div style="font-size:13px;color:#d8d0e8;line-height:1.8;">';
+    rh+='<p><strong style="color:var(--cyan);">本金：</strong>10,000元。长线7,000(70%)+短线3,000(30%)。</p>';
+    rh+='<p><strong style="color:var(--cyan);">定位：</strong>新手入门阶段。优先建立定投纪律，不追求短期收益。</p>';
+    rh+='<p><strong style="color:var(--cyan);">仓位上限：</strong>单只ETF≤30%(3,000元)。当前561380占9.8%(980元)，安全。</p>';
+    rh+='<p><strong style="color:var(--cyan);">现金保留：</strong>至少50%(5,000元)现金。大跌时用来加仓已持有的品种。</p>';
+    rh+='<p><strong style="color:var(--cyan);">反思周期：</strong>每月1号回顾持仓盈亏，每季度复盘定投效果，必要时调整品种和金额。</p>';
+    rh+='</div></div>';
+    document.getElementById('ai-content').innerHTML += rh;
+  }
+
   // 对AI分析内容区域做术语标注
   setTimeout(()=>highlightTerms(document.getElementById('ai-content')), 200);
 }
