@@ -1160,7 +1160,7 @@ function renderReport(){
   var manualHoldings={};
   for(var mi=0;mi<manualLT.length;mi++){var mt=manualLT[mi];if(mt.action==='buy')effLtCash-=mt.shares*mt.price;else effLtCash+=mt.shares*mt.price;if(!manualHoldings[mt.etf])manualHoldings[mt.etf]=0;manualHoldings[mt.etf]+=(mt.action==='buy'?1:-1)*mt.shares}
   for(var mj=0;mj<manualST.length;mj++){var ms=manualST[mj];if(ms.action==='buy')effStCash-=ms.shares*ms.price;else effStCash+=ms.shares*ms.price;if(!manualHoldings[ms.etf])manualHoldings[ms.etf]=0;manualHoldings[ms.etf]+=(ms.action==='buy'?1:-1)*ms.shares}
-  var totalCapital=G.dual.totalCapital||100000;
+  var totalCapital=G.dual.totalCapital||10000;
   var ltTotal=lt.cash+ltHv, stTotal=st.cash+stHv, total=ltTotal+stTotal;
   var totalPnl=total-totalCapital, totalPnlPct=(total/totalCapital-1)*100;
   // 有效组合（含手动）
@@ -1172,7 +1172,7 @@ function renderReport(){
   var allTrades=(lt.trades||[]).map(function(t){t.account='长线';t.source='auto';return t}).concat((st.trades||[]).map(function(t){t.account='短线';t.source='auto';return t})).concat(manualLT.map(function(t){t.account='长线';t.source='manual';return t})).concat(manualST.map(function(t){t.account='短线';t.source='manual';return t}));
   allTrades.sort(function(a,b){return a.date>b.date?-1:1});
 
-  var h='<div class="card" style="border-left:3px solid var(--pink);margin-bottom:16px;"><h3>模拟投资 <span style="color:var(--cyan);">起始 100,000</span> 启动 '+G.dual.startedAt+' 沪深300 '+hs300Price+'</h3></div>';
+  var h='<div class="card" style="border-left:3px solid var(--pink);margin-bottom:16px;"><h3>模拟投资 <span style="color:var(--cyan);">起始 '+F(totalCapital)+'</span> 启动 '+G.dual.startedAt+' 沪深300 '+hs300Price+'</h3></div>';
   h+='<div class="portfolio-summary">';
   h+='<div class="stat-card"><div class="sl">总资产</div><div class="sv" style="color:'+(totalPnl>=0?'var(--cyan)':'var(--pink)')+'">'+F(total)+'</div><div class="ss '+(totalPnl>=0?'up':'down')+'">'+P(totalPnlPct)+'</div></div>';
   h+='<div class="stat-card"><div class="sl">长线账户</div><div class="sv" style="color:var(--cyan)">'+F(ltTotal)+'</div><div class="ss">现金 '+F(lt.cash)+' 持仓 '+F(ltHv)+(Object.keys(manualHoldings).length>0?' (含手动)':'')+'</div></div>';
@@ -1205,7 +1205,7 @@ function renderReport(){
   var allSnapshots=(lt.snapshots||[]).length>0?lt.snapshots:[];
   if(allSnapshots.length>=2){h+='<div class="sec-title" style="margin-top:16px;">资金曲线</div><div class="card" style="margin-bottom:16px;"><div class="chart-wrap"><canvas id="reportChart"></canvas></div></div>';}
   document.getElementById('report-body').innerHTML=h;
-  if(allSnapshots.length>=2){setTimeout(function(){var ctx=document.getElementById('reportChart');if(!ctx)return;if(G.charts.reportChart)G.charts.reportChart.destroy();var ss=allSnapshots,stSnap=(st.snapshots||[]).length>0?st.snapshots[st.snapshots.length-1].totalValue||30000:30000;G.charts.reportChart=new Chart(ctx,{type:'line',data:{labels:ss.map(function(s){return s.date.slice(5)}),datasets:[{label:'总资产',data:ss.map(function(s){return s.totalValue+(stSnap-30000)}),borderColor:'#ff3388',borderWidth:2,pointRadius:0,fill:true,backgroundColor:'rgba(255,51,136,.06)',tension:0.35},{label:'长线',data:ss.map(function(s){return s.totalValue}),borderColor:'#00ddff',borderWidth:1.5,pointRadius:0,fill:false,tension:0.35},{label:'本金 100k',data:Array(ss.length).fill(100000),borderColor:'#f0f0ff20',borderWidth:1,borderDash:[5,5],pointRadius:0}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{labels:{color:'#f0f0ff80',boxWidth:10,font:{size:10,family:'serif'},padding:12}}},scales:{x:{ticks:{color:'#f0f0ff40'},grid:{color:'#f0f0ff08'}},y:{ticks:{color:'#f0f0ff40'},grid:{color:'#f0f0ff08'}}}}})},300);}
+  if(allSnapshots.length>=2){setTimeout(function(){var ctx=document.getElementById('reportChart');if(!ctx)return;if(G.charts.reportChart)G.charts.reportChart.destroy();var ss=allSnapshots,stSnap=(st.snapshots||[]).length>0?st.snapshots[st.snapshots.length-1].totalValue||30000:30000;G.charts.reportChart=new Chart(ctx,{type:'line',data:{labels:ss.map(function(s){return s.date.slice(5)}),datasets:[{label:'总资产',data:ss.map(function(s){return s.totalValue+(stSnap-(totalCapital*0.30))}),borderColor:'#ff3388',borderWidth:2,pointRadius:0,fill:true,backgroundColor:'rgba(255,51,136,.06)',tension:0.35},{label:'长线',data:ss.map(function(s){return s.totalValue}),borderColor:'#00ddff',borderWidth:1.5,pointRadius:0,fill:false,tension:0.35},{label:'本金 '+F(totalCapital/10000)+'万',data:Array(ss.length).fill(totalCapital),borderColor:'#f0f0ff20',borderWidth:1,borderDash:[5,5],pointRadius:0}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{labels:{color:'#f0f0ff80',boxWidth:10,font:{size:10,family:'serif'},padding:12}}},scales:{x:{ticks:{color:'#f0f0ff40'},grid:{color:'#f0f0ff08'}},y:{ticks:{color:'#f0f0ff40'},grid:{color:'#f0f0ff08'}}}}})},300);}
 }
 
 async function init(){
