@@ -787,7 +787,10 @@ function renderETFDetail(){
     </div>${si}${th}
     <div id="etf-long-advice"></div>
     <div class="card" id="etf-news-card" style="margin-bottom:14px;"><h3>相关资讯</h3><div id="etf-news-list" style="margin-top:8px;"></div></div>
-    <div class="card"><h3>净值走势 + MA20</h3><div class="chart-wrap"><canvas id="etfChart"></canvas></div></div>`;
+    <div class="card"><h3>净值走势 + MA20</h3><div class="chart-wrap"><canvas id="etfChart"></canvas></div></div>
+    <div class="card" style="margin-bottom:14px;"><h3>RSI(14) 强弱指标</h3><div class="chart-wrap" style="height:180px;"><canvas id="etfRSIChart"></canvas></div></div>
+    <div class="card" style="margin-bottom:14px;"><h3>回撤曲线（从最高点的跌幅%）</h3><div class="chart-wrap" style="height:180px;"><canvas id="etfDDChart"></canvas></div></div>
+    <div id="etf-chart-analysis"></div>`;
   if(e.trends?.length){
     const ctx=document.getElementById('etfChart');if(G.charts.etfChart)G.charts.etfChart.destroy();
     const lb=e.trends.map(t=>new Date(t.x).toLocaleDateString('zh-CN',{month:'short',day:'numeric'}));
@@ -795,6 +798,12 @@ function renderETFDetail(){
     const ds=[{label:'净值',data:d,borderColor:'#00ddff',borderWidth:1.5,pointRadius:0,tension:.35,fill:true,backgroundColor:'rgba(0,221,255,.04)'}];
     if(e.trends.length>=20){const m=[];for(let i=0;i<d.length;i++){const s=d.slice(Math.max(0,i-19),i+1);m.push(s.reduce((a,b)=>a+b)/s.length)}ds.push({label:'MA20',data:m,borderColor:'#ff3388',borderWidth:1,borderDash:[5,3],pointRadius:0,fill:false})}
     G.charts.etfChart=new Chart(ctx,{type:'line',data:{labels:lb,datasets:ds},options:{responsive:true,maintainAspectRatio:false,interaction:{intersect:false,mode:'index'},plugins:{legend:{labels:{color:'#f0f0ff80',boxWidth:10,font:{size:10,family:'serif'},padding:10}}},scales:{x:{ticks:{maxTicksLimit:10,color:'#f0f0ff40'},grid:{color:'#f0f0ff08'}},y:{ticks:{color:'#f0f0ff40'},grid:{color:'#f0f0ff08'}}}}});
+    // RSI 图表
+    if(e.trends.length>=15){var rsiCtx=document.getElementById('etfRSIChart');if(rsiCtx){if(G.charts.etfRSIChart)G.charts.etfRSIChart.destroy();var rsiData=[];for(var ri=14;ri<d.length;ri++){var changes=d.slice(ri-14,ri+1).map(function(v,idx,arr){return idx===0?0:v-arr[idx-1]}).slice(1);var gain=changes.filter(function(c){return c>0}).reduce(function(s,c){return s+c},0)/14;var loss=Math.abs(changes.filter(function(c){return c<0}).reduce(function(s,c){return s+c},0))/14;rsiData.push(loss===0?100:Math.round(100-100/(1+gain/loss)*10)/10)}var rsiLabels=lb.slice(14);var rsiDs=[{label:'RSI',data:rsiData,borderColor:'#ff9f43',borderWidth:1.5,pointRadius:0,fill:false,tension:0.3},{label:'超买线(70)',data:Array(rsiData.length).fill(70),borderColor:'#ff338855',borderWidth:1,borderDash:[3,3],pointRadius:0,fill:false},{label:'超卖线(30)',data:Array(rsiData.length).fill(30),borderColor:'#00ddff55',borderWidth:1,borderDash:[3,3],pointRadius:0,fill:false}];G.charts.etfRSIChart=new Chart(rsiCtx,{type:'line',data:{labels:rsiLabels,datasets:rsiDs},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{labels:{color:'#f0f0ff80',boxWidth:10,font:{size:9},padding:8}}},scales:{x:{ticks:{maxTicksLimit:10,color:'#f0f0ff40'},grid:{color:'#f0f0ff08'}},y:{min:0,max:100,ticks:{color:'#f0f0ff40',stepSize:10},grid:{color:'#f0f0ff08'}}}})}}
+    // 回撤图表
+    var ddCtx=document.getElementById('etfDDChart');if(ddCtx){if(G.charts.etfDDChart)G.charts.etfDDChart.destroy();var ddData=[],peak=d[0];for(var di=0;di<d.length;di++){if(d[di]>peak)peak=d[di];ddData.push(Math.round((d[di]/peak-1)*10000)/100)}var ddDs=[{label:'回撤%',data:ddData,borderColor:'#ff3388',borderWidth:1.5,pointRadius:0,fill:true,backgroundColor:'rgba(255,51,136,0.08)',tension:0.3}];G.charts.etfDDChart=new Chart(ddCtx,{type:'line',data:{labels:lb,datasets:ddDs},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{labels:{color:'#f0f0ff80',boxWidth:10,font:{size:9},padding:8}}},scales:{x:{ticks:{maxTicksLimit:10,color:'#f0f0ff40'},grid:{color:'#f0f0ff08'}},y:{ticks:{color:'#f0f0ff40'},grid:{color:'#f0f0ff08'}}}}})}
+    // 图表综合分析
+    setTimeout(function(){showChartAnalysis(e)},200);
   }
   // 加载该ETF的专属新闻
   loadETFNews(e.code);
@@ -811,6 +820,30 @@ function showLongAdvice(code){
     if(!el)return;
     var dc=found.direction==='偏多'?'var(--cyan)':found.direction==='偏空'?'var(--pink)':'var(--warn)';
     el.innerHTML='<div class="card" style="margin-bottom:14px;border-left:3px solid var(--cyan);"><h3>长线操作建议</h3><div style="display:flex;align-items:center;gap:12px;margin-bottom:8px;"><span class="badge" style="background:'+dc+'18;color:'+dc+';font-size:13px;">'+found.direction+'</span><span class="badge" style="background:'+(found.confidence==='高'?'rgba(0,221,255,0.1)':found.confidence==='中'?'rgba(255,190,110,0.1)':'rgba(240,240,255,0.04)')+';color:'+(found.confidence==='高'?'var(--cyan)':found.confidence==='中'?'var(--warn)':'var(--dim-cyan)')+';font-size:11px;">信心 '+found.confidence+'</span></div><div style="font-size:13px;color:#d8d0e8;line-height:1.7;margin-bottom:8px;">'+found.reason+'</div><div style="font-size:14px;color:var(--cyan);padding:10px 12px;background:rgba(0,221,255,0.04);border-radius:6px;line-height:1.7;"><strong>长线策略：</strong>'+found.longTermAdvice+'</div></div>';
+  }catch(e){}
+}
+
+function showChartAnalysis(etf){
+  try{
+    var el=document.getElementById('etf-chart-analysis');if(!el||!etf||!etf.trends||etf.trends.length<14)return;
+    var trends=etf.trends,d=trends.map(function(t){return t.y});
+    var latest=d[d.length-1],ma20=0;for(var i=Math.max(0,d.length-20);i<d.length;i++)ma20+=d[i];ma20/=Math.min(20,d.length);
+    var d5=d.slice(-5);var trend5=d5[d5.length-1]>d5[0]?'反弹中':'下跌中';
+    var highRecent=Math.max.apply(null,d.slice(-60));var ddRecent=Math.round((latest/highRecent-1)*10000)/100;
+    var rsi=etf.tech?etf.tech.rsi14:'?';
+    var rsiStatus=Number(rsi)>70?'超买区，短期有回调压力':Number(rsi)>50?'偏强，多头占优':Number(rsi)>30?'偏弱，空头占优':'超卖区，反弹概率较大';
+    var arr=etf.tech?etf.tech.maArrangement:'?';
+    var arrMsg=arr==='多头排列'?'均线多头排列说明上升趋势较强':arr==='空头排列'?'均线空头排列是典型下跌信号，不宜入场':'均线缠绕说明多空力量均衡，方向不明';
+    
+    var h='<div class="card" style="margin-top:14px;border-left:3px solid var(--purple);"><h3>图表综合分析</h3>';
+    h+='<div style="font-size:13px;color:#d8d0e8;line-height:1.8;">';
+    h+='<p><strong style="color:var(--cyan);">1. 净值走势：</strong>近5日'+trend5+'，当前净值 '+F(latest,4)+'，距60日高点回撤 '+F(ddRecent,2)+'%。'+(ma20>latest?'价格在MA20下方运行，中期偏弱。':'价格在MA20上方运行，中期偏强。')+'</p>';
+    h+='<p><strong style="color:#ff9f43;">2. RSI分析：</strong>RSI='+rsi+'，处于'+rsiStatus+'。'+(Number(rsi)<40?'当前位置不适合追空，RSI若继续下行至30以下可能是短线买入信号。':Number(rsi)>65?'当前位置不宜追涨，RSI若继续上行至70以上可能出现回调。':'当前位置可上可下，等待RSI给出更明确的方向信号。')+'</p>';
+    h+='<p><strong style="color:var(--pink);">3. 回撤分析：</strong>该ETF当前从60日高点回撤 '+F(ddRecent,2)+'%。'+(ddRecent<-30?'深度回撤，历史上此类跌幅后中位数反弹幅度在15-25%。但反弹时间不确定，可能需要数周至数月。':ddRecent<-15?'中等回撤，风险已经释放了相当部分，但可能还有下行空间。':ddRecent<-5?'轻度回撤，属于正常波动范围。':'几乎无回撤，处于高位区域，追高风险较大。')+'</p>';
+    h+='<p><strong style="color:var(--purple);">4. 均线结构：</strong>'+arrMsg+'。MA20='+F(ma20,4)+'是中期多空分界线，'+(latest>ma20?'当前价格站上MA20，短线偏多。':'当前价格跌破MA20，短线偏空，重新站上MA20是趋势反转的第一个信号。')+'</p>';
+    h+='<p><strong style="color:var(--warn);">5. 综合判断：</strong>'+(rsi<30&&ddRecent<-30?'技术面极度超卖+深度回撤，短期出现技术性反弹概率较大。但反转需要基本面配合，目前仅适合小仓位试探。':rsi>70&&ddRecent>-5?'技术面极度超买+几乎无回撤，短期回调风险远大于继续上涨的机会。建议减仓或至少不追加。':ddRecent<-50?'虽然回撤极深，但RSI未到超卖区说明下跌可能还未结束。等待更明确的反转信号（底背离、金叉或放量阳线）。':'技术面方向不明朗，既没有明确的买入信号也没有强烈的卖出信号。维持现有仓位，等待市场选择方向。')+'</p>';
+    h+='</div></div>';
+    el.innerHTML=h;
   }catch(e){}
 }
 
