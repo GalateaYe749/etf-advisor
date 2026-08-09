@@ -240,7 +240,7 @@ let G={etfs:null,indices:null,news:null,dual:null,meta:null,insights:null,advice
 
 async function loadAll() {
   try {
-    const base='../data/';
+    const base='data/';
     const keys=['etf-data','indices','news','simulated-portfolio','meta','insights','advice','history'];
     const res=await Promise.all(keys.map(k=>fetch(base+k+'.json')));
     const j=await Promise.all(res.map(r=>r.json()));
