@@ -1,6 +1,6 @@
 {
   "159766": {
-    "updatedAt": "2026-08-09T12:11:41.997Z",
+    "updatedAt": "2026-08-09T12:22:04.191Z",
     "sentiment": "正面偏多",
     "totalNews": 3,
     "positive": 2,
@@ -50,7 +50,7 @@
     ]
   },
   "159869": {
-    "updatedAt": "2026-08-09T12:11:41.998Z",
+    "updatedAt": "2026-08-09T12:22:04.191Z",
     "sentiment": "中性",
     "totalNews": 1,
     "positive": 0,
@@ -74,13 +74,13 @@
     ]
   },
   "159915": {
-    "updatedAt": "2026-08-09T12:11:41.999Z",
+    "updatedAt": "2026-08-09T12:22:04.193Z",
     "sentiment": "正面偏多",
-    "totalNews": 7,
+    "totalNews": 6,
     "positive": 3,
     "negative": 0,
-    "neutral": 4,
-    "reasoning": "共7条相关资讯，其中3条偏正面。综合评分最高的前几条指向基本面改善信号，整体偏积极。",
+    "neutral": 3,
+    "reasoning": "共6条相关资讯，其中3条偏正面。综合评分最高的前几条指向基本面改善信号，整体偏积极。",
     "articles": [
       {
         "title": "2025年首季中国经济印象：起步稳后劲足",
@@ -159,24 +159,11 @@
         "recency": 30,
         "importance": 0,
         "analysis": "该消息对创业板ETF的影响偏中性，更多是行业背景信息。与该ETF有一定关联，但不足以构成明确的方向判断。"
-      },
-      {
-        "title": "促进科技消费发展　激活内需新动能",
-        "summary": "转自：经济参考报 当前，我国经济发展正处动力转换和质量提升的关键时期。以科技消费为引领，激发内需潜力、驱动产业创新、塑造发展新优势...",
-        "url": "https://finance.sina.com.cn/jjxw/2025-03-13/doc-inepncht3844488.shtml",
-        "source": "新浪财经",
-        "time": "1741820869",
-        "score": 37,
-        "direction": "中性",
-        "relevance": 70,
-        "recency": 30,
-        "importance": 0,
-        "analysis": "该消息对创业板ETF的影响偏中性，更多是行业背景信息。与该ETF有一定关联，但不足以构成明确的方向判断。"
       }
     ]
   },
   "159920": {
-    "updatedAt": "2026-08-09T12:11:41.999Z",
+    "updatedAt": "2026-08-09T12:22:04.194Z",
     "sentiment": "中性",
     "totalNews": 0,
     "positive": 0,
@@ -186,13 +173,13 @@
     "articles": []
   },
   "159928": {
-    "updatedAt": "2026-08-09T12:11:41.999Z",
+    "updatedAt": "2026-08-09T12:22:04.194Z",
     "sentiment": "正面偏多",
-    "totalNews": 3,
-    "positive": 3,
+    "totalNews": 2,
+    "positive": 2,
     "negative": 0,
     "neutral": 0,
-    "reasoning": "共3条相关资讯，其中3条偏正面。综合评分最高的前几条指向基本面改善信号，整体偏积极。",
+    "reasoning": "共2条相关资讯，其中2条偏正面。综合评分最高的前几条指向基本面改善信号，整体偏积极。",
     "articles": [
       {
         "title": "统计局：2月份社会消费品零售总额增长2.8%",
@@ -200,19 +187,6 @@
         "url": "https://finance.sina.com.cn/china/hgjj/2026-03-16/doc-inhrcxwy9828797.shtml",
         "source": "新浪财经",
         "time": "1773627300",
-        "score": 54,
-        "direction": "利好",
-        "relevance": 100,
-        "recency": 30,
-        "importance": 15,
-        "analysis": "该消息对消费ETF构成一定程度的利好。原因：「增长」等积极信号表明板块基本面在改善。该信息与该ETF底层资产高度相关，可能推动资金流入。"
-      },
-      {
-        "title": "主要指标增速稳中有升　今年经济开局向新向好",
-        "summary": "转自：经济参考报 全国规模以上工业增加值同比增长5.9%，全国服务业生产指数同比增长5.6%，全国固定资产投资同比增长4.1%，社会消费品零售总额同比增长4...",
-        "url": "https://finance.sina.com.cn/jjxw/2025-03-18/doc-inepznxw6965745.shtml",
-        "source": "新浪财经",
-        "time": "1742256669",
         "score": 54,
         "direction": "利好",
         "relevance": 100,
@@ -236,14 +210,27 @@
     ]
   },
   "159941": {
-    "updatedAt": "2026-08-09T12:11:42.000Z",
+    "updatedAt": "2026-08-09T12:22:04.194Z",
     "sentiment": "正面偏多",
-    "totalNews": 3,
-    "positive": 2,
+    "totalNews": 4,
+    "positive": 1,
     "negative": 0,
-    "neutral": 1,
-    "reasoning": "共3条相关资讯，其中2条偏正面。综合评分最高的前几条指向基本面改善信号，整体偏积极。",
+    "neutral": 3,
+    "reasoning": "共4条相关资讯，其中1条偏正面。综合评分最高的前几条指向基本面改善信号，整体偏积极。",
     "articles": [
+      {
+        "title": "周末要闻汇总：美国7月非农数据意外转负 美联储加息动力骤减",
+        "summary": "",
+        "url": "https://finance.eastmoney.com/a/202608093835915373.html",
+        "source": "东方财富",
+        "time": "08-09",
+        "score": 71,
+        "direction": "中性",
+        "relevance": 50,
+        "recency": 100,
+        "importance": 70,
+        "analysis": "该消息对纳指ETF的影响偏中性，更多是行业背景信息。与该ETF有一定关联，但不足以构成明确的方向判断。"
+      },
       {
         "title": "余永定：“择机降准降息”有三层含义",
         "summary": " 2025年4月3日，美国总统特朗普签署“对等关税”行政命令，宣布美国将对所有进口货品征收10%的最低基准关税，对部分国家和地区还将征收更高关税。",
@@ -258,17 +245,17 @@
         "analysis": "该消息对纳指ETF构成较明显利好。原因：「降准」「降息」等积极信号表明板块基本面在改善。该信息与该ETF底层资产高度相关，可能推动资金流入。"
       },
       {
-        "title": "2025年首季中国经济印象：起步稳后劲足",
-        "summary": "■闫立良 在热火与振奋中，2025年第一季度即将过去。电影、冰雪、文旅、以旧换新等点亮消费市场，“杭州六小龙”的科技突破、2025中国国际半导体展呈现的半导体产业链最新技术...",
-        "url": "https://finance.sina.com.cn/jjxw/2025-03-31/doc-inernxku8471214.shtml",
-        "source": "新浪财经",
-        "time": "1743375028",
-        "score": 40,
-        "direction": "利好",
-        "relevance": 50,
-        "recency": 30,
-        "importance": 35,
-        "analysis": "该消息对纳指ETF构成一定程度的利好。原因：「突破」等积极信号表明板块基本面在改善。虽非直接相关，但市场情绪传导可能带来间接正面影响。"
+        "title": "清仓英伟达、Meta！千亿私募巨头美股持仓曝光",
+        "summary": "",
+        "url": "https://finance.eastmoney.com/a/202608093835872790.html",
+        "source": "东方财富",
+        "time": "08-09",
+        "score": 58,
+        "direction": "中性",
+        "relevance": 70,
+        "recency": 100,
+        "importance": 0,
+        "analysis": "该消息对纳指ETF的影响偏中性，更多是行业背景信息。与该ETF有一定关联，但不足以构成明确的方向判断。"
       },
       {
         "title": "国务院国资委就“人工智能+”密集发声 强调加快打造“杀手锏”技术",
@@ -286,23 +273,37 @@
     ]
   },
   "159992": {
-    "updatedAt": "2026-08-09T12:11:42.000Z",
+    "updatedAt": "2026-08-09T12:22:04.194Z",
     "sentiment": "中性",
-    "totalNews": 0,
+    "totalNews": 1,
     "positive": 0,
     "negative": 0,
-    "neutral": 0,
-    "reasoning": "共0条相关资讯，信号方向不明确（正0/负0/中0），建议持续观察等待更明确的信号。",
-    "articles": []
+    "neutral": 1,
+    "reasoning": "共1条相关资讯，信号方向不明确（正0/负0/中1），建议持续观察等待更明确的信号。",
+    "articles": [
+      {
+        "title": "浙商证券：中报业绩验证期 电子、传媒、创新药、券商保持景气",
+        "summary": "",
+        "url": "https://finance.eastmoney.com/a/202608093835900075.html",
+        "source": "东方财富",
+        "time": "08-09",
+        "score": 58,
+        "direction": "中性",
+        "relevance": 70,
+        "recency": 100,
+        "importance": 0,
+        "analysis": "该消息对创新药ETF的影响偏中性，更多是行业背景信息。与该ETF有一定关联，但不足以构成明确的方向判断。"
+      }
+    ]
   },
   "159995": {
-    "updatedAt": "2026-08-09T12:11:42.000Z",
+    "updatedAt": "2026-08-09T12:22:04.194Z",
     "sentiment": "正面偏多",
-    "totalNews": 2,
+    "totalNews": 1,
     "positive": 1,
     "negative": 0,
-    "neutral": 1,
-    "reasoning": "共2条相关资讯，其中1条偏正面。综合评分最高的前几条指向基本面改善信号，整体偏积极。",
+    "neutral": 0,
+    "reasoning": "共1条相关资讯，其中1条偏正面。综合评分最高的前几条指向基本面改善信号，整体偏积极。",
     "articles": [
       {
         "title": "2025年首季中国经济印象：起步稳后劲足",
@@ -316,30 +317,17 @@
         "recency": 30,
         "importance": 35,
         "analysis": "该消息对芯片ETF构成一定程度的利好。原因：「突破」等积极信号表明板块基本面在改善。该信息与该ETF底层资产高度相关，可能推动资金流入。"
-      },
-      {
-        "title": "消费向善要杜绝科技向恶",
-        "summary": "来源：北京商报 从啄木鸟维修平台乱收费到“电子签”高利贷，从窃取个人隐私到骚扰电话黑产、“手机抽奖”新套路……“3·15”晚会曝光的一系列利用高科技侵害消费者权益的案例引发...",
-        "url": "https://finance.sina.com.cn/jjxw/2025-03-17/doc-inepwnvf4244530.shtml",
-        "source": "新浪财经",
-        "time": "1742142666",
-        "score": 37,
-        "direction": "中性",
-        "relevance": 70,
-        "recency": 30,
-        "importance": 0,
-        "analysis": "该消息对芯片ETF的影响偏中性，更多是行业背景信息。与该ETF有一定关联，但不足以构成明确的方向判断。"
       }
     ]
   },
   "510300": {
-    "updatedAt": "2026-08-09T12:11:42.000Z",
+    "updatedAt": "2026-08-09T12:22:04.194Z",
     "sentiment": "正面偏多",
-    "totalNews": 5,
+    "totalNews": 6,
     "positive": 4,
-    "negative": 0,
+    "negative": 1,
     "neutral": 1,
-    "reasoning": "共5条相关资讯，其中4条偏正面。综合评分最高的前几条指向基本面改善信号，整体偏积极。",
+    "reasoning": "共6条相关资讯，其中4条偏正面。综合评分最高的前几条指向基本面改善信号，整体偏积极。",
     "articles": [
       {
         "title": "央行：将适时降准降息 发挥好货币政策工具箱功能",
@@ -366,6 +354,19 @@
         "recency": 30,
         "importance": 100,
         "analysis": "该消息对沪深300ETF构成较明显利好。原因：「降准」「降息」等积极信号表明板块基本面在改善。该信息与该ETF底层资产高度相关，可能推动资金流入。"
+      },
+      {
+        "title": "就业市场松动？非农爆冷下滑 美联储9月还会按下加息键吗",
+        "summary": "",
+        "url": "https://finance.eastmoney.com/a/202608083835792046.html",
+        "source": "东方财富",
+        "time": "08-09",
+        "score": 76,
+        "direction": "利空",
+        "relevance": 50,
+        "recency": 100,
+        "importance": 85,
+        "analysis": "该消息对沪深300ETF构成较明显利空。原因：「下滑」等负面信号可能压制板块表现。虽非直接相关，但可能通过市场情绪传导影响该板块。"
       },
       {
         "title": "LPR连续6个月持稳",
@@ -409,13 +410,13 @@
     ]
   },
   "510500": {
-    "updatedAt": "2026-08-09T12:11:42.000Z",
+    "updatedAt": "2026-08-09T12:22:04.195Z",
     "sentiment": "正面偏多",
-    "totalNews": 3,
-    "positive": 2,
+    "totalNews": 2,
+    "positive": 1,
     "negative": 0,
     "neutral": 1,
-    "reasoning": "共3条相关资讯，其中2条偏正面。综合评分最高的前几条指向基本面改善信号，整体偏积极。",
+    "reasoning": "共2条相关资讯，其中1条偏正面。综合评分最高的前几条指向基本面改善信号，整体偏积极。",
     "articles": [
       {
         "title": "国家统计局：1—2月份全国规模以上工业企业利润下降0.3%（解读）",
@@ -442,31 +443,31 @@
         "recency": 30,
         "importance": 0,
         "analysis": "该消息对中证500ETF的影响偏中性，更多是行业背景信息。与该ETF有一定关联，但不足以构成明确的方向判断。"
-      },
-      {
-        "title": "关于外资坚定投资中国的三点思考",
-        "summary": "中国经济长期向好、韧性强，发展潜力巨大。这是外资企业对投资中国充满信心的重要原因。根据国家统计局日前公布的数据，今年前2个月，全国规模以上工业增加值同比增长5...",
-        "url": "https://finance.sina.com.cn/jjxw/2025-03-26/doc-ineqxptw5187223.shtml",
-        "source": "新浪财经",
-        "time": "1742942613",
-        "score": 42,
-        "direction": "利好",
-        "relevance": 70,
-        "recency": 30,
-        "importance": 15,
-        "analysis": "该消息对中证500ETF构成一定程度的利好。原因：「增长」等积极信号表明板块基本面在改善。该信息与该ETF底层资产高度相关，可能推动资金流入。"
       }
     ]
   },
   "512480": {
-    "updatedAt": "2026-08-09T12:11:42.000Z",
+    "updatedAt": "2026-08-09T12:22:04.195Z",
     "sentiment": "正面偏多",
-    "totalNews": 1,
+    "totalNews": 2,
     "positive": 1,
     "negative": 0,
-    "neutral": 0,
-    "reasoning": "共1条相关资讯，其中1条偏正面。综合评分最高的前几条指向基本面改善信号，整体偏积极。",
+    "neutral": 1,
+    "reasoning": "共2条相关资讯，其中1条偏正面。综合评分最高的前几条指向基本面改善信号，整体偏积极。",
     "articles": [
+      {
+        "title": "光伏硅料八巨头签署倡议",
+        "summary": "",
+        "url": "https://topic.eastmoney.com/detail/gfgljtqscy.html",
+        "source": "东方财富",
+        "time": "08-09",
+        "score": 50,
+        "direction": "中性",
+        "relevance": 50,
+        "recency": 100,
+        "importance": 0,
+        "analysis": "该消息对半导体ETF的影响偏中性，更多是行业背景信息。与该ETF有一定关联，但不足以构成明确的方向判断。"
+      },
       {
         "title": "2025年首季中国经济印象：起步稳后劲足",
         "summary": "■闫立良 在热火与振奋中，2025年第一季度即将过去。电影、冰雪、文旅、以旧换新等点亮消费市场，“杭州六小龙”的科技突破、2025中国国际半导体展呈现的半导体产业链最新技术...",
@@ -483,7 +484,7 @@
     ]
   },
   "512660": {
-    "updatedAt": "2026-08-09T12:11:42.000Z",
+    "updatedAt": "2026-08-09T12:22:04.195Z",
     "sentiment": "中性",
     "totalNews": 0,
     "positive": 0,
@@ -493,13 +494,13 @@
     "articles": []
   },
   "512690": {
-    "updatedAt": "2026-08-09T12:11:42.000Z",
+    "updatedAt": "2026-08-09T12:22:04.195Z",
     "sentiment": "正面偏多",
-    "totalNews": 3,
-    "positive": 3,
+    "totalNews": 2,
+    "positive": 2,
     "negative": 0,
     "neutral": 0,
-    "reasoning": "共3条相关资讯，其中3条偏正面。综合评分最高的前几条指向基本面改善信号，整体偏积极。",
+    "reasoning": "共2条相关资讯，其中2条偏正面。综合评分最高的前几条指向基本面改善信号，整体偏积极。",
     "articles": [
       {
         "title": "统计局：2月份社会消费品零售总额增长2.8%",
@@ -507,19 +508,6 @@
         "url": "https://finance.sina.com.cn/china/hgjj/2026-03-16/doc-inhrcxwy9828797.shtml",
         "source": "新浪财经",
         "time": "1773627300",
-        "score": 54,
-        "direction": "利好",
-        "relevance": 100,
-        "recency": 30,
-        "importance": 15,
-        "analysis": "该消息对酒ETF构成一定程度的利好。原因：「增长」等积极信号表明板块基本面在改善。该信息与该ETF底层资产高度相关，可能推动资金流入。"
-      },
-      {
-        "title": "主要指标增速稳中有升　今年经济开局向新向好",
-        "summary": "转自：经济参考报 全国规模以上工业增加值同比增长5.9%，全国服务业生产指数同比增长5.6%，全国固定资产投资同比增长4.1%，社会消费品零售总额同比增长4...",
-        "url": "https://finance.sina.com.cn/jjxw/2025-03-18/doc-inepznxw6965745.shtml",
-        "source": "新浪财经",
-        "time": "1742256669",
         "score": 54,
         "direction": "利好",
         "relevance": 100,
@@ -543,7 +531,7 @@
     ]
   },
   "512800": {
-    "updatedAt": "2026-08-09T12:11:42.001Z",
+    "updatedAt": "2026-08-09T12:22:04.196Z",
     "sentiment": "正面偏多",
     "totalNews": 11,
     "positive": 7,
@@ -697,13 +685,13 @@
     ]
   },
   "513060": {
-    "updatedAt": "2026-08-09T12:11:42.001Z",
+    "updatedAt": "2026-08-09T12:22:04.196Z",
     "sentiment": "正面偏多",
-    "totalNews": 2,
+    "totalNews": 1,
     "positive": 1,
     "negative": 0,
-    "neutral": 1,
-    "reasoning": "共2条相关资讯，其中1条偏正面。综合评分最高的前几条指向基本面改善信号，整体偏积极。",
+    "neutral": 0,
+    "reasoning": "共1条相关资讯，其中1条偏正面。综合评分最高的前几条指向基本面改善信号，整体偏积极。",
     "articles": [
       {
         "title": "2025年首季中国经济印象：起步稳后劲足",
@@ -717,31 +705,44 @@
         "recency": 30,
         "importance": 35,
         "analysis": "该消息对恒生科技ETF构成一定程度的利好。原因：「突破」等积极信号表明板块基本面在改善。虽非直接相关，但市场情绪传导可能带来间接正面影响。"
-      },
-      {
-        "title": "消费向善要杜绝科技向恶",
-        "summary": "来源：北京商报 从啄木鸟维修平台乱收费到“电子签”高利贷，从窃取个人隐私到骚扰电话黑产、“手机抽奖”新套路……“3·15”晚会曝光的一系列利用高科技侵害消费者权益的案例引发...",
-        "url": "https://finance.sina.com.cn/jjxw/2025-03-17/doc-inepwnvf4244530.shtml",
-        "source": "新浪财经",
-        "time": "1742142666",
-        "score": 37,
-        "direction": "中性",
-        "relevance": 70,
-        "recency": 30,
-        "importance": 0,
-        "analysis": "该消息对恒生科技ETF的影响偏中性，更多是行业背景信息。与该ETF有一定关联，但不足以构成明确的方向判断。"
       }
     ]
   },
   "513500": {
-    "updatedAt": "2026-08-09T12:11:42.002Z",
+    "updatedAt": "2026-08-09T12:22:04.197Z",
     "sentiment": "正面偏多",
-    "totalNews": 6,
-    "positive": 5,
-    "negative": 0,
-    "neutral": 1,
-    "reasoning": "共6条相关资讯，其中5条偏正面。综合评分最高的前几条指向基本面改善信号，整体偏积极。",
+    "totalNews": 7,
+    "positive": 4,
+    "negative": 1,
+    "neutral": 2,
+    "reasoning": "共7条相关资讯，其中4条偏正面。综合评分最高的前几条指向基本面改善信号，整体偏积极。",
     "articles": [
+      {
+        "title": "就业市场松动？非农爆冷下滑 美联储9月还会按下加息键吗",
+        "summary": "",
+        "url": "https://finance.eastmoney.com/a/202608083835792046.html",
+        "source": "东方财富",
+        "time": "08-09",
+        "score": 90,
+        "direction": "利空",
+        "relevance": 85,
+        "recency": 100,
+        "importance": 85,
+        "analysis": "该消息对标普500ETF构成较明显利空。原因：「下滑」等负面信号可能压制板块表现。该信息与该ETF底层资产直接相关，需警惕短期调整风险。"
+      },
+      {
+        "title": "周末要闻汇总：美国7月非农数据意外转负 美联储加息动力骤减",
+        "summary": "",
+        "url": "https://finance.eastmoney.com/a/202608093835915373.html",
+        "source": "东方财富",
+        "time": "08-09",
+        "score": 85,
+        "direction": "中性",
+        "relevance": 85,
+        "recency": 100,
+        "importance": 70,
+        "analysis": "该消息对标普500ETF的影响偏中性，更多是行业背景信息。与该ETF有一定关联，但不足以构成明确的方向判断。"
+      },
       {
         "title": "LPR连续6个月“原地踏步” 二季度降准降息预期增强",
         "summary": "本报记者刘琪 4月21日，新一期LPR（贷款市场报价利率）出炉。中国人民银行（以下简称“央行”）授权全国银行间同业拆借中心公布，2025年4月21日，1年期LPR为3.1%...",
@@ -782,19 +783,6 @@
         "analysis": "该消息对标普500ETF构成较明显利好。原因：「降息」等积极信号表明板块基本面在改善。虽非直接相关，但市场情绪传导可能带来间接正面影响。"
       },
       {
-        "title": "LPR连续5个月不变 降息窗口或二季度打开",
-        "summary": "本报记者刘琪 3月20日，新一期LPR（贷款市场报价利率）出炉。中国人民银行授权全国银行间同业拆借中心公布，3月20日，1年期LPR为3.1%，5年期以上LPR为3.6%。",
-        "url": "https://finance.sina.com.cn/jjxw/2025-03-21/doc-ineqkeau4217396.shtml",
-        "source": "新浪财经",
-        "time": "1742510699",
-        "score": 50,
-        "direction": "利好",
-        "relevance": 50,
-        "recency": 30,
-        "importance": 70,
-        "analysis": "该消息对标普500ETF构成较明显利好。原因：「降息」等积极信号表明板块基本面在改善。虽非直接相关，但市场情绪传导可能带来间接正面影响。"
-      },
-      {
         "title": "外汇储备创新高、连续第10个月增持黄金，央行释放重磅信号→",
         "summary": "文章来源：中国商报 中国商报（记者 王彤旭）国家外汇管理局9月7日公布的数据显示，截至2025年8月末，我国外汇储备规模为33222亿美元，较7月末增加299亿美元，升幅为0...",
         "url": "https://finance.sina.com.cn/jjxw/2025-09-08/doc-infpumzh9681459.shtml",
@@ -823,27 +811,55 @@
     ]
   },
   "515790": {
-    "updatedAt": "2026-08-09T12:11:42.002Z",
+    "updatedAt": "2026-08-09T12:22:04.197Z",
     "sentiment": "中性",
-    "totalNews": 0,
+    "totalNews": 1,
     "positive": 0,
     "negative": 0,
-    "neutral": 0,
-    "reasoning": "共0条相关资讯，信号方向不明确（正0/负0/中0），建议持续观察等待更明确的信号。",
-    "articles": []
+    "neutral": 1,
+    "reasoning": "共1条相关资讯，信号方向不明确（正0/负0/中1），建议持续观察等待更明确的信号。",
+    "articles": [
+      {
+        "title": "光伏硅料八巨头签署倡议",
+        "summary": "",
+        "url": "https://topic.eastmoney.com/detail/gfgljtqscy.html",
+        "source": "东方财富",
+        "time": "08-09",
+        "score": 64,
+        "direction": "中性",
+        "relevance": 85,
+        "recency": 100,
+        "importance": 0,
+        "analysis": "该消息对光伏ETF的影响偏中性，更多是行业背景信息。与该ETF有一定关联，但不足以构成明确的方向判断。"
+      }
+    ]
   },
   "516160": {
-    "updatedAt": "2026-08-09T12:11:42.002Z",
+    "updatedAt": "2026-08-09T12:22:04.197Z",
     "sentiment": "中性",
-    "totalNews": 0,
+    "totalNews": 1,
     "positive": 0,
     "negative": 0,
-    "neutral": 0,
-    "reasoning": "共0条相关资讯，信号方向不明确（正0/负0/中0），建议持续观察等待更明确的信号。",
-    "articles": []
+    "neutral": 1,
+    "reasoning": "共1条相关资讯，信号方向不明确（正0/负0/中1），建议持续观察等待更明确的信号。",
+    "articles": [
+      {
+        "title": "光伏硅料八巨头签署倡议",
+        "summary": "",
+        "url": "https://topic.eastmoney.com/detail/gfgljtqscy.html",
+        "source": "东方财富",
+        "time": "08-09",
+        "score": 50,
+        "direction": "中性",
+        "relevance": 50,
+        "recency": 100,
+        "importance": 0,
+        "analysis": "该消息对新能源ETF的影响偏中性，更多是行业背景信息。与该ETF有一定关联，但不足以构成明确的方向判断。"
+      }
+    ]
   },
   "518880": {
-    "updatedAt": "2026-08-09T12:11:42.004Z",
+    "updatedAt": "2026-08-09T12:22:04.198Z",
     "sentiment": "正面偏多",
     "totalNews": 2,
     "positive": 1,
@@ -880,7 +896,7 @@
     ]
   },
   "561380": {
-    "updatedAt": "2026-08-09T12:11:42.004Z",
+    "updatedAt": "2026-08-09T12:22:04.198Z",
     "sentiment": "正面偏多",
     "totalNews": 2,
     "positive": 1,
@@ -917,14 +933,27 @@
     ]
   },
   "563360": {
-    "updatedAt": "2026-08-09T12:11:42.005Z",
+    "updatedAt": "2026-08-09T12:22:04.199Z",
     "sentiment": "正面偏多",
     "totalNews": 4,
-    "positive": 4,
-    "negative": 0,
+    "positive": 3,
+    "negative": 1,
     "neutral": 0,
-    "reasoning": "共4条相关资讯，其中4条偏正面。综合评分最高的前几条指向基本面改善信号，整体偏积极。",
+    "reasoning": "共4条相关资讯，其中3条偏正面。综合评分最高的前几条指向基本面改善信号，整体偏积极。",
     "articles": [
+      {
+        "title": "就业市场松动？非农爆冷下滑 美联储9月还会按下加息键吗",
+        "summary": "",
+        "url": "https://finance.eastmoney.com/a/202608083835792046.html",
+        "source": "东方财富",
+        "time": "08-09",
+        "score": 76,
+        "direction": "利空",
+        "relevance": 50,
+        "recency": 100,
+        "importance": 85,
+        "analysis": "该消息对中证A500ETF构成较明显利空。原因：「下滑」等负面信号可能压制板块表现。虽非直接相关，但可能通过市场情绪传导影响该板块。"
+      },
       {
         "title": "LPR连续6个月“原地踏步” 二季度降准降息预期增强",
         "summary": "本报记者刘琪 4月21日，新一期LPR（贷款市场报价利率）出炉。中国人民银行（以下简称“央行”）授权全国银行间同业拆借中心公布，2025年4月21日，1年期LPR为3.1%...",
@@ -952,19 +981,6 @@
         "analysis": "该消息对中证A500ETF构成较明显利好。原因：「降准」「降息」等积极信号表明板块基本面在改善。该信息与该ETF底层资产高度相关，可能推动资金流入。"
       },
       {
-        "title": "一季度GDP前瞻：多家机构预测同比增长5.2%左右",
-        "summary": "本报记者孟珂 本周起，2025年一季度宏观经济数据将陆续公布，国内生产总值（GDP）、消费、投资、外贸等核心经济指标的表现成为市场关注焦点。",
-        "url": "https://finance.sina.com.cn/jjxw/2025-04-08/doc-ineskyey0817227.shtml",
-        "source": "新浪财经",
-        "time": "1744064016",
-        "score": 52,
-        "direction": "利好",
-        "relevance": 70,
-        "recency": 30,
-        "importance": 50,
-        "analysis": "该消息对中证A500ETF构成一定程度的利好。原因：「增长」等积极信号表明板块基本面在改善。该信息与该ETF底层资产高度相关，可能推动资金流入。"
-      },
-      {
         "title": "LPR连续6个月持稳",
         "summary": "转自：北京商报 北京商报讯（记者 岳品瑜 董晗萱）最新一期LPR出炉，降息再次落空。据人民银行官网公布，2025年4月21日贷款市场报价利率（LPR）为：1年期LPR为3.1%...",
         "url": "https://finance.sina.com.cn/china/hgjj/2025-04-22/doc-inetyazn4774146.shtml",
@@ -980,13 +996,13 @@
     ]
   },
   "588000": {
-    "updatedAt": "2026-08-09T12:11:42.006Z",
+    "updatedAt": "2026-08-09T12:22:04.200Z",
     "sentiment": "正面偏多",
-    "totalNews": 7,
+    "totalNews": 6,
     "positive": 3,
     "negative": 0,
-    "neutral": 4,
-    "reasoning": "共7条相关资讯，其中3条偏正面。综合评分最高的前几条指向基本面改善信号，整体偏积极。",
+    "neutral": 3,
+    "reasoning": "共6条相关资讯，其中3条偏正面。综合评分最高的前几条指向基本面改善信号，整体偏积极。",
     "articles": [
       {
         "title": "2025年首季中国经济印象：起步稳后劲足",
@@ -1059,19 +1075,6 @@
         "url": "https://finance.sina.com.cn/jjxw/2025-03-31/doc-inernxma1461143.shtml",
         "source": "新浪财经",
         "time": "1743375027",
-        "score": 37,
-        "direction": "中性",
-        "relevance": 70,
-        "recency": 30,
-        "importance": 0,
-        "analysis": "该消息对科创50ETF的影响偏中性，更多是行业背景信息。与该ETF有一定关联，但不足以构成明确的方向判断。"
-      },
-      {
-        "title": "促进科技消费发展　激活内需新动能",
-        "summary": "转自：经济参考报 当前，我国经济发展正处动力转换和质量提升的关键时期。以科技消费为引领，激发内需潜力、驱动产业创新、塑造发展新优势...",
-        "url": "https://finance.sina.com.cn/jjxw/2025-03-13/doc-inepncht3844488.shtml",
-        "source": "新浪财经",
-        "time": "1741820869",
         "score": 37,
         "direction": "中性",
         "relevance": 70,
