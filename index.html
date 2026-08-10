@@ -729,9 +729,9 @@ function D(id){return document.getElementById(id).style.display!=='none';}
 
 function navDateLabel(d){if(!d)return'';var parts=d.split('-'),dt=new Date(parts[0],parts[1]-1,parts[2]);var now=new Date(),diff=Math.floor((now-dt)/86400000);var names=['日','一','二','三','四','五','六'];var dow=dt.getDay();if(diff===0)return d.slice(5)+'（今天）';if(diff<=3)return d.slice(5)+'（'+diff+'天前，周'+names[dow]+'）';return d.slice(5)+'（周'+names[dow]+'）';}
 function renderDash(){
-  if(!G.etfs||!G.indices)return;
   document.getElementById('dash-load').style.display='none';
   document.getElementById('dash-content').style.display='block';
+  if(!G.etfs||!G.indices){document.getElementById('dash-content').innerHTML='<div class="empty" style="padding:60px;">数据加载失败<br><span style="font-size:12px;">请检查网络后刷新页面</span></div>';return;}
   document.getElementById('updateTime').textContent='更新 '+TA(G.meta?.lastUpdate);
   document.getElementById('footerTime').textContent=TA(G.meta?.lastUpdate);
   const hs300=G.indices.find(i=>i?.name?.includes('沪深300'));
@@ -866,9 +866,9 @@ function showChartAnalysis(etf){
 async function loadETFNews(code){try{var r=await fetch('data/etf-news-analysis.json');if(!r.ok)return;var d=await r.json();var an=d[code];var el=document.getElementById('etf-news-list');if(!el)return;var h='';if(!an||!an.articles||an.articles.length===0){h+='<div class="empty">暂无该ETF相关资讯</div>'}else{var sc=an.sentiment.indexOf('正面')>=0||an.sentiment.indexOf('偏多')>=0?'var(--cyan)':an.sentiment.indexOf('负面')>=0||an.sentiment.indexOf('偏空')>=0?'var(--pink)':'var(--warn)';h+='<div class="card" style="margin-bottom:10px;border-left:3px solid '+sc+';"><div style="font-size:14px;font-weight:600;color:#f4eeff;margin-bottom:6px;">新闻情绪分析</div>';h+='<div style="display:flex;gap:16px;margin-bottom:8px;flex-wrap:wrap;"><span style="font-size:13px;color:'+sc+';"><strong>'+an.sentiment+'</strong></span><span class="badge up">正面 '+an.positive+'条</span><span class="badge down">负面 '+an.negative+'条</span><span class="badge neu">中性 '+an.neutral+'条</span></div>';h+='<div style="font-size:12px;color:#d8d0e8;line-height:1.7;">'+an.reasoning+'</div></div>';h+='<div style="font-size:11px;color:var(--text-dim);margin-bottom:8px;">共 '+an.articles.length+' 条相关资讯 · 按综合评分排序</div>';for(var i=0;i<an.articles.length;i++){var a=an.articles[i];var dirColor=a.direction==='利好'?'var(--cyan)':a.direction==='利空'?'var(--pink)':'var(--warn)';var scoreColor=a.score>=70?'var(--cyan)':a.score>=50?'var(--warn)':'var(--text-dim)';h+='<div class="card" style="margin-bottom:6px;border-left:3px solid '+dirColor+';"><div style="display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:8px;"><div style="flex:1;"><a href="'+a.url+'" target="_blank" style="color:#f4eeff;text-decoration:none;font-size:13px;font-weight:600;">'+a.title+'</a>'+(a.summary?'<div style="font-size:11px;color:#9cc8d4;margin-top:3px;">'+a.summary+'</div>':'')+'<div style="font-size:11px;color:var(--text-dim);margin-top:2px;">'+a.source+' · '+a.time+'</div></div><div style="text-align:right;min-width:60px;"><span class="badge" style="background:'+scoreColor+'18;color:'+scoreColor+';font-size:12px;font-weight:700;">'+a.score+'分</span><div style="font-size:9px;color:var(--text-dim);margin-top:2px;">'+a.direction+'</div></div></div><div style="font-size:12px;color:#d8d0e8;line-height:1.7;margin-top:8px;padding:8px 10px;background:rgba(255,255,255,0.015);border-radius:4px;">'+a.analysis+'</div><div style="display:flex;gap:12px;margin-top:4px;font-size:10px;color:var(--text-dim);"><span>时效 '+a.recency+'%</span><span>相关 '+a.relevance+'%</span><span>重要 '+a.importance+'%</span></div></div>'}}el.innerHTML=h}catch(e){}}
 
 function renderAI(){
-  if(!G.aiAnalysis)return;
   document.getElementById('ai-load').style.display='none';
   document.getElementById('ai-content').style.display='block';
+  if(!G.aiAnalysis){document.getElementById('ai-content').innerHTML='<div class="empty">AI分析尚未生成</div>';return;}
   const a=G.aiAnalysis;
   document.getElementById('ai-date').textContent=a.date||'--';
   document.getElementById('ai-macro').textContent=a.macroOutlook||'暂无宏观分析';
@@ -1229,7 +1229,7 @@ function renderReport(){
 function renderDaily(){
   document.getElementById("daily-load").style.display="none";
   document.getElementById("daily-content").style.display="block";
-  if(!G.dailyReport){document.getElementById("daily-body").innerHTML='<div class="empty">报告尚未生成</div>';return}
+  if(!G.dailyReport||!G.dailyReport.date){document.getElementById("daily-body").innerHTML='<div class="empty">报告尚未生成</div>';return}
   var r=G.dailyReport,p=r.portfolio||{},lt=r.longTerm||{},st=r.shortTerm||{};
   var h='',m=r.marketSnapshot||{};
 
