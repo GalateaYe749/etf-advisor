@@ -1,32 +1,32 @@
 {
   "date": "2026-08-10",
-  "generatedAt": "2026-08-10T06:38:26.559Z",
+  "generatedAt": "2026-08-10T10:01:19.607Z",
   "marketSnapshot": {
     "indices": [
       {
         "name": "上证指数",
-        "price": 3961.22,
-        "changePct": "0.54"
+        "price": 3966.59,
+        "changePct": "0.67"
       },
       {
         "name": "深证成指",
-        "price": 14286.11,
-        "changePct": "-0.17"
+        "price": 14316.96,
+        "changePct": "0.04"
       },
       {
         "name": "沪深300",
-        "price": 4695.22,
-        "changePct": "0.02"
+        "price": 4702.02,
+        "changePct": "0.16"
       },
       {
         "name": "创业板指",
-        "price": 3528.57,
-        "changePct": "-0.97"
+        "price": 3537.21,
+        "changePct": "-0.73"
       },
       {
         "name": "科创50",
-        "price": 1729.67,
-        "changePct": "-0.82"
+        "price": 1737.77,
+        "changePct": "-0.36"
       }
     ],
     "notableMovers": [
@@ -38,7 +38,7 @@
       {
         "name": "消费ETF汇添富",
         "code": "159928",
-        "pct": 2.38
+        "pct": 2.68
       }
     ]
   },
@@ -52,13 +52,13 @@
         "name": "电网设备ETF国泰",
         "shares": 1300,
         "cost": 0.754,
-        "currentPrice": 0.755,
-        "currentValue": 981.5,
-        "pnl": 1.3,
-        "pnlPct": 0.13
+        "currentPrice": 0.756,
+        "currentValue": 982.8,
+        "pnl": 2.6,
+        "pnlPct": 0.27
       }
     ],
-    "totalValue": 7001.3,
+    "totalValue": 7002.6,
     "recommendations": [
       {
         "etf": "159915",
@@ -408,9 +408,9 @@
   },
   "portfolio": {
     "totalCapital": 10000,
-    "totalValue": 10001.3,
-    "totalPnlPct": 0.01,
-    "longValue": 7001.3,
+    "totalValue": 10002.6,
+    "totalPnlPct": 0.03,
+    "longValue": 7002.6,
     "shortValue": 3000
   },
   "insights": [
@@ -418,7 +418,13 @@
       "level": "neutral",
       "cat": "大盘",
       "for": "both",
-      "text": "沪深300微涨0.02%，横盘震荡"
+      "text": "沪深300微涨0.16%，横盘震荡"
+    },
+    {
+      "level": "warning",
+      "cat": "510500",
+      "for": "long",
+      "text": "中证500ETF南方 近3月-10.4%，长线持有无需恐慌"
     },
     {
       "level": "opportunity",
@@ -436,7 +442,7 @@
       "level": "warning",
       "cat": "561380",
       "for": "long",
-      "text": "电网设备ETF国泰 近3月-15.69%，长线持有无需恐慌"
+      "text": "电网设备ETF国泰 近3月-66.84%，长线持有无需恐慌"
     },
     {
       "level": "opportunity",
@@ -455,12 +461,6 @@
       "cat": "512690",
       "for": "long",
       "text": "酒ETF鹏华 回撤30.99%，长线定投良机"
-    },
-    {
-      "level": "opportunity",
-      "cat": "159995",
-      "for": "long",
-      "text": "芯片ETF华夏 回撤64.03%，长线定投良机"
     }
   ],
   "riskWatch": []
