@@ -811,6 +811,13 @@ function renderETFDetail(){
   }
   // 加载该ETF的专属新闻
   loadETFNews(e.code);
+  // 标记是否为当前持仓
+  var isHolding = G.dual && G.dual.longTerm && G.dual.longTerm.holdings && G.dual.longTerm.holdings.some(function(h){return h.etf===e.code});
+  var holdEl = document.getElementById('etf-holding-badge');
+  if(holdEl && isHolding){
+    var hh = G.dual.longTerm.holdings.find(function(h){return h.etf===e.code});
+    holdEl.innerHTML = '<div class="card" style="margin-bottom:14px;border-left:3px solid var(--purple);background:rgba(153,85,221,0.04);"><h3>💼 我的持仓 ('+e.code+')</h3><div style="font-size:13px;color:#d8d0e8;">'+hh.shares+'股 × 成本¥'+F(hh.cost,4)+' 现价¥'+F(e.intraday&&e.intraday.price?e.intraday.price:e.nav,3)+' 盈亏 '+P((e.intraday&&e.intraday.price?e.intraday.price:e.nav)/hh.cost*100-100)+'</div></div>';
+  } else if(holdEl) holdEl.innerHTML='';
   // 加载该ETF的长线建议
   showLongAdvice(e.code);
   }
@@ -1248,7 +1255,7 @@ function renderDaily(){
     h+='<div class="sec-title">🏢 长线持仓</div>';
     for(var q=0;q<lt.holdings.length;q++){
       var oh=lt.holdings[q],pnlC=oh.pnl>=0?'var(--cyan)':'var(--pink)';
-      h+='<div class="card" style="margin-bottom:6px;border-left:3px solid var(--cyan);"><div style="display:flex;justify-content:space-between;flex-wrap:wrap;"><strong>'+oh.name+' ('+oh.etf+')</strong><span>'+oh.shares+'股 × ¥'+F(oh.currentPrice,3)+' = ¥'+F(oh.currentValue,2)+'</span></div><div style="font-size:12px;color:#9cc8d4;">成本 ¥'+oh.cost+' | <span style="color:'+pnlC+';">盈亏 '+P(oh.pnlPct)+'</span></div></div>';
+      h+='<div class="card" style="margin-bottom:6px;border-left:3px solid var(--cyan);"><div style="display:flex;justify-content:space-between;flex-wrap:wrap;"><strong>'+oh.name+' ('+oh.etf+')</strong><span>'+oh.shares+'股 × ¥'+F(oh.currentPrice,3)+' = ¥'+F(oh.currentValue,2)+'</span></div><div style="font-size:12px;color:#9cc8d4;">成本 ¥'+oh.cost+(oh.personalAdvice?'<div style="margin-top:10px;padding:10px 12px;background:rgba(0,221,255,0.03);border-radius:6px;border-left:3px solid var(--cyan);"><div style="font-size:12px;font-weight:600;color:var(--cyan);margin-bottom:6px;">🧠 个性化建议</div><div style="font-size:12px;color:#d8d0e8;line-height:1.7;">长线：'+oh.personalAdvice.longTermAction+'</div><div style="font-size:12px;color:#d8d0e8;line-height:1.7;margin-top:4px;">短线：'+oh.personalAdvice.shortTermAction+'</div><div style="font-size:11px;color:var(--warn);margin-top:6px;">⚠️ '+oh.personalAdvice.riskNote+'</div><div style="font-size:10px;color:var(--dim-cyan);margin-top:4px;">'+oh.personalAdvice.nextCheck+'</div></div>':'')+' | <span style="color:'+pnlC+';">盈亏 '+P(oh.pnlPct)+'</span></div></div>';
     }
   }
 
