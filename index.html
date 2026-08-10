@@ -1217,22 +1217,72 @@ function renderReport(){
   if(allSnapshots.length>=2){setTimeout(function(){var ctx=document.getElementById('reportChart');if(!ctx)return;if(G.charts.reportChart)G.charts.reportChart.destroy();var ss=allSnapshots,stSnap=(st.snapshots||[]).length>0?st.snapshots[st.snapshots.length-1].totalValue||(G.dual.totalCapital?G.dual.totalCapital*0.30:0):(G.dual.totalCapital?G.dual.totalCapital*0.30:0);G.charts.reportChart=new Chart(ctx,{type:'line',data:{labels:ss.map(function(s){return s.date.slice(5)}),datasets:[{label:'总资产',data:ss.map(function(s){return s.totalValue+(stSnap-(totalCapital*0.30))}),borderColor:'#ff3388',borderWidth:2,pointRadius:0,fill:true,backgroundColor:'rgba(255,51,136,.06)',tension:0.35},{label:'长线',data:ss.map(function(s){return s.totalValue}),borderColor:'#00ddff',borderWidth:1.5,pointRadius:0,fill:false,tension:0.35},{label:'本金 '+F(totalCapital/10000)+'万',data:Array(ss.length).fill(totalCapital),borderColor:'#f0f0ff20',borderWidth:1,borderDash:[5,5],pointRadius:0}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{labels:{color:'#f0f0ff80',boxWidth:10,font:{size:10,family:'serif'},padding:12}}},scales:{x:{ticks:{color:'#f0f0ff40'},grid:{color:'#f0f0ff08'}},y:{ticks:{color:'#f0f0ff40'},grid:{color:'#f0f0ff08'}}}}})},300);}
 }
 
+
 function renderDaily(){
   document.getElementById("daily-load").style.display="none";
   document.getElementById("daily-content").style.display="block";
   if(!G.dailyReport){document.getElementById("daily-body").innerHTML='<div class="empty">报告尚未生成</div>';return}
-  var r=G.dailyReport,p=r.portfolio||{},lt=p.longTerm||{},st=p.shortTerm||{};
-  var h='<div class="card" style="border-left:3px solid var(--cyan);margin-bottom:16px;"><h3>每日投资报告 '+r.date+'</h3><div style="font-size:13px;color:#d8d0e8;line-height:1.8;">'+r.todaySummary+'</div></div>';
-  h+='<div class="card" style="margin-bottom:10px;"><h3>账户状态</h3><div class="portfolio-summary"><div class="stat-card"><div class="sl">总资产</div><div class="sv">'+F(p.totalCapital)+'</div></div><div class="stat-card"><div class="sl">长线</div><div class="sv" style="color:var(--cyan)">'+F(lt.cash+(lt.holdings?lt.holdings.reduce(function(s,x){return s+(x.value||0)},0):0))+'</div><div class="ss">现金'+F(lt.cash)+'+'+((lt.holdings||[]).length)+'只持仓</div></div><div class="stat-card"><div class="sl">短线</div><div class="sv" style="color:var(--pink)">'+F(st.cash)+'</div><div class="ss">现金</div></div></div></div>';
-  h+='<div class="sec-title">今日操作建议</div>';
-  var recs=r.recommendations||[];
-  for(var i=0;i<recs.length;i++){
-    var rec=recs[i],prio=rec.priority;
-    var pc=prio===1?'var(--cyan)':prio===2?'var(--purple)':'var(--text-dim)';
-    h+='<div class="card" style="margin-bottom:8px;border-left:3px solid '+pc+';"><div style="display:flex;gap:12px;align-items:center;flex-wrap:wrap;"><span class="badge" style="background:'+pc+'18;color:'+pc+';font-size:16px;">#'+prio+'</span><div style="flex:1;"><div style="font-size:15px;font-weight:600;color:#f4eeff;">'+rec.action+'</div><div style="font-size:13px;color:#9cc8d4;">'+rec.target+' — '+rec.amount+'</div></div></div><div style="font-size:13px;color:#d8d0e8;line-height:1.7;margin-top:8px;">'+rec.reason+'</div><div style="font-size:11px;color:var(--warn);margin-top:4px;">'+rec.risk+'</div></div>';
+  var r=G.dailyReport,p=r.portfolio||{},lt=r.longTerm||{},st=r.shortTerm||{};
+  var h='',m=r.marketSnapshot||{};
+
+  h+='<div class="card" style="border-left:3px solid var(--cyan);margin-bottom:16px;"><h3>📊 每日报告 '+r.date+'</h3>';
+  h+='<div style="display:flex;gap:12px;flex-wrap:wrap;font-size:12px;margin:8px 0;">';
+  for(var i=0;i<(m.indices||[]).length;i++){
+    var ix=m.indices[i];
+    h+='<span style="color:#d8d0e8;"><strong>'+ix.name+'</strong> <span class="'+C(ix.changePct)+'">'+P(ix.changePct)+'</span></span>';
   }
-  if(r.keyNews&&r.keyNews.length){h+='<div class="sec-title" style="margin-top:16px;">关键新闻</div>';for(var j=0;j<r.keyNews.length;j++){var kw=r.keyNews[j];var ic=kw.impact.indexOf('利好')>=0?'var(--cyan)':kw.impact.indexOf('利空')>=0?'var(--pink)':'var(--text-dim)';h+='<div class="insight" style="border-color:'+ic+';"><strong>'+kw.title+'</strong> <span style="color:var(--text-dim);font-size:11px;">'+kw.source+'</span><div style="color:'+ic+';margin-top:2px;">'+kw.impact+'</div></div>'}}
-  if(r.lookAhead){h+='<div class="sec-title" style="margin-top:16px;">前瞻</div><div class="card"><div class="insight neutral"><strong>明天：</strong>'+r.lookAhead.tomorrow+'</div><div class="insight neutral"><strong>本周：</strong>'+r.lookAhead.thisWeek+'</div><div class="insight neutral"><strong>本月：</strong>'+r.lookAhead.thisMonth+'</div></div>'}
+  h+='</div>';
+  if((m.notableMovers||[]).length){
+    h+='<div style="font-size:11px;color:var(--warn);">⚡ '+(m.notableMovers||[]).map(function(x){return x.name+(x.pct>=0?' +':' ')+x.pct.toFixed(1)+'%'}).join(' | ')+'</div>';
+  }
+  h+='</div>';
+
+  h+='<div class="card" style="margin-bottom:10px;"><h3>💰 账户状态</h3><div class="portfolio-summary">';
+  h+='<div class="stat-card"><div class="sl">总资产</div><div class="sv">¥'+F(p.totalValue||0)+'</div><div class="ss" style="color:'+(p.totalPnlPct>=0?'var(--cyan)':'var(--pink)')+'">'+P(p.totalPnlPct)+'</div></div>';
+  h+='<div class="stat-card"><div class="sl">🏢 长线</div><div class="sv" style="color:var(--cyan)">¥'+F(lt.totalValue||0)+'</div><div class="ss">现金¥'+F(lt.cash||0)+' + '+(lt.holdings||[]).length+'只持仓</div></div>';
+  h+='<div class="stat-card"><div class="sl">⚡ 短线</div><div class="sv" style="color:var(--pink)">¥'+F(st.totalValue||0)+'</div><div class="ss">现金¥'+F(st.cash||0)+'</div></div>';
+  h+='</div></div>';
+
+  if((lt.holdings||[]).length){
+    h+='<div class="sec-title">🏢 长线持仓</div>';
+    for(var q=0;q<lt.holdings.length;q++){
+      var oh=lt.holdings[q],pnlC=oh.pnl>=0?'var(--cyan)':'var(--pink)';
+      h+='<div class="card" style="margin-bottom:6px;border-left:3px solid var(--cyan);"><div style="display:flex;justify-content:space-between;flex-wrap:wrap;"><strong>'+oh.name+' ('+oh.etf+')</strong><span>'+oh.shares+'股 × ¥'+F(oh.currentPrice,3)+' = ¥'+F(oh.currentValue,2)+'</span></div><div style="font-size:12px;color:#9cc8d4;">成本 ¥'+oh.cost+' | <span style="color:'+pnlC+';">盈亏 '+P(oh.pnlPct)+'</span></div></div>';
+    }
+  }
+
+  if((lt.recommendations||[]).length){
+    h+='<div class="sec-title">🎯 长线操作指南</div>';
+    h+='<div style="font-size:12px;color:var(--warn);margin-bottom:8px;">风险：'+lt.riskLevel+' | '+lt.summary+'</div>';
+    for(var j=0;j<Math.min(lt.recommendations.length,8);j++){
+      var ra=lt.recommendations[j];
+      h+='<div class="card" style="margin-bottom:4px;border-left:3px solid '+(ra.action.indexOf('加大')>=0?'var(--cyan)':ra.action.indexOf('暂停')>=0?'var(--pink)':'var(--dim-cyan)')+';padding:8px 12px;"><span><strong>'+ra.name+'</strong> <span class="badge">'+ra.action+'</span></span><div style="font-size:11px;color:#9cc8d4;">'+ra.reason+'</div></div>';
+    }
+  }
+
+  if((st.signals||[]).length){
+    h+='<div class="sec-title" style="margin-top:16px;">⚡ 短线信号</div>';
+    h+='<div style="font-size:12px;color:var(--warn);margin-bottom:8px;">风险：'+st.riskLevel+' | '+st.summary+'</div>';
+    var buySigs=(st.signals||[]).filter(function(s){return s.signal.indexOf('买入')>=0});
+    var sellSigs=(st.signals||[]).filter(function(s){return s.signal.indexOf('卖出')>=0});
+    for(var k=0;k<Math.min(buySigs.length,5);k++){
+      var bs=buySigs[k];
+      h+='<div class="card" style="margin-bottom:4px;border-left:3px solid var(--cyan);padding:8px 12px;"><span><strong>'+bs.name+'</strong> <span class="badge up">'+bs.signal+'</span> 评分'+bs.score+'</span><div style="font-size:11px;color:#9cc8d4;">'+(bs.reasons||[]).join(' · ')+'</div></div>';
+    }
+    for(var l=0;l<Math.min(sellSigs.length,3);l++){
+      var ss=sellSigs[l];
+      h+='<div class="card" style="margin-bottom:4px;border-left:3px solid var(--pink);padding:8px 12px;"><span><strong>'+ss.name+'</strong> <span class="badge down">'+ss.signal+'</span> 评分'+ss.score+'</span><div style="font-size:11px;color:#9cc8d4;">'+(ss.reasons||[]).join(' · ')+'</div></div>';
+    }
+  }
+
+  if((r.insights||[]).length){
+    h+='<div class="sec-title" style="margin-top:16px;">💡 洞察</div>';
+    for(var m_=0;m_<Math.min(r.insights.length,6);m_++){
+      var ins=r.insights[m_],emoji={bullish:'🟢',bearish:'🔴',neutral:'🟡',positive:'✅',warning:'⚠️',opportunity:'🎯',correction:'🔧'};
+      h+='<div class="insight '+ins.level+'"><div class="ic">'+ins.cat+' · '+(ins.for==='long'?'长线':ins.for==='short'?'短线':'通用')+'</div>'+ins.text+'</div>';
+    }
+  }
+
   document.getElementById("daily-body").innerHTML=h;
 }
 
