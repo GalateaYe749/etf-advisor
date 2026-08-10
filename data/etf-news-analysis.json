@@ -1,6 +1,6 @@
 {
   "159766": {
-    "updatedAt": "2026-08-10T03:29:15.325Z",
+    "updatedAt": "2026-08-10T03:58:51.760Z",
     "sentiment": "中性",
     "totalNews": 1,
     "positive": 0,
@@ -24,7 +24,7 @@
     ]
   },
   "159869": {
-    "updatedAt": "2026-08-10T03:29:15.325Z",
+    "updatedAt": "2026-08-10T03:58:51.760Z",
     "sentiment": "中性",
     "totalNews": 0,
     "positive": 0,
@@ -34,7 +34,7 @@
     "articles": []
   },
   "159915": {
-    "updatedAt": "2026-08-10T03:29:15.326Z",
+    "updatedAt": "2026-08-10T03:58:51.761Z",
     "sentiment": "中性",
     "totalNews": 1,
     "positive": 0,
@@ -58,7 +58,7 @@
     ]
   },
   "159920": {
-    "updatedAt": "2026-08-10T03:29:15.326Z",
+    "updatedAt": "2026-08-10T03:58:51.761Z",
     "sentiment": "正面偏多",
     "totalNews": 6,
     "positive": 1,
@@ -147,7 +147,7 @@
     ]
   },
   "159928": {
-    "updatedAt": "2026-08-10T03:29:15.327Z",
+    "updatedAt": "2026-08-10T03:58:51.761Z",
     "sentiment": "正面偏多",
     "totalNews": 2,
     "positive": 1,
@@ -184,7 +184,7 @@
     ]
   },
   "159941": {
-    "updatedAt": "2026-08-10T03:29:15.327Z",
+    "updatedAt": "2026-08-10T03:58:51.762Z",
     "sentiment": "中性",
     "totalNews": 4,
     "positive": 0,
@@ -192,19 +192,6 @@
     "neutral": 4,
     "reasoning": "共4条相关资讯，信号方向不明确（正0/负0/中4），建议持续观察等待更明确的信号。",
     "articles": [
-      {
-        "title": "宇树科技今日申购；中国央行连续第21个月增持黄金丨盘前情报",
-        "summary": "",
-        "url": "https://finance.eastmoney.com/a/202608103836063141.html",
-        "source": "东方财富",
-        "time": "08-10",
-        "score": 61,
-        "direction": "中性",
-        "relevance": 50,
-        "recency": 100,
-        "importance": 35,
-        "analysis": "【背景信息】纳指ETF的相关市场动态。不构成明确方向判断，了解即可。"
-      },
       {
         "title": "什么信号？瑞银直言“AI之祸”：科技股波动性已达互联网泡沫以来最高！",
         "summary": "",
@@ -232,6 +219,19 @@
         "analysis": "【背景信息】纳指ETF的相关市场动态。不构成明确方向判断，了解即可。"
       },
       {
+        "title": "美股牛市即将逆转？美银直指这一“转折点” 建议用黄金对冲！",
+        "summary": "",
+        "url": "https://finance.eastmoney.com/a/202608103836348441.html",
+        "source": "东方财富",
+        "time": "08-10",
+        "score": 50,
+        "direction": "中性",
+        "relevance": 50,
+        "recency": 100,
+        "importance": 0,
+        "analysis": "【背景信息】纳指ETF的相关市场动态。不构成明确方向判断，了解即可。"
+      },
+      {
         "title": "存储芯片重磅来袭！苹果找上长鑫 iPhone、MacBook都在测试",
         "summary": "",
         "url": "https://finance.eastmoney.com/a/202608103836007793.html",
@@ -247,13 +247,13 @@
     ]
   },
   "159992": {
-    "updatedAt": "2026-08-10T03:29:15.327Z",
+    "updatedAt": "2026-08-10T03:58:51.762Z",
     "sentiment": "正面偏多",
-    "totalNews": 9,
-    "positive": 2,
+    "totalNews": 8,
+    "positive": 1,
     "negative": 0,
     "neutral": 7,
-    "reasoning": "共9条相关资讯，其中2条偏正面。综合评分最高的前几条指向基本面改善信号，整体偏积极。",
+    "reasoning": "共8条相关资讯，其中1条偏正面。综合评分最高的前几条指向基本面改善信号，整体偏积极。",
     "articles": [
       {
         "title": "药明康德迎重要转机，股价创历史新高，港股通创新药ETF万家早盘涨超4%，港股医药外包概念全线上涨",
@@ -293,19 +293,6 @@
         "recency": 100,
         "importance": 35,
         "analysis": "【行业动态】该消息与创新药ETF有一定关联，但信号不明确。建议：关注行业趋势发展，可作为定投节奏的参考。"
-      },
-      {
-        "title": "医药基金大幅“回血” 公募持仓降至冰点后迎市场反弹",
-        "summary": "",
-        "url": "https://finance.eastmoney.com/a/202608103836014094.html",
-        "source": "东方财富",
-        "time": "08-10",
-        "score": 63,
-        "direction": "利好",
-        "relevance": 70,
-        "recency": 100,
-        "importance": 15,
-        "analysis": "【轻度利好】创新药ETF。信号：「反弹」。该消息与该ETF底层资产直接相关。建议：可作为定投加仓的参考信号，但不宜单条消息驱动大笔交易。等待更多利多信号共振。"
       },
       {
         "title": "8月10日集合竞价：宝鼎科技、百花医药5连板",
@@ -375,7 +362,7 @@
     ]
   },
   "159995": {
-    "updatedAt": "2026-08-10T03:29:15.327Z",
+    "updatedAt": "2026-08-10T03:58:51.762Z",
     "sentiment": "中性",
     "totalNews": 2,
     "positive": 0,
@@ -412,27 +399,14 @@
     ]
   },
   "510300": {
-    "updatedAt": "2026-08-10T03:29:15.327Z",
-    "sentiment": "正面偏多",
-    "totalNews": 2,
-    "positive": 1,
+    "updatedAt": "2026-08-10T03:58:51.762Z",
+    "sentiment": "中性",
+    "totalNews": 1,
+    "positive": 0,
     "negative": 0,
     "neutral": 1,
-    "reasoning": "共2条相关资讯，其中1条偏正面。综合评分最高的前几条指向基本面改善信号，整体偏积极。",
+    "reasoning": "共1条相关资讯，信号方向不明确（正0/负0/中1），建议持续观察等待更明确的信号。",
     "articles": [
-      {
-        "title": "医药基金大幅“回血” 公募持仓降至冰点后迎市场反弹",
-        "summary": "",
-        "url": "https://finance.eastmoney.com/a/202608103836014094.html",
-        "source": "东方财富",
-        "time": "08-10",
-        "score": 63,
-        "direction": "利好",
-        "relevance": 70,
-        "recency": 100,
-        "importance": 15,
-        "analysis": "【轻度利好】沪深300ETF。信号：「反弹」。该消息与该ETF底层资产直接相关。建议：可作为定投加仓的参考信号，但不宜单条消息驱动大笔交易。等待更多利多信号共振。"
-      },
       {
         "title": "苹果被曝正测试长鑫存储芯片 用于在中国市场销售的设备",
         "summary": "",
@@ -449,7 +423,7 @@
     ]
   },
   "510500": {
-    "updatedAt": "2026-08-10T03:29:15.327Z",
+    "updatedAt": "2026-08-10T03:58:51.762Z",
     "sentiment": "正面偏多",
     "totalNews": 5,
     "positive": 1,
@@ -525,7 +499,7 @@
     ]
   },
   "512480": {
-    "updatedAt": "2026-08-10T03:29:15.327Z",
+    "updatedAt": "2026-08-10T03:58:51.763Z",
     "sentiment": "中性",
     "totalNews": 7,
     "positive": 0,
@@ -627,7 +601,7 @@
     ]
   },
   "512660": {
-    "updatedAt": "2026-08-10T03:29:15.327Z",
+    "updatedAt": "2026-08-10T03:58:51.763Z",
     "sentiment": "中性",
     "totalNews": 0,
     "positive": 0,
@@ -637,7 +611,7 @@
     "articles": []
   },
   "512690": {
-    "updatedAt": "2026-08-10T03:29:15.328Z",
+    "updatedAt": "2026-08-10T03:58:51.763Z",
     "sentiment": "正面偏多",
     "totalNews": 2,
     "positive": 1,
@@ -674,17 +648,31 @@
     ]
   },
   "512800": {
-    "updatedAt": "2026-08-10T03:29:15.328Z",
+    "updatedAt": "2026-08-10T03:58:51.763Z",
     "sentiment": "中性",
-    "totalNews": 0,
+    "totalNews": 1,
     "positive": 0,
     "negative": 0,
-    "neutral": 0,
-    "reasoning": "共0条相关资讯，信号方向不明确（正0/负0/中0），建议持续观察等待更明确的信号。",
-    "articles": []
+    "neutral": 1,
+    "reasoning": "共1条相关资讯，信号方向不明确（正0/负0/中1），建议持续观察等待更明确的信号。",
+    "articles": [
+      {
+        "title": "兴业银行郑州分行：深耕“六张网”建设，综合金融赋能城市新基建",
+        "summary": "",
+        "url": "https://finance.eastmoney.com/a/202608103836425098.html",
+        "source": "东方财富",
+        "time": "08-10",
+        "score": 58,
+        "direction": "中性",
+        "relevance": 70,
+        "recency": 100,
+        "importance": 0,
+        "analysis": "【行业动态】该消息与银行ETF有一定关联，但信号不明确。建议：关注行业趋势发展，可作为定投节奏的参考。"
+      }
+    ]
   },
   "513060": {
-    "updatedAt": "2026-08-10T03:29:15.328Z",
+    "updatedAt": "2026-08-10T03:58:51.763Z",
     "sentiment": "中性",
     "totalNews": 2,
     "positive": 0,
@@ -721,7 +709,7 @@
     ]
   },
   "513500": {
-    "updatedAt": "2026-08-10T03:29:15.329Z",
+    "updatedAt": "2026-08-10T03:58:51.765Z",
     "sentiment": "中性",
     "totalNews": 4,
     "positive": 0,
@@ -784,7 +772,7 @@
     ]
   },
   "515790": {
-    "updatedAt": "2026-08-10T03:29:15.329Z",
+    "updatedAt": "2026-08-10T03:58:51.766Z",
     "sentiment": "中性",
     "totalNews": 0,
     "positive": 0,
@@ -794,7 +782,7 @@
     "articles": []
   },
   "516160": {
-    "updatedAt": "2026-08-10T03:29:15.329Z",
+    "updatedAt": "2026-08-10T03:58:51.766Z",
     "sentiment": "中性",
     "totalNews": 1,
     "positive": 0,
@@ -818,7 +806,7 @@
     ]
   },
   "518880": {
-    "updatedAt": "2026-08-10T03:29:15.329Z",
+    "updatedAt": "2026-08-10T03:58:51.766Z",
     "sentiment": "正面偏多",
     "totalNews": 6,
     "positive": 1,
@@ -907,7 +895,7 @@
     ]
   },
   "561380": {
-    "updatedAt": "2026-08-10T03:29:15.329Z",
+    "updatedAt": "2026-08-10T03:58:51.766Z",
     "sentiment": "中性",
     "totalNews": 1,
     "positive": 0,
@@ -931,27 +919,14 @@
     ]
   },
   "563360": {
-    "updatedAt": "2026-08-10T03:29:15.330Z",
-    "sentiment": "正面偏多",
-    "totalNews": 2,
-    "positive": 1,
+    "updatedAt": "2026-08-10T03:58:51.766Z",
+    "sentiment": "中性",
+    "totalNews": 1,
+    "positive": 0,
     "negative": 0,
     "neutral": 1,
-    "reasoning": "共2条相关资讯，其中1条偏正面。综合评分最高的前几条指向基本面改善信号，整体偏积极。",
+    "reasoning": "共1条相关资讯，信号方向不明确（正0/负0/中1），建议持续观察等待更明确的信号。",
     "articles": [
-      {
-        "title": "医药基金大幅“回血” 公募持仓降至冰点后迎市场反弹",
-        "summary": "",
-        "url": "https://finance.eastmoney.com/a/202608103836014094.html",
-        "source": "东方财富",
-        "time": "08-10",
-        "score": 63,
-        "direction": "利好",
-        "relevance": 70,
-        "recency": 100,
-        "importance": 15,
-        "analysis": "【轻度利好】中证A500ETF。信号：「反弹」。该消息与该ETF底层资产直接相关。建议：可作为定投加仓的参考信号，但不宜单条消息驱动大笔交易。等待更多利多信号共振。"
-      },
       {
         "title": "苹果被曝正测试长鑫存储芯片 用于在中国市场销售的设备",
         "summary": "",
@@ -968,27 +943,13 @@
     ]
   },
   "588000": {
-    "updatedAt": "2026-08-10T03:29:15.330Z",
+    "updatedAt": "2026-08-10T03:58:51.768Z",
     "sentiment": "中性",
-    "totalNews": 1,
+    "totalNews": 0,
     "positive": 0,
     "negative": 0,
-    "neutral": 1,
-    "reasoning": "共1条相关资讯，信号方向不明确（正0/负0/中1），建议持续观察等待更明确的信号。",
-    "articles": [
-      {
-        "title": "宇树科技今日申购；中国央行连续第21个月增持黄金丨盘前情报",
-        "summary": "",
-        "url": "https://finance.eastmoney.com/a/202608103836063141.html",
-        "source": "东方财富",
-        "time": "08-10",
-        "score": 61,
-        "direction": "中性",
-        "relevance": 50,
-        "recency": 100,
-        "importance": 35,
-        "analysis": "【背景信息】科创50ETF的相关市场动态。不构成明确方向判断，了解即可。"
-      }
-    ]
+    "neutral": 0,
+    "reasoning": "共0条相关资讯，信号方向不明确（正0/负0/中0），建议持续观察等待更明确的信号。",
+    "articles": []
   }
 }
