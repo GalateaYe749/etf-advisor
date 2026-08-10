@@ -742,11 +742,12 @@ function renderDash(){
   document.getElementById('etf-cards').innerHTML=G.etfs.map(e=>{
     const ss=e.shortSignal;let sig='',sc='';
     if(ss?.signal?.includes('买入')){sig=ss.signal;sc='buy';}else if(ss?.signal?.includes('卖出')){sig=ss.signal;sc='sell';}else if(ss?.signal!=='数据不足'){sig=ss.signal;sc='neu';}
+    const id=e.intraday;
     return`<div class="etf-card" onclick="switchETF('${e.code}')">
       <div class="eh"><div class="en">${e.name} <span class="ec">${e.code}</span></div></div>
       ${sig?`<div class="etf-sig ${sc}">${sig}</div>`:''}
-      <div class="ev">${e.nav?F(e.nav,4):'--'}</div>
-      <div class="er">${e.returns?Object.entries(e.returns).slice(0,4).map(([k,v])=>`<div class="er-item"><div class="er-val ${C(v)}">${P(v)}</div><div class="er-lbl">${k}</div></div>`).join(''):''}</div>
+      <div class="ev ${id&&id.price?C(id.changePct):''}">${id&&id.price?F(id.price,3):(e.nav?F(e.nav,4):'--')}</div>
+      <div class="er">${id&&id.price?`<div class="er-item"><div class="er-val ${C(id.changePct)}">${P(id.changePct)}</div><div class="er-lbl">今日</div></div>`:''}${e.returns?Object.entries(e.returns).slice(0,4).map(([k,v])=>`<div class="er-item"><div class="er-val ${C(v)}">${P(v)}</div><div class="er-lbl">${k}</div></div>`).join(''):''}</div>
       <div class="et"><span class="tag pink">${e.type}</span>${(e.tags||[]).slice(0,2).map(t=>`<span class="tag">${t}</span>`).join('')}${e.drawdownFromHigh?`<span class="tag pink">回撤${Math.abs(e.drawdownFromHigh)}%</span>`:''}</div>
     </div>`;
   }).join('');
@@ -787,7 +788,7 @@ function renderETFDetail(){
   document.getElementById('etf-detail').innerHTML=`
     <div class="card" style="margin-bottom:14px;"><h3>${e.name} · ${e.code}</h3>
       <div style="display:flex;gap:24px;margin-top:10px;flex-wrap:wrap;align-items:flex-end;">
-        <div><div class="idx-price">${e.nav?F(e.nav,4):'--'}</div><div style="font-size:10px;color:var(--dim-cyan);margin-top:4px;letter-spacing:.5px;">最新净值 · ${e.navDate||''}</div></div>
+        ${e.intraday&&e.intraday.price?`<div><div class="idx-price ${C(e.intraday.changePct)}">${F(e.intraday.price,3)} <span style="font-size:14px;">${P(e.intraday.changePct)}</span></div><div style="font-size:10px;color:var(--dim-cyan);margin-top:4px;letter-spacing:.5px;">场内实时 · ${(e.intraday.time||'').slice(11,16)}</div></div>`:`<div><div class="idx-price">${e.nav?F(e.nav,4):'--'}</div><div style="font-size:10px;color:var(--dim-cyan);margin-top:4px;letter-spacing:.5px;">最新净值 · ${e.navDate||''}</div></div>`}
         ${e.drawdownFromHigh?`<div><span style="font-size:24px;font-weight:700;color:var(--pink);">${e.drawdownFromHigh}%</span><div style="font-size:10px;color:var(--dim-pink);margin-top:4px;letter-spacing:.5px;">年内回撤</div></div>`:''}
         ${e.volatility30d?`<div><span style="font-size:24px;font-weight:700;color:var(--warn);">${e.volatility30d}%</span><div style="font-size:10px;color:var(--dim-cyan);margin-top:4px;letter-spacing:.5px;">波动率</div></div>`:''}
       </div>
