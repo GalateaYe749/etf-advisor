@@ -1422,7 +1422,7 @@ function renderEvol(){
   for(var pk in cur){
     var cv=cur[pk],ov=opt[pk];
     var diff=(cv==ov)?'→':'→';
-    var color=(cv==ov)?'var(--dim-cyan)':(ov<c v?'var(--cyan)':'var(--pink)');
+    var color=(cv==ov)?'var(--dim-cyan)':(ov<cv?'var(--cyan)':'var(--pink)');
     h+='<tr><td style="padding:6px;">'+(labels[pk]||pk)+'</td><td>'+cv+'</td><td style="color:var(--cyan);">'+ov+'</td><td style="color:'+color+';">'+diff+'</td></tr>';
   }
   h+='</table></div>';
