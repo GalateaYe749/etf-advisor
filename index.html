@@ -1080,14 +1080,14 @@ function renderWiki(){
 function renderLong(){
   if(!G.dual)return;
   document.getElementById('long-load').style.display='none';document.getElementById('long-content').style.display='block';
-  const a=G.dual.longTerm||{cash:G.dual.totalCapital?G.dual.totalCapital*0.70:7000,holdings:[],trades:[],snapshots:[]},v=calcAcc(a);
+  const a=G.dual.longTerm||{cash:(a.snapshots&&a.snapshots.length?a.snapshots[0].totalValue||7000:7000),holdings:[],trades:[],snapshots:[]},v=calcAcc(a);
   document.getElementById('lt-total').textContent='¥'+F(v.totalValue);
   document.getElementById('lt-cash').textContent='¥'+F(v.cash);
   document.getElementById('lt-hv').textContent='¥'+F(v.holdingsValue);
   document.getElementById('lt-pnl').innerHTML=`<span class="${C(v.pnlPct)}">${P(v.pnlPct)}</span>`;
   const hl=document.getElementById('long-holdings');
   if(!a.holdings?.length)hl.innerHTML='<div class="empty">空仓中，等待定投入场信号</div>';
-  else hl.innerHTML=a.holdings.map(h=>{const e=G.etfs?.find(x=>x.code===h.etf);const cv=e?h.shares*e.nav:0;const hp=cv-h.shares*h.cost;return`<div class="action-item"><div class="ai">◆</div><div style="flex:1;"><div class="an">${e?.name||h.etf}</div><div class="ar">${h.shares} 份 · 成本 ¥${F(h.cost,4)} · 现价 ¥${e?F(e.nav,4):'--'}</div></div><span class="badge ${hp>=0?'up':'down'}">${P(hp/h.shares/h.cost*100)}</span></div>`}).join('');
+  else hl.innerHTML=a.holdings.map(h=>{const e=G.etfs?.find(x=>x.code===h.etf);const px=e?.intraday?.price||e?.nav||0;const cv=h.shares*px;const hp=cv-h.shares*h.cost;return`<div class="action-item"><div class="ai">◆</div><div style="flex:1;"><div class="an">${e?.name||h.etf}</div><div class="ar">${h.shares} 份 · 成本 ¥${F(h.cost,4)} · 现价 ¥${e?.intraday?.price?F(e.intraday.price,3):(e?F(e.nav,4):'--')}</div></div><span class="badge ${hp>=0?'up':'down'}">${P(hp/h.shares/h.cost*100)}</span></div>`}).join('');
   const tl=document.getElementById('long-trades');
   if(!a.trades?.length)tl.innerHTML='<div class="empty">暂无交易记录</div>';
   else tl.innerHTML=a.trades.slice(-15).reverse().map(t=>`<div class="news-item"><span style="font-size:10px;color:var(--dim-cyan)">${t.date}</span> <strong style="margin:0 8px;">${t.action}</strong> ${t.etf} ×${t.shares} @¥${F(t.price,4)}${t.reason?`<div style="font-size:10px;color:var(--dim-cyan);margin-top:3px;">${t.reason}</div>`:''}</div>`).join('');
