@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-09",
+  "date": "2026-08-10",
   "marketStatus": "neutral",
   "longTerm": {
     "summary": "存在长线布局机会，可按计划定投",
@@ -416,12 +416,18 @@
     "longTerm": {
       "cash": 6019.8,
       "holdingsValue": "980.20",
-      "totalValue": "7000.00"
+      "totalValue": "7000.00",
+      "totalCost": "980.20",
+      "pnl": "0.00",
+      "pnlPct": "0.00"
     },
     "shortTerm": {
-      "cash": 3000.0,
+      "cash": 3000,
       "holdingsValue": "0.00",
-      "totalValue": "3000.00"
+      "totalValue": "3000.00",
+      "totalCost": "0.00",
+      "pnl": "0.00",
+      "pnlPct": "0.00"
     },
     "totalValue": "10000.00"
   },
