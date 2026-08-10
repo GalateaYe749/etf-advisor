@@ -701,7 +701,7 @@ function P(n){n=Number(n||0);return(n>=0?'+':'')+F(n,2)+'%';}
 function C(n){return n>=0?'up':'down';}
 function TA(t){if(!t)return'';const d=new Date(t);if(isNaN(d))return String(t).slice(0,16);return d.toLocaleDateString('zh-CN',{month:'short',day:'numeric',hour:'2-digit',minute:'2-digit'});}
 function calcAcc(a){
-  let hv=0;for(const h of(a.holdings||[])){const e=G.etfs?.find(x=>x.code===h.etf);if(e)hv+=h.shares*e.nav;}
+  let hv=0;for(const h of(a.holdings||[])){const e=G.etfs?.find(x=>x.code===h.etf);if(e)hv+=h.shares*(e.intraday&&e.intraday.price?e.intraday.price:e.nav);}
   const tc=(a.holdings||[]).reduce((s,h)=>s+h.shares*h.cost,0);
   return{cash:a.cash,holdingsValue:hv,totalValue:a.cash+hv,totalCost:tc,pnl:hv-tc,pnlPct:tc?(hv/tc-1)*100:0};
 }
@@ -1161,7 +1161,7 @@ function renderReport(){
   var lt = G.dual.longTerm || {cash:G.dual.totalCapital?G.dual.totalCapital*0.70:7000,holdings:[],trades:[],snapshots:[]};
   var st = G.dual.shortTerm || {cash:G.dual.totalCapital?G.dual.totalCapital*0.30:3000,holdings:[],trades:[],snapshots:[]};
   var ltHv=0, stHv=0;
-  function getPrice(code){ var e=G.etfs.find(function(x){return x.code===code}); return e?e.nav:null; }
+  function getPrice(code){ var e=G.etfs.find(function(x){return x.code===code}); return e?(e.intraday&&e.intraday.price?e.intraday.price:e.nav):null; }
   for(var i=0;i<(lt.holdings||[]).length;i++){ var p=getPrice(lt.holdings[i].etf); if(p)ltHv+=lt.holdings[i].shares*p; }
   for(var i=0;i<(st.holdings||[]).length;i++){ var p=getPrice(st.holdings[i].etf); if(p)stHv+=st.holdings[i].shares*p; }
   // 叠加手动交易计算有效持仓
