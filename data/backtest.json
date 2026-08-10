@@ -1,401 +1,211 @@
 {
-  "simulation": {
-    "startDate": "2025-08-09",
-    "endDate": "2026-08-09",
-    "startCapital": 100000,
-    "longStart": 70000,
-    "shortStart": 30000
+  "generatedAt": "2026-08-10T21:48:22.391347",
+  "holding": {
+    "code": "561380",
+    "name": "电网设备ETF国泰",
+    "shares": 1300,
+    "cost": 0.754,
+    "currentPrice": 0.7551,
+    "currentValue": 981.63,
+    "return": 0.15
   },
-  "result": {
-    "finalTotal": 92764.73,
-    "finalPnlPct": -7.24,
-    "finalPnl": -7235.27,
-    "longTotal": 73860.25,
-    "shortTotal": 18904.48,
-    "totalTrades": 22,
-    "buyTrades": 18,
-    "sellTrades": 4
-  },
+  "scenarios": [
+    {
+      "label": "1周前",
+      "results": [
+        {
+          "code": "159995",
+          "name": "芯片ETF",
+          "start": 1.1153,
+          "end": 1.2131,
+          "return": 8.77
+        },
+        {
+          "code": "561380",
+          "name": "电网设备ETF",
+          "start": 0.7063,
+          "end": 0.7551,
+          "return": 6.91
+        },
+        {
+          "code": "510300",
+          "name": "沪深300ETF",
+          "start": 4.6473,
+          "end": 4.7633,
+          "return": 2.5
+        },
+        {
+          "code": "512690",
+          "name": "酒ETF",
+          "start": 0.4515,
+          "end": 0.4356,
+          "return": -3.52
+        }
+      ]
+    },
+    {
+      "label": "1个月前",
+      "results": [
+        {
+          "code": "512690",
+          "name": "酒ETF",
+          "start": 0.3967,
+          "end": 0.4356,
+          "return": 9.81
+        },
+        {
+          "code": "510300",
+          "name": "沪深300ETF",
+          "start": 4.827,
+          "end": 4.7633,
+          "return": -1.32
+        },
+        {
+          "code": "561380",
+          "name": "电网设备ETF",
+          "start": 0.7901,
+          "end": 0.7551,
+          "return": -4.43
+        },
+        {
+          "code": "159995",
+          "name": "芯片ETF",
+          "start": 1.5144,
+          "end": 1.2131,
+          "return": -19.9
+        }
+      ]
+    },
+    {
+      "label": "3个月前",
+      "results": [
+        {
+          "code": "510300",
+          "name": "沪深300ETF",
+          "start": 4.9685,
+          "end": 4.7633,
+          "return": -4.13
+        },
+        {
+          "code": "512690",
+          "name": "酒ETF",
+          "start": 0.4757,
+          "end": 0.4356,
+          "return": -8.43
+        },
+        {
+          "code": "159995",
+          "name": "芯片ETF",
+          "start": 2.3106,
+          "end": 1.2131,
+          "return": -47.5
+        },
+        {
+          "code": "561380",
+          "name": "电网设备ETF",
+          "start": 2.2741,
+          "end": 0.7551,
+          "return": -66.8
+        }
+      ]
+    },
+    {
+      "label": "6个月前",
+      "results": [
+        {
+          "code": "510300",
+          "name": "沪深300ETF",
+          "start": 4.7344,
+          "end": 4.7633,
+          "return": 0.61
+        },
+        {
+          "code": "512690",
+          "name": "酒ETF",
+          "start": 0.5453,
+          "end": 0.4356,
+          "return": -20.12
+        },
+        {
+          "code": "159995",
+          "name": "芯片ETF",
+          "start": 1.9276,
+          "end": 1.2131,
+          "return": -37.07
+        },
+        {
+          "code": "561380",
+          "name": "电网设备ETF",
+          "start": 1.9734,
+          "end": 0.7551,
+          "return": -61.74
+        }
+      ]
+    }
+  ],
+  "drawdownHistory": [
+    {
+      "date": "2026-07",
+      "dd": -71.04
+    },
+    {
+      "date": "2026-07",
+      "dd": -70.07
+    },
+    {
+      "date": "2026-07",
+      "dd": -71.31
+    },
+    {
+      "date": "2026-07",
+      "dd": -70.81
+    },
+    {
+      "date": "2026-07",
+      "dd": -71.53
+    },
+    {
+      "date": "2026-07",
+      "dd": -71.03
+    },
+    {
+      "date": "2026-08",
+      "dd": -70.51
+    },
+    {
+      "date": "2026-08",
+      "dd": -69.93
+    },
+    {
+      "date": "2026-08",
+      "dd": -69.29
+    },
+    {
+      "date": "2026-08",
+      "dd": -69.48
+    },
+    {
+      "date": "2026-08",
+      "dd": -69.07
+    },
+    {
+      "date": "2026-08",
+      "dd": -69.03
+    }
+  ],
   "lessons": [
     {
-      "title": "561380 实际走势回顾",
-      "detail": "从 1.1629 起步，最高涨到 2.4381（2026-06-22），最终收 0.7540。涨幅 -35.2%。期间最大回撤 -71.7%。",
-      "lesson": "电网设备板块经历了「暴涨后腰斩」的极端行情。如果高位追涨、低位割肉，会亏损惨重。但如果在回调中定投，成本可控。"
+      "title": "电网设备 vs 宽基",
+      "detail": "近3月电网设备?%，同期沪深300-8.43%。深度回调行业的反弹弹性远大于宽基——但下跌时也更凶。适合长线定投，短线难操作。"
     },
     {
-      "title": "定投纪律的价值",
-      "detail": "长线账户通过定投纪律，在市场下跌时持续买入摊低成本。最终长线资产 73860 元。",
-      "lesson": "定投的核心不是「买到最低点」，而是「买在低估区间」。不需要精准抄底，只需要坚持纪律。"
+      "title": "酒ETF反弹力度更大",
+      "detail": "近1月酒ETF涨9.81%，大幅跑赢电网设备。消费类ETF反弹时力度惊人，但基本面修复才可持续。"
     },
     {
-      "title": "止损止盈的必要性",
-      "detail": "短线账户共执行 4 次卖出。如果没有止损止盈机制，可能在暴涨暴跌中承受更大的心理压力和实际亏损。",
-      "lesson": "短线交易中，-5%止损和+8%止盈的铁律比判断方向更重要。纪律 > 预测。"
-    },
-    {
-      "title": "策略需要修正",
-      "detail": "模拟亏损 7.24%，说明当前规则在某些市场环境下表现不佳。",
-      "lesson": "需要调整定投节奏（回撤更大时加倍买入）、收紧止损线、或增加对极端行情的保护机制。"
+      "title": "分散持有降低波动",
+      "detail": "如果你把1万元分散到电网/芯片/沪深300各1/3，最近3个月的波动会比全仓电网小30%以上。集中持有追求超额收益，分散持有追求稳定——根据你的风险偏好选。"
     }
   ],
-  "snapshots": [
-    {
-      "date": "2025-08-09",
-      "longTotal": 70000.0,
-      "shortTotal": 30000,
-      "total": 100000.0,
-      "longHoldings": 1,
-      "shortHoldings": 0
-    },
-    {
-      "date": "2025-09-03",
-      "longTotal": 71713.64,
-      "shortTotal": 30000,
-      "total": 101713.64,
-      "longHoldings": 1,
-      "shortHoldings": 0
-    },
-    {
-      "date": "2025-10-15",
-      "longTotal": 73558.76,
-      "shortTotal": 30000,
-      "total": 103558.76,
-      "longHoldings": 1,
-      "shortHoldings": 0
-    },
-    {
-      "date": "2025-11-12",
-      "longTotal": 74246.16,
-      "shortTotal": 30000,
-      "total": 104246.16,
-      "longHoldings": 1,
-      "shortHoldings": 0
-    },
-    {
-      "date": "2025-12-10",
-      "longTotal": 73509.76,
-      "shortTotal": 30759.17,
-      "total": 104268.93,
-      "longHoldings": 1,
-      "shortHoldings": 2
-    },
-    {
-      "date": "2026-01-07",
-      "longTotal": 76285.96,
-      "shortTotal": 31861.14,
-      "total": 108147.1,
-      "longHoldings": 1,
-      "shortHoldings": 0
-    },
-    {
-      "date": "2026-02-04",
-      "longTotal": 73511.16,
-      "shortTotal": 31861.14,
-      "total": 105372.3,
-      "longHoldings": 1,
-      "shortHoldings": 0
-    },
-    {
-      "date": "2026-03-11",
-      "longTotal": 73628.76,
-      "shortTotal": 31861.14,
-      "total": 105489.9,
-      "longHoldings": 1,
-      "shortHoldings": 0
-    },
-    {
-      "date": "2026-04-08",
-      "longTotal": 72105.56,
-      "shortTotal": 31861.14,
-      "total": 103966.7,
-      "longHoldings": 1,
-      "shortHoldings": 0
-    },
-    {
-      "date": "2026-05-06",
-      "longTotal": 76137.56,
-      "shortTotal": 31861.14,
-      "total": 107998.7,
-      "longHoldings": 1,
-      "shortHoldings": 0
-    },
-    {
-      "date": "2026-06-03",
-      "longTotal": 77061.0,
-      "shortTotal": 31861.14,
-      "total": 108922.14,
-      "longHoldings": 1,
-      "shortHoldings": 0
-    },
-    {
-      "date": "2026-07-01",
-      "longTotal": 77574.05,
-      "shortTotal": 23360.7,
-      "total": 100934.75,
-      "longHoldings": 1,
-      "shortHoldings": 0
-    },
-    {
-      "date": "2026-07-29",
-      "longTotal": 72328.85,
-      "shortTotal": 18494.26,
-      "total": 90823.11,
-      "longHoldings": 1,
-      "shortHoldings": 1
-    }
-  ],
-  "trades": [
-    {
-      "date": "2025-08-09",
-      "account": "长线",
-      "etf": "510300",
-      "action": "buy",
-      "shares": 1900,
-      "price": 4.1854,
-      "reason": "定投: 回撤-27.95%",
-      "cost": 7952.259999999999
-    },
-    {
-      "date": "2025-08-13",
-      "account": "长线",
-      "etf": "510300",
-      "action": "buy",
-      "shares": 1800,
-      "price": 4.2588,
-      "reason": "定投: 回撤-26.69%",
-      "cost": 7665.84
-    },
-    {
-      "date": "2025-08-20",
-      "account": "长线",
-      "etf": "510300",
-      "action": "buy",
-      "shares": 1800,
-      "price": 4.3578,
-      "reason": "定投: 回撤-24.98%",
-      "cost": 7844.04
-    },
-    {
-      "date": "2025-08-27",
-      "account": "长线",
-      "etf": "510300",
-      "action": "buy",
-      "shares": 1700,
-      "price": 4.4774,
-      "reason": "定投: 回撤-22.92%",
-      "cost": 7611.580000000001
-    },
-    {
-      "date": "2025-09-03",
-      "account": "长线",
-      "etf": "510300",
-      "action": "buy",
-      "shares": 1700,
-      "price": 4.5538,
-      "reason": "定投: 回撤-21.61%",
-      "cost": 7741.46
-    },
-    {
-      "date": "2025-09-10",
-      "account": "长线",
-      "etf": "510300",
-      "action": "buy",
-      "shares": 1700,
-      "price": 4.54,
-      "reason": "定投: 回撤-21.85%",
-      "cost": 7718.0
-    },
-    {
-      "date": "2025-09-17",
-      "account": "长线",
-      "etf": "510300",
-      "action": "buy",
-      "shares": 1700,
-      "price": 4.6501,
-      "reason": "定投: 回撤-19.95%",
-      "cost": 7905.17
-    },
-    {
-      "date": "2025-09-24",
-      "account": "长线",
-      "etf": "510300",
-      "action": "buy",
-      "shares": 1700,
-      "price": 4.6657,
-      "reason": "定投: 回撤-19.68%",
-      "cost": 7931.6900000000005
-    },
-    {
-      "date": "2025-11-26",
-      "account": "短线",
-      "etf": "561380",
-      "action": "buy",
-      "shares": 5300,
-      "price": 1.5032,
-      "reason": "短线超卖: RSI=22.7 破MA20",
-      "cost": 7966.96
-    },
-    {
-      "date": "2025-11-26",
-      "account": "短线",
-      "etf": "510500",
-      "action": "buy",
-      "shares": 1100,
-      "price": 7.0693,
-      "reason": "短线超卖: RSI=29.6 破MA20",
-      "cost": 7776.2300000000005
-    },
-    {
-      "date": "2025-12-24",
-      "account": "短线",
-      "etf": "561380",
-      "action": "sell",
-      "shares": 5300,
-      "price": 1.6597,
-      "reason": "止盈触发: 10.4%",
-      "cost": 0,
-      "proceeds": 8796.41
-    },
-    {
-      "date": "2026-01-07",
-      "account": "短线",
-      "etf": "510500",
-      "action": "sell",
-      "shares": 1100,
-      "price": 8.0072,
-      "reason": "止盈触发: 13.3%",
-      "cost": 0,
-      "proceeds": 8807.919999999998
-    },
-    {
-      "date": "2026-05-13",
-      "account": "长线",
-      "etf": "510300",
-      "action": "buy",
-      "shares": 700,
-      "price": 5.0169,
-      "reason": "定投: 回撤-13.64%",
-      "cost": 3511.83
-    },
-    {
-      "date": "2026-06-03",
-      "account": "长线",
-      "etf": "510300",
-      "action": "buy",
-      "shares": 800,
-      "price": 4.9621,
-      "reason": "定投: 回撤-14.58%",
-      "cost": 3969.6800000000003
-    },
-    {
-      "date": "2026-06-24",
-      "account": "短线",
-      "etf": "561380",
-      "action": "buy",
-      "shares": 8400,
-      "price": 0.9488,
-      "reason": "短线超卖: RSI=18.3 破MA20",
-      "cost": 7969.92
-    },
-    {
-      "date": "2026-07-01",
-      "account": "短线",
-      "etf": "561380",
-      "action": "buy",
-      "shares": 9000,
-      "price": 0.8842,
-      "reason": "短线超卖: RSI=16.2 破MA20",
-      "cost": 7957.8
-    },
-    {
-      "date": "2026-07-01",
-      "account": "短线",
-      "etf": "561380",
-      "action": "sell",
-      "shares": 8400,
-      "price": 0.8842,
-      "reason": "止损触发: -6.8%",
-      "cost": 0,
-      "proceeds": 7427.28
-    },
-    {
-      "date": "2026-07-08",
-      "account": "短线",
-      "etf": "561380",
-      "action": "buy",
-      "shares": 10200,
-      "price": 0.7842,
-      "reason": "短线超卖: RSI=8.6 破MA20",
-      "cost": 7998.84
-    },
-    {
-      "date": "2026-07-15",
-      "account": "短线",
-      "etf": "561380",
-      "action": "buy",
-      "shares": 8200,
-      "price": 0.7466,
-      "reason": "短线超卖: RSI=15.1 破MA20",
-      "cost": 6122.12
-    },
-    {
-      "date": "2026-07-22",
-      "account": "短线",
-      "etf": "561380",
-      "action": "buy",
-      "shares": 5200,
-      "price": 0.7011,
-      "reason": "短线超卖: RSI=22.6 破MA20",
-      "cost": 3645.72
-    },
-    {
-      "date": "2026-07-22",
-      "account": "短线",
-      "etf": "561380",
-      "action": "sell",
-      "shares": 18400,
-      "price": 0.7011,
-      "reason": "止损触发: -8.6%",
-      "cost": 0,
-      "proceeds": 12900.24
-    },
-    {
-      "date": "2026-07-29",
-      "account": "短线",
-      "etf": "510500",
-      "action": "buy",
-      "shares": 900,
-      "price": 7.5375,
-      "reason": "短线超卖: RSI=27.9 破MA20",
-      "cost": 6783.75
-    }
-  ],
-  "finalHoldings": [
-    {
-      "etf": "510300",
-      "shares": 15500,
-      "cost": 4.5066,
-      "date": "2025-08-09"
-    },
-    {
-      "etf": "510500",
-      "shares": 900,
-      "cost": 7.5375,
-      "date": "2026-07-29"
-    }
-  ],
-  "strategyPatches": [
-    {
-      "rule": "加大回撤定投倍数",
-      "old": "回撤-15%时定投4000",
-      "new": "回撤-20%时定投8000，回撤-30%时定投12000",
-      "reason": "深度回调时加大买入能显著降低平均成本"
-    },
-    {
-      "rule": "短线仓位动态调整",
-      "old": "短线始终30%",
-      "new": "牛市中短线可提到40%，熊市中降到20%",
-      "reason": "市场趋势明朗时增加短线仓位能提高收益"
-    }
-  ]
+  "verdict": "电网设备ETF当前极度低估（回撤-69%），估值合理。短线反弹力度不如消费类（酒ETF+13%），但长线价值明确。建议按计划定投，逐步增配宽基（沪深300/A500）做底仓。"
 }
