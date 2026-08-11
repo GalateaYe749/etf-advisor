@@ -7,57 +7,47 @@
     "消费"
   ],
   "tradeMode": "observe",
-  "nav": 0.5756,
-  "navDate": "2026-08-10",
+  "nav": 0.5691,
+  "navDate": "2026-08-11",
   "navHigh": 0.8368,
   "navLow": 0.531,
-  "drawdownFromHigh": "-31.21",
-  "volatility30d": "25.26",
+  "drawdownFromHigh": "-31.99",
+  "volatility30d": "24.25",
   "returns": {
-    "1m": 5.5,
-    "3m": -10.36,
-    "6m": -27.72,
-    "1y": -17.95
+    "1m": 7.18,
+    "3m": -11.52,
+    "6m": -28.53,
+    "1y": -18.3
   },
   "tech": {
     "ma": {
-      "ma5": "0.5724",
-      "ma10": "0.5720",
-      "ma20": "0.5600",
-      "ma60": "0.5722"
+      "ma5": "0.5716",
+      "ma10": "0.5730",
+      "ma20": "0.5616",
+      "ma60": "0.5715"
     },
-    "maArrangement": "多头排列",
-    "distFromMA20": "2.79",
-    "rsi14": "65.5",
+    "maArrangement": "缠绕",
+    "distFromMA20": "1.34",
+    "rsi14": "59.0",
     "macd": {
-      "dif": "0.0036",
-      "dea": "0.0008",
-      "bar": "0.0056",
+      "dif": "0.0034",
+      "dea": "0.0013",
+      "bar": "0.0042",
       "signal": "红柱"
     },
     "bollinger": {
-      "upper": "0.5869",
-      "mid": "0.5600",
-      "lower": "0.5330",
+      "upper": "0.5866",
+      "mid": "0.5616",
+      "lower": "0.5366",
       "position": "轨内"
     }
   },
   "shortSignal": {
     "signal": "⚪ 观望",
-    "strength": 1,
-    "reasons": [
-      "RSI偏强",
-      "高于MA20",
-      "多头排列"
-    ]
+    "strength": 0,
+    "reasons": []
   },
   "trends": [
-    {
-      "x": 1763049600000,
-      "y": 0.8077,
-      "equityReturn": 1.34,
-      "unitMoney": ""
-    },
     {
       "x": 1763136000000,
       "y": 0.7979,
@@ -1131,13 +1121,19 @@
       "y": 0.5756,
       "equityReturn": 1.34,
       "unitMoney": ""
+    },
+    {
+      "x": 1786464000000,
+      "y": 0.5691,
+      "equityReturn": -1.13,
+      "unitMoney": ""
     }
   ],
-  "fetchedAt": "2026-08-11T04:30:05.567Z",
+  "fetchedAt": "2026-08-11T14:02:22.170Z",
   "intraday": {
-    "price": 0.573,
-    "changePct": -0.52,
+    "price": 0.569,
+    "changePct": -1.22,
     "prevClose": 0.576,
-    "time": "2026-08-11T04:04:13.570Z"
+    "time": "2026-08-11T09:03:24.549Z"
   }
 }
