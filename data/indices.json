@@ -3,50 +3,55 @@
     "code": "000001",
     "name": "上证指数",
     "price": 3946.51,
-    "change": 12.42,
-    "changePct": 0.32,
-    "high": null,
-    "low": null,
-    "fetchedAt": "2026-08-12T04:04:21.596Z"
+    "change": "12.42",
+    "changePct": "0.32",
+    "high": 3946.84,
+    "low": 3927.55,
+    "amount": 630617125061.5,
+    "fetchedAt": "2026-08-12T04:12:36.286Z"
   },
   {
     "code": "399001",
     "name": "深证成指",
     "price": 14438.07,
-    "change": 178.63,
-    "changePct": 1.25,
-    "high": null,
-    "low": null,
-    "fetchedAt": "2026-08-12T04:04:21.596Z"
+    "change": "178.63",
+    "changePct": "1.25",
+    "high": 14451.59,
+    "low": 14237.2,
+    "amount": 751279187653.9441,
+    "fetchedAt": "2026-08-12T04:12:44.482Z"
   },
   {
     "code": "000300",
     "name": "沪深300",
     "price": 4693.88,
-    "change": 30.09,
-    "changePct": 0.65,
-    "high": null,
-    "low": null,
-    "fetchedAt": "2026-08-12T04:04:21.596Z"
+    "change": "30.09",
+    "changePct": "0.65",
+    "high": 4695.33,
+    "low": 4657.69,
+    "amount": 358690936911,
+    "fetchedAt": "2026-08-12T04:12:52.762Z"
   },
   {
     "code": "399006",
     "name": "创业板指",
     "price": 3610.65,
-    "change": 61.49,
-    "changePct": 1.73,
-    "high": null,
-    "low": null,
-    "fetchedAt": "2026-08-12T04:04:21.596Z"
+    "change": "61.49",
+    "changePct": "1.73",
+    "high": 3618.22,
+    "low": 3540.95,
+    "amount": 367134419282.74,
+    "fetchedAt": "2026-08-12T04:13:01.307Z"
   },
   {
     "code": "000688",
     "name": "科创50",
     "price": 1745.15,
-    "change": 35.65,
-    "changePct": 2.09,
-    "high": null,
-    "low": null,
-    "fetchedAt": "2026-08-12T04:04:21.596Z"
+    "change": "35.65",
+    "changePct": "2.09",
+    "high": 1747.94,
+    "low": 1709.16,
+    "amount": 66089405058,
+    "fetchedAt": "2026-08-12T04:13:09.686Z"
   }
 ]

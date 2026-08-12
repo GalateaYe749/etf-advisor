@@ -1,39 +1,51 @@
 {
   "date": "2026-08-12",
-  "generatedAt": "2026-08-12T00:15:02.369Z",
+  "generatedAt": "2026-08-12T04:13:13.094Z",
   "marketSnapshot": {
     "indices": [
       {
         "name": "上证指数",
-        "price": 3934.09,
-        "changePct": "-0.82"
+        "price": 3946.51,
+        "changePct": "0.32",
+        "amount": 630617125061.5
       },
       {
         "name": "深证成指",
-        "price": 14259.44,
-        "changePct": "-0.40"
+        "price": 14438.07,
+        "changePct": "1.25",
+        "amount": 751279187653.9441
       },
       {
         "name": "沪深300",
-        "price": 4663.79,
-        "changePct": "-0.81"
+        "price": 4693.88,
+        "changePct": "0.65",
+        "amount": 358690936911
       },
       {
         "name": "创业板指",
-        "price": 3549.16,
-        "changePct": "0.34"
+        "price": 3610.65,
+        "changePct": "1.73",
+        "amount": 367134419282.74
       },
       {
         "name": "科创50",
-        "price": 1709.5,
-        "changePct": "-1.63"
+        "price": 1745.15,
+        "changePct": "2.09",
+        "amount": 66089405058
       }
     ],
+    "turnover": 1381896312715,
+    "turnoverDate": "2026-08-12",
     "notableMovers": [
       {
-        "name": "军工ETF国泰",
-        "code": "512660",
-        "pct": -2.05
+        "name": "芯片ETF华夏",
+        "code": "159995",
+        "pct": 2.36
+      },
+      {
+        "name": "半导体ETF国联安",
+        "code": "512480",
+        "pct": 2.15
       }
     ]
   },
@@ -48,10 +60,10 @@
         "cost": 0.754,
         "date": "2026-08-09",
         "name": "电网设备ETF国泰",
-        "currentPrice": 0.749,
-        "currentValue": 973.7,
-        "pnl": -6.5,
-        "pnlPct": -0.66,
+        "currentPrice": 0.757,
+        "currentValue": 984.1,
+        "pnl": 3.9,
+        "pnlPct": 0.4,
         "personalAdvice": {
           "summary": "电网设备ETF国泰当前回撤69.29%，MACD红柱 RSI 60.8",
           "longTermAction": "坚定持有并分批加仓。回撤69.29%处于极端低估区域，每月可投入¥117。建议在MA20(0.7223)下方加仓",
@@ -61,7 +73,7 @@
         }
       }
     ],
-    "totalValue": 6993.5,
+    "totalValue": 7003.9,
     "recommendations": [
       {
         "etf": "159915",
@@ -410,9 +422,9 @@
   },
   "portfolio": {
     "totalCapital": 10000,
-    "totalValue": 9993.5,
-    "totalPnlPct": -0.07,
-    "longValue": 6993.5,
+    "totalValue": 10003.9,
+    "totalPnlPct": 0.04,
+    "longValue": 7003.9,
     "shortValue": 3000
   },
   "insights": [
@@ -420,7 +432,7 @@
       "level": "neutral",
       "cat": "大盘",
       "for": "both",
-      "text": "沪深300微跌0.81%，横盘震荡"
+      "text": "沪深300微涨0.65%，横盘震荡"
     },
     {
       "level": "warning",
