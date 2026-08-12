@@ -7,58 +7,52 @@
     "新能源"
   ],
   "tradeMode": "observe",
-  "nav": 0.8666,
-  "navDate": "2026-08-11",
+  "nav": 0.8806,
+  "navDate": "2026-08-12",
   "navHigh": 1.1822,
   "navLow": 0.7454,
-  "drawdownFromHigh": "-26.70",
-  "volatility30d": "37.95",
+  "drawdownFromHigh": "-25.51",
+  "volatility30d": "35.41",
   "returns": {
-    "1m": 1.9,
-    "3m": -24.47,
-    "6m": -18.92,
-    "1y": 17.44
+    "1m": 2.92,
+    "3m": -21.97,
+    "6m": -16.82,
+    "1y": 17.71
   },
   "tech": {
     "ma": {
-      "ma5": "0.8588",
-      "ma10": "0.8397",
-      "ma20": "0.8294",
-      "ma60": "0.9551"
+      "ma5": "0.8638",
+      "ma10": "0.8463",
+      "ma20": "0.8309",
+      "ma60": "0.9512"
     },
     "maArrangement": "多头排列",
-    "distFromMA20": "4.49",
-    "rsi14": "61.7",
+    "distFromMA20": "5.98",
+    "rsi14": "60.3",
     "macd": {
-      "dif": "-0.0177",
-      "dea": "-0.0308",
-      "bar": "0.0262",
+      "dif": "-0.0137",
+      "dea": "-0.0274",
+      "bar": "0.0274",
       "signal": "红柱"
     },
     "bollinger": {
-      "upper": "0.8750",
-      "mid": "0.8294",
-      "lower": "0.7838",
+      "upper": "0.8810",
+      "mid": "0.8309",
+      "lower": "0.7808",
       "position": "轨内"
     }
   },
   "shortSignal": {
-    "signal": "🟡 买入观察",
-    "strength": 2,
+    "signal": "⚪ 观望",
+    "strength": 1,
     "reasons": [
       "RSI偏强",
-      "高于MA20",
+      "大幅高于MA20",
       "MACD红柱放大",
       "多头排列"
     ]
   },
   "trends": [
-    {
-      "x": 1763136000000,
-      "y": 1.044,
-      "equityReturn": -1.06,
-      "unitMoney": ""
-    },
     {
       "x": 1763395200000,
       "y": 1.03,
@@ -1132,13 +1126,19 @@
       "y": 0.8666,
       "equityReturn": 0.57,
       "unitMoney": ""
+    },
+    {
+      "x": 1786550400000,
+      "y": 0.8806,
+      "equityReturn": 1.62,
+      "unitMoney": ""
     }
   ],
-  "fetchedAt": "2026-08-12T04:30:06.288Z",
+  "fetchedAt": "2026-08-12T14:02:21.207Z",
   "intraday": {
-    "price": 0.878,
-    "changePct": 1.15,
+    "price": 0.882,
+    "changePct": 1.61,
     "prevClose": 0.868,
-    "time": "2026-08-12T04:04:21.596Z"
+    "time": "2026-08-12T09:01:46.407Z"
   }
 }
