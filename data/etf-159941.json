@@ -7,57 +7,52 @@
     "科技"
   ],
   "tradeMode": "observe",
-  "nav": 1.4966,
-  "navDate": "2026-08-11",
+  "nav": 1.5073,
+  "navDate": "2026-08-12",
   "navHigh": 1.5657,
   "navLow": 1.1929,
-  "drawdownFromHigh": "-4.41",
-  "volatility30d": "23.38",
+  "drawdownFromHigh": "-3.73",
+  "volatility30d": "22.98",
   "returns": {
-    "1m": 0.66,
-    "3m": -0.56,
-    "6m": 11.98,
-    "1y": 19.23
+    "1m": 0.25,
+    "3m": -0.54,
+    "6m": 11.95,
+    "1y": 20.25
   },
   "tech": {
     "ma": {
-      "ma5": "1.4976",
-      "ma10": "1.4693",
-      "ma20": "1.4610",
-      "ma60": "1.4963"
+      "ma5": "1.5002",
+      "ma10": "1.4821",
+      "ma20": "1.4615",
+      "ma60": "1.4969"
     },
     "maArrangement": "多头排列",
-    "distFromMA20": "2.44",
-    "rsi14": "54.6",
+    "distFromMA20": "3.13",
+    "rsi14": "62.6",
     "macd": {
-      "dif": "0.0028",
-      "dea": "-0.0062",
+      "dif": "0.0050",
+      "dea": "-0.0040",
       "bar": "0.0180",
       "signal": "红柱"
     },
     "bollinger": {
-      "upper": "1.5326",
-      "mid": "1.4610",
-      "lower": "1.3895",
+      "upper": "1.5342",
+      "mid": "1.4615",
+      "lower": "1.3888",
       "position": "轨内"
     }
   },
   "shortSignal": {
     "signal": "🟡 买入观察",
-    "strength": 1.5,
+    "strength": 2,
     "reasons": [
+      "RSI偏强",
       "高于MA20",
       "MACD红柱放大",
       "多头排列"
     ]
   },
   "trends": [
-    {
-      "x": 1763136000000,
-      "y": 1.3295,
-      "equityReturn": 0.01,
-      "unitMoney": ""
-    },
     {
       "x": 1763395200000,
       "y": 1.3183,
@@ -1131,13 +1126,19 @@
       "y": 1.4966,
       "equityReturn": -0.31,
       "unitMoney": ""
+    },
+    {
+      "x": 1786550400000,
+      "y": 1.5073,
+      "equityReturn": 0.71,
+      "unitMoney": ""
     }
   ],
-  "fetchedAt": "2026-08-13T04:30:06.622Z",
+  "fetchedAt": "2026-08-13T14:02:37.917Z",
   "intraday": {
-    "price": 1.673,
-    "changePct": 0.3,
+    "price": 1.663,
+    "changePct": -0.3,
     "prevClose": 1.668,
-    "time": "2026-08-13T03:32:30.736Z"
+    "time": "2026-08-13T09:03:47.107Z"
   }
 }
