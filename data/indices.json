@@ -2,67 +2,51 @@
   {
     "code": "000001",
     "name": "上证指数",
-    "price": 3946.68,
-    "change": "12.59",
-    "changePct": "0.32",
-    "high": 3950.62,
-    "low": 3927.55,
-    "amount": 986122393817.1,
-    "fetchedAt": "2026-08-13T00:10:53.354Z"
+    "price": 3946.3,
+    "change": -0.38,
+    "changePct": -0.01,
+    "high": null,
+    "low": null,
+    "fetchedAt": "2026-08-13T01:03:02.120Z"
   },
   {
     "code": "399001",
     "name": "深证成指",
     "price": 14414.43,
-    "change": "154.99",
-    "changePct": "1.09",
-    "high": 14467,
-    "low": 14237.2,
-    "amount": 1166300715998.245,
-    "fetchedAt": "2026-08-13T00:11:01.149Z"
+    "change": 0,
+    "changePct": 0,
+    "high": null,
+    "low": null,
+    "fetchedAt": "2026-08-13T01:03:02.120Z"
   },
   {
     "code": "000300",
     "name": "沪深300",
-    "price": 4690.92,
-    "change": "27.13",
-    "changePct": "0.58",
-    "high": 4700.43,
-    "low": 4657.69,
-    "amount": 575326282008.4,
-    "fetchedAt": "2026-08-13T00:11:08.946Z"
+    "price": 4690.07,
+    "change": -0.85,
+    "changePct": -0.02,
+    "high": null,
+    "low": null,
+    "fetchedAt": "2026-08-13T01:03:02.120Z"
   },
   {
     "code": "399006",
     "name": "创业板指",
     "price": 3602.08,
-    "change": "52.92",
-    "changePct": "1.49",
-    "high": 3625.27,
-    "low": 3540.95,
-    "amount": 564721503052.82,
-    "fetchedAt": "2026-08-13T00:11:16.763Z"
+    "change": 0,
+    "changePct": 0,
+    "high": null,
+    "low": null,
+    "fetchedAt": "2026-08-13T01:03:02.120Z"
   },
   {
     "code": "000688",
     "name": "科创50",
     "price": 1736.99,
-    "change": "27.49",
-    "changePct": "1.61",
-    "high": 1747.94,
-    "low": 1709.16,
-    "amount": 103281012641,
-    "fetchedAt": "2026-08-13T00:11:24.569Z"
-  },
-  {
-    "code": "899050",
-    "name": "北证50",
-    "price": 1115.84,
-    "change": "2.62",
-    "changePct": "0.24",
-    "high": 1118.77,
-    "low": 1107.94,
-    "amount": 14887987686,
-    "fetchedAt": "2026-08-13T00:11:32.361Z"
+    "change": 0,
+    "changePct": 0,
+    "high": null,
+    "low": null,
+    "fetchedAt": "2026-08-13T01:03:02.120Z"
   }
 ]
