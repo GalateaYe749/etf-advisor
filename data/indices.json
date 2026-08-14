@@ -3,50 +3,66 @@
     "code": "000001",
     "name": "上证指数",
     "price": 3918.65,
-    "change": -8.31,
-    "changePct": -0.21,
-    "high": null,
-    "low": null,
-    "fetchedAt": "2026-08-14T04:03:58.765Z"
+    "change": "-8.31",
+    "changePct": "-0.21",
+    "high": 3932.64,
+    "low": 3905.76,
+    "amount": 640115018159,
+    "fetchedAt": "2026-08-14T04:12:26.244Z"
   },
   {
     "code": "399001",
     "name": "深证成指",
     "price": 14300.46,
-    "change": 11.02,
-    "changePct": 0.08,
-    "high": null,
-    "low": null,
-    "fetchedAt": "2026-08-14T04:03:58.765Z"
+    "change": "11.02",
+    "changePct": "0.08",
+    "high": 14384.18,
+    "low": 14232.64,
+    "amount": 747237400560.2861,
+    "fetchedAt": "2026-08-14T04:12:34.401Z"
   },
   {
     "code": "000300",
     "name": "沪深300",
     "price": 4658.48,
-    "change": -5.47,
-    "changePct": -0.12,
-    "high": null,
-    "low": null,
-    "fetchedAt": "2026-08-14T04:03:58.765Z"
+    "change": "-5.47",
+    "changePct": "-0.12",
+    "high": 4676.71,
+    "low": 4643.76,
+    "amount": 347403988324.5,
+    "fetchedAt": "2026-08-14T04:12:42.640Z"
   },
   {
     "code": "399006",
     "name": "创业板指",
     "price": 3609.5,
-    "change": 23.46,
-    "changePct": 0.65,
-    "high": null,
-    "low": null,
-    "fetchedAt": "2026-08-14T04:03:58.765Z"
+    "change": "23.46",
+    "changePct": "0.65",
+    "high": 3633.03,
+    "low": 3588.46,
+    "amount": 358320151867.74,
+    "fetchedAt": "2026-08-14T04:12:50.953Z"
   },
   {
     "code": "000688",
     "name": "科创50",
     "price": 1707.94,
-    "change": -9.81,
-    "changePct": -0.57,
-    "high": null,
-    "low": null,
-    "fetchedAt": "2026-08-14T04:03:58.765Z"
+    "change": "-9.81",
+    "changePct": "-0.57",
+    "high": 1741.35,
+    "low": 1698.81,
+    "amount": 63989522742,
+    "fetchedAt": "2026-08-14T04:12:59.233Z"
+  },
+  {
+    "code": "899050",
+    "name": "北证50",
+    "price": 1088.59,
+    "change": "-9.21",
+    "changePct": "-0.84",
+    "high": 1100.82,
+    "low": 1084.13,
+    "amount": 9077132764,
+    "fetchedAt": "2026-08-14T04:13:07.725Z"
   }
 ]
