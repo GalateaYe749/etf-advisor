@@ -2,67 +2,51 @@
   {
     "code": "000001",
     "name": "上证指数",
-    "price": 3918.65,
-    "change": "-8.31",
-    "changePct": "-0.21",
-    "high": 3932.64,
-    "low": 3905.76,
-    "amount": 640115018159,
-    "fetchedAt": "2026-08-14T04:30:14.852Z"
+    "price": 3908.3,
+    "change": -18.66,
+    "changePct": -0.48,
+    "high": null,
+    "low": null,
+    "fetchedAt": "2026-08-14T05:15:46.176Z"
   },
   {
     "code": "399001",
     "name": "深证成指",
-    "price": 14300.46,
-    "change": "11.02",
-    "changePct": "0.08",
-    "high": 14384.18,
-    "low": 14232.64,
-    "amount": 747237400560.2861,
-    "fetchedAt": "2026-08-14T04:30:23.190Z"
+    "price": 14227.63,
+    "change": -61.81,
+    "changePct": -0.43,
+    "high": null,
+    "low": null,
+    "fetchedAt": "2026-08-14T05:15:46.176Z"
   },
   {
     "code": "000300",
     "name": "沪深300",
-    "price": 4658.48,
-    "change": "-5.47",
-    "changePct": "-0.12",
-    "high": 4676.71,
-    "low": 4643.76,
-    "amount": 347403988324.5,
-    "fetchedAt": "2026-08-14T04:30:31.558Z"
+    "price": 4642.24,
+    "change": -21.71,
+    "changePct": -0.47,
+    "high": null,
+    "low": null,
+    "fetchedAt": "2026-08-14T05:15:46.176Z"
   },
   {
     "code": "399006",
     "name": "创业板指",
-    "price": 3609.5,
-    "change": "23.46",
-    "changePct": "0.65",
-    "high": 3633.03,
-    "low": 3588.46,
-    "amount": 358320151867.74,
-    "fetchedAt": "2026-08-14T04:30:39.605Z"
+    "price": 3588.05,
+    "change": 2.01,
+    "changePct": 0.06,
+    "high": null,
+    "low": null,
+    "fetchedAt": "2026-08-14T05:15:46.176Z"
   },
   {
     "code": "000688",
     "name": "科创50",
-    "price": 1707.94,
-    "change": "-9.81",
-    "changePct": "-0.57",
-    "high": 1741.35,
-    "low": 1698.81,
-    "amount": 63989522742,
-    "fetchedAt": "2026-08-14T04:30:47.665Z"
-  },
-  {
-    "code": "899050",
-    "name": "北证50",
-    "price": 1088.59,
-    "change": "-9.21",
-    "changePct": "-0.84",
-    "high": 1100.82,
-    "low": 1084.13,
-    "amount": 9077132764,
-    "fetchedAt": "2026-08-14T04:30:55.618Z"
+    "price": 1697.82,
+    "change": -19.93,
+    "changePct": -1.16,
+    "high": null,
+    "low": null,
+    "fetchedAt": "2026-08-14T05:15:46.176Z"
   }
 ]
