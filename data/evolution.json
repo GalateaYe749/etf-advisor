@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-08-10T21:48:22.492682",
+  "generatedAt": "2026-08-16T08:01:08.706668",
   "targetETF": "561380 电网设备ETF国泰",
   "totalTests": 192,
   "summary": {
-    "avgPnl": 0.67,
-    "bestPnl": 0.91,
-    "worstPnl": 0.46,
+    "avgPnl": -0.97,
+    "bestPnl": -0.66,
+    "worstPnl": -1.32,
     "bestParams": {
       "stop_loss": -3,
       "take_profit": 5,
-      "long_monthly": 1000,
+      "long_monthly": 500,
       "dd_entry": -15
     }
   },
@@ -22,32 +22,32 @@
   "optimizedStrategy": {
     "stop_loss": -3,
     "take_profit": 5,
-    "long_monthly": 1000,
+    "long_monthly": 500,
     "dd_entry": -15
   },
   "paramImportance": {
     "stop_loss": {
-      "-3": 0.67,
-      "-5": 0.67,
-      "-7": 0.67,
-      "-10": 0.67
+      "-3": -0.97,
+      "-5": -0.97,
+      "-7": -0.97,
+      "-10": -0.97
     },
     "take_profit": {
-      "5": 0.67,
-      "8": 0.67,
-      "12": 0.67,
-      "15": 0.67
+      "5": -0.97,
+      "8": -0.97,
+      "12": -0.97,
+      "15": -0.97
     },
     "long_monthly": {
-      "1000": 0.91,
-      "700": 0.64,
-      "500": 0.46
+      "500": -0.66,
+      "700": -0.93,
+      "1000": -1.32
     },
     "dd_entry": {
-      "-15": 0.67,
-      "-20": 0.67,
-      "-25": 0.67,
-      "-30": 0.67
+      "-15": -0.97,
+      "-20": -0.97,
+      "-25": -0.97,
+      "-30": -0.97
     }
   },
   "topPerforming": [
@@ -55,28 +55,28 @@
       "params": {
         "stop_loss": -3,
         "take_profit": 5,
-        "long_monthly": 1000,
+        "long_monthly": 500,
         "dd_entry": -15
       },
-      "pnlPct": 0.91
+      "pnlPct": -0.66
     },
     {
       "params": {
         "stop_loss": -3,
         "take_profit": 5,
-        "long_monthly": 1000,
+        "long_monthly": 500,
         "dd_entry": -20
       },
-      "pnlPct": 0.91
+      "pnlPct": -0.66
     },
     {
       "params": {
         "stop_loss": -3,
         "take_profit": 5,
-        "long_monthly": 1000,
+        "long_monthly": 500,
         "dd_entry": -25
       },
-      "pnlPct": 0.91
+      "pnlPct": -0.66
     }
   ],
   "worstPerforming": [
@@ -84,28 +84,28 @@
       "params": {
         "stop_loss": -10,
         "take_profit": 15,
-        "long_monthly": 500,
+        "long_monthly": 1000,
         "dd_entry": -20
       },
-      "pnlPct": 0.46
+      "pnlPct": -1.32
     },
     {
       "params": {
         "stop_loss": -10,
         "take_profit": 15,
-        "long_monthly": 500,
+        "long_monthly": 1000,
         "dd_entry": -25
       },
-      "pnlPct": 0.46
+      "pnlPct": -1.32
     },
     {
       "params": {
         "stop_loss": -10,
         "take_profit": 15,
-        "long_monthly": 500,
+        "long_monthly": 1000,
         "dd_entry": -30
       },
-      "pnlPct": 0.46
+      "pnlPct": -1.32
     }
   ],
   "recommendations": []
