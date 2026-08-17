@@ -7,58 +7,52 @@
     "军工"
   ],
   "tradeMode": "observe",
-  "nav": 1.1513,
-  "navDate": "2026-08-14",
+  "nav": 1.1733,
+  "navDate": "2026-08-17",
   "navHigh": 1.6499,
   "navLow": 1.0571,
-  "drawdownFromHigh": "-30.22",
-  "volatility30d": "38.17",
+  "drawdownFromHigh": "-28.89",
+  "volatility30d": "37.83",
   "returns": {
-    "1m": 2.88,
-    "3m": -16.37,
-    "6m": -22.46,
-    "1y": -2.63
+    "1m": 10.64,
+    "3m": -14.89,
+    "6m": -19.93,
+    "1y": 0.57
   },
   "tech": {
     "ma": {
-      "ma5": "1.1544",
-      "ma10": "1.1415",
-      "ma20": "1.1130",
-      "ma60": "1.2085"
+      "ma5": "1.1549",
+      "ma10": "1.1487",
+      "ma20": "1.1188",
+      "ma60": "1.2055"
     },
     "maArrangement": "多头排列",
-    "distFromMA20": "3.44",
-    "rsi14": "60.6",
+    "distFromMA20": "4.87",
+    "rsi14": "73.2",
     "macd": {
-      "dif": "-0.0085",
-      "dea": "-0.0205",
-      "bar": "0.0240",
+      "dif": "-0.0051",
+      "dea": "-0.0175",
+      "bar": "0.0248",
       "signal": "红柱"
     },
     "bollinger": {
-      "upper": "1.1792",
-      "mid": "1.1130",
-      "lower": "1.0469",
+      "upper": "1.1848",
+      "mid": "1.1188",
+      "lower": "1.0529",
       "position": "轨内"
     }
   },
   "shortSignal": {
-    "signal": "🟡 买入观察",
-    "strength": 2,
+    "signal": "⚪ 观望",
+    "strength": -0.5,
     "reasons": [
-      "RSI偏强",
+      "RSI超买",
       "高于MA20",
       "MACD红柱放大",
       "多头排列"
     ]
   },
   "trends": [
-    {
-      "x": 1763568000000,
-      "y": 1.178,
-      "equityReturn": 0.59,
-      "unitMoney": ""
-    },
     {
       "x": 1763654400000,
       "y": 1.1662,
@@ -1132,13 +1126,19 @@
       "y": 1.1513,
       "equityReturn": 0.44,
       "unitMoney": ""
+    },
+    {
+      "x": 1786982400000,
+      "y": 1.1733,
+      "equityReturn": 1.91,
+      "unitMoney": ""
     }
   ],
-  "fetchedAt": "2026-08-17T04:30:04.537Z",
+  "fetchedAt": "2026-08-17T14:02:27.718Z",
   "intraday": {
-    "price": 1.166,
-    "changePct": 1.22,
+    "price": 1.172,
+    "changePct": 1.74,
     "prevClose": 1.152,
-    "time": "2026-08-17T04:03:48.304Z"
+    "time": "2026-08-17T09:18:11.902Z"
   }
 }

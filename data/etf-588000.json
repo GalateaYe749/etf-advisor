@@ -7,55 +7,50 @@
     "硬科技"
   ],
   "tradeMode": "observe",
-  "nav": 1.8134,
-  "navDate": "2026-08-14",
+  "nav": 1.8886,
+  "navDate": "2026-08-17",
   "navHigh": 2.3272,
   "navLow": 1.1695,
-  "drawdownFromHigh": "-22.08",
-  "volatility30d": "65.31",
+  "drawdownFromHigh": "-18.85",
+  "volatility30d": "66.44",
   "returns": {
-    "1m": -6.9,
-    "3m": 0.65,
-    "6m": 18.5,
-    "1y": 64.51
+    "1m": 4.4,
+    "3m": 0.99,
+    "6m": 25.21,
+    "1y": 73.09
   },
   "tech": {
     "ma": {
-      "ma5": "1.8200",
-      "ma10": "1.7868",
-      "ma20": "1.8144",
+      "ma5": "1.8308",
+      "ma10": "1.8118",
+      "ma20": "1.8182",
       "ma60": "1.9247"
     },
     "maArrangement": "缠绕",
-    "distFromMA20": "-0.06",
-    "rsi14": "42.9",
+    "distFromMA20": "3.87",
+    "rsi14": "58.4",
     "macd": {
-      "dif": "-0.0410",
-      "dea": "-0.0525",
-      "bar": "0.0230",
+      "dif": "-0.0319",
+      "dea": "-0.0483",
+      "bar": "0.0328",
       "signal": "红柱"
     },
     "bollinger": {
-      "upper": "1.9889",
-      "mid": "1.8144",
-      "lower": "1.6399",
+      "upper": "1.9956",
+      "mid": "1.8182",
+      "lower": "1.6407",
       "position": "轨内"
     }
   },
   "shortSignal": {
     "signal": "⚪ 观望",
-    "strength": 1,
+    "strength": 0.5,
     "reasons": [
+      "高于MA20",
       "MACD红柱放大"
     ]
   },
   "trends": [
-    {
-      "x": 1763568000000,
-      "y": 1.4123,
-      "equityReturn": -0.96,
-      "unitMoney": ""
-    },
     {
       "x": 1763654400000,
       "y": 1.395,
@@ -1129,13 +1124,19 @@
       "y": 1.8134,
       "equityReturn": -0.01,
       "unitMoney": ""
+    },
+    {
+      "x": 1786982400000,
+      "y": 1.8886,
+      "equityReturn": 4.15,
+      "unitMoney": ""
     }
   ],
-  "fetchedAt": "2026-08-17T04:30:04.056Z",
+  "fetchedAt": "2026-08-17T14:02:26.894Z",
   "intraday": {
-    "price": 1.864,
-    "changePct": 2.76,
+    "price": 1.888,
+    "changePct": 4.08,
     "prevClose": 1.814,
-    "time": "2026-08-17T04:03:48.304Z"
+    "time": "2026-08-17T09:18:11.902Z"
   }
 }
