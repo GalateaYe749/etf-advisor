@@ -7,57 +7,52 @@
     "科技"
   ],
   "tradeMode": "observe",
-  "nav": 1.1315,
-  "navDate": "2026-08-17",
+  "nav": 1.1322,
+  "navDate": "2026-08-18",
   "navHigh": 2.9872,
   "navLow": 0.9224,
-  "drawdownFromHigh": "-62.12",
-  "volatility30d": "78.16",
+  "drawdownFromHigh": "-62.10",
+  "volatility30d": "78.15",
   "returns": {
-    "1m": 5.56,
-    "3m": -46.84,
-    "6m": -28.84,
-    "1y": 6.37
+    "1m": 8.72,
+    "3m": -49.14,
+    "6m": -28.1,
+    "1y": 4.93
   },
   "tech": {
     "ma": {
-      "ma5": "1.0863",
-      "ma10": "1.0647",
-      "ma20": "1.0625",
-      "ma60": "1.6927"
+      "ma5": "1.0991",
+      "ma10": "1.0809",
+      "ma20": "1.0607",
+      "ma60": "1.6725"
     },
     "maArrangement": "多头排列",
-    "distFromMA20": "6.49",
-    "rsi14": "59.7",
+    "distFromMA20": "6.74",
+    "rsi14": "62.2",
     "macd": {
-      "dif": "-0.1149",
-      "dea": "-0.1638",
-      "bar": "0.0978",
+      "dif": "-0.1024",
+      "dea": "-0.1514",
+      "bar": "0.0980",
       "signal": "红柱"
     },
     "bollinger": {
-      "upper": "1.1890",
-      "mid": "1.0625",
-      "lower": "0.9360",
+      "upper": "1.1821",
+      "mid": "1.0607",
+      "lower": "0.9393",
       "position": "轨内"
     }
   },
   "shortSignal": {
     "signal": "⚪ 观望",
-    "strength": 0.5,
+    "strength": 1,
     "reasons": [
+      "RSI偏强",
       "大幅高于MA20",
       "MACD红柱放大",
       "多头排列"
     ]
   },
   "trends": [
-    {
-      "x": 1763654400000,
-      "y": 1.3782,
-      "equityReturn": -1.35,
-      "unitMoney": ""
-    },
     {
       "x": 1763740800000,
       "y": 1.3203,
@@ -1131,13 +1126,19 @@
       "y": 1.1315,
       "equityReturn": 5.12,
       "unitMoney": ""
+    },
+    {
+      "x": 1787068800000,
+      "y": 1.1322,
+      "equityReturn": 0.06,
+      "unitMoney": ""
     }
   ],
-  "fetchedAt": "2026-08-18T04:30:05.183Z",
+  "fetchedAt": "2026-08-18T14:02:23.037Z",
   "intraday": {
-    "price": 1.122,
-    "changePct": -0.88,
+    "price": 1.132,
+    "changePct": 0,
     "prevClose": 1.132,
-    "time": "2026-08-18T04:03:22.544Z"
+    "time": "2026-08-18T09:00:01.707Z"
   }
 }

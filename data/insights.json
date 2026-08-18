@@ -3,7 +3,7 @@
   "insights": [
     {
       "level": "neutral",
-      "text": "沪深300微跌0.79%，横盘震荡",
+      "text": "沪深300微跌0.32%，横盘震荡",
       "cat": "大盘",
       "for": "both"
     },
@@ -14,20 +14,20 @@
       "for": "short"
     },
     {
-      "level": "warning",
-      "text": "创业板ETF易方达 短线信号：【🔴 卖出观察】(RSI超买、大幅高于MA20)",
-      "cat": "159915",
+      "level": "opportunity",
+      "text": "科创50ETF华夏 短线信号：【🟡 买入观察】(高于MA20、MACD红柱放大)",
+      "cat": "588000",
       "for": "short"
     },
     {
       "level": "opportunity",
-      "text": "电网设备ETF国泰 回撤67.94%，长线定投良机",
+      "text": "电网设备ETF国泰 回撤68.11%，长线定投良机",
       "cat": "561380",
       "for": "long"
     },
     {
       "level": "warning",
-      "text": "电网设备ETF国泰 近3月-66.21%，长线持有无需恐慌",
+      "text": "电网设备ETF国泰 近3月-66.56%，长线持有无需恐慌",
       "cat": "561380",
       "for": "long"
     },
@@ -38,41 +38,41 @@
       "for": "short"
     },
     {
-      "level": "warning",
-      "text": "创新药ETF银华 短线信号：【🔴 卖出观察】(RSI超买、大幅高于MA20)",
-      "cat": "159992",
-      "for": "short"
-    },
-    {
       "level": "opportunity",
-      "text": "酒ETF鹏华 回撤31.76%，长线定投良机",
+      "text": "酒ETF鹏华 回撤31.53%，长线定投良机",
       "cat": "512690",
       "for": "long"
     },
     {
       "level": "opportunity",
-      "text": "芯片ETF华夏 回撤62.58%，长线定投良机",
+      "text": "芯片ETF华夏 回撤62.56%，长线定投良机",
       "cat": "159995",
       "for": "long"
     },
     {
       "level": "warning",
-      "text": "芯片ETF华夏 近3月-48.11%，长线持有无需恐慌",
+      "text": "芯片ETF华夏 近3月-50.42%，长线持有无需恐慌",
       "cat": "159995",
       "for": "long"
     },
     {
       "level": "opportunity",
-      "text": "半导体ETF国联安 回撤62.12%，长线定投良机",
+      "text": "半导体ETF国联安 回撤62.1%，长线定投良机",
       "cat": "512480",
       "for": "long"
     },
     {
       "level": "warning",
-      "text": "半导体ETF国联安 近3月-46.84%，长线持有无需恐慌",
+      "text": "半导体ETF国联安 近3月-49.14%，长线持有无需恐慌",
       "cat": "512480",
+      "for": "long"
+    },
+    {
+      "level": "opportunity",
+      "text": "军工ETF国泰 回撤29.18%，长线定投良机",
+      "cat": "512660",
       "for": "long"
     }
   ],
-  "updatedAt": "2026-08-18T04:30:57.843Z"
+  "updatedAt": "2026-08-18T14:03:14.742Z"
 }

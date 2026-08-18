@@ -5,119 +5,127 @@
     "summary": "月预算¥700，12只ETF本月投入",
     "actions": [
       {
+        "etf": "159915",
+        "name": "创业板ETF易方达",
+        "nav": 3.7255,
+        "action": "👀 观察",
+        "reason": "回调仅15.1%，待更深回调再投",
+        "amount": 0
+      },
+      {
         "etf": "588000",
         "name": "科创50ETF华夏",
-        "nav": 1.8886,
+        "nav": 1.8908,
         "action": "👀 观察",
-        "reason": "回调仅18.85%，待更深回调再投",
+        "reason": "回调仅18.75%，待更深回调再投",
         "amount": 0
       },
       {
         "etf": "561380",
         "name": "电网设备ETF国泰",
-        "nav": 0.7816,
+        "nav": 0.7776,
         "action": "🎯 加大定投",
-        "reason": "极度低估67.94%，本月投¥120",
-        "amount": 120
+        "reason": "极度低估68.11%，本月投¥126",
+        "amount": 126
       },
       {
         "etf": "512690",
         "name": "酒ETF鹏华",
-        "nav": 0.4307,
+        "nav": 0.4322,
         "action": "📈 正常定投",
-        "reason": "深度回调31.76%，本月投¥51",
-        "amount": 51
+        "reason": "深度回调31.53%，本月投¥54",
+        "amount": 54
       },
       {
         "etf": "159995",
         "name": "芯片ETF华夏",
-        "nav": 1.2619,
+        "nav": 1.2625,
         "action": "🎯 加大定投",
-        "reason": "极度低估62.58%，本月投¥85",
-        "amount": 85
+        "reason": "极度低估62.56%，本月投¥90",
+        "amount": 90
       },
       {
         "etf": "512480",
         "name": "半导体ETF国联安",
-        "nav": 1.1315,
+        "nav": 1.1322,
         "action": "🎯 加大定投",
-        "reason": "极度低估62.12%，本月投¥85",
-        "amount": 85
+        "reason": "极度低估62.1%，本月投¥90",
+        "amount": 90
       },
       {
         "etf": "512660",
         "name": "军工ETF国泰",
-        "nav": 1.1733,
+        "nav": 1.1684,
         "action": "📈 正常定投",
-        "reason": "深度回调28.89%，本月投¥51",
-        "amount": 51
+        "reason": "深度回调29.18%，本月投¥54",
+        "amount": 54
       },
       {
         "etf": "516160",
         "name": "新能源ETF南方",
-        "nav": 2.6285,
+        "nav": 2.6153,
         "action": "📊 轻仓定投",
-        "reason": "回调22.22%，本月投¥34",
-        "amount": 34
+        "reason": "回调22.61%，本月投¥36",
+        "amount": 36
       },
       {
         "etf": "159869",
         "name": "游戏ETF华夏",
-        "nav": 1.1228,
+        "nav": 1.1095,
         "action": "📈 正常定投",
-        "reason": "深度回调33.48%，本月投¥51",
-        "amount": 51
+        "reason": "深度回调34.26%，本月投¥54",
+        "amount": 54
       },
       {
         "etf": "159928",
         "name": "消费ETF汇添富",
-        "nav": 0.6662,
-        "action": "📈 正常定投",
-        "reason": "深度回调25.13%，本月投¥51",
-        "amount": 51
+        "nav": 0.6721,
+        "action": "📊 轻仓定投",
+        "reason": "回调24.47%，本月投¥36",
+        "amount": 36
       },
       {
         "etf": "515790",
         "name": "光伏ETF华泰柏瑞",
-        "nav": 0.8854,
-        "action": "📈 正常定投",
-        "reason": "深度回调25.11%，本月投¥51",
-        "amount": 51
+        "nav": 0.8903,
+        "action": "📊 轻仓定投",
+        "reason": "回调24.69%，本月投¥36",
+        "amount": 36
       },
       {
         "etf": "159766",
         "name": "旅游ETF富国",
-        "nav": 0.5602,
+        "nav": 0.5583,
         "action": "📈 正常定投",
-        "reason": "深度回调33.05%，本月投¥51",
-        "amount": 51
+        "reason": "深度回调33.28%，本月投¥54",
+        "amount": 54
       },
       {
         "etf": "513060",
         "name": "恒生医疗ETF博时",
-        "nav": 0.5741,
+        "nav": 0.5812,
         "action": "📊 轻仓定投",
-        "reason": "回调23.96%，本月投¥34",
-        "amount": 34
+        "reason": "回调23.02%，本月投¥36",
+        "amount": 36
       },
       {
         "etf": "518880",
         "name": "黄金ETF华安",
-        "nav": 9.0644,
+        "nav": 9.0901,
         "action": "📊 轻仓定投",
-        "reason": "回调23.64%，本月投¥34",
-        "amount": 34
+        "reason": "回调23.43%，本月投¥36",
+        "amount": 36
       }
     ],
     "riskLevel": "中等"
   },
   "shortTerm": {
-    "summary": "多只ETF出现卖出信号，短线建议减仓或空仓",
+    "summary": "2只ETF出现买入信号，可轻仓试多",
     "signals": [
       {
         "etf": "510500",
         "name": "中证500ETF南方",
-        "nav": 8.1986,
+        "nav": 8.1892,
         "signal": "🔴 卖出观察",
         "score": -1.5,
         "reasons": [
@@ -131,7 +139,34 @@
       {
         "etf": "159915",
         "name": "创业板ETF易方达",
-        "nav": 3.7603,
+        "nav": 3.7255,
+        "signal": "⚪ 观望",
+        "score": 1,
+        "reasons": [
+          "RSI偏强",
+          "大幅高于MA20",
+          "MACD红柱放大",
+          "多头排列"
+        ],
+        "action": "观望"
+      },
+      {
+        "etf": "588000",
+        "name": "科创50ETF华夏",
+        "nav": 1.8908,
+        "signal": "🟡 买入观察",
+        "score": 1.5,
+        "reasons": [
+          "高于MA20",
+          "MACD红柱放大",
+          "多头排列"
+        ],
+        "action": "关注入场"
+      },
+      {
+        "etf": "561380",
+        "name": "电网设备ETF国泰",
+        "nav": 0.7776,
         "signal": "🔴 卖出观察",
         "score": -1.5,
         "reasons": [
@@ -143,49 +178,22 @@
         "action": "考虑离场"
       },
       {
-        "etf": "588000",
-        "name": "科创50ETF华夏",
-        "nav": 1.8886,
+        "etf": "159992",
+        "name": "创新药ETF银华",
+        "nav": 0.9191,
         "signal": "⚪ 观望",
-        "score": 0.5,
+        "score": 1,
         "reasons": [
+          "RSI偏强",
           "高于MA20",
-          "MACD红柱放大"
+          "多头排列"
         ],
         "action": "观望"
       },
       {
-        "etf": "561380",
-        "name": "电网设备ETF国泰",
-        "nav": 0.7816,
-        "signal": "🔴 卖出观察",
-        "score": -2.5,
-        "reasons": [
-          "RSI超买",
-          "大幅高于MA20",
-          "MACD红柱放大",
-          "多头排列",
-          "突破布林上轨"
-        ],
-        "action": "考虑离场"
-      },
-      {
-        "etf": "159992",
-        "name": "创新药ETF银华",
-        "nav": 0.9259,
-        "signal": "🔴 卖出观察",
-        "score": -2.5,
-        "reasons": [
-          "RSI超买",
-          "大幅高于MA20",
-          "多头排列"
-        ],
-        "action": "考虑离场"
-      },
-      {
         "etf": "512690",
         "name": "酒ETF鹏华",
-        "nav": 0.4307,
+        "nav": 0.4322,
         "signal": "⚪ 观望",
         "score": 1,
         "reasons": [
@@ -196,22 +204,25 @@
       {
         "etf": "159995",
         "name": "芯片ETF华夏",
-        "nav": 1.2619,
+        "nav": 1.2625,
         "signal": "⚪ 观望",
-        "score": -0.5,
+        "score": 1,
         "reasons": [
+          "RSI偏强",
           "大幅高于MA20",
-          "MACD红柱放大"
+          "MACD红柱放大",
+          "多头排列"
         ],
         "action": "观望"
       },
       {
         "etf": "512480",
         "name": "半导体ETF国联安",
-        "nav": 1.1315,
+        "nav": 1.1322,
         "signal": "⚪ 观望",
-        "score": 0.5,
+        "score": 1,
         "reasons": [
+          "RSI偏强",
           "大幅高于MA20",
           "MACD红柱放大",
           "多头排列"
@@ -221,7 +232,21 @@
       {
         "etf": "512660",
         "name": "军工ETF国泰",
-        "nav": 1.1733,
+        "nav": 1.1684,
+        "signal": "🟡 买入观察",
+        "score": 2,
+        "reasons": [
+          "RSI偏强",
+          "高于MA20",
+          "MACD红柱放大",
+          "多头排列"
+        ],
+        "action": "关注入场"
+      },
+      {
+        "etf": "516160",
+        "name": "新能源ETF南方",
+        "nav": 2.6153,
         "signal": "⚪ 观望",
         "score": -0.5,
         "reasons": [
@@ -233,58 +258,40 @@
         "action": "观望"
       },
       {
-        "etf": "516160",
-        "name": "新能源ETF南方",
-        "nav": 2.6285,
-        "signal": "🔴 卖出观察",
-        "score": -1.5,
-        "reasons": [
-          "RSI超买",
-          "大幅高于MA20",
-          "MACD红柱放大",
-          "多头排列"
-        ],
-        "action": "考虑离场"
-      },
-      {
         "etf": "159869",
         "name": "游戏ETF华夏",
-        "nav": 1.1228,
+        "nav": 1.1095,
         "signal": "⚪ 观望",
         "score": 0,
-        "reasons": [
-          "RSI偏强",
-          "高于MA20"
-        ],
+        "reasons": [],
         "action": "观望"
       },
       {
         "etf": "512800",
         "name": "银行ETF华宝",
-        "nav": 0.796,
-        "signal": "🔴 卖出观察",
-        "score": -1.5,
+        "nav": 0.801,
+        "signal": "⚪ 观望",
+        "score": -1,
         "reasons": [
-          "RSI偏弱",
           "空头排列"
         ],
-        "action": "考虑离场"
+        "action": "观望"
       },
       {
         "etf": "159928",
         "name": "消费ETF汇添富",
-        "nav": 0.6662,
+        "nav": 0.6721,
         "signal": "⚪ 观望",
-        "score": 1,
+        "score": -1,
         "reasons": [
-          "多头排列"
+          "空头排列"
         ],
         "action": "观望"
       },
       {
         "etf": "515790",
         "name": "光伏ETF华泰柏瑞",
-        "nav": 0.8854,
+        "nav": 0.8903,
         "signal": "🔴 卖出观察",
         "score": -1.5,
         "reasons": [
@@ -298,7 +305,7 @@
       {
         "etf": "159766",
         "name": "旅游ETF富国",
-        "nav": 0.5602,
+        "nav": 0.5583,
         "signal": "⚪ 观望",
         "score": 0,
         "reasons": [],
@@ -307,7 +314,7 @@
       {
         "etf": "513060",
         "name": "恒生医疗ETF博时",
-        "nav": 0.5741,
+        "nav": 0.5812,
         "signal": "⚪ 观望",
         "score": 1,
         "reasons": [
@@ -320,7 +327,7 @@
       {
         "etf": "159920",
         "name": "恒生ETF华夏",
-        "nav": 1.5094,
+        "nav": 1.5115,
         "signal": "⚪ 观望",
         "score": -1,
         "reasons": [
@@ -331,12 +338,11 @@
       {
         "etf": "513500",
         "name": "标普500ETF博时",
-        "nav": 2.4976,
+        "nav": 2.4847,
         "signal": "⚪ 观望",
-        "score": -0.5,
+        "score": 0,
         "reasons": [
           "RSI超买",
-          "高于MA20",
           "MACD红柱放大",
           "多头排列"
         ],
@@ -345,7 +351,7 @@
       {
         "etf": "159941",
         "name": "纳指ETF广发",
-        "nav": 1.5227,
+        "nav": 1.52,
         "signal": "⚪ 观望",
         "score": -0.5,
         "reasons": [
@@ -359,7 +365,7 @@
       {
         "etf": "518880",
         "name": "黄金ETF华安",
-        "nav": 9.0644,
+        "nav": 9.0901,
         "signal": "⚪ 观望",
         "score": -0.5,
         "reasons": [
@@ -371,17 +377,17 @@
         "action": "观望"
       }
     ],
-    "riskLevel": "高",
+    "riskLevel": "中等",
     "activeTrades": 0
   },
   "simSummary": {
     "longTerm": {
       "cash": 6019.8,
-      "holdingsValue": "1007.50",
-      "totalValue": "7027.30",
+      "holdingsValue": "1014.00",
+      "totalValue": "7033.80",
       "totalCost": "980.20",
-      "pnl": "27.30",
-      "pnlPct": "2.79"
+      "pnl": "33.80",
+      "pnlPct": "3.45"
     },
     "shortTerm": {
       "cash": 3000,
@@ -391,20 +397,20 @@
       "pnl": "0.00",
       "pnlPct": "0.00"
     },
-    "totalValue": "10027.30"
+    "totalValue": "10033.80"
   },
   "notes": [
-    "[neutral] 沪深300微跌0.79%，横盘震荡",
+    "[neutral] 沪深300微跌0.32%，横盘震荡",
     "[warning] 中证500ETF南方 短线信号：【🔴 卖出观察】(RSI超买、大幅高于MA20)",
-    "[warning] 创业板ETF易方达 短线信号：【🔴 卖出观察】(RSI超买、大幅高于MA20)",
-    "[opportunity] 电网设备ETF国泰 回撤67.94%，长线定投良机",
-    "[warning] 电网设备ETF国泰 近3月-66.21%，长线持有无需恐慌",
+    "[opportunity] 科创50ETF华夏 短线信号：【🟡 买入观察】(高于MA20、MACD红柱放大)",
+    "[opportunity] 电网设备ETF国泰 回撤68.11%，长线定投良机",
+    "[warning] 电网设备ETF国泰 近3月-66.56%，长线持有无需恐慌",
     "[warning] 电网设备ETF国泰 短线信号：【🔴 卖出观察】(RSI超买、大幅高于MA20)",
-    "[warning] 创新药ETF银华 短线信号：【🔴 卖出观察】(RSI超买、大幅高于MA20)",
-    "[opportunity] 酒ETF鹏华 回撤31.76%，长线定投良机",
-    "[opportunity] 芯片ETF华夏 回撤62.58%，长线定投良机",
-    "[warning] 芯片ETF华夏 近3月-48.11%，长线持有无需恐慌",
-    "[opportunity] 半导体ETF国联安 回撤62.12%，长线定投良机",
-    "[warning] 半导体ETF国联安 近3月-46.84%，长线持有无需恐慌"
+    "[opportunity] 酒ETF鹏华 回撤31.53%，长线定投良机",
+    "[opportunity] 芯片ETF华夏 回撤62.56%，长线定投良机",
+    "[warning] 芯片ETF华夏 近3月-50.42%，长线持有无需恐慌",
+    "[opportunity] 半导体ETF国联安 回撤62.1%，长线定投良机",
+    "[warning] 半导体ETF国联安 近3月-49.14%，长线持有无需恐慌",
+    "[opportunity] 军工ETF国泰 回撤29.18%，长线定投良机"
   ]
 }

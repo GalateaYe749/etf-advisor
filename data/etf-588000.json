@@ -7,56 +7,51 @@
     "硬科技"
   ],
   "tradeMode": "observe",
-  "nav": 1.8886,
-  "navDate": "2026-08-17",
+  "nav": 1.8908,
+  "navDate": "2026-08-18",
   "navHigh": 2.3272,
   "navLow": 1.1695,
-  "drawdownFromHigh": "-18.85",
-  "volatility30d": "66.44",
+  "drawdownFromHigh": "-18.75",
+  "volatility30d": "66.41",
   "returns": {
-    "1m": 4.4,
-    "3m": 0.99,
-    "6m": 25.21,
-    "1y": 73.09
+    "1m": 4.32,
+    "3m": -2.02,
+    "6m": 26.24,
+    "1y": 71.25
   },
   "tech": {
     "ma": {
-      "ma5": "1.8308",
-      "ma10": "1.8118",
-      "ma20": "1.8182",
-      "ma60": "1.9247"
+      "ma5": "1.8480",
+      "ma10": "1.8303",
+      "ma20": "1.8124",
+      "ma60": "1.9229"
     },
-    "maArrangement": "缠绕",
-    "distFromMA20": "3.87",
-    "rsi14": "58.4",
+    "maArrangement": "多头排列",
+    "distFromMA20": "4.33",
+    "rsi14": "60.0",
     "macd": {
-      "dif": "-0.0319",
-      "dea": "-0.0483",
-      "bar": "0.0328",
+      "dif": "-0.0242",
+      "dea": "-0.0436",
+      "bar": "0.0388",
       "signal": "红柱"
     },
     "bollinger": {
-      "upper": "1.9956",
-      "mid": "1.8182",
-      "lower": "1.6407",
+      "upper": "1.9715",
+      "mid": "1.8124",
+      "lower": "1.6533",
       "position": "轨内"
     }
   },
   "shortSignal": {
-    "signal": "⚪ 观望",
-    "strength": 0.5,
+    "signal": "🟡 买入观察",
+    "strength": 1.5,
     "reasons": [
       "高于MA20",
-      "MACD红柱放大"
+      "MACD红柱放大",
+      "多头排列"
     ]
   },
   "trends": [
-    {
-      "x": 1763654400000,
-      "y": 1.395,
-      "equityReturn": -1.22,
-      "unitMoney": ""
-    },
     {
       "x": 1763740800000,
       "y": 1.3506,
@@ -1130,13 +1125,19 @@
       "y": 1.8886,
       "equityReturn": 4.15,
       "unitMoney": ""
+    },
+    {
+      "x": 1787068800000,
+      "y": 1.8908,
+      "equityReturn": 0.12,
+      "unitMoney": ""
     }
   ],
-  "fetchedAt": "2026-08-18T04:30:04.697Z",
+  "fetchedAt": "2026-08-18T14:02:22.491Z",
   "intraday": {
-    "price": 1.874,
-    "changePct": -0.74,
+    "price": 1.888,
+    "changePct": 0,
     "prevClose": 1.888,
-    "time": "2026-08-18T04:03:22.544Z"
+    "time": "2026-08-18T09:00:01.707Z"
   }
 }
