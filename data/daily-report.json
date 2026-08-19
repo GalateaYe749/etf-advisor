@@ -1,52 +1,112 @@
 {
   "date": "2026-08-19",
-  "generatedAt": "2026-08-19T00:09:20.621Z",
+  "generatedAt": "2026-08-19T04:11:27.686Z",
   "marketSnapshot": {
     "indices": [
       {
         "name": "上证指数",
-        "price": 3990.3,
-        "changePct": "0.19",
-        "amount": 1135187666395.3
+        "price": 3912.17,
+        "changePct": "-1.96",
+        "amount": 784068944004.9
       },
       {
         "name": "深证成指",
-        "price": 14622.5,
-        "changePct": "-0.56",
-        "amount": 1265587019543.042
+        "price": 14041.76,
+        "changePct": "-3.97",
+        "amount": 834078897720.5403
       },
       {
         "name": "沪深300",
-        "price": 4725.81,
-        "changePct": "-0.32",
-        "amount": 619828730176.5
+        "price": 4611.77,
+        "changePct": "-2.41",
+        "amount": 427282901923.2
       },
       {
         "name": "创业板指",
-        "price": 3705.56,
-        "changePct": "-0.93",
-        "amount": 609636626525.2
+        "price": 3520.97,
+        "changePct": "-4.98",
+        "amount": 407424662543.01
       },
       {
         "name": "科创50",
-        "price": 1790.87,
-        "changePct": "0.11",
-        "amount": 122525786736
+        "price": 1682.2,
+        "changePct": "-6.07",
+        "amount": 83458230105
       },
       {
         "name": "北证50",
-        "price": 1137.89,
-        "changePct": "2.67",
-        "amount": 19142771596
+        "price": 1095.78,
+        "changePct": "-3.70",
+        "amount": 13091321187
       }
     ],
-    "turnover": 2419917457534,
+    "turnover": 1631239162912,
     "turnoverDate": "2026-08-19",
     "notableMovers": [
       {
-        "name": "标普500ETF博时",
-        "code": "513500",
-        "pct": -2.18
+        "name": "沪深300ETF华泰柏瑞",
+        "code": "510300",
+        "pct": -2.38
+      },
+      {
+        "name": "中证500ETF南方",
+        "code": "510500",
+        "pct": -3.73
+      },
+      {
+        "name": "创业板ETF易方达",
+        "code": "159915",
+        "pct": -4.86
+      },
+      {
+        "name": "A500ETF华泰柏瑞",
+        "code": "563360",
+        "pct": -2.78
+      },
+      {
+        "name": "科创50ETF华夏",
+        "code": "588000",
+        "pct": -5.88
+      },
+      {
+        "name": "电网设备ETF国泰",
+        "code": "561380",
+        "pct": -4.36
+      },
+      {
+        "name": "创新药ETF银华",
+        "code": "159992",
+        "pct": -2.39
+      },
+      {
+        "name": "芯片ETF华夏",
+        "code": "159995",
+        "pct": -7.12
+      },
+      {
+        "name": "半导体ETF国联安",
+        "code": "512480",
+        "pct": -6.8
+      },
+      {
+        "name": "军工ETF国泰",
+        "code": "512660",
+        "pct": -4.45
+      },
+      {
+        "name": "新能源ETF南方",
+        "code": "516160",
+        "pct": -2.94
+      },
+      {
+        "name": "游戏ETF华夏",
+        "code": "159869",
+        "pct": -2.16
+      },
+      {
+        "name": "光伏ETF华泰柏瑞",
+        "code": "515790",
+        "pct": -3.82
       }
     ]
   },
@@ -61,10 +121,10 @@
         "cost": 0.754,
         "date": "2026-08-09",
         "name": "电网设备ETF国泰",
-        "currentPrice": 0.78,
-        "currentValue": 1014,
-        "pnl": 33.8,
-        "pnlPct": 3.45,
+        "currentPrice": 0.746,
+        "currentValue": 969.8,
+        "pnl": -10.4,
+        "pnlPct": -1.06,
         "personalAdvice": {
           "summary": "电网设备ETF国泰当前回撤68.11%，MACD红柱 RSI 73.0",
           "longTermAction": "坚定持有并分批加仓。回撤68.11%处于极端低估区域，每月可投入¥126。建议在MA20(0.7356)下方加仓",
@@ -74,7 +134,7 @@
         }
       }
     ],
-    "totalValue": 7033.8,
+    "totalValue": 6989.6,
     "recommendations": [
       {
         "etf": "159915",
@@ -434,17 +494,17 @@
   },
   "portfolio": {
     "totalCapital": 10000,
-    "totalValue": 10033.8,
-    "totalPnlPct": 0.34,
-    "longValue": 7033.8,
+    "totalValue": 9989.6,
+    "totalPnlPct": -0.1,
+    "longValue": 6989.6,
     "shortValue": 3000
   },
   "insights": [
     {
-      "level": "neutral",
+      "level": "bearish",
       "cat": "大盘",
       "for": "both",
-      "text": "沪深300微跌0.32%，横盘震荡"
+      "text": "沪深300跌2.41%，恐慌中长线是机会、短线等企稳"
     },
     {
       "level": "warning",
