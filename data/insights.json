@@ -3,76 +3,76 @@
   "insights": [
     {
       "level": "bearish",
-      "text": "沪深300跌2.41%，恐慌中长线是机会、短线等企稳",
+      "text": "沪深300跌2.9%，恐慌中长线是机会、短线等企稳",
       "cat": "大盘",
       "for": "both"
     },
     {
-      "level": "warning",
-      "text": "中证500ETF南方 短线信号：【🔴 卖出观察】(RSI超买、大幅高于MA20)",
+      "level": "opportunity",
+      "text": "中证500ETF南方 短线信号：【🟡 买入观察】(RSI偏强、MACD红柱放大)",
       "cat": "510500",
       "for": "short"
     },
     {
       "level": "opportunity",
-      "text": "科创50ETF华夏 短线信号：【🟡 买入观察】(高于MA20、MACD红柱放大)",
+      "text": "创业板ETF易方达 回撤20.42%，长线定投良机",
+      "cat": "159915",
+      "for": "long"
+    },
+    {
+      "level": "opportunity",
+      "text": "创业板ETF易方达 短线信号：【🟡 买入观察】(RSI偏强、MACD红柱放大)",
+      "cat": "159915",
+      "for": "short"
+    },
+    {
+      "level": "opportunity",
+      "text": "科创50ETF华夏 回撤24.36%，长线定投良机",
+      "cat": "588000",
+      "for": "long"
+    },
+    {
+      "level": "opportunity",
+      "text": "科创50ETF华夏 短线信号：【🟡 买入观察】(低于MA20、MACD红柱放大)",
       "cat": "588000",
       "for": "short"
     },
     {
       "level": "opportunity",
-      "text": "电网设备ETF国泰 回撤68.11%，长线定投良机",
+      "text": "电网设备ETF国泰 回撤69.77%，长线定投良机",
       "cat": "561380",
       "for": "long"
     },
     {
       "level": "warning",
-      "text": "电网设备ETF国泰 近3月-66.56%，长线持有无需恐慌",
+      "text": "电网设备ETF国泰 近3月-66.7%，长线持有无需恐慌",
       "cat": "561380",
       "for": "long"
     },
     {
-      "level": "warning",
-      "text": "电网设备ETF国泰 短线信号：【🔴 卖出观察】(RSI超买、大幅高于MA20)",
+      "level": "opportunity",
+      "text": "电网设备ETF国泰 短线信号：【🟡 买入观察】(RSI偏强、MACD红柱放大)",
       "cat": "561380",
       "for": "short"
     },
     {
       "level": "opportunity",
-      "text": "酒ETF鹏华 回撤31.53%，长线定投良机",
+      "text": "酒ETF鹏华 回撤32.51%，长线定投良机",
       "cat": "512690",
       "for": "long"
     },
     {
       "level": "opportunity",
-      "text": "芯片ETF华夏 回撤62.56%，长线定投良机",
+      "text": "芯片ETF华夏 回撤65.48%，长线定投良机",
       "cat": "159995",
       "for": "long"
     },
     {
       "level": "warning",
-      "text": "芯片ETF华夏 近3月-50.42%，长线持有无需恐慌",
+      "text": "芯片ETF华夏 近3月-52.84%，长线持有无需恐慌",
       "cat": "159995",
-      "for": "long"
-    },
-    {
-      "level": "opportunity",
-      "text": "半导体ETF国联安 回撤62.1%，长线定投良机",
-      "cat": "512480",
-      "for": "long"
-    },
-    {
-      "level": "warning",
-      "text": "半导体ETF国联安 近3月-49.14%，长线持有无需恐慌",
-      "cat": "512480",
-      "for": "long"
-    },
-    {
-      "level": "opportunity",
-      "text": "军工ETF国泰 回撤29.18%，长线定投良机",
-      "cat": "512660",
       "for": "long"
     }
   ],
-  "updatedAt": "2026-08-19T04:30:59.853Z"
+  "updatedAt": "2026-08-19T14:03:14.629Z"
 }
