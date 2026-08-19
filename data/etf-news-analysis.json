@@ -1,6 +1,6 @@
 {
   "159766": {
-    "updatedAt": "2026-08-19T00:00:57.147Z",
+    "updatedAt": "2026-08-19T00:09:20.593Z",
     "sentiment": "中性",
     "totalNews": 0,
     "positive": 0,
@@ -10,7 +10,7 @@
     "articles": []
   },
   "159869": {
-    "updatedAt": "2026-08-19T00:00:57.147Z",
+    "updatedAt": "2026-08-19T00:09:20.594Z",
     "sentiment": "中性",
     "totalNews": 0,
     "positive": 0,
@@ -20,13 +20,13 @@
     "articles": []
   },
   "159915": {
-    "updatedAt": "2026-08-19T00:00:57.149Z",
+    "updatedAt": "2026-08-19T00:09:20.596Z",
     "sentiment": "正面偏多",
-    "totalNews": 5,
+    "totalNews": 7,
     "positive": 1,
     "negative": 0,
-    "neutral": 4,
-    "reasoning": "共5条相关资讯，其中1条偏正面。综合评分最高的前几条指向基本面改善信号，整体偏积极。",
+    "neutral": 6,
+    "reasoning": "共7条相关资讯，其中1条偏正面。综合评分最高的前几条指向基本面改善信号，整体偏积极。",
     "articles": [
       {
         "title": "宇树科技今日登陆科创板 A股“人形机器人第一股”来了",
@@ -68,6 +68,32 @@
         "analysis": "【轻度利好】创业板ETF易方达。关键词：「加速」。该资讯与创业板ETF易方达有一定关联度。综合评分中等。建议：作为辅助参考信号，不单独据此做出大额交易决策。可结合技术面（RSI/MA均线）共同判断入场时机。（最新资讯，时效性高）"
       },
       {
+        "title": "【新股提示】宇树科技，今日登陆科创板",
+        "summary": "",
+        "url": "https://finance.eastmoney.com/a/202608193845184345.html",
+        "source": "东方财富",
+        "time": "08-19",
+        "score": 58,
+        "direction": "中性",
+        "relevance": 70,
+        "recency": 100,
+        "importance": 0,
+        "analysis": "【行业动态】创业板ETF易方达。该资讯与创业板ETF易方达有一定关联度。该消息方向不明确，但直接涉及该行业。建议：作为背景信息持续跟踪，可能成为后续交易信号的组成部分。（最新资讯，时效性高）"
+      },
+      {
+        "title": "A股“人形机器人第一股”宇树科技今日登陆科创板",
+        "summary": "",
+        "url": "https://finance.eastmoney.com/a/202608193845183086.html",
+        "source": "东方财富",
+        "time": "08-19",
+        "score": 58,
+        "direction": "中性",
+        "relevance": 70,
+        "recency": 100,
+        "importance": 0,
+        "analysis": "【行业动态】创业板ETF易方达。该资讯与创业板ETF易方达有一定关联度。该消息方向不明确，但直接涉及该行业。建议：作为背景信息持续跟踪，可能成为后续交易信号的组成部分。（最新资讯，时效性高）"
+      },
+      {
         "title": "美股收盘：存储芯片、半导体、科技股重挫，SK海力士、闪迪跌超9%，英特尔跌超6%",
         "summary": "",
         "url": "https://finance.eastmoney.com/a/202608193845152010.html",
@@ -96,7 +122,7 @@
     ]
   },
   "159920": {
-    "updatedAt": "2026-08-19T00:00:57.149Z",
+    "updatedAt": "2026-08-19T00:09:20.596Z",
     "sentiment": "中性",
     "totalNews": 0,
     "positive": 0,
@@ -106,7 +132,7 @@
     "articles": []
   },
   "159928": {
-    "updatedAt": "2026-08-19T00:00:57.149Z",
+    "updatedAt": "2026-08-19T00:09:20.596Z",
     "sentiment": "中性",
     "totalNews": 2,
     "positive": 0,
@@ -143,7 +169,7 @@
     ]
   },
   "159941": {
-    "updatedAt": "2026-08-19T00:00:57.149Z",
+    "updatedAt": "2026-08-19T00:09:20.597Z",
     "sentiment": "负面偏空",
     "totalNews": 2,
     "positive": 0,
@@ -180,14 +206,27 @@
     ]
   },
   "159992": {
-    "updatedAt": "2026-08-19T00:00:57.150Z",
-    "sentiment": "中性",
-    "totalNews": 2,
+    "updatedAt": "2026-08-19T00:09:20.597Z",
+    "sentiment": "负面偏空",
+    "totalNews": 3,
     "positive": 0,
-    "negative": 0,
+    "negative": 1,
     "neutral": 2,
-    "reasoning": "共2条相关资讯，信号方向不明确（正0/负0/中2），建议持续观察等待更明确的信号。",
+    "reasoning": "共3条相关资讯，其中1条偏负面。负面信号出现频率较高，需关注相关风险。",
     "articles": [
+      {
+        "title": "20%直线跌停！外围利空突袭！创新药板块发生了什么？",
+        "summary": "",
+        "url": "https://finance.eastmoney.com/a/202608183844371432.html",
+        "source": "东方财富",
+        "time": "08-19",
+        "score": 73,
+        "direction": "利空",
+        "relevance": 70,
+        "recency": 100,
+        "importance": 50,
+        "analysis": "【中等利空】创新药ETF银华。关键词：「利空」。该资讯与创新药ETF银华有一定关联度。风险信号较强。建议：持仓者需评估仓位是否过重，可考虑适当减仓或设更严格的止损线。未持仓者建议观望，等利空因素消化后再评估。（最新资讯，时效性高）"
+      },
       {
         "title": "美股收盘：AI牛股集体重挫 医药、红利、软件板块轮动走强",
         "summary": "",
@@ -217,7 +256,7 @@
     ]
   },
   "159995": {
-    "updatedAt": "2026-08-19T00:00:57.150Z",
+    "updatedAt": "2026-08-19T00:09:20.597Z",
     "sentiment": "中性",
     "totalNews": 8,
     "positive": 1,
@@ -332,7 +371,7 @@
     ]
   },
   "510300": {
-    "updatedAt": "2026-08-19T00:00:57.150Z",
+    "updatedAt": "2026-08-19T00:09:20.597Z",
     "sentiment": "中性",
     "totalNews": 0,
     "positive": 0,
@@ -342,7 +381,7 @@
     "articles": []
   },
   "510500": {
-    "updatedAt": "2026-08-19T00:00:57.150Z",
+    "updatedAt": "2026-08-19T00:09:20.597Z",
     "sentiment": "中性",
     "totalNews": 2,
     "positive": 0,
@@ -379,7 +418,7 @@
     ]
   },
   "512480": {
-    "updatedAt": "2026-08-19T00:00:57.151Z",
+    "updatedAt": "2026-08-19T00:09:20.598Z",
     "sentiment": "中性",
     "totalNews": 8,
     "positive": 1,
@@ -494,17 +533,31 @@
     ]
   },
   "512660": {
-    "updatedAt": "2026-08-19T00:00:57.151Z",
+    "updatedAt": "2026-08-19T00:09:20.598Z",
     "sentiment": "中性",
-    "totalNews": 0,
+    "totalNews": 1,
     "positive": 0,
     "negative": 0,
-    "neutral": 0,
-    "reasoning": "共0条相关资讯，信号方向不明确（正0/负0/中0），建议持续观察等待更明确的信号。",
-    "articles": []
+    "neutral": 1,
+    "reasoning": "共1条相关资讯，信号方向不明确（正0/负0/中1），建议持续观察等待更明确的信号。",
+    "articles": [
+      {
+        "title": "盛景微董事长张永刚：一颗芯片重塑民爆行业安全底座",
+        "summary": "",
+        "url": "https://www.cs.com.cn/ssgs/01/2026/08/18/detail_2026081810031932.html",
+        "source": "中证网",
+        "time": "08-19",
+        "score": 50,
+        "direction": "中性",
+        "relevance": 50,
+        "recency": 100,
+        "importance": 0,
+        "analysis": "【背景信息】军工ETF国泰。该资讯与军工ETF国泰有一定关联度。作为市场背景关注即可。（最新资讯，时效性高）"
+      }
+    ]
   },
   "512690": {
-    "updatedAt": "2026-08-19T00:00:57.151Z",
+    "updatedAt": "2026-08-19T00:09:20.598Z",
     "sentiment": "中性",
     "totalNews": 2,
     "positive": 0,
@@ -541,13 +594,13 @@
     ]
   },
   "512800": {
-    "updatedAt": "2026-08-19T00:00:57.153Z",
+    "updatedAt": "2026-08-19T00:09:20.601Z",
     "sentiment": "正面偏多",
-    "totalNews": 1,
+    "totalNews": 2,
     "positive": 1,
     "negative": 0,
-    "neutral": 0,
-    "reasoning": "共1条相关资讯，其中1条偏正面。综合评分最高的前几条指向基本面改善信号，整体偏积极。",
+    "neutral": 1,
+    "reasoning": "共2条相关资讯，其中1条偏正面。综合评分最高的前几条指向基本面改善信号，整体偏积极。",
     "articles": [
       {
         "title": "Anthropic上市前信贷安排料突破100亿美元 银行借机争夺IPO角色",
@@ -561,11 +614,24 @@
         "recency": 100,
         "importance": 35,
         "analysis": "【中等利好】银行ETF华宝。关键词：「突破」。该资讯与银行ETF华宝有一定关联度。综合评分中等。建议：作为辅助参考信号，不单独据此做出大额交易决策。可结合技术面（RSI/MA均线）共同判断入场时机。（最新资讯，时效性高）"
+      },
+      {
+        "title": "多家银行助力落地全市场首单非金融企业自贸离岸债",
+        "summary": "",
+        "url": "https://www.cs.com.cn/yh/04/2026/08/17/detail_2026081710031720.html",
+        "source": "中证网",
+        "time": "08-19",
+        "score": 58,
+        "direction": "中性",
+        "relevance": 70,
+        "recency": 100,
+        "importance": 0,
+        "analysis": "【行业动态】银行ETF华宝。该资讯与银行ETF华宝有一定关联度。该消息方向不明确，但直接涉及该行业。建议：作为背景信息持续跟踪，可能成为后续交易信号的组成部分。（最新资讯，时效性高）"
       }
     ]
   },
   "513060": {
-    "updatedAt": "2026-08-19T00:00:57.153Z",
+    "updatedAt": "2026-08-19T00:09:20.602Z",
     "sentiment": "中性",
     "totalNews": 1,
     "positive": 0,
@@ -589,7 +655,7 @@
     ]
   },
   "513500": {
-    "updatedAt": "2026-08-19T00:00:57.154Z",
+    "updatedAt": "2026-08-19T00:09:20.602Z",
     "sentiment": "负面偏空",
     "totalNews": 3,
     "positive": 0,
@@ -639,37 +705,7 @@
     ]
   },
   "515790": {
-    "updatedAt": "2026-08-19T00:00:57.154Z",
-    "sentiment": "中性",
-    "totalNews": 0,
-    "positive": 0,
-    "negative": 0,
-    "neutral": 0,
-    "reasoning": "共0条相关资讯，信号方向不明确（正0/负0/中0），建议持续观察等待更明确的信号。",
-    "articles": []
-  },
-  "516160": {
-    "updatedAt": "2026-08-19T00:00:57.157Z",
-    "sentiment": "中性",
-    "totalNews": 0,
-    "positive": 0,
-    "negative": 0,
-    "neutral": 0,
-    "reasoning": "共0条相关资讯，信号方向不明确（正0/负0/中0），建议持续观察等待更明确的信号。",
-    "articles": []
-  },
-  "518880": {
-    "updatedAt": "2026-08-19T00:00:57.157Z",
-    "sentiment": "中性",
-    "totalNews": 0,
-    "positive": 0,
-    "negative": 0,
-    "neutral": 0,
-    "reasoning": "共0条相关资讯，信号方向不明确（正0/负0/中0），建议持续观察等待更明确的信号。",
-    "articles": []
-  },
-  "561380": {
-    "updatedAt": "2026-08-19T00:00:57.157Z",
+    "updatedAt": "2026-08-19T00:09:20.602Z",
     "sentiment": "中性",
     "totalNews": 1,
     "positive": 0,
@@ -677,6 +713,91 @@
     "neutral": 1,
     "reasoning": "共1条相关资讯，信号方向不明确（正0/负0/中1），建议持续观察等待更明确的信号。",
     "articles": [
+      {
+        "title": "二度冲击港股IPO 奥动新能源迎战换电行业精细化变局",
+        "summary": "",
+        "url": "https://www.cs.com.cn/ssgs/01/2026/08/07/detail_2026080710029893.html",
+        "source": "中证网",
+        "time": "08-19",
+        "score": 64,
+        "direction": "中性",
+        "relevance": 85,
+        "recency": 100,
+        "importance": 0,
+        "analysis": "【行业动态】光伏ETF华泰柏瑞。该资讯与光伏ETF华泰柏瑞的底层资产高度相关。涉及标签：光伏、新能源。该消息方向不明确，但直接涉及该行业。建议：作为背景信息持续跟踪，可能成为后续交易信号的组成部分。（最新资讯，时效性高）"
+      }
+    ]
+  },
+  "516160": {
+    "updatedAt": "2026-08-19T00:09:20.602Z",
+    "sentiment": "中性",
+    "totalNews": 1,
+    "positive": 0,
+    "negative": 0,
+    "neutral": 1,
+    "reasoning": "共1条相关资讯，信号方向不明确（正0/负0/中1），建议持续观察等待更明确的信号。",
+    "articles": [
+      {
+        "title": "二度冲击港股IPO 奥动新能源迎战换电行业精细化变局",
+        "summary": "",
+        "url": "https://www.cs.com.cn/ssgs/01/2026/08/07/detail_2026080710029893.html",
+        "source": "中证网",
+        "time": "08-19",
+        "score": 64,
+        "direction": "中性",
+        "relevance": 85,
+        "recency": 100,
+        "importance": 0,
+        "analysis": "【行业动态】新能源ETF南方。该资讯与新能源ETF南方的底层资产高度相关。涉及标签：新能源、光伏。该消息方向不明确，但直接涉及该行业。建议：作为背景信息持续跟踪，可能成为后续交易信号的组成部分。（最新资讯，时效性高）"
+      }
+    ]
+  },
+  "518880": {
+    "updatedAt": "2026-08-19T00:09:20.602Z",
+    "sentiment": "中性",
+    "totalNews": 1,
+    "positive": 0,
+    "negative": 0,
+    "neutral": 1,
+    "reasoning": "共1条相关资讯，信号方向不明确（正0/负0/中1），建议持续观察等待更明确的信号。",
+    "articles": [
+      {
+        "title": "地缘局势重塑定价逻辑 大宗商品“新均衡”进行时",
+        "summary": "",
+        "url": "https://www.cs.com.cn/zzqh2020/2026/08/15/detail_2026081510031548.html",
+        "source": "中证网",
+        "time": "08-19",
+        "score": 58,
+        "direction": "中性",
+        "relevance": 70,
+        "recency": 100,
+        "importance": 0,
+        "analysis": "【行业动态】黄金ETF华安。该资讯与黄金ETF华安有一定关联度。该消息方向不明确，但直接涉及该行业。建议：作为背景信息持续跟踪，可能成为后续交易信号的组成部分。（最新资讯，时效性高）"
+      }
+    ]
+  },
+  "561380": {
+    "updatedAt": "2026-08-19T00:09:20.604Z",
+    "sentiment": "中性",
+    "totalNews": 3,
+    "positive": 0,
+    "negative": 0,
+    "neutral": 3,
+    "reasoning": "共3条相关资讯，信号方向不明确（正0/负0/中3），建议持续观察等待更明确的信号。",
+    "articles": [
+      {
+        "title": "宝光股份：高压主业领跑新型电网 自主锻造国产电力装备硬实力",
+        "summary": "",
+        "url": "https://www.cs.com.cn/ssgs/01/2026/08/18/detail_2026081810031938.html",
+        "source": "中证网",
+        "time": "08-19",
+        "score": 70,
+        "direction": "中性",
+        "relevance": 100,
+        "recency": 100,
+        "importance": 0,
+        "analysis": "【行业动态】电网设备ETF国泰。该资讯与电网设备ETF国泰的底层资产高度相关。涉及标签：电网、电力设备。该消息方向不明确，但直接涉及该行业。建议：作为背景信息持续跟踪，可能成为后续交易信号的组成部分。（最新资讯，时效性高）"
+      },
       {
         "title": "功率半导体又酝酿涨价？AI用电拉动需求 部分企业或10月行动",
         "summary": "",
@@ -689,11 +810,24 @@
         "recency": 100,
         "importance": 0,
         "analysis": "【行业动态】电网设备ETF国泰。该资讯与电网设备ETF国泰的底层资产高度相关。涉及标签：电网、电力设备。该消息方向不明确，但直接涉及该行业。建议：作为背景信息持续跟踪，可能成为后续交易信号的组成部分。（最新资讯，时效性高）"
+      },
+      {
+        "title": "二度冲击港股IPO 奥动新能源迎战换电行业精细化变局",
+        "summary": "",
+        "url": "https://www.cs.com.cn/ssgs/01/2026/08/07/detail_2026080710029893.html",
+        "source": "中证网",
+        "time": "08-19",
+        "score": 64,
+        "direction": "中性",
+        "relevance": 85,
+        "recency": 100,
+        "importance": 0,
+        "analysis": "【行业动态】电网设备ETF国泰。该资讯与电网设备ETF国泰的底层资产高度相关。涉及标签：电网、电力设备。该消息方向不明确，但直接涉及该行业。建议：作为背景信息持续跟踪，可能成为后续交易信号的组成部分。（最新资讯，时效性高）"
       }
     ]
   },
   "563360": {
-    "updatedAt": "2026-08-19T00:00:57.157Z",
+    "updatedAt": "2026-08-19T00:09:20.604Z",
     "sentiment": "中性",
     "totalNews": 0,
     "positive": 0,
@@ -703,13 +837,13 @@
     "articles": []
   },
   "588000": {
-    "updatedAt": "2026-08-19T00:00:57.158Z",
+    "updatedAt": "2026-08-19T00:09:20.604Z",
     "sentiment": "正面偏多",
-    "totalNews": 5,
+    "totalNews": 7,
     "positive": 1,
     "negative": 0,
-    "neutral": 4,
-    "reasoning": "共5条相关资讯，其中1条偏正面。综合评分最高的前几条指向基本面改善信号，整体偏积极。",
+    "neutral": 6,
+    "reasoning": "共7条相关资讯，其中1条偏正面。综合评分最高的前几条指向基本面改善信号，整体偏积极。",
     "articles": [
       {
         "title": "宇树科技今日登陆科创板 A股“人形机器人第一股”来了",
@@ -749,6 +883,32 @@
         "recency": 100,
         "importance": 0,
         "analysis": "【轻度利好】科创50ETF华夏。关键词：「加速」。该资讯与科创50ETF华夏有一定关联度。综合评分中等。建议：作为辅助参考信号，不单独据此做出大额交易决策。可结合技术面（RSI/MA均线）共同判断入场时机。（最新资讯，时效性高）"
+      },
+      {
+        "title": "【新股提示】宇树科技，今日登陆科创板",
+        "summary": "",
+        "url": "https://finance.eastmoney.com/a/202608193845184345.html",
+        "source": "东方财富",
+        "time": "08-19",
+        "score": 58,
+        "direction": "中性",
+        "relevance": 70,
+        "recency": 100,
+        "importance": 0,
+        "analysis": "【行业动态】科创50ETF华夏。该资讯与科创50ETF华夏有一定关联度。该消息方向不明确，但直接涉及该行业。建议：作为背景信息持续跟踪，可能成为后续交易信号的组成部分。（最新资讯，时效性高）"
+      },
+      {
+        "title": "A股“人形机器人第一股”宇树科技今日登陆科创板",
+        "summary": "",
+        "url": "https://finance.eastmoney.com/a/202608193845183086.html",
+        "source": "东方财富",
+        "time": "08-19",
+        "score": 58,
+        "direction": "中性",
+        "relevance": 70,
+        "recency": 100,
+        "importance": 0,
+        "analysis": "【行业动态】科创50ETF华夏。该资讯与科创50ETF华夏有一定关联度。该消息方向不明确，但直接涉及该行业。建议：作为背景信息持续跟踪，可能成为后续交易信号的组成部分。（最新资讯，时效性高）"
       },
       {
         "title": "美股收盘：存储芯片、半导体、科技股重挫，SK海力士、闪迪跌超9%，英特尔跌超6%",
