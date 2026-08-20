@@ -1,6 +1,6 @@
 {
   "date": "2026-08-20",
-  "marketStatus": "bearish",
+  "marketStatus": "neutral",
   "longTerm": {
     "summary": "月预算¥700，14只ETF本月投入",
     "actions": [
@@ -125,7 +125,7 @@
         "amount": 30
       }
     ],
-    "riskLevel": "低（适合建仓）"
+    "riskLevel": "中等"
   },
   "shortTerm": {
     "summary": "8只ETF出现买入信号，可轻仓试多",
@@ -385,11 +385,11 @@
   "simSummary": {
     "longTerm": {
       "cash": 6019.8,
-      "holdingsValue": "958.10",
-      "totalValue": "6977.90",
+      "holdingsValue": "963.30",
+      "totalValue": "6983.10",
       "totalCost": "980.20",
-      "pnl": "-22.10",
-      "pnlPct": "-2.25"
+      "pnl": "-16.90",
+      "pnlPct": "-1.72"
     },
     "shortTerm": {
       "cash": 3000,
@@ -399,10 +399,10 @@
       "pnl": "0.00",
       "pnlPct": "0.00"
     },
-    "totalValue": "9977.90"
+    "totalValue": "9983.10"
   },
   "notes": [
-    "[bearish] 沪深300跌2.9%，恐慌中长线是机会、短线等企稳",
+    "[neutral] 沪深300微涨0.21%，横盘震荡",
     "[opportunity] 中证500ETF南方 短线信号：【🟡 买入观察】(RSI偏强、MACD红柱放大)",
     "[opportunity] 创业板ETF易方达 回撤20.42%，长线定投良机",
     "[opportunity] 创业板ETF易方达 短线信号：【🟡 买入观察】(RSI偏强、MACD红柱放大)",
