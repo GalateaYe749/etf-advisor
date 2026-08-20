@@ -2,67 +2,67 @@
   {
     "code": "000001",
     "name": "上证指数",
-    "price": 3894.75,
-    "change": 0.33,
-    "changePct": 0.01,
+    "price": 3903.72,
+    "change": 9.3,
+    "changePct": 0.24,
     "high": 3925.06,
     "low": 3888.1,
-    "amount": 878169003893.8,
-    "fetchedAt": "2026-08-20T06:16:18.287Z"
+    "amount": 1018568353176.8,
+    "fetchedAt": "2026-08-20T07:32:32.373Z"
   },
   {
     "code": "399001",
     "name": "深证成指",
-    "price": 13915.48,
-    "change": 25.33,
-    "changePct": 0.18,
+    "price": 13972.78,
+    "change": 82.63,
+    "changePct": 0.59,
     "high": 14101.14,
     "low": 13870.18,
-    "amount": 909380537026.2518,
-    "fetchedAt": "2026-08-20T06:16:18.287Z"
+    "amount": 1060794886874.8556,
+    "fetchedAt": "2026-08-20T07:32:32.373Z"
   },
   {
     "code": "000300",
     "name": "沪深300",
-    "price": 4578.63,
-    "change": -10.07,
-    "changePct": -0.22,
+    "price": 4592.75,
+    "change": 4.05,
+    "changePct": 0.09,
     "high": 4631.13,
     "low": 4569.23,
-    "amount": 473749886989.2,
-    "fetchedAt": "2026-08-20T06:16:18.287Z"
+    "amount": 554021067145.1,
+    "fetchedAt": "2026-08-20T07:32:32.373Z"
   },
   {
     "code": "399006",
     "name": "创业板指",
-    "price": 3473.52,
-    "change": 0.03,
-    "changePct": 0,
+    "price": 3495.59,
+    "change": 22.1,
+    "changePct": 0.64,
     "high": 3531.92,
     "low": 3459.57,
-    "amount": 452761214468.7,
-    "fetchedAt": "2026-08-20T06:16:18.287Z"
+    "amount": 525970115141.21,
+    "fetchedAt": "2026-08-20T07:32:32.373Z"
   },
   {
     "code": "000688",
     "name": "科创50",
-    "price": 1645.18,
-    "change": -22.34,
-    "changePct": -1.34,
+    "price": 1652.97,
+    "change": -14.55,
+    "changePct": -0.87,
     "high": 1694.36,
-    "low": 1639.9,
-    "amount": 84661685293,
-    "fetchedAt": "2026-08-20T06:16:18.287Z"
+    "low": 1638.29,
+    "amount": 99785814001,
+    "fetchedAt": "2026-08-20T07:32:32.373Z"
   },
   {
     "code": "899050",
     "name": "北证50",
-    "price": 1080.09,
-    "change": -2.1,
-    "changePct": -0.19,
+    "price": 1081.58,
+    "change": -0.61,
+    "changePct": -0.06,
     "high": 1101.64,
-    "low": 1078.94,
-    "amount": 12430609695,
-    "fetchedAt": "2026-08-20T06:16:18.287Z"
+    "low": 1075.93,
+    "amount": 14662404851,
+    "fetchedAt": "2026-08-20T07:32:32.373Z"
   }
 ]
