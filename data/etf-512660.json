@@ -7,55 +7,47 @@
     "军工"
   ],
   "tradeMode": "observe",
-  "nav": 1.0978,
-  "navDate": "2026-08-20",
+  "nav": 1.107,
+  "navDate": "2026-08-21",
   "navHigh": 1.6499,
   "navLow": 1.0571,
-  "drawdownFromHigh": "-33.46",
-  "volatility30d": "39.15",
+  "drawdownFromHigh": "-32.91",
+  "volatility30d": "34.20",
   "returns": {
-    "1m": 1.34,
-    "3m": -19.17,
-    "6m": -25.21,
-    "1y": -11.61
+    "1m": 0.45,
+    "3m": -19.58,
+    "6m": -24.04,
+    "1y": -10.49
   },
   "tech": {
     "ma": {
-      "ma5": "1.1397",
-      "ma10": "1.1473",
-      "ma20": "1.1237",
-      "ma60": "1.1942"
+      "ma5": "1.1308",
+      "ma10": "1.1426",
+      "ma20": "1.1253",
+      "ma60": "1.1902"
     },
     "maArrangement": "缠绕",
-    "distFromMA20": "-2.30",
-    "rsi14": "51.6",
+    "distFromMA20": "-1.63",
+    "rsi14": "51.2",
     "macd": {
-      "dif": "-0.0089",
-      "dea": "-0.0120",
-      "bar": "0.0062",
+      "dif": "-0.0105",
+      "dea": "-0.0117",
+      "bar": "0.0024",
       "signal": "红柱"
     },
     "bollinger": {
-      "upper": "1.1900",
-      "mid": "1.1237",
-      "lower": "1.0574",
+      "upper": "1.1884",
+      "mid": "1.1253",
+      "lower": "1.0621",
       "position": "轨内"
     }
   },
   "shortSignal": {
     "signal": "⚪ 观望",
-    "strength": 0.5,
-    "reasons": [
-      "低于MA20"
-    ]
+    "strength": 0,
+    "reasons": []
   },
   "trends": [
-    {
-      "x": 1764086400000,
-      "y": 1.1826,
-      "equityReturn": -0.31,
-      "unitMoney": ""
-    },
     {
       "x": 1764172800000,
       "y": 1.1591,
@@ -1129,13 +1121,19 @@
       "y": 1.0978,
       "equityReturn": -0.88,
       "unitMoney": ""
+    },
+    {
+      "x": 1787328000000,
+      "y": 1.107,
+      "equityReturn": 0.84,
+      "unitMoney": ""
     }
   ],
-  "fetchedAt": "2026-08-21T04:30:04.900Z",
+  "fetchedAt": "2026-08-21T14:02:06.963Z",
   "intraday": {
-    "price": 1.104,
-    "changePct": 0.64,
+    "price": 1.107,
+    "changePct": 0.91,
     "prevClose": 1.097,
-    "time": "2026-08-21T04:03:29.409Z"
+    "time": "2026-08-21T09:00:02.509Z"
   }
 }
