@@ -7,55 +7,50 @@
     "创新药"
   ],
   "tradeMode": "observe",
-  "nav": 0.8921,
-  "navDate": "2026-08-21",
+  "nav": 0.8502,
+  "navDate": "2026-08-24",
   "navHigh": 1.0088,
   "navLow": 0.7072,
-  "drawdownFromHigh": "-11.57",
-  "volatility30d": "44.81",
+  "drawdownFromHigh": "-15.72",
+  "volatility30d": "45.90",
   "returns": {
-    "1m": 1.84,
-    "3m": 15.71,
-    "6m": 5.34,
-    "1y": -1.16
+    "1m": 1.17,
+    "3m": 10.57,
+    "6m": 0.72,
+    "1y": -5.63
   },
   "tech": {
     "ma": {
-      "ma5": "0.9139",
-      "ma10": "0.9177",
-      "ma20": "0.8857",
-      "ma60": "0.8256"
+      "ma5": "0.8988",
+      "ma10": "0.9108",
+      "ma20": "0.8852",
+      "ma60": "0.8271"
     },
     "maArrangement": "缠绕",
-    "distFromMA20": "0.72",
-    "rsi14": "62.1",
+    "distFromMA20": "-3.95",
+    "rsi14": "49.3",
     "macd": {
-      "dif": "0.0200",
-      "dea": "0.0210",
-      "bar": "-0.0020",
+      "dif": "0.0142",
+      "dea": "0.0196",
+      "bar": "-0.0108",
       "signal": "绿柱"
     },
     "bollinger": {
-      "upper": "0.9586",
-      "mid": "0.8857",
-      "lower": "0.8127",
+      "upper": "0.9589",
+      "mid": "0.8852",
+      "lower": "0.8115",
       "position": "轨内"
     }
   },
   "shortSignal": {
     "signal": "⚪ 观望",
-    "strength": 0.5,
+    "strength": -0.5,
     "reasons": [
-      "RSI偏强"
+      "低于MA20",
+      "MACD绿柱放大"
     ]
   },
   "trends": [
-    {
-      "x": 1764172800000,
-      "y": 0.8833,
-      "equityReturn": 1.13,
-      "unitMoney": ""
-    },
     {
       "x": 1764259200000,
       "y": 0.8768,
@@ -1129,13 +1124,19 @@
       "y": 0.8921,
       "equityReturn": -4.49,
       "unitMoney": ""
+    },
+    {
+      "x": 1787587200000,
+      "y": 0.8502,
+      "equityReturn": -4.7,
+      "unitMoney": ""
     }
   ],
-  "fetchedAt": "2026-08-24T04:30:04.093Z",
+  "fetchedAt": "2026-08-24T14:02:15.855Z",
   "intraday": {
-    "price": 0.893,
-    "changePct": -4.49,
-    "prevClose": 0.935,
-    "time": "2026-08-21T09:00:02.509Z"
+    "price": 0.85,
+    "changePct": -4.82,
+    "prevClose": 0.893,
+    "time": "2026-08-24T09:00:01.955Z"
   }
 }

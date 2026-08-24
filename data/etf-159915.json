@@ -6,57 +6,49 @@
     "成长"
   ],
   "tradeMode": "both",
-  "nav": 3.5646,
-  "navDate": "2026-08-21",
+  "nav": 3.4503,
+  "navDate": "2026-08-24",
   "navHigh": 4.3879,
   "navLow": 2.6994,
-  "drawdownFromHigh": "-18.76",
-  "volatility30d": "53.05",
+  "drawdownFromHigh": "-21.37",
+  "volatility30d": "52.93",
   "returns": {
-    "1m": -0.96,
-    "3m": -11.62,
-    "6m": 8.89,
-    "1y": 53.59
+    "1m": -1.53,
+    "3m": -14.93,
+    "6m": 4.02,
+    "1y": 49.23
   },
   "tech": {
     "ma": {
-      "ma5": "3.6114",
-      "ma10": "3.6054",
-      "ma20": "3.5287",
-      "ma60": "3.8223"
+      "ma5": "3.5494",
+      "ma10": "3.5948",
+      "ma20": "3.5205",
+      "ma60": "3.8122"
     },
-    "maArrangement": "多头排列",
-    "distFromMA20": "1.02",
-    "rsi14": "63.2",
+    "maArrangement": "缠绕",
+    "distFromMA20": "-1.99",
+    "rsi14": "46.3",
     "macd": {
-      "dif": "-0.0331",
-      "dea": "-0.0515",
-      "bar": "0.0368",
+      "dif": "-0.0412",
+      "dea": "-0.0497",
+      "bar": "0.0170",
       "signal": "红柱"
     },
     "bollinger": {
-      "upper": "3.7825",
-      "mid": "3.5287",
-      "lower": "3.2749",
+      "upper": "3.7733",
+      "mid": "3.5205",
+      "lower": "3.2677",
       "position": "轨内"
     }
   },
   "shortSignal": {
-    "signal": "🟡 买入观察",
-    "strength": 2.5,
+    "signal": "⚪ 观望",
+    "strength": 1,
     "reasons": [
-      "RSI偏强",
-      "MACD红柱放大",
-      "多头排列"
+      "MACD红柱放大"
     ]
   },
   "trends": [
-    {
-      "x": 1764172800000,
-      "y": 3.0257,
-      "equityReturn": 2.14,
-      "unitMoney": ""
-    },
     {
       "x": 1764259200000,
       "y": 3.0125,
@@ -1130,13 +1122,19 @@
       "y": 3.5646,
       "equityReturn": 1.43,
       "unitMoney": ""
+    },
+    {
+      "x": 1787587200000,
+      "y": 3.4503,
+      "equityReturn": -3.21,
+      "unitMoney": ""
     }
   ],
-  "fetchedAt": "2026-08-24T04:30:02.998Z",
+  "fetchedAt": "2026-08-24T14:02:15.260Z",
   "intraday": {
-    "price": 3.56,
-    "changePct": 1.37,
-    "prevClose": 3.512,
-    "time": "2026-08-21T09:00:02.509Z"
+    "price": 3.457,
+    "changePct": -2.89,
+    "prevClose": 3.56,
+    "time": "2026-08-24T09:00:01.955Z"
   }
 }
