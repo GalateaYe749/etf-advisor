@@ -8,57 +8,51 @@
     "互联网"
   ],
   "tradeMode": "observe",
-  "nav": 0.5824,
-  "navDate": "2026-08-24",
+  "nav": 0.5973,
+  "navDate": "2026-08-25",
   "navHigh": 0.755,
   "navLow": 0.4633,
-  "drawdownFromHigh": "-22.86",
-  "volatility30d": "33.64",
+  "drawdownFromHigh": "-20.89",
+  "volatility30d": "32.57",
   "returns": {
-    "1m": 8.13,
-    "3m": 10.64,
-    "6m": -8.99,
-    "1y": -13.2
+    "1m": 11.15,
+    "3m": 14.38,
+    "6m": -6.25,
+    "1y": -11.51
   },
   "tech": {
     "ma": {
-      "ma5": "0.5873",
-      "ma10": "0.5825",
-      "ma20": "0.5635",
-      "ma60": "0.5237"
+      "ma5": "0.5905",
+      "ma10": "0.5839",
+      "ma20": "0.5666",
+      "ma60": "0.5250"
     },
     "maArrangement": "多头排列",
-    "distFromMA20": "3.35",
-    "rsi14": "69.3",
+    "distFromMA20": "5.42",
+    "rsi14": "71.5",
     "macd": {
-      "dif": "0.0159",
-      "dea": "0.0147",
+      "dif": "0.0162",
+      "dea": "0.0150",
       "bar": "0.0024",
       "signal": "红柱"
     },
     "bollinger": {
-      "upper": "0.6104",
-      "mid": "0.5635",
-      "lower": "0.5165",
+      "upper": "0.6139",
+      "mid": "0.5666",
+      "lower": "0.5193",
       "position": "轨内"
     }
   },
   "shortSignal": {
-    "signal": "⚪ 观望",
-    "strength": 1,
+    "signal": "🔴 卖出观察",
+    "strength": -2.5,
     "reasons": [
-      "RSI偏强",
-      "高于MA20",
+      "RSI超买",
+      "大幅高于MA20",
       "多头排列"
     ]
   },
   "trends": [
-    {
-      "x": 1764259200000,
-      "y": 0.6601,
-      "equityReturn": 0.03,
-      "unitMoney": ""
-    },
     {
       "x": 1764345600000,
       "y": 0.6542,
@@ -1132,13 +1126,19 @@
       "y": 0.5824,
       "equityReturn": -2.67,
       "unitMoney": ""
+    },
+    {
+      "x": 1787673600000,
+      "y": 0.5973,
+      "equityReturn": 2.56,
+      "unitMoney": ""
     }
   ],
-  "fetchedAt": "2026-08-25T04:30:05.261Z",
+  "fetchedAt": "2026-08-25T14:01:56.041Z",
   "intraday": {
-    "price": 0.583,
-    "changePct": 1.39,
+    "price": 0.589,
+    "changePct": 2.43,
     "prevClose": 0.575,
-    "time": "2026-08-25T04:03:24.872Z"
+    "time": "2026-08-25T09:00:01.830Z"
   }
 }
