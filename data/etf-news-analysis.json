@@ -1,12 +1,12 @@
 {
   "159766": {
-    "updatedAt": "2026-08-26T00:00:57.703Z",
+    "updatedAt": "2026-08-26T00:10:29.250Z",
     "sentiment": "正面偏多",
-    "totalNews": 3,
+    "totalNews": 2,
     "positive": 1,
     "negative": 0,
-    "neutral": 2,
-    "reasoning": "共3条相关资讯，其中1条偏正面。综合评分最高的前几条指向基本面改善信号，整体偏积极。",
+    "neutral": 1,
+    "reasoning": "共2条相关资讯，其中1条偏正面。综合评分最高的前几条指向基本面改善信号，整体偏积极。",
     "articles": [
       {
         "title": "Waymo将在德国慕尼黑启动自动驾驶测试 计划明年底前正式上线出行服务",
@@ -20,19 +20,6 @@
         "recency": 100,
         "importance": 0,
         "analysis": "【行业动态】旅游ETF富国。该资讯与旅游ETF富国有一定关联度。该消息方向不明确，但直接涉及该行业。建议：作为背景信息持续跟踪，可能成为后续交易信号的组成部分。（最新资讯，时效性高）"
-      },
-      {
-        "title": "上海：促进旅行服务与入境消费融合发展 完善邮轮旅游产业链条",
-        "summary": "",
-        "url": "https://finance.eastmoney.com/a/202608253852989035.html",
-        "source": "东方财富",
-        "time": "08-25",
-        "score": 49,
-        "direction": "中性",
-        "relevance": 100,
-        "recency": 30,
-        "importance": 0,
-        "analysis": "【行业动态】旅游ETF富国。该资讯与旅游ETF富国的底层资产高度相关。涉及标签：旅游、消费。该消息方向不明确，但直接涉及该行业。建议：作为背景信息持续跟踪，可能成为后续交易信号的组成部分。"
       },
       {
         "title": "多重利好共振！旅游酒店集体走强 2026业绩高增长个股来了",
@@ -50,7 +37,7 @@
     ]
   },
   "159869": {
-    "updatedAt": "2026-08-26T00:00:57.703Z",
+    "updatedAt": "2026-08-26T00:10:29.251Z",
     "sentiment": "中性",
     "totalNews": 0,
     "positive": 0,
@@ -60,7 +47,7 @@
     "articles": []
   },
   "159915": {
-    "updatedAt": "2026-08-26T00:00:57.705Z",
+    "updatedAt": "2026-08-26T00:10:29.252Z",
     "sentiment": "中性",
     "totalNews": 4,
     "positive": 0,
@@ -123,7 +110,7 @@
     ]
   },
   "159920": {
-    "updatedAt": "2026-08-26T00:00:57.705Z",
+    "updatedAt": "2026-08-26T00:10:29.252Z",
     "sentiment": "中性",
     "totalNews": 3,
     "positive": 0,
@@ -173,31 +160,17 @@
     ]
   },
   "159928": {
-    "updatedAt": "2026-08-26T00:00:57.706Z",
+    "updatedAt": "2026-08-26T00:10:29.252Z",
     "sentiment": "中性",
-    "totalNews": 1,
+    "totalNews": 0,
     "positive": 0,
     "negative": 0,
-    "neutral": 1,
-    "reasoning": "共1条相关资讯，信号方向不明确（正0/负0/中1），建议持续观察等待更明确的信号。",
-    "articles": [
-      {
-        "title": "上海：促进旅行服务与入境消费融合发展 完善邮轮旅游产业链条",
-        "summary": "",
-        "url": "https://finance.eastmoney.com/a/202608253852989035.html",
-        "source": "东方财富",
-        "time": "08-25",
-        "score": 37,
-        "direction": "中性",
-        "relevance": 70,
-        "recency": 30,
-        "importance": 0,
-        "analysis": "【行业动态】消费ETF汇添富。该资讯与消费ETF汇添富有一定关联度。该消息方向不明确，但直接涉及该行业。建议：作为背景信息持续跟踪，可能成为后续交易信号的组成部分。"
-      }
-    ]
+    "neutral": 0,
+    "reasoning": "共0条相关资讯，信号方向不明确（正0/负0/中0），建议持续观察等待更明确的信号。",
+    "articles": []
   },
   "159941": {
-    "updatedAt": "2026-08-26T00:00:57.706Z",
+    "updatedAt": "2026-08-26T00:10:29.252Z",
     "sentiment": "中性",
     "totalNews": 4,
     "positive": 1,
@@ -260,7 +233,7 @@
     ]
   },
   "159992": {
-    "updatedAt": "2026-08-26T00:00:57.706Z",
+    "updatedAt": "2026-08-26T00:10:29.252Z",
     "sentiment": "中性",
     "totalNews": 2,
     "positive": 0,
@@ -297,13 +270,13 @@
     ]
   },
   "159995": {
-    "updatedAt": "2026-08-26T00:00:57.707Z",
-    "sentiment": "偏负面",
+    "updatedAt": "2026-08-26T00:10:29.253Z",
+    "sentiment": "中性",
     "totalNews": 8,
-    "positive": 2,
+    "positive": 3,
     "negative": 3,
-    "neutral": 3,
-    "reasoning": "共8条相关资讯，其中3条偏负面。负面信号出现频率较高，需关注相关风险。",
+    "neutral": 2,
+    "reasoning": "共8条相关资讯，信号方向不明确（正3/负3/中2），建议持续观察等待更明确的信号。",
     "articles": [
       {
         "title": "OpenAI自研芯片取得关键突破：响应速度、能效表现击败英伟达GB300",
@@ -371,17 +344,17 @@
         "analysis": "【轻度利好】芯片ETF华夏。关键词：「反弹」。该资讯与芯片ETF华夏有一定关联度。综合评分中等。建议：作为辅助参考信号，不单独据此做出大额交易决策。可结合技术面（RSI/MA均线）共同判断入场时机。（最新资讯，时效性高）"
       },
       {
-        "title": "5000亿市值半导体设备龙头公布“成绩单”",
+        "title": "5000亿市值半导体设备龙头公布“成绩单” 上半年净利润同比增长5.05%",
         "summary": "",
         "url": "https://finance.eastmoney.com/a/202608253853440276.html",
         "source": "东方财富",
         "time": "08-26",
-        "score": 50,
-        "direction": "中性",
+        "score": 55,
+        "direction": "利好",
         "relevance": 50,
         "recency": 100,
-        "importance": 0,
-        "analysis": "【背景信息】芯片ETF华夏。该资讯与芯片ETF华夏有一定关联度。作为市场背景关注即可。（最新资讯，时效性高）"
+        "importance": 15,
+        "analysis": "【轻度利好】芯片ETF华夏。关键词：「增长」。该资讯与芯片ETF华夏有一定关联度。综合评分中等。建议：作为辅助参考信号，不单独据此做出大额交易决策。可结合技术面（RSI/MA均线）共同判断入场时机。（最新资讯，时效性高）"
       },
       {
         "title": "美股收盘：三大指数集体收涨；存储、光通信、半导体板块走强，超威半导体涨4.91%，SK海力士涨2.68%；英伟达止步七连跌；中概股多数上涨",
@@ -412,7 +385,7 @@
     ]
   },
   "510300": {
-    "updatedAt": "2026-08-26T00:00:57.707Z",
+    "updatedAt": "2026-08-26T00:10:29.253Z",
     "sentiment": "负面偏空",
     "totalNews": 3,
     "positive": 0,
@@ -462,28 +435,55 @@
     ]
   },
   "510500": {
-    "updatedAt": "2026-08-26T00:00:57.707Z",
-    "sentiment": "中性",
-    "totalNews": 0,
-    "positive": 0,
+    "updatedAt": "2026-08-26T00:10:29.253Z",
+    "sentiment": "正面偏多",
+    "totalNews": 1,
+    "positive": 1,
     "negative": 0,
     "neutral": 0,
-    "reasoning": "共0条相关资讯，信号方向不明确（正0/负0/中0），建议持续观察等待更明确的信号。",
-    "articles": []
-  },
-  "512480": {
-    "updatedAt": "2026-08-26T00:00:57.707Z",
-    "sentiment": "正面偏多",
-    "totalNews": 8,
-    "positive": 2,
-    "negative": 0,
-    "neutral": 6,
-    "reasoning": "共8条相关资讯，其中2条偏正面。综合评分最高的前几条指向基本面改善信号，整体偏积极。",
+    "reasoning": "共1条相关资讯，其中1条偏正面。综合评分最高的前几条指向基本面改善信号，整体偏积极。",
     "articles": [
       {
-        "title": "5000亿市值半导体设备龙头公布“成绩单”",
+        "title": "5000亿市值半导体设备龙头公布“成绩单” 上半年净利润同比增长5.05%",
         "summary": "",
         "url": "https://finance.eastmoney.com/a/202608253853440276.html",
+        "source": "东方财富",
+        "time": "08-26",
+        "score": 55,
+        "direction": "利好",
+        "relevance": 50,
+        "recency": 100,
+        "importance": 15,
+        "analysis": "【轻度利好】中证500ETF南方。关键词：「增长」。该资讯与中证500ETF南方有一定关联度。综合评分中等。建议：作为辅助参考信号，不单独据此做出大额交易决策。可结合技术面（RSI/MA均线）共同判断入场时机。（最新资讯，时效性高）"
+      }
+    ]
+  },
+  "512480": {
+    "updatedAt": "2026-08-26T00:10:29.253Z",
+    "sentiment": "正面偏多",
+    "totalNews": 8,
+    "positive": 3,
+    "negative": 0,
+    "neutral": 5,
+    "reasoning": "共8条相关资讯，其中3条偏正面。综合评分最高的前几条指向基本面改善信号，整体偏积极。",
+    "articles": [
+      {
+        "title": "5000亿市值半导体设备龙头公布“成绩单” 上半年净利润同比增长5.05%",
+        "summary": "",
+        "url": "https://finance.eastmoney.com/a/202608253853440276.html",
+        "source": "东方财富",
+        "time": "08-26",
+        "score": 69,
+        "direction": "利好",
+        "relevance": 85,
+        "recency": 100,
+        "importance": 15,
+        "analysis": "【轻度利好】半导体ETF国联安。关键词：「增长」。该资讯与半导体ETF国联安的底层资产高度相关。涉及标签：芯片、科技。综合评分中等。建议：作为辅助参考信号，不单独据此做出大额交易决策。可结合技术面（RSI/MA均线）共同判断入场时机。（最新资讯，时效性高）"
+      },
+      {
+        "title": "美股收盘：三大指数集体收涨；存储、光通信、半导体板块走强，超威半导体涨4.91%，SK海力士涨2.68%；英伟达止步七连跌；中概股多数上涨",
+        "summary": "",
+        "url": "https://finance.eastmoney.com/a/202608263853544276.html",
         "source": "东方财富",
         "time": "08-26",
         "score": 64,
@@ -494,9 +494,9 @@
         "analysis": "【行业动态】半导体ETF国联安。该资讯与半导体ETF国联安的底层资产高度相关。涉及标签：芯片、科技。该消息方向不明确，但直接涉及该行业。建议：作为背景信息持续跟踪，可能成为后续交易信号的组成部分。（最新资讯，时效性高）"
       },
       {
-        "title": "美股收盘：三大指数集体收涨；存储、光通信、半导体板块走强，超威半导体涨4.91%，SK海力士涨2.68%；英伟达止步七连跌；中概股多数上涨",
+        "title": "5000亿市值半导体设备龙头公布“成绩单”",
         "summary": "",
-        "url": "https://finance.eastmoney.com/a/202608263853544276.html",
+        "url": "https://finance.eastmoney.com/a/202608253853440276.html",
         "source": "东方财富",
         "time": "08-26",
         "score": 64,
@@ -546,9 +546,9 @@
         "analysis": "【背景信息】半导体ETF国联安。该资讯与半导体ETF国联安有一定关联度。作为市场背景关注即可。（最新资讯，时效性高）"
       },
       {
-        "title": "超威半导体：董事Householder拟出售135000股，市值约6411.19万美元",
+        "title": "连发三款自研芯片，先上自家顶级旗舰机！小米要与苹果折叠机正面交锋？",
         "summary": "",
-        "url": "https://finance.eastmoney.com/a/202608263853551910.html",
+        "url": "https://finance.eastmoney.com/a/202608263853728460.html",
         "source": "东方财富",
         "time": "08-26",
         "score": 50,
@@ -559,9 +559,9 @@
         "analysis": "【背景信息】半导体ETF国联安。该资讯与半导体ETF国联安有一定关联度。作为市场背景关注即可。（最新资讯，时效性高）"
       },
       {
-        "title": "【看新股】加特兰科创板IPO：第四大车载毫米波雷达芯片商 前五大客户收入占比超99%",
+        "title": "高盛上调预测：2030年中国芯片业资本开支将达820亿美元",
         "summary": "",
-        "url": "https://finance.eastmoney.com/a/202608263853549142.html",
+        "url": "https://finance.eastmoney.com/a/202608253852648651.html",
         "source": "东方财富",
         "time": "08-26",
         "score": 50,
@@ -570,24 +570,11 @@
         "recency": 100,
         "importance": 0,
         "analysis": "【背景信息】半导体ETF国联安。该资讯与半导体ETF国联安有一定关联度。作为市场背景关注即可。（最新资讯，时效性高）"
-      },
-      {
-        "title": "美股三大指数走势分化 芯片股多数上扬",
-        "summary": "",
-        "url": "https://finance.eastmoney.com/a/202608253853312037.html",
-        "source": "东方财富",
-        "time": "08-25",
-        "score": 29,
-        "direction": "中性",
-        "relevance": 50,
-        "recency": 30,
-        "importance": 0,
-        "analysis": "【背景信息】半导体ETF国联安。该资讯与半导体ETF国联安有一定关联度。作为市场背景关注即可。"
       }
     ]
   },
   "512660": {
-    "updatedAt": "2026-08-26T00:00:57.708Z",
+    "updatedAt": "2026-08-26T00:10:29.253Z",
     "sentiment": "中性",
     "totalNews": 1,
     "positive": 0,
@@ -611,7 +598,7 @@
     ]
   },
   "512690": {
-    "updatedAt": "2026-08-26T00:00:57.711Z",
+    "updatedAt": "2026-08-26T00:10:29.254Z",
     "sentiment": "中性",
     "totalNews": 0,
     "positive": 0,
@@ -621,13 +608,13 @@
     "articles": []
   },
   "512800": {
-    "updatedAt": "2026-08-26T00:00:57.712Z",
-    "sentiment": "负面偏空",
-    "totalNews": 2,
-    "positive": 0,
+    "updatedAt": "2026-08-26T00:10:29.254Z",
+    "sentiment": "中性",
+    "totalNews": 4,
+    "positive": 1,
     "negative": 1,
-    "neutral": 1,
-    "reasoning": "共2条相关资讯，其中1条偏负面。负面信号出现频率较高，需关注相关风险。",
+    "neutral": 2,
+    "reasoning": "共4条相关资讯，信号方向不明确（正1/负1/中2），建议持续观察等待更明确的信号。",
     "articles": [
       {
         "title": "美国制裁是否将对中国银行业造成冲击？外交部：密切关注相关动向",
@@ -654,11 +641,37 @@
         "recency": 100,
         "importance": 0,
         "analysis": "【行业动态】银行ETF华宝。该资讯与银行ETF华宝有一定关联度。该消息方向不明确，但直接涉及该行业。建议：作为背景信息持续跟踪，可能成为后续交易信号的组成部分。（最新资讯，时效性高）"
+      },
+      {
+        "title": "多家上市银行上半年净息差指标企稳向好",
+        "summary": "",
+        "url": "https://www.cs.com.cn/yh/04/2026/08/24/detail_2026082410033377.html",
+        "source": "中证网",
+        "time": "08-26",
+        "score": 58,
+        "direction": "中性",
+        "relevance": 70,
+        "recency": 100,
+        "importance": 0,
+        "analysis": "【行业动态】银行ETF华宝。该资讯与银行ETF华宝有一定关联度。该消息方向不明确，但直接涉及该行业。建议：作为背景信息持续跟踪，可能成为后续交易信号的组成部分。（最新资讯，时效性高）"
+      },
+      {
+        "title": "保险资负新规落地 险企料增配高股息资产 布局分红险迎加速窗口",
+        "summary": "",
+        "url": "https://www.cs.com.cn/yh/2026/08/25/detail_2026082510033757.html",
+        "source": "中证网",
+        "time": "08-26",
+        "score": 58,
+        "direction": "利好",
+        "relevance": 70,
+        "recency": 100,
+        "importance": 0,
+        "analysis": "【轻度利好】银行ETF华宝。关键词：「加速」。该资讯与银行ETF华宝有一定关联度。综合评分中等。建议：作为辅助参考信号，不单独据此做出大额交易决策。可结合技术面（RSI/MA均线）共同判断入场时机。（最新资讯，时效性高）"
       }
     ]
   },
   "513060": {
-    "updatedAt": "2026-08-26T00:00:57.712Z",
+    "updatedAt": "2026-08-26T00:10:29.255Z",
     "sentiment": "中性",
     "totalNews": 5,
     "positive": 0,
@@ -734,7 +747,7 @@
     ]
   },
   "513500": {
-    "updatedAt": "2026-08-26T00:00:57.712Z",
+    "updatedAt": "2026-08-26T00:10:29.255Z",
     "sentiment": "偏正面",
     "totalNews": 6,
     "positive": 2,
@@ -823,26 +836,26 @@
     ]
   },
   "515790": {
-    "updatedAt": "2026-08-26T00:00:57.713Z",
-    "sentiment": "正面偏多",
-    "totalNews": 4,
-    "positive": 1,
+    "updatedAt": "2026-08-26T00:10:29.255Z",
+    "sentiment": "中性",
+    "totalNews": 2,
+    "positive": 0,
     "negative": 0,
-    "neutral": 3,
-    "reasoning": "共4条相关资讯，其中1条偏正面。综合评分最高的前几条指向基本面改善信号，整体偏积极。",
+    "neutral": 2,
+    "reasoning": "共2条相关资讯，信号方向不明确（正0/负0/中2），建议持续观察等待更明确的信号。",
     "articles": [
       {
-        "title": "国家能源局：1-7月份全国太阳能发电装机容量12.9亿千瓦 同比增长16.1%",
+        "title": "二度冲击港股IPO 奥动新能源迎战换电行业精细化变局",
         "summary": "",
-        "url": "https://finance.eastmoney.com/a/202608253852544392.html",
-        "source": "东方财富",
-        "time": "08-25",
-        "score": 54,
-        "direction": "利好",
-        "relevance": 100,
-        "recency": 30,
-        "importance": 15,
-        "analysis": "【轻度利好】光伏ETF华泰柏瑞。关键词：「增长」。该资讯与光伏ETF华泰柏瑞的底层资产高度相关。涉及标签：光伏、新能源。综合评分中等。建议：作为辅助参考信号，不单独据此做出大额交易决策。可结合技术面（RSI/MA均线）共同判断入场时机。"
+        "url": "https://www.cs.com.cn/ssgs/01/2026/08/07/detail_2026080710029893.html",
+        "source": "中证网",
+        "time": "08-26",
+        "score": 64,
+        "direction": "中性",
+        "relevance": 85,
+        "recency": 100,
+        "importance": 0,
+        "analysis": "【行业动态】光伏ETF华泰柏瑞。该资讯与光伏ETF华泰柏瑞的底层资产高度相关。涉及标签：光伏、新能源。该消息方向不明确，但直接涉及该行业。建议：作为背景信息持续跟踪，可能成为后续交易信号的组成部分。（最新资讯，时效性高）"
       },
       {
         "title": "三年建100吉瓦光伏！印尼总统放豪言：未来无需进口石油",
@@ -856,44 +869,31 @@
         "recency": 100,
         "importance": 0,
         "analysis": "【背景信息】光伏ETF华泰柏瑞。该资讯与光伏ETF华泰柏瑞有一定关联度。作为市场背景关注即可。（最新资讯，时效性高）"
-      },
-      {
-        "title": "金刚光伏上半年净利约-1.11亿元，同比减亏",
-        "summary": "",
-        "url": "https://finance.eastmoney.com/a/202608253853339114.html",
-        "source": "东方财富",
-        "time": "08-25",
-        "score": 29,
-        "direction": "中性",
-        "relevance": 50,
-        "recency": 30,
-        "importance": 0,
-        "analysis": "【背景信息】光伏ETF华泰柏瑞。该资讯与光伏ETF华泰柏瑞有一定关联度。作为市场背景关注即可。"
-      },
-      {
-        "title": "“反内卷”催化光伏板块修复，光伏ETF工银（561410）8月24日起上市交易",
-        "summary": "",
-        "url": "https://www.cs.com.cn/tzjj/etf/2026/08/21/detail_2026082110032883.html",
-        "source": "中证网",
-        "time": "08-25",
-        "score": 29,
-        "direction": "中性",
-        "relevance": 50,
-        "recency": 30,
-        "importance": 0,
-        "analysis": "【背景信息】光伏ETF华泰柏瑞。该资讯与光伏ETF华泰柏瑞有一定关联度。作为市场背景关注即可。"
       }
     ]
   },
   "516160": {
-    "updatedAt": "2026-08-26T00:00:57.714Z",
-    "sentiment": "正面偏多",
-    "totalNews": 5,
-    "positive": 2,
+    "updatedAt": "2026-08-26T00:10:29.255Z",
+    "sentiment": "中性",
+    "totalNews": 2,
+    "positive": 0,
     "negative": 0,
-    "neutral": 3,
-    "reasoning": "共5条相关资讯，其中2条偏正面。综合评分最高的前几条指向基本面改善信号，整体偏积极。",
+    "neutral": 2,
+    "reasoning": "共2条相关资讯，信号方向不明确（正0/负0/中2），建议持续观察等待更明确的信号。",
     "articles": [
+      {
+        "title": "二度冲击港股IPO 奥动新能源迎战换电行业精细化变局",
+        "summary": "",
+        "url": "https://www.cs.com.cn/ssgs/01/2026/08/07/detail_2026080710029893.html",
+        "source": "中证网",
+        "time": "08-26",
+        "score": 64,
+        "direction": "中性",
+        "relevance": 85,
+        "recency": 100,
+        "importance": 0,
+        "analysis": "【行业动态】新能源ETF南方。该资讯与新能源ETF南方的底层资产高度相关。涉及标签：新能源、光伏。该消息方向不明确，但直接涉及该行业。建议：作为背景信息持续跟踪，可能成为后续交易信号的组成部分。（最新资讯，时效性高）"
+      },
       {
         "title": "三年建100吉瓦光伏！印尼总统放豪言：未来无需进口石油",
         "summary": "",
@@ -906,74 +906,35 @@
         "recency": 100,
         "importance": 0,
         "analysis": "【背景信息】新能源ETF南方。该资讯与新能源ETF南方有一定关联度。作为市场背景关注即可。（最新资讯，时效性高）"
-      },
-      {
-        "title": "国家能源局：1-7月份全国太阳能发电装机容量12.9亿千瓦 同比增长16.1%",
-        "summary": "",
-        "url": "https://finance.eastmoney.com/a/202608253852544392.html",
-        "source": "东方财富",
-        "time": "08-25",
-        "score": 42,
-        "direction": "利好",
-        "relevance": 70,
-        "recency": 30,
-        "importance": 15,
-        "analysis": "【轻度利好】新能源ETF南方。关键词：「增长」。该资讯与新能源ETF南方有一定关联度。评分偏低，信息量有限。建议：暂不作为操作依据，但持续跟踪该方向是否有后续发展。"
-      },
-      {
-        "title": "国家能源局召开第二届中国—国际可再生能源署合作专项工作组启动会",
-        "summary": "",
-        "url": "https://finance.eastmoney.com/a/202608253853250752.html",
-        "source": "东方财富",
-        "time": "08-25",
-        "score": 37,
-        "direction": "利好",
-        "relevance": 70,
-        "recency": 30,
-        "importance": 0,
-        "analysis": "【轻度利好】新能源ETF南方。关键词：「合作」。该资讯与新能源ETF南方有一定关联度。评分偏低，信息量有限。建议：暂不作为操作依据，但持续跟踪该方向是否有后续发展。"
-      },
-      {
-        "title": "金刚光伏上半年净利约-1.11亿元，同比减亏",
-        "summary": "",
-        "url": "https://finance.eastmoney.com/a/202608253853339114.html",
-        "source": "东方财富",
-        "time": "08-25",
-        "score": 29,
-        "direction": "中性",
-        "relevance": 50,
-        "recency": 30,
-        "importance": 0,
-        "analysis": "【背景信息】新能源ETF南方。该资讯与新能源ETF南方有一定关联度。作为市场背景关注即可。"
-      },
-      {
-        "title": "“反内卷”催化光伏板块修复，光伏ETF工银（561410）8月24日起上市交易",
-        "summary": "",
-        "url": "https://www.cs.com.cn/tzjj/etf/2026/08/21/detail_2026082110032883.html",
-        "source": "中证网",
-        "time": "08-25",
-        "score": 29,
-        "direction": "中性",
-        "relevance": 50,
-        "recency": 30,
-        "importance": 0,
-        "analysis": "【背景信息】新能源ETF南方。该资讯与新能源ETF南方有一定关联度。作为市场背景关注即可。"
       }
     ]
   },
   "518880": {
-    "updatedAt": "2026-08-26T00:00:57.717Z",
+    "updatedAt": "2026-08-26T00:10:29.256Z",
     "sentiment": "中性",
-    "totalNews": 7,
+    "totalNews": 4,
     "positive": 0,
     "negative": 0,
-    "neutral": 7,
-    "reasoning": "共7条相关资讯，信号方向不明确（正0/负0/中7），建议持续观察等待更明确的信号。",
+    "neutral": 4,
+    "reasoning": "共4条相关资讯，信号方向不明确（正0/负0/中4），建议持续观察等待更明确的信号。",
     "articles": [
       {
         "title": "生物科技股集体大涨，药明合联一度涨超15%；老铺黄金净利猛增超88%",
         "summary": "",
         "url": "https://finance.eastmoney.com/a/202608253853134344.html",
+        "source": "东方财富",
+        "time": "08-26",
+        "score": 50,
+        "direction": "中性",
+        "relevance": 50,
+        "recency": 100,
+        "importance": 0,
+        "analysis": "【背景信息】黄金ETF华安。该资讯与黄金ETF华安有一定关联度。作为市场背景关注即可。（最新资讯，时效性高）"
+      },
+      {
+        "title": "集体跳水！一宗大额交易突然刷屏！黄金白银陡增变数",
+        "summary": "",
+        "url": "https://finance.eastmoney.com/a/202608253852581455.html",
         "source": "东方财富",
         "time": "08-26",
         "score": 50,
@@ -997,61 +958,9 @@
         "analysis": "【行业动态】黄金ETF华安。该资讯与黄金ETF华安的底层资产高度相关。涉及标签：黄金、避险。该消息方向不明确，但直接涉及该行业。建议：作为背景信息持续跟踪，可能成为后续交易信号的组成部分。"
       },
       {
-        "title": "上海：到2030年上海国际贸易中心核心功能持续跃升 重点大宗商品品类价格国际影响力持续提升",
-        "summary": "",
-        "url": "https://finance.eastmoney.com/a/202608253852987854.html",
-        "source": "东方财富",
-        "time": "08-25",
-        "score": 37,
-        "direction": "中性",
-        "relevance": 70,
-        "recency": 30,
-        "importance": 0,
-        "analysis": "【行业动态】黄金ETF华安。该资讯与黄金ETF华安有一定关联度。该消息方向不明确，但直接涉及该行业。建议：作为背景信息持续跟踪，可能成为后续交易信号的组成部分。"
-      },
-      {
         "title": "冷板一响 黄金万两？一根管道里的万亿生意",
         "summary": "",
         "url": "https://finance.eastmoney.com/a/202608253852582153.html",
-        "source": "东方财富",
-        "time": "08-25",
-        "score": 29,
-        "direction": "中性",
-        "relevance": 50,
-        "recency": 30,
-        "importance": 0,
-        "analysis": "【背景信息】黄金ETF华安。该资讯与黄金ETF华安有一定关联度。作为市场背景关注即可。"
-      },
-      {
-        "title": "现货黄金跌近1% 报4606.54美元/盎司",
-        "summary": "",
-        "url": "https://finance.eastmoney.com/a/202608253853339956.html",
-        "source": "东方财富",
-        "time": "08-25",
-        "score": 29,
-        "direction": "中性",
-        "relevance": 50,
-        "recency": 30,
-        "importance": 0,
-        "analysis": "【背景信息】黄金ETF华安。该资讯与黄金ETF华安有一定关联度。作为市场背景关注即可。"
-      },
-      {
-        "title": "美国“压债”引发资产大挪移，黄金冲上4700美元，科技股为何不买账？",
-        "summary": "",
-        "url": "https://finance.eastmoney.com/a/202608253853335944.html",
-        "source": "东方财富",
-        "time": "08-25",
-        "score": 29,
-        "direction": "中性",
-        "relevance": 50,
-        "recency": 30,
-        "importance": 0,
-        "analysis": "【背景信息】黄金ETF华安。该资讯与黄金ETF华安有一定关联度。作为市场背景关注即可。"
-      },
-      {
-        "title": "集体跳水！一宗大额交易突然刷屏！黄金白银陡增变数",
-        "summary": "",
-        "url": "https://finance.eastmoney.com/a/202608253852581455.html",
         "source": "东方财富",
         "time": "08-25",
         "score": 29,
@@ -1064,17 +973,31 @@
     ]
   },
   "561380": {
-    "updatedAt": "2026-08-26T00:00:57.717Z",
+    "updatedAt": "2026-08-26T00:10:29.256Z",
     "sentiment": "中性",
-    "totalNews": 0,
+    "totalNews": 1,
     "positive": 0,
     "negative": 0,
-    "neutral": 0,
-    "reasoning": "共0条相关资讯，信号方向不明确（正0/负0/中0），建议持续观察等待更明确的信号。",
-    "articles": []
+    "neutral": 1,
+    "reasoning": "共1条相关资讯，信号方向不明确（正0/负0/中1），建议持续观察等待更明确的信号。",
+    "articles": [
+      {
+        "title": "二度冲击港股IPO 奥动新能源迎战换电行业精细化变局",
+        "summary": "",
+        "url": "https://www.cs.com.cn/ssgs/01/2026/08/07/detail_2026080710029893.html",
+        "source": "中证网",
+        "time": "08-26",
+        "score": 64,
+        "direction": "中性",
+        "relevance": 85,
+        "recency": 100,
+        "importance": 0,
+        "analysis": "【行业动态】电网设备ETF国泰。该资讯与电网设备ETF国泰的底层资产高度相关。涉及标签：电网、电力设备。该消息方向不明确，但直接涉及该行业。建议：作为背景信息持续跟踪，可能成为后续交易信号的组成部分。（最新资讯，时效性高）"
+      }
+    ]
   },
   "563360": {
-    "updatedAt": "2026-08-26T00:00:57.718Z",
+    "updatedAt": "2026-08-26T00:10:29.256Z",
     "sentiment": "中性",
     "totalNews": 2,
     "positive": 0,
@@ -1111,13 +1034,13 @@
     ]
   },
   "588000": {
-    "updatedAt": "2026-08-26T00:00:57.718Z",
-    "sentiment": "中性",
+    "updatedAt": "2026-08-26T00:10:29.257Z",
+    "sentiment": "正面偏多",
     "totalNews": 3,
-    "positive": 0,
+    "positive": 1,
     "negative": 0,
-    "neutral": 3,
-    "reasoning": "共3条相关资讯，信号方向不明确（正0/负0/中3），建议持续观察等待更明确的信号。",
+    "neutral": 2,
+    "reasoning": "共3条相关资讯，其中1条偏正面。综合评分最高的前几条指向基本面改善信号，整体偏积极。",
     "articles": [
       {
         "title": "统筹推进原始创新和关键核心技术攻关",
@@ -1146,17 +1069,17 @@
         "analysis": "【行业动态】科创50ETF华夏。该资讯与科创50ETF华夏有一定关联度。该消息方向不明确，但直接涉及该行业。建议：作为背景信息持续跟踪，可能成为后续交易信号的组成部分。（最新资讯，时效性高）"
       },
       {
-        "title": "5000亿市值半导体设备龙头公布“成绩单”",
+        "title": "5000亿市值半导体设备龙头公布“成绩单” 上半年净利润同比增长5.05%",
         "summary": "",
         "url": "https://finance.eastmoney.com/a/202608253853440276.html",
         "source": "东方财富",
         "time": "08-26",
-        "score": 50,
-        "direction": "中性",
+        "score": 55,
+        "direction": "利好",
         "relevance": 50,
         "recency": 100,
-        "importance": 0,
-        "analysis": "【背景信息】科创50ETF华夏。该资讯与科创50ETF华夏有一定关联度。作为市场背景关注即可。（最新资讯，时效性高）"
+        "importance": 15,
+        "analysis": "【轻度利好】科创50ETF华夏。关键词：「增长」。该资讯与科创50ETF华夏有一定关联度。综合评分中等。建议：作为辅助参考信号，不单独据此做出大额交易决策。可结合技术面（RSI/MA均线）共同判断入场时机。（最新资讯，时效性高）"
       }
     ]
   }
