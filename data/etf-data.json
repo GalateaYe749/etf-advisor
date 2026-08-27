@@ -8,56 +8,49 @@
       "核心资产"
     ],
     "tradeMode": "long_only",
-    "nav": 4.655,
-    "navDate": "2026-08-26",
+    "nav": 4.6963,
+    "navDate": "2026-08-27",
     "navHigh": 5.0878,
     "navLow": 4.427,
-    "drawdownFromHigh": "-8.51",
-    "volatility30d": "22.44",
+    "drawdownFromHigh": "-7.69",
+    "volatility30d": "20.11",
     "returns": {
-      "1m": 0.64,
-      "3m": -5.69,
-      "6m": -1.33,
-      "1y": 10.17
+      "1m": 0.85,
+      "3m": -4.44,
+      "6m": -1.05,
+      "1y": 10.27
     },
     "tech": {
       "ma": {
-        "ma5": "4.6469",
-        "ma10": "4.6931",
-        "ma20": "4.6938",
-        "ma60": "4.7946"
+        "ma5": "4.6553",
+        "ma10": "4.6901",
+        "ma20": "4.6982",
+        "ma60": "4.7902"
       },
       "maArrangement": "空头排列",
-      "distFromMA20": "-0.83",
-      "rsi14": "44.5",
+      "distFromMA20": "-0.04",
+      "rsi14": "44.2",
       "macd": {
-        "dif": "-0.0295",
-        "dea": "-0.0242",
-        "bar": "-0.0106",
+        "dif": "-0.0261",
+        "dea": "-0.0246",
+        "bar": "-0.0030",
         "signal": "绿柱"
       },
       "bollinger": {
-        "upper": "4.8138",
-        "mid": "4.6938",
-        "lower": "4.5737",
+        "upper": "4.8115",
+        "mid": "4.6982",
+        "lower": "4.5850",
         "position": "轨内"
       }
     },
     "shortSignal": {
-      "signal": "🔴 卖出观察",
-      "strength": -2,
+      "signal": "⚪ 观望",
+      "strength": -1,
       "reasons": [
-        "MACD绿柱放大",
         "空头排列"
       ]
     },
     "trends": [
-      {
-        "x": 1764604800000,
-        "y": 4.689,
-        "equityReturn": 1.1,
-        "unitMoney": ""
-      },
       {
         "x": 1764691200000,
         "y": 4.6663,
@@ -1131,9 +1124,15 @@
         "y": 4.655,
         "equityReturn": 0.85,
         "unitMoney": ""
+      },
+      {
+        "x": 1787846400000,
+        "y": 4.6963,
+        "equityReturn": 0.89,
+        "unitMoney": ""
       }
     ],
-    "fetchedAt": "2026-08-27T04:30:03.929Z",
+    "fetchedAt": "2026-08-27T14:01:55.958Z",
     "intraday": {
       "price": 4.691,
       "changePct": 0.84,
@@ -1149,53 +1148,49 @@
       "中盘"
     ],
     "tradeMode": "both",
-    "nav": 7.7878,
-    "navDate": "2026-08-26",
+    "nav": 7.9646,
+    "navDate": "2026-08-27",
     "navHigh": 9.1808,
     "navLow": 6.7788,
-    "drawdownFromHigh": "-15.17",
-    "volatility30d": "36.81",
+    "drawdownFromHigh": "-13.25",
+    "volatility30d": "33.73",
     "returns": {
-      "1m": 4.47,
-      "3m": -10.01,
-      "6m": -8.07,
-      "1y": 19.91
+      "1m": 5.67,
+      "3m": -5.72,
+      "6m": -7.47,
+      "1y": 20.92
     },
     "tech": {
       "ma": {
-        "ma5": "7.7966",
-        "ma10": "7.9161",
-        "ma20": "7.8392",
-        "ma60": "8.2037"
+        "ma5": "7.8163",
+        "ma10": "7.9141",
+        "ma20": "7.8711",
+        "ma60": "8.1955"
       },
       "maArrangement": "缠绕",
-      "distFromMA20": "-0.66",
-      "rsi14": "47.9",
+      "distFromMA20": "1.19",
+      "rsi14": "48.9",
       "macd": {
-        "dif": "-0.0566",
-        "dea": "-0.0578",
-        "bar": "0.0024",
+        "dif": "-0.0440",
+        "dea": "-0.0550",
+        "bar": "0.0220",
         "signal": "红柱"
       },
       "bollinger": {
-        "upper": "8.2983",
-        "mid": "7.8392",
-        "lower": "7.3802",
+        "upper": "8.2676",
+        "mid": "7.8711",
+        "lower": "7.4746",
         "position": "轨内"
       }
     },
     "shortSignal": {
       "signal": "⚪ 观望",
-      "strength": 0,
-      "reasons": []
+      "strength": 1,
+      "reasons": [
+        "MACD红柱放大"
+      ]
     },
     "trends": [
-      {
-        "x": 1764604800000,
-        "y": 7.2073,
-        "equityReturn": 0.99,
-        "unitMoney": ""
-      },
       {
         "x": 1764691200000,
         "y": 7.1449,
@@ -2269,9 +2264,15 @@
         "y": 7.7878,
         "equityReturn": 0.78,
         "unitMoney": ""
+      },
+      {
+        "x": 1787846400000,
+        "y": 7.9646,
+        "equityReturn": 2.27,
+        "unitMoney": ""
       }
     ],
-    "fetchedAt": "2026-08-27T04:30:04.583Z",
+    "fetchedAt": "2026-08-27T14:01:56.102Z",
     "intraday": {
       "price": 7.973,
       "changePct": 2.36,
@@ -2287,55 +2288,47 @@
       "成长"
     ],
     "tradeMode": "both",
-    "nav": 3.4333,
-    "navDate": "2026-08-26",
+    "nav": 3.4922,
+    "navDate": "2026-08-27",
     "navHigh": 4.3879,
     "navLow": 2.6994,
-    "drawdownFromHigh": "-21.76",
-    "volatility30d": "52.22",
+    "drawdownFromHigh": "-20.41",
+    "volatility30d": "48.13",
     "returns": {
-      "1m": 2.49,
-      "3m": -17.04,
-      "6m": 4.08,
-      "1y": 43.86
+      "1m": 2.65,
+      "3m": -13.81,
+      "6m": 4.4,
+      "1y": 41.28
     },
     "tech": {
       "ma": {
-        "ma5": "3.4757",
-        "ma10": "3.5607",
-        "ma20": "3.5253",
-        "ma60": "3.7925"
+        "ma5": "3.4712",
+        "ma10": "3.5494",
+        "ma20": "3.5366",
+        "ma60": "3.7817"
       },
       "maArrangement": "缠绕",
-      "distFromMA20": "-2.61",
-      "rsi14": "43.6",
+      "distFromMA20": "-1.26",
+      "rsi14": "44.4",
       "macd": {
-        "dif": "-0.0546",
-        "dea": "-0.0509",
-        "bar": "-0.0074",
+        "dif": "-0.0530",
+        "dea": "-0.0513",
+        "bar": "-0.0034",
         "signal": "绿柱"
       },
       "bollinger": {
-        "upper": "3.7680",
-        "mid": "3.5253",
-        "lower": "3.2827",
+        "upper": "3.7493",
+        "mid": "3.5366",
+        "lower": "3.3240",
         "position": "轨内"
       }
     },
     "shortSignal": {
       "signal": "⚪ 观望",
-      "strength": 0.5,
-      "reasons": [
-        "低于MA20"
-      ]
+      "strength": 0,
+      "reasons": []
     },
     "trends": [
-      {
-        "x": 1764604800000,
-        "y": 3.0736,
-        "equityReturn": 1.31,
-        "unitMoney": ""
-      },
       {
         "x": 1764691200000,
         "y": 3.0524,
@@ -3409,9 +3402,15 @@
         "y": 3.4333,
         "equityReturn": 0.51,
         "unitMoney": ""
+      },
+      {
+        "x": 1787846400000,
+        "y": 3.4922,
+        "equityReturn": 1.72,
+        "unitMoney": ""
       }
     ],
-    "fetchedAt": "2026-08-27T04:30:04.738Z",
+    "fetchedAt": "2026-08-27T14:01:56.330Z",
     "intraday": {
       "price": 3.494,
       "changePct": 1.81,
@@ -3427,53 +3426,49 @@
       "均衡"
     ],
     "tradeMode": "long_only",
-    "nav": 1.2813,
-    "navDate": "2026-08-26",
+    "nav": 1.2964,
+    "navDate": "2026-08-27",
     "navHigh": 1.4292,
     "navLow": 1.1563,
-    "drawdownFromHigh": "-10.35",
-    "volatility30d": "26.98",
+    "drawdownFromHigh": "-9.29",
+    "volatility30d": "24.26",
     "returns": {
-      "1m": 1.31,
-      "3m": -7.26,
-      "6m": -3.01,
-      "1y": 17.34
+      "1m": 1.76,
+      "3m": -5.12,
+      "6m": -2.79,
+      "1y": 17.57
     },
     "tech": {
       "ma": {
-        "ma5": "1.2807",
-        "ma10": "1.2965",
-        "ma20": "1.2940",
-        "ma60": "1.3301"
+        "ma5": "1.2829",
+        "ma10": "1.2955",
+        "ma20": "1.2961",
+        "ma60": "1.3288"
       },
-      "maArrangement": "缠绕",
-      "distFromMA20": "-0.98",
-      "rsi14": "45.2",
+      "maArrangement": "空头排列",
+      "distFromMA20": "0.02",
+      "rsi14": "44.3",
       "macd": {
-        "dif": "-0.0091",
-        "dea": "-0.0076",
-        "bar": "-0.0030",
+        "dif": "-0.0080",
+        "dea": "-0.0077",
+        "bar": "-0.0006",
         "signal": "绿柱"
       },
       "bollinger": {
-        "upper": "1.3390",
-        "mid": "1.2940",
-        "lower": "1.2491",
+        "upper": "1.3372",
+        "mid": "1.2961",
+        "lower": "1.2551",
         "position": "轨内"
       }
     },
     "shortSignal": {
       "signal": "⚪ 观望",
-      "strength": 0,
-      "reasons": []
+      "strength": -1,
+      "reasons": [
+        "空头排列"
+      ]
     },
     "trends": [
-      {
-        "x": 1764604800000,
-        "y": 1.2284,
-        "equityReturn": 1.18,
-        "unitMoney": ""
-      },
       {
         "x": 1764691200000,
         "y": 1.2208,
@@ -4547,9 +4542,15 @@
         "y": 1.2813,
         "equityReturn": 0.79,
         "unitMoney": ""
+      },
+      {
+        "x": 1787846400000,
+        "y": 1.2964,
+        "equityReturn": 1.18,
+        "unitMoney": ""
       }
     ],
-    "fetchedAt": "2026-08-27T04:30:04.858Z",
+    "fetchedAt": "2026-08-27T14:01:56.489Z",
     "intraday": {
       "price": 1.295,
       "changePct": 1.09,
@@ -4566,55 +4567,49 @@
       "硬科技"
     ],
     "tradeMode": "observe",
-    "nav": 1.7229,
-    "navDate": "2026-08-26",
+    "nav": 1.7878,
+    "navDate": "2026-08-27",
     "navHigh": 2.3272,
     "navLow": 1.2904,
-    "drawdownFromHigh": "-25.97",
-    "volatility30d": "60.51",
+    "drawdownFromHigh": "-23.18",
+    "volatility30d": "57.83",
     "returns": {
-      "1m": -3.55,
-      "3m": -11.33,
-      "6m": 11.65,
-      "1y": 53.16
+      "1m": 0.94,
+      "3m": -3.13,
+      "6m": 15.23,
+      "1y": 57.75
     },
     "tech": {
       "ma": {
-        "ma5": "1.7198",
-        "ma10": "1.7765",
-        "ma20": "1.7705",
-        "ma60": "1.9088"
+        "ma5": "1.7283",
+        "ma10": "1.7740",
+        "ma20": "1.7761",
+        "ma60": "1.9083"
       },
-      "maArrangement": "缠绕",
-      "distFromMA20": "-2.69",
-      "rsi14": "41.8",
+      "maArrangement": "空头排列",
+      "distFromMA20": "0.66",
+      "rsi14": "44.2",
       "macd": {
-        "dif": "-0.0460",
-        "dea": "-0.0418",
-        "bar": "-0.0084",
-        "signal": "绿柱"
+        "dif": "-0.0406",
+        "dea": "-0.0416",
+        "bar": "0.0020",
+        "signal": "红柱"
       },
       "bollinger": {
-        "upper": "1.9086",
-        "mid": "1.7705",
-        "lower": "1.6323",
+        "upper": "1.9073",
+        "mid": "1.7761",
+        "lower": "1.6448",
         "position": "轨内"
       }
     },
     "shortSignal": {
       "signal": "⚪ 观望",
-      "strength": 0.5,
+      "strength": -1,
       "reasons": [
-        "低于MA20"
+        "空头排列"
       ]
     },
     "trends": [
-      {
-        "x": 1764604800000,
-        "y": 1.4043,
-        "equityReturn": 0.73,
-        "unitMoney": ""
-      },
       {
         "x": 1764691200000,
         "y": 1.3869,
@@ -5688,9 +5683,15 @@
         "y": 1.7229,
         "equityReturn": 1.71,
         "unitMoney": ""
+      },
+      {
+        "x": 1787846400000,
+        "y": 1.7878,
+        "equityReturn": 3.77,
+        "unitMoney": ""
       }
     ],
-    "fetchedAt": "2026-08-27T04:30:04.960Z",
+    "fetchedAt": "2026-08-27T14:01:56.713Z",
     "intraday": {
       "price": 1.788,
       "changePct": 3.89,
@@ -5707,38 +5708,38 @@
       "电力设备"
     ],
     "tradeMode": "both",
-    "nav": 0.743,
-    "navDate": "2026-08-26",
+    "nav": 0.7477,
+    "navDate": "2026-08-27",
     "navHigh": 2.4381,
     "navLow": 0.689,
-    "drawdownFromHigh": "-69.53",
-    "volatility30d": "38.07",
+    "drawdownFromHigh": "-69.33",
+    "volatility30d": "35.94",
     "returns": {
-      "1m": 6.23,
-      "3m": -66.69,
-      "6m": -63.91,
-      "1y": -37.23
+      "1m": 5.07,
+      "3m": -66.24,
+      "6m": -63.87,
+      "1y": -39
     },
     "tech": {
       "ma": {
-        "ma5": "0.7412",
-        "ma10": "0.7514",
-        "ma20": "0.7437",
-        "ma60": "1.1196"
+        "ma5": "0.7430",
+        "ma10": "0.7510",
+        "ma20": "0.7464",
+        "ma60": "1.0945"
       },
       "maArrangement": "缠绕",
-      "distFromMA20": "-0.09",
-      "rsi14": "49.6",
+      "distFromMA20": "0.17",
+      "rsi14": "47.6",
       "macd": {
-        "dif": "-0.0447",
-        "dea": "-0.0630",
-        "bar": "0.0366",
+        "dif": "-0.0413",
+        "dea": "-0.0585",
+        "bar": "0.0344",
         "signal": "红柱"
       },
       "bollinger": {
-        "upper": "0.7841",
-        "mid": "0.7437",
-        "lower": "0.7034",
+        "upper": "0.7797",
+        "mid": "0.7464",
+        "lower": "0.7131",
         "position": "轨内"
       }
     },
@@ -5750,12 +5751,6 @@
       ]
     },
     "trends": [
-      {
-        "x": 1764604800000,
-        "y": 1.5525,
-        "equityReturn": 1.82,
-        "unitMoney": ""
-      },
       {
         "x": 1764691200000,
         "y": 1.5397,
@@ -6829,9 +6824,15 @@
         "y": 0.743,
         "equityReturn": 0.26,
         "unitMoney": ""
+      },
+      {
+        "x": 1787846400000,
+        "y": 0.7477,
+        "equityReturn": 0.63,
+        "unitMoney": ""
       }
     ],
-    "fetchedAt": "2026-08-27T04:30:05.060Z",
+    "fetchedAt": "2026-08-27T14:01:56.783Z",
     "intraday": {
       "price": 0.746,
       "changePct": 0.54,
@@ -6848,56 +6849,49 @@
       "创新药"
     ],
     "tradeMode": "observe",
-    "nav": 0.8682,
-    "navDate": "2026-08-26",
+    "nav": 0.875,
+    "navDate": "2026-08-27",
     "navHigh": 1.0088,
     "navLow": 0.7072,
-    "drawdownFromHigh": "-13.94",
-    "volatility30d": "44.77",
+    "drawdownFromHigh": "-13.26",
+    "volatility30d": "39.43",
     "returns": {
-      "1m": 3.36,
-      "3m": 15.95,
-      "6m": 4.93,
-      "1y": -4.25
+      "1m": 3.04,
+      "3m": 14.35,
+      "6m": 4.92,
+      "1y": -6.18
     },
     "tech": {
       "ma": {
-        "ma5": "0.8824",
-        "ma10": "0.9002",
-        "ma20": "0.8875",
-        "ma60": "0.8310"
+        "ma5": "0.8706",
+        "ma10": "0.8948",
+        "ma20": "0.8895",
+        "ma60": "0.8333"
       },
       "maArrangement": "缠绕",
-      "distFromMA20": "-2.17",
-      "rsi14": "52.9",
+      "distFromMA20": "-1.63",
+      "rsi14": "42.2",
       "macd": {
-        "dif": "0.0082",
-        "dea": "0.0159",
-        "bar": "-0.0154",
+        "dif": "0.0065",
+        "dea": "0.0140",
+        "bar": "-0.0150",
         "signal": "绿柱"
       },
       "bollinger": {
-        "upper": "0.9573",
-        "mid": "0.8875",
-        "lower": "0.8178",
+        "upper": "0.9553",
+        "mid": "0.8895",
+        "lower": "0.8238",
         "position": "轨内"
       }
     },
     "shortSignal": {
       "signal": "⚪ 观望",
-      "strength": -0.5,
+      "strength": -1,
       "reasons": [
-        "低于MA20",
         "MACD绿柱放大"
       ]
     },
     "trends": [
-      {
-        "x": 1764604800000,
-        "y": 0.8802,
-        "equityReturn": 0.39,
-        "unitMoney": ""
-      },
       {
         "x": 1764691200000,
         "y": 0.866,
@@ -7971,9 +7965,15 @@
         "y": 0.8682,
         "equityReturn": 0.07,
         "unitMoney": ""
+      },
+      {
+        "x": 1787846400000,
+        "y": 0.875,
+        "equityReturn": 0.78,
+        "unitMoney": ""
       }
     ],
-    "fetchedAt": "2026-08-27T04:30:05.338Z",
+    "fetchedAt": "2026-08-27T14:01:56.869Z",
     "intraday": {
       "price": 0.875,
       "changePct": 0.81,
@@ -7990,56 +7990,51 @@
       "消费"
     ],
     "tradeMode": "observe",
-    "nav": 0.4227,
-    "navDate": "2026-08-26",
+    "nav": 0.42,
+    "navDate": "2026-08-27",
     "navHigh": 0.6277,
     "navLow": 0.3838,
-    "drawdownFromHigh": "-32.66",
-    "volatility30d": "26.87",
+    "drawdownFromHigh": "-33.09",
+    "volatility30d": "26.41",
     "returns": {
-      "1m": -1.63,
-      "3m": -4.47,
-      "6m": -20.06,
-      "1y": -27.32
+      "1m": -3.58,
+      "3m": -8.18,
+      "6m": -21.04,
+      "1y": -27.7
     },
     "tech": {
       "ma": {
-        "ma5": "0.4226",
-        "ma10": "0.4292",
-        "ma20": "0.4361",
-        "ma60": "0.4197"
+        "ma5": "0.4212",
+        "ma10": "0.4263",
+        "ma20": "0.4345",
+        "ma60": "0.4194"
       },
       "maArrangement": "空头排列",
-      "distFromMA20": "-3.07",
-      "rsi14": "41.5",
+      "distFromMA20": "-3.34",
+      "rsi14": "37.6",
       "macd": {
-        "dif": "-0.0007",
-        "dea": "0.0024",
-        "bar": "-0.0062",
+        "dif": "-0.0013",
+        "dea": "0.0017",
+        "bar": "-0.0060",
         "signal": "绿柱"
       },
       "bollinger": {
-        "upper": "0.4569",
-        "mid": "0.4361",
-        "lower": "0.4153",
+        "upper": "0.4551",
+        "mid": "0.4345",
+        "lower": "0.4139",
         "position": "轨内"
       }
     },
     "shortSignal": {
       "signal": "⚪ 观望",
-      "strength": -0.5,
+      "strength": -1,
       "reasons": [
+        "RSI偏弱",
         "低于MA20",
         "空头排列"
       ]
     },
     "trends": [
-      {
-        "x": 1764604800000,
-        "y": 0.5832,
-        "equityReturn": 0.03,
-        "unitMoney": ""
-      },
       {
         "x": 1764691200000,
         "y": 0.5774,
@@ -9113,9 +9108,15 @@
         "y": 0.4227,
         "equityReturn": 0.07,
         "unitMoney": ""
+      },
+      {
+        "x": 1787846400000,
+        "y": 0.42,
+        "equityReturn": -0.64,
+        "unitMoney": ""
       }
     ],
-    "fetchedAt": "2026-08-27T04:30:05.585Z",
+    "fetchedAt": "2026-08-27T14:01:56.990Z",
     "intraday": {
       "price": 0.421,
       "changePct": -0.47,
@@ -9132,56 +9133,49 @@
       "科技"
     ],
     "tradeMode": "observe",
-    "nav": 1.1311,
-    "navDate": "2026-08-26",
+    "nav": 1.1794,
+    "navDate": "2026-08-27",
     "navHigh": 3.3724,
     "navLow": 1.0393,
-    "drawdownFromHigh": "-66.46",
-    "volatility30d": "69.23",
+    "drawdownFromHigh": "-65.03",
+    "volatility30d": "67.14",
     "returns": {
-      "1m": -3.83,
-      "3m": -57.13,
-      "6m": -41.78,
-      "1y": -12.9
+      "1m": 2.78,
+      "3m": -52.75,
+      "6m": -39.57,
+      "1y": -9.82
     },
     "tech": {
       "ma": {
-        "ma5": "1.1349",
-        "ma10": "1.1757",
-        "ma20": "1.1621",
-        "ma60": "1.8086"
+        "ma5": "1.1407",
+        "ma10": "1.1744",
+        "ma20": "1.1668",
+        "ma60": "1.7869"
       },
       "maArrangement": "缠绕",
-      "distFromMA20": "-2.67",
-      "rsi14": "43.6",
+      "distFromMA20": "1.08",
+      "rsi14": "45.4",
       "macd": {
-        "dif": "-0.1098",
-        "dea": "-0.1385",
-        "bar": "0.0574",
+        "dif": "-0.1006",
+        "dea": "-0.1308",
+        "bar": "0.0604",
         "signal": "红柱"
       },
       "bollinger": {
-        "upper": "1.2740",
-        "mid": "1.1621",
-        "lower": "1.0502",
+        "upper": "1.2732",
+        "mid": "1.1668",
+        "lower": "1.0604",
         "position": "轨内"
       }
     },
     "shortSignal": {
-      "signal": "🟡 买入观察",
-      "strength": 1.5,
+      "signal": "⚪ 观望",
+      "strength": 1,
       "reasons": [
-        "低于MA20",
         "MACD红柱放大"
       ]
     },
     "trends": [
-      {
-        "x": 1764604800000,
-        "y": 1.6882,
-        "equityReturn": 1.85,
-        "unitMoney": ""
-      },
       {
         "x": 1764691200000,
         "y": 1.6614,
@@ -10255,9 +10249,15 @@
         "y": 1.1311,
         "equityReturn": 1.15,
         "unitMoney": ""
+      },
+      {
+        "x": 1787846400000,
+        "y": 1.1794,
+        "equityReturn": 4.27,
+        "unitMoney": ""
       }
     ],
-    "fetchedAt": "2026-08-27T04:30:05.935Z",
+    "fetchedAt": "2026-08-27T14:01:57.139Z",
     "intraday": {
       "price": 1.181,
       "changePct": 4.42,
@@ -10274,56 +10274,49 @@
       "科技"
     ],
     "tradeMode": "observe",
-    "nav": 1.0174,
-    "navDate": "2026-08-26",
+    "nav": 1.061,
+    "navDate": "2026-08-27",
     "navHigh": 2.9872,
     "navLow": 0.9224,
-    "drawdownFromHigh": "-65.94",
-    "volatility30d": "70.21",
+    "drawdownFromHigh": "-64.48",
+    "volatility30d": "67.66",
     "returns": {
-      "1m": -2.46,
-      "3m": -55.66,
-      "6m": -38.67,
-      "1y": -8.56
+      "1m": 3.49,
+      "3m": -50.99,
+      "6m": -36.61,
+      "1y": -5.58
     },
     "tech": {
       "ma": {
-        "ma5": "1.0233",
-        "ma10": "1.0571",
-        "ma20": "1.0408",
-        "ma60": "1.5558"
+        "ma5": "1.0276",
+        "ma10": "1.0563",
+        "ma20": "1.0457",
+        "ma60": "1.5377"
       },
       "maArrangement": "缠绕",
-      "distFromMA20": "-2.25",
-      "rsi14": "44.7",
+      "distFromMA20": "1.46",
+      "rsi14": "46.1",
       "macd": {
-        "dif": "-0.0824",
-        "dea": "-0.1044",
-        "bar": "0.0440",
+        "dif": "-0.0752",
+        "dea": "-0.0985",
+        "bar": "0.0466",
         "signal": "红柱"
       },
       "bollinger": {
-        "upper": "1.1462",
-        "mid": "1.0408",
-        "lower": "0.9354",
+        "upper": "1.1450",
+        "mid": "1.0457",
+        "lower": "0.9464",
         "position": "轨内"
       }
     },
     "shortSignal": {
-      "signal": "🟡 买入观察",
-      "strength": 1.5,
+      "signal": "⚪ 观望",
+      "strength": 1,
       "reasons": [
-        "低于MA20",
         "MACD红柱放大"
       ]
     },
     "trends": [
-      {
-        "x": 1764604800000,
-        "y": 1.4166,
-        "equityReturn": 1.83,
-        "unitMoney": ""
-      },
       {
         "x": 1764691200000,
         "y": 1.3967,
@@ -11397,9 +11390,15 @@
         "y": 1.0174,
         "equityReturn": 1.05,
         "unitMoney": ""
+      },
+      {
+        "x": 1787846400000,
+        "y": 1.061,
+        "equityReturn": 4.29,
+        "unitMoney": ""
       }
     ],
-    "fetchedAt": "2026-08-27T04:30:06.080Z",
+    "fetchedAt": "2026-08-27T14:01:57.251Z",
     "intraday": {
       "price": 1.063,
       "changePct": 4.52,
@@ -11416,56 +11415,49 @@
       "军工"
     ],
     "tradeMode": "observe",
-    "nav": 1.0992,
-    "navDate": "2026-08-26",
+    "nav": 1.1216,
+    "navDate": "2026-08-27",
     "navHigh": 1.6499,
     "navLow": 1.0571,
-    "drawdownFromHigh": "-33.38",
-    "volatility30d": "32.81",
+    "drawdownFromHigh": "-32.02",
+    "volatility30d": "29.57",
     "returns": {
-      "1m": 2.27,
-      "3m": -18.41,
-      "6m": -26.64,
-      "1y": -10.76
+      "1m": 2.49,
+      "3m": -12.64,
+      "6m": -26.47,
+      "1y": -10.23
     },
     "tech": {
       "ma": {
-        "ma5": "1.0983",
-        "ma10": "1.1239",
-        "ma20": "1.1259",
-        "ma60": "1.1814"
+        "ma5": "1.1031",
+        "ma10": "1.1214",
+        "ma20": "1.1284",
+        "ma60": "1.1788"
       },
       "maArrangement": "空头排列",
-      "distFromMA20": "-2.37",
-      "rsi14": "41.4",
+      "distFromMA20": "-0.60",
+      "rsi14": "42.6",
       "macd": {
-        "dif": "-0.0148",
-        "dea": "-0.0128",
-        "bar": "-0.0040",
+        "dif": "-0.0133",
+        "dea": "-0.0129",
+        "bar": "-0.0008",
         "signal": "绿柱"
       },
       "bollinger": {
-        "upper": "1.1870",
-        "mid": "1.1259",
-        "lower": "1.0648",
+        "upper": "1.1843",
+        "mid": "1.1284",
+        "lower": "1.0725",
         "position": "轨内"
       }
     },
     "shortSignal": {
       "signal": "⚪ 观望",
-      "strength": -0.5,
+      "strength": -1,
       "reasons": [
-        "低于MA20",
         "空头排列"
       ]
     },
     "trends": [
-      {
-        "x": 1764604800000,
-        "y": 1.1847,
-        "equityReturn": 1.09,
-        "unitMoney": ""
-      },
       {
         "x": 1764691200000,
         "y": 1.1813,
@@ -12539,9 +12531,15 @@
         "y": 1.0992,
         "equityReturn": 0.29,
         "unitMoney": ""
+      },
+      {
+        "x": 1787846400000,
+        "y": 1.1216,
+        "equityReturn": 2.04,
+        "unitMoney": ""
       }
     ],
-    "fetchedAt": "2026-08-27T04:30:06.228Z",
+    "fetchedAt": "2026-08-27T14:01:57.375Z",
     "intraday": {
       "price": 1.121,
       "changePct": 1.82,
@@ -12559,38 +12557,38 @@
       "锂电"
     ],
     "tradeMode": "observe",
-    "nav": 2.5012,
-    "navDate": "2026-08-26",
+    "nav": 2.492,
+    "navDate": "2026-08-27",
     "navHigh": 3.3792,
     "navLow": 2.1881,
-    "drawdownFromHigh": "-25.98",
-    "volatility30d": "31.02",
+    "drawdownFromHigh": "-26.25",
+    "volatility30d": "29.43",
     "returns": {
-      "1m": 3.63,
-      "3m": -21.84,
-      "6m": -18.72,
-      "1y": 20.8
+      "1m": 2.27,
+      "3m": -20.06,
+      "6m": -20.41,
+      "1y": 19.12
     },
     "tech": {
       "ma": {
-        "ma5": "2.5012",
-        "ma10": "2.5413",
-        "ma20": "2.5270",
-        "ma60": "2.6734"
+        "ma5": "2.4998",
+        "ma10": "2.5336",
+        "ma20": "2.5308",
+        "ma60": "2.6639"
       },
       "maArrangement": "缠绕",
-      "distFromMA20": "-1.02",
-      "rsi14": "49.4",
+      "distFromMA20": "-1.53",
+      "rsi14": "42.2",
       "macd": {
-        "dif": "-0.0208",
-        "dea": "-0.0220",
-        "bar": "0.0024",
+        "dif": "-0.0217",
+        "dea": "-0.0219",
+        "bar": "0.0004",
         "signal": "红柱"
       },
       "bollinger": {
-        "upper": "2.6439",
-        "mid": "2.5270",
-        "lower": "2.4101",
+        "upper": "2.6374",
+        "mid": "2.5308",
+        "lower": "2.4243",
         "position": "轨内"
       }
     },
@@ -12600,12 +12598,6 @@
       "reasons": []
     },
     "trends": [
-      {
-        "x": 1764604800000,
-        "y": 2.8331,
-        "equityReturn": 0.23,
-        "unitMoney": ""
-      },
       {
         "x": 1764691200000,
         "y": 2.798,
@@ -13679,9 +13671,15 @@
         "y": 2.5012,
         "equityReturn": 1.34,
         "unitMoney": ""
+      },
+      {
+        "x": 1787846400000,
+        "y": 2.492,
+        "equityReturn": -0.37,
+        "unitMoney": ""
       }
     ],
-    "fetchedAt": "2026-08-27T04:30:06.327Z",
+    "fetchedAt": "2026-08-27T14:01:57.466Z",
     "intraday": {
       "price": 2.492,
       "changePct": -0.36,
@@ -13698,38 +13696,38 @@
       "AI应用"
     ],
     "tradeMode": "observe",
-    "nav": 1.073,
-    "navDate": "2026-08-26",
+    "nav": 1.0778,
+    "navDate": "2026-08-27",
     "navHigh": 1.6878,
     "navLow": 0.9929,
-    "drawdownFromHigh": "-36.43",
-    "volatility30d": "37.89",
+    "drawdownFromHigh": "-36.14",
+    "volatility30d": "34.84",
     "returns": {
-      "1m": 5.33,
-      "3m": -7.19,
-      "6m": -30.59,
-      "1y": -21.14
+      "1m": 0.05,
+      "3m": -5.46,
+      "6m": -29.83,
+      "1y": -21.81
     },
     "tech": {
       "ma": {
-        "ma5": "1.0736",
-        "ma10": "1.0943",
-        "ma20": "1.1128",
-        "ma60": "1.0904"
+        "ma5": "1.0730",
+        "ma10": "1.0897",
+        "ma20": "1.1132",
+        "ma60": "1.0897"
       },
       "maArrangement": "空头排列",
-      "distFromMA20": "-3.58",
-      "rsi14": "35.1",
+      "distFromMA20": "-3.18",
+      "rsi14": "37.1",
       "macd": {
-        "dif": "-0.0061",
-        "dea": "0.0009",
-        "bar": "-0.0140",
+        "dif": "-0.0067",
+        "dea": "-0.0006",
+        "bar": "-0.0122",
         "signal": "绿柱"
       },
       "bollinger": {
-        "upper": "1.1762",
-        "mid": "1.1128",
-        "lower": "1.0493",
+        "upper": "1.1756",
+        "mid": "1.1132",
+        "lower": "1.0508",
         "position": "轨内"
       }
     },
@@ -13744,12 +13742,6 @@
       ]
     },
     "trends": [
-      {
-        "x": 1764604800000,
-        "y": 1.4291,
-        "equityReturn": 1.56,
-        "unitMoney": ""
-      },
       {
         "x": 1764691200000,
         "y": 1.4063,
@@ -14823,9 +14815,15 @@
         "y": 1.073,
         "equityReturn": -0.46,
         "unitMoney": ""
+      },
+      {
+        "x": 1787846400000,
+        "y": 1.0778,
+        "equityReturn": 0.45,
+        "unitMoney": ""
       }
     ],
-    "fetchedAt": "2026-08-27T04:30:06.492Z",
+    "fetchedAt": "2026-08-27T14:01:57.557Z",
     "intraday": {
       "price": 1.078,
       "changePct": 0.19,
@@ -14842,38 +14840,38 @@
       "金融"
     ],
     "tradeMode": "observe",
-    "nav": 0.8282,
-    "navDate": "2026-08-26",
+    "nav": 0.8196,
+    "navDate": "2026-08-27",
     "navHigh": 0.8489,
     "navLow": 0.7321,
-    "drawdownFromHigh": "-2.44",
-    "volatility30d": "18.62",
+    "drawdownFromHigh": "-3.45",
+    "volatility30d": "18.71",
     "returns": {
-      "1m": 1.21,
-      "3m": 8.69,
-      "6m": 6.55,
-      "1y": -4.19
+      "1m": 0,
+      "3m": 5.66,
+      "6m": 5.96,
+      "1y": -4.16
     },
     "tech": {
       "ma": {
-        "ma5": "0.8224",
-        "ma10": "0.8125",
-        "ma20": "0.8123",
-        "ma60": "0.7908"
+        "ma5": "0.8226",
+        "ma10": "0.8142",
+        "ma20": "0.8112",
+        "ma60": "0.7914"
       },
       "maArrangement": "多头排列",
-      "distFromMA20": "1.96",
-      "rsi14": "67.2",
+      "distFromMA20": "1.04",
+      "rsi14": "64.1",
       "macd": {
-        "dif": "0.0073",
-        "dea": "0.0060",
-        "bar": "0.0026",
+        "dif": "0.0071",
+        "dea": "0.0062",
+        "bar": "0.0018",
         "signal": "红柱"
       },
       "bollinger": {
-        "upper": "0.8391",
-        "mid": "0.8123",
-        "lower": "0.7854",
+        "upper": "0.8350",
+        "mid": "0.8112",
+        "lower": "0.7874",
         "position": "轨内"
       }
     },
@@ -14886,12 +14884,6 @@
       ]
     },
     "trends": [
-      {
-        "x": 1764604800000,
-        "y": 0.8421,
-        "equityReturn": 0.75,
-        "unitMoney": ""
-      },
       {
         "x": 1764691200000,
         "y": 0.8421,
@@ -15965,9 +15957,15 @@
         "y": 0.8282,
         "equityReturn": 0.78,
         "unitMoney": ""
+      },
+      {
+        "x": 1787846400000,
+        "y": 0.8196,
+        "equityReturn": -1.04,
+        "unitMoney": ""
       }
     ],
-    "fetchedAt": "2026-08-27T04:30:06.619Z",
+    "fetchedAt": "2026-08-27T14:01:57.818Z",
     "intraday": {
       "price": 0.819,
       "changePct": -1.21,
@@ -15984,38 +15982,38 @@
       "食品饮料"
     ],
     "tradeMode": "observe",
-    "nav": 0.6646,
-    "navDate": "2026-08-26",
+    "nav": 0.6649,
+    "navDate": "2026-08-27",
     "navHigh": 0.8898,
     "navLow": 0.6038,
-    "drawdownFromHigh": "-25.31",
-    "volatility30d": "21.00",
+    "drawdownFromHigh": "-25.28",
+    "volatility30d": "20.45",
     "returns": {
-      "1m": -1.1,
-      "3m": -0.85,
-      "6m": -13.89,
-      "1y": -19.05
+      "1m": -2.36,
+      "3m": -3.23,
+      "6m": -14.34,
+      "1y": -19.09
     },
     "tech": {
       "ma": {
-        "ma5": "0.6639",
-        "ma10": "0.6680",
-        "ma20": "0.6754",
-        "ma60": "0.6538"
+        "ma5": "0.6629",
+        "ma10": "0.6661",
+        "ma20": "0.6738",
+        "ma60": "0.6537"
       },
       "maArrangement": "空头排列",
-      "distFromMA20": "-1.60",
-      "rsi14": "46.5",
+      "distFromMA20": "-1.32",
+      "rsi14": "45.5",
       "macd": {
-        "dif": "0.0001",
-        "dea": "0.0029",
-        "bar": "-0.0056",
+        "dif": "-0.0002",
+        "dea": "0.0023",
+        "bar": "-0.0050",
         "signal": "绿柱"
       },
       "bollinger": {
-        "upper": "0.6973",
-        "mid": "0.6754",
-        "lower": "0.6536",
+        "upper": "0.6936",
+        "mid": "0.6738",
+        "lower": "0.6540",
         "position": "轨内"
       }
     },
@@ -16027,12 +16025,6 @@
       ]
     },
     "trends": [
-      {
-        "x": 1764604800000,
-        "y": 0.8279,
-        "equityReturn": -0.23,
-        "unitMoney": ""
-      },
       {
         "x": 1764691200000,
         "y": 0.8212,
@@ -17106,9 +17098,15 @@
         "y": 0.6646,
         "equityReturn": -0.06,
         "unitMoney": ""
+      },
+      {
+        "x": 1787846400000,
+        "y": 0.6649,
+        "equityReturn": 0.05,
+        "unitMoney": ""
       }
     ],
-    "fetchedAt": "2026-08-27T04:30:06.756Z",
+    "fetchedAt": "2026-08-27T14:01:58.089Z",
     "intraday": {
       "price": 0.665,
       "changePct": 0,
@@ -17125,38 +17123,38 @@
       "新能源"
     ],
     "tradeMode": "observe",
-    "nav": 0.8492,
-    "navDate": "2026-08-26",
+    "nav": 0.8461,
+    "navDate": "2026-08-27",
     "navHigh": 1.1822,
     "navLow": 0.7865,
-    "drawdownFromHigh": "-28.17",
-    "volatility30d": "32.33",
+    "drawdownFromHigh": "-28.43",
+    "volatility30d": "30.32",
     "returns": {
-      "1m": 4.7,
-      "3m": -24.64,
-      "6m": -23.45,
-      "1y": 13.62
+      "1m": 3.82,
+      "3m": -21.45,
+      "6m": -24.46,
+      "1y": 11.73
     },
     "tech": {
       "ma": {
-        "ma5": "0.8462",
-        "ma10": "0.8584",
-        "ma20": "0.8524",
-        "ma60": "0.9107"
+        "ma5": "0.8457",
+        "ma10": "0.8565",
+        "ma20": "0.8545",
+        "ma60": "0.9071"
       },
       "maArrangement": "缠绕",
-      "distFromMA20": "-0.38",
-      "rsi14": "51.3",
+      "distFromMA20": "-0.98",
+      "rsi14": "43.2",
       "macd": {
         "dif": "-0.0076",
-        "dea": "-0.0091",
-        "bar": "0.0030",
+        "dea": "-0.0088",
+        "bar": "0.0024",
         "signal": "红柱"
       },
       "bollinger": {
-        "upper": "0.8950",
-        "mid": "0.8524",
-        "lower": "0.8097",
+        "upper": "0.8906",
+        "mid": "0.8545",
+        "lower": "0.8185",
         "position": "轨内"
       }
     },
@@ -17166,12 +17164,6 @@
       "reasons": []
     },
     "trends": [
-      {
-        "x": 1764604800000,
-        "y": 0.9579,
-        "equityReturn": 0.11,
-        "unitMoney": ""
-      },
       {
         "x": 1764691200000,
         "y": 0.9444,
@@ -18245,9 +18237,15 @@
         "y": 0.8492,
         "equityReturn": 1.25,
         "unitMoney": ""
+      },
+      {
+        "x": 1787846400000,
+        "y": 0.8461,
+        "equityReturn": -0.37,
+        "unitMoney": ""
       }
     ],
-    "fetchedAt": "2026-08-27T04:30:06.838Z",
+    "fetchedAt": "2026-08-27T14:01:58.187Z",
     "intraday": {
       "price": 0.846,
       "changePct": -0.59,
@@ -18264,55 +18262,47 @@
       "消费"
     ],
     "tradeMode": "observe",
-    "nav": 0.5663,
-    "navDate": "2026-08-26",
+    "nav": 0.5644,
+    "navDate": "2026-08-27",
     "navHigh": 0.8368,
     "navLow": 0.531,
-    "drawdownFromHigh": "-32.33",
-    "volatility30d": "20.07",
+    "drawdownFromHigh": "-32.55",
+    "volatility30d": "19.11",
     "returns": {
-      "1m": 1.32,
-      "3m": -5.22,
-      "6m": -27.13,
-      "1y": -17.64
+      "1m": -0.55,
+      "3m": -8.02,
+      "6m": -27.26,
+      "1y": -18.11
     },
     "tech": {
       "ma": {
-        "ma5": "0.5585",
-        "ma10": "0.5588",
-        "ma20": "0.5661",
-        "ma60": "0.5625"
+        "ma5": "0.5595",
+        "ma10": "0.5586",
+        "ma20": "0.5657",
+        "ma60": "0.5620"
       },
-      "maArrangement": "空头排列",
-      "distFromMA20": "0.04",
-      "rsi14": "46.7",
+      "maArrangement": "缠绕",
+      "distFromMA20": "-0.23",
+      "rsi14": "47.4",
       "macd": {
-        "dif": "-0.0011",
+        "dif": "-0.0007",
         "dea": "-0.0005",
-        "bar": "-0.0012",
+        "bar": "-0.0004",
         "signal": "绿柱"
       },
       "bollinger": {
-        "upper": "0.5833",
-        "mid": "0.5661",
-        "lower": "0.5489",
+        "upper": "0.5827",
+        "mid": "0.5657",
+        "lower": "0.5487",
         "position": "轨内"
       }
     },
     "shortSignal": {
       "signal": "⚪ 观望",
-      "strength": -1,
-      "reasons": [
-        "空头排列"
-      ]
+      "strength": 0,
+      "reasons": []
     },
     "trends": [
-      {
-        "x": 1764604800000,
-        "y": 0.7722,
-        "equityReturn": 2.92,
-        "unitMoney": ""
-      },
       {
         "x": 1764691200000,
         "y": 0.7722,
@@ -19386,9 +19376,15 @@
         "y": 0.5663,
         "equityReturn": 0.98,
         "unitMoney": ""
+      },
+      {
+        "x": 1787846400000,
+        "y": 0.5644,
+        "equityReturn": -0.34,
+        "unitMoney": ""
       }
     ],
-    "fetchedAt": "2026-08-27T04:30:06.949Z",
+    "fetchedAt": "2026-08-27T14:01:58.323Z",
     "intraday": {
       "price": 0.565,
       "changePct": -0.35,
@@ -19406,57 +19402,51 @@
       "互联网"
     ],
     "tradeMode": "observe",
-    "nav": 0.6034,
-    "navDate": "2026-08-26",
+    "nav": 0.6057,
+    "navDate": "2026-08-27",
     "navHigh": 0.755,
     "navLow": 0.4633,
-    "drawdownFromHigh": "-20.08",
-    "volatility30d": "32.71",
+    "drawdownFromHigh": "-19.77",
+    "volatility30d": "27.84",
     "returns": {
-      "1m": 12.79,
-      "3m": 20.03,
-      "6m": -4.53,
-      "1y": -9.7
+      "1m": 11.86,
+      "3m": 16.46,
+      "6m": -3.78,
+      "1y": -13
     },
     "tech": {
       "ma": {
-        "ma5": "0.5957",
-        "ma10": "0.5863",
-        "ma20": "0.5697",
-        "ma60": "0.5266"
+        "ma5": "0.5974",
+        "ma10": "0.5887",
+        "ma20": "0.5735",
+        "ma60": "0.5284"
       },
       "maArrangement": "多头排列",
-      "distFromMA20": "5.92",
-      "rsi14": "72.6",
+      "distFromMA20": "5.61",
+      "rsi14": "65.8",
       "macd": {
-        "dif": "0.0168",
-        "dea": "0.0153",
-        "bar": "0.0030",
+        "dif": "0.0173",
+        "dea": "0.0157",
+        "bar": "0.0032",
         "signal": "红柱"
       },
       "bollinger": {
-        "upper": "0.6181",
-        "mid": "0.5697",
-        "lower": "0.5212",
+        "upper": "0.6206",
+        "mid": "0.5735",
+        "lower": "0.5263",
         "position": "轨内"
       }
     },
     "shortSignal": {
-      "signal": "🔴 卖出观察",
-      "strength": -2.5,
+      "signal": "⚪ 观望",
+      "strength": 0,
       "reasons": [
-        "RSI超买",
+        "RSI偏强",
         "大幅高于MA20",
         "多头排列"
       ]
     },
     "trends": [
-      {
-        "x": 1764604800000,
-        "y": 0.6553,
-        "equityReturn": 0.17,
-        "unitMoney": ""
-      },
       {
         "x": 1764691200000,
         "y": 0.6482,
@@ -20530,9 +20520,15 @@
         "y": 0.6034,
         "equityReturn": 1.02,
         "unitMoney": ""
+      },
+      {
+        "x": 1787846400000,
+        "y": 0.6057,
+        "equityReturn": 0.38,
+        "unitMoney": ""
       }
     ],
-    "fetchedAt": "2026-08-27T04:30:07.058Z",
+    "fetchedAt": "2026-08-27T14:01:58.560Z",
     "intraday": {
       "price": 0.598,
       "changePct": 0,
@@ -20549,38 +20545,38 @@
       "大盘"
     ],
     "tradeMode": "observe",
-    "nav": 1.523,
-    "navDate": "2026-08-26",
+    "nav": 1.518,
+    "navDate": "2026-08-27",
     "navHigh": 1.6944,
     "navLow": 1.3476,
-    "drawdownFromHigh": "-10.12",
-    "volatility30d": "16.69",
+    "drawdownFromHigh": "-10.41",
+    "volatility30d": "15.87",
     "returns": {
-      "1m": 1.34,
-      "3m": 2.66,
-      "6m": -4.68,
-      "1y": -0.44
+      "1m": -0.88,
+      "3m": 1.72,
+      "6m": -5.46,
+      "1y": -3.2
     },
     "tech": {
       "ma": {
-        "ma5": "1.5236",
-        "ma10": "1.5147",
-        "ma20": "1.5220",
-        "ma60": "1.4693"
+        "ma5": "1.5224",
+        "ma10": "1.5158",
+        "ma20": "1.5212",
+        "ma60": "1.4692"
       },
       "maArrangement": "缠绕",
-      "distFromMA20": "0.07",
-      "rsi14": "52.5",
+      "distFromMA20": "-0.21",
+      "rsi14": "48.4",
       "macd": {
-        "dif": "0.0098",
-        "dea": "0.0123",
-        "bar": "-0.0050",
+        "dif": "0.0091",
+        "dea": "0.0117",
+        "bar": "-0.0052",
         "signal": "绿柱"
       },
       "bollinger": {
-        "upper": "1.5499",
-        "mid": "1.5220",
-        "lower": "1.4940",
+        "upper": "1.5485",
+        "mid": "1.5212",
+        "lower": "1.4938",
         "position": "轨内"
       }
     },
@@ -20590,12 +20586,6 @@
       "reasons": []
     },
     "trends": [
-      {
-        "x": 1764604800000,
-        "y": 1.5997,
-        "equityReturn": 0.55,
-        "unitMoney": ""
-      },
       {
         "x": 1764691200000,
         "y": 1.6043,
@@ -21669,9 +21659,15 @@
         "y": 1.523,
         "equityReturn": 0.48,
         "unitMoney": ""
+      },
+      {
+        "x": 1787846400000,
+        "y": 1.518,
+        "equityReturn": -0.33,
+        "unitMoney": ""
       }
     ],
-    "fetchedAt": "2026-08-27T04:30:07.195Z",
+    "fetchedAt": "2026-08-27T14:01:58.694Z",
     "intraday": {
       "price": 1.503,
       "changePct": -0.46,
@@ -21688,38 +21684,38 @@
       "大盘"
     ],
     "tradeMode": "observe",
-    "nav": 2.4632,
-    "navDate": "2026-08-25",
+    "nav": 2.4617,
+    "navDate": "2026-08-26",
     "navHigh": 2.5023,
     "navLow": 2.0751,
-    "drawdownFromHigh": "-1.56",
-    "volatility30d": "12.51",
+    "drawdownFromHigh": "-1.62",
+    "volatility30d": "12.42",
     "returns": {
-      "1m": 3.53,
-      "3m": 1.36,
-      "6m": 9.94,
-      "1y": 14.53
+      "1m": 3.22,
+      "3m": 0.8,
+      "6m": 8.98,
+      "1y": 13.16
     },
     "tech": {
       "ma": {
-        "ma5": "2.4602",
-        "ma10": "2.4740",
-        "ma20": "2.4604",
-        "ma60": "2.4230"
+        "ma5": "2.4581",
+        "ma10": "2.4716",
+        "ma20": "2.4661",
+        "ma60": "2.4231"
       },
       "maArrangement": "缠绕",
-      "distFromMA20": "0.11",
-      "rsi14": "44.6",
+      "distFromMA20": "-0.18",
+      "rsi14": "45.5",
       "macd": {
-        "dif": "0.0126",
-        "dea": "0.0166",
-        "bar": "-0.0080",
+        "dif": "0.0114",
+        "dea": "0.0156",
+        "bar": "-0.0084",
         "signal": "绿柱"
       },
       "bollinger": {
-        "upper": "2.5373",
-        "mid": "2.4604",
-        "lower": "2.3836",
+        "upper": "2.5230",
+        "mid": "2.4661",
+        "lower": "2.4093",
         "position": "轨内"
       }
     },
@@ -21729,12 +21725,6 @@
       "reasons": []
     },
     "trends": [
-      {
-        "x": 1764345600000,
-        "y": 2.2927,
-        "equityReturn": 0.54,
-        "unitMoney": ""
-      },
       {
         "x": 1764604800000,
         "y": 2.2803,
@@ -22808,9 +22798,15 @@
         "y": 2.4632,
         "equityReturn": 0.34,
         "unitMoney": ""
+      },
+      {
+        "x": 1787760000000,
+        "y": 2.4617,
+        "equityReturn": -0.06,
+        "unitMoney": ""
       }
     ],
-    "fetchedAt": "2026-08-27T04:30:07.332Z",
+    "fetchedAt": "2026-08-27T14:01:58.788Z",
     "intraday": {
       "price": 2.708,
       "changePct": 0,
@@ -22827,38 +22823,38 @@
       "科技"
     ],
     "tradeMode": "observe",
-    "nav": 1.4792,
-    "navDate": "2026-08-25",
+    "nav": 1.4796,
+    "navDate": "2026-08-26",
     "navHigh": 1.5657,
     "navLow": 1.1929,
-    "drawdownFromHigh": "-5.52",
-    "volatility30d": "21.73",
+    "drawdownFromHigh": "-5.50",
+    "volatility30d": "21.19",
     "returns": {
-      "1m": 3.99,
-      "3m": -3.5,
-      "6m": 14.82,
-      "1y": 17.11
+      "1m": 5.04,
+      "3m": -4.2,
+      "6m": 13.71,
+      "1y": 15.58
     },
     "tech": {
       "ma": {
-        "ma5": "1.4804",
-        "ma10": "1.4972",
-        "ma20": "1.4832",
-        "ma60": "1.4923"
+        "ma5": "1.4782",
+        "ma10": "1.4944",
+        "ma20": "1.4883",
+        "ma60": "1.4908"
       },
       "maArrangement": "缠绕",
-      "distFromMA20": "-0.27",
-      "rsi14": "44.3",
+      "distFromMA20": "-0.58",
+      "rsi14": "46.4",
       "macd": {
-        "dif": "0.0023",
-        "dea": "0.0044",
-        "bar": "-0.0042",
+        "dif": "0.0015",
+        "dea": "0.0038",
+        "bar": "-0.0046",
         "signal": "绿柱"
       },
       "bollinger": {
-        "upper": "1.5536",
-        "mid": "1.4832",
-        "lower": "1.4129",
+        "upper": "1.5400",
+        "mid": "1.4883",
+        "lower": "1.4365",
         "position": "轨内"
       }
     },
@@ -22868,12 +22864,6 @@
       "reasons": []
     },
     "trends": [
-      {
-        "x": 1764345600000,
-        "y": 1.3515,
-        "equityReturn": 0.79,
-        "unitMoney": ""
-      },
       {
         "x": 1764604800000,
         "y": 1.346,
@@ -23947,9 +23937,15 @@
         "y": 1.4792,
         "equityReturn": 0.65,
         "unitMoney": ""
+      },
+      {
+        "x": 1787760000000,
+        "y": 1.4796,
+        "equityReturn": 0.03,
+        "unitMoney": ""
       }
     ],
-    "fetchedAt": "2026-08-27T04:30:07.457Z",
+    "fetchedAt": "2026-08-27T14:01:58.913Z",
     "intraday": {
       "price": 1.663,
       "changePct": 1.03,
@@ -23966,58 +23962,52 @@
       "避险"
     ],
     "tradeMode": "observe",
-    "nav": 9.5219,
-    "navDate": "2026-08-26",
+    "nav": 9.442,
+    "navDate": "2026-08-27",
     "navHigh": 11.8713,
     "navLow": 7.4513,
-    "drawdownFromHigh": "-19.79",
-    "volatility30d": "18.87",
+    "drawdownFromHigh": "-20.46",
+    "volatility30d": "18.96",
     "returns": {
-      "1m": 13.24,
-      "3m": 3.88,
-      "6m": -13.08,
-      "1y": 28.51
+      "1m": 12.46,
+      "3m": 0.59,
+      "6m": -13.66,
+      "1y": 27.19
     },
     "tech": {
       "ma": {
-        "ma5": "9.4333",
-        "ma10": "9.2305",
-        "ma20": "8.9657",
-        "ma60": "8.7317"
+        "ma5": "9.4791",
+        "ma10": "9.2712",
+        "ma20": "9.0186",
+        "ma60": "8.7345"
       },
       "maArrangement": "多头排列",
-      "distFromMA20": "6.20",
-      "rsi14": "78.1",
+      "distFromMA20": "4.69",
+      "rsi14": "72.5",
       "macd": {
-        "dif": "0.2304",
-        "dea": "0.1649",
-        "bar": "0.1310",
+        "dif": "0.2311",
+        "dea": "0.1782",
+        "bar": "0.1058",
         "signal": "红柱"
       },
       "bollinger": {
-        "upper": "9.6916",
-        "mid": "8.9657",
-        "lower": "8.2398",
+        "upper": "9.7210",
+        "mid": "9.0186",
+        "lower": "8.3162",
         "position": "轨内"
       }
     },
     "shortSignal": {
-      "signal": "🔴 卖出观察",
-      "strength": -1.5,
+      "signal": "⚪ 观望",
+      "strength": -0.5,
       "reasons": [
         "RSI超买",
-        "大幅高于MA20",
+        "高于MA20",
         "MACD红柱放大",
         "多头排列"
       ]
     },
     "trends": [
-      {
-        "x": 1764604800000,
-        "y": 9.1631,
-        "equityReturn": 1.08,
-        "unitMoney": ""
-      },
       {
         "x": 1764691200000,
         "y": 9.1289,
@@ -25091,9 +25081,15 @@
         "y": 9.5219,
         "equityReturn": 0.07,
         "unitMoney": ""
+      },
+      {
+        "x": 1787846400000,
+        "y": 9.442,
+        "equityReturn": -0.84,
+        "unitMoney": ""
       }
     ],
-    "fetchedAt": "2026-08-27T04:30:07.734Z",
+    "fetchedAt": "2026-08-27T14:01:58.995Z",
     "intraday": {
       "price": 9.446,
       "changePct": -0.75,
