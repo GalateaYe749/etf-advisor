@@ -1,69 +1,48 @@
 {
   "date": "2026-08-28",
-  "generatedAt": "2026-08-28T00:09:24.442Z",
+  "generatedAt": "2026-08-28T04:11:14.352Z",
   "marketSnapshot": {
     "indices": [
       {
         "name": "上证指数",
-        "price": 3956.57,
-        "changePct": "1.13",
-        "amount": 1010226573954.6
+        "price": 3959.64,
+        "changePct": "0.08",
+        "amount": 653404594601.5
       },
       {
         "name": "深证成指",
-        "price": 14048.88,
-        "changePct": "1.50",
-        "amount": 1115700225234.2207
+        "price": 14029.83,
+        "changePct": "-0.14",
+        "amount": 769924579414.6073
       },
       {
         "name": "沪深300",
-        "price": 4630.28,
-        "changePct": "0.86",
-        "amount": 587120379412.9
+        "price": 4625.73,
+        "changePct": "-0.10",
+        "amount": 367993303759.8
       },
       {
         "name": "创业板指",
-        "price": 3473.35,
-        "changePct": "1.71",
-        "amount": 545701840085.13
+        "price": 3462.07,
+        "changePct": "-0.32",
+        "amount": 379421711472.64
       },
       {
         "name": "科创50",
-        "price": 1693.48,
-        "changePct": "3.77",
-        "amount": 101783285788
+        "price": 1681.25,
+        "changePct": "-0.72",
+        "amount": 59145502735
       },
       {
         "name": "北证50",
-        "price": 1074.96,
-        "changePct": "0.65",
-        "amount": 15334931048
+        "price": 1070.09,
+        "changePct": "-0.45",
+        "amount": 10629133770
       }
     ],
-    "turnover": 2141261730237,
+    "turnover": 1433958307786,
     "turnoverDate": "2026-08-28",
-    "notableMovers": [
-      {
-        "name": "中证500ETF南方",
-        "code": "510500",
-        "pct": 2.36
-      },
-      {
-        "name": "科创50ETF华夏",
-        "code": "588000",
-        "pct": 3.89
-      },
-      {
-        "name": "芯片ETF华夏",
-        "code": "159995",
-        "pct": 4.42
-      },
-      {
-        "name": "半导体ETF国联安",
-        "code": "512480",
-        "pct": 4.52
-      }
-    ]
+    "notableMovers": []
   },
   "longTerm": {
     "summary": "月预算¥700，13只ETF本月投入",
@@ -76,10 +55,10 @@
         "cost": 0.754,
         "date": "2026-08-09",
         "name": "电网设备ETF国泰",
-        "currentPrice": 0.746,
-        "currentValue": 969.8,
-        "pnl": -10.4,
-        "pnlPct": -1.06,
+        "currentPrice": 0.74,
+        "currentValue": 962,
+        "pnl": -18.2,
+        "pnlPct": -1.86,
         "personalAdvice": {
           "summary": "电网设备ETF国泰当前回撤69.33%，MACD红柱 RSI 47.6",
           "longTermAction": "坚定持有并分批加仓。回撤69.33%处于极端低估区域，每月可投入¥111。建议在MA20(0.7464)下方加仓",
@@ -89,7 +68,7 @@
         }
       }
     ],
-    "totalValue": 6989.6,
+    "totalValue": 6981.8,
     "recommendations": [
       {
         "etf": "159915",
@@ -412,9 +391,9 @@
   },
   "portfolio": {
     "totalCapital": 10000,
-    "totalValue": 9989.6,
-    "totalPnlPct": -0.1,
-    "longValue": 6989.6,
+    "totalValue": 9981.8,
+    "totalPnlPct": -0.18,
+    "longValue": 6981.8,
     "shortValue": 3000
   },
   "insights": [
@@ -422,7 +401,7 @@
       "level": "neutral",
       "cat": "大盘",
       "for": "both",
-      "text": "沪深300微涨0.86%，横盘震荡"
+      "text": "沪深300微跌0.1%，横盘震荡"
     },
     {
       "level": "opportunity",
