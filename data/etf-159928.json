@@ -7,55 +7,50 @@
     "食品饮料"
   ],
   "tradeMode": "observe",
-  "nav": 0.6649,
-  "navDate": "2026-08-27",
+  "nav": 0.6712,
+  "navDate": "2026-08-28",
   "navHigh": 0.8898,
   "navLow": 0.6038,
-  "drawdownFromHigh": "-25.28",
-  "volatility30d": "20.45",
+  "drawdownFromHigh": "-24.57",
+  "volatility30d": "17.97",
   "returns": {
-    "1m": -2.36,
-    "3m": -3.23,
-    "6m": -14.34,
-    "1y": -19.09
+    "1m": -3.77,
+    "3m": -2.7,
+    "6m": -12.84,
+    "1y": -18.05
   },
   "tech": {
     "ma": {
-      "ma5": "0.6629",
-      "ma10": "0.6661",
-      "ma20": "0.6738",
-      "ma60": "0.6537"
+      "ma5": "0.6654",
+      "ma10": "0.6659",
+      "ma20": "0.6727",
+      "ma60": "0.6539"
     },
     "maArrangement": "空头排列",
-    "distFromMA20": "-1.32",
-    "rsi14": "45.5",
+    "distFromMA20": "-0.22",
+    "rsi14": "37.4",
     "macd": {
-      "dif": "-0.0002",
-      "dea": "0.0023",
-      "bar": "-0.0050",
+      "dif": "0.0001",
+      "dea": "0.0019",
+      "bar": "-0.0036",
       "signal": "绿柱"
     },
     "bollinger": {
-      "upper": "0.6936",
-      "mid": "0.6738",
-      "lower": "0.6540",
+      "upper": "0.6903",
+      "mid": "0.6727",
+      "lower": "0.6551",
       "position": "轨内"
     }
   },
   "shortSignal": {
-    "signal": "⚪ 观望",
-    "strength": -1,
+    "signal": "🔴 卖出观察",
+    "strength": -1.5,
     "reasons": [
+      "RSI偏弱",
       "空头排列"
     ]
   },
   "trends": [
-    {
-      "x": 1764691200000,
-      "y": 0.8212,
-      "equityReturn": -0.81,
-      "unitMoney": ""
-    },
     {
       "x": 1764777600000,
       "y": 0.8148,
@@ -1129,13 +1124,19 @@
       "y": 0.6649,
       "equityReturn": 0.05,
       "unitMoney": ""
+    },
+    {
+      "x": 1787932800000,
+      "y": 0.6712,
+      "equityReturn": 0.95,
+      "unitMoney": ""
     }
   ],
-  "fetchedAt": "2026-08-28T04:30:06.463Z",
+  "fetchedAt": "2026-08-28T14:01:57.626Z",
   "intraday": {
-    "price": 0.666,
-    "changePct": 0.15,
+    "price": 0.671,
+    "changePct": 0.9,
     "prevClose": 0.665,
-    "time": "2026-08-28T04:03:08.417Z"
+    "time": "2026-08-28T09:00:01.987Z"
   }
 }
