@@ -8,56 +8,49 @@
     "互联网"
   ],
   "tradeMode": "observe",
-  "nav": 0.6004,
-  "navDate": "2026-08-28",
+  "nav": 0.58,
+  "navDate": "2026-08-31",
   "navHigh": 0.755,
   "navLow": 0.4633,
-  "drawdownFromHigh": "-20.48",
-  "volatility30d": "25.97",
+  "drawdownFromHigh": "-23.18",
+  "volatility30d": "27.83",
   "returns": {
-    "1m": 13.39,
-    "3m": 16.31,
-    "6m": -0.07,
-    "1y": -14.24
+    "1m": 9.27,
+    "3m": 13.88,
+    "6m": -5.01,
+    "1y": -19.33
   },
   "tech": {
     "ma": {
-      "ma5": "0.5978",
-      "ma10": "0.5917",
-      "ma20": "0.5770",
-      "ma60": "0.5303"
+      "ma5": "0.5974",
+      "ma10": "0.5923",
+      "ma20": "0.5796",
+      "ma60": "0.5319"
     },
     "maArrangement": "多头排列",
-    "distFromMA20": "4.06",
-    "rsi14": "59.4",
+    "distFromMA20": "0.07",
+    "rsi14": "48.7",
     "macd": {
-      "dif": "0.0170",
-      "dea": "0.0160",
-      "bar": "0.0020",
-      "signal": "红柱"
+      "dif": "0.0150",
+      "dea": "0.0158",
+      "bar": "-0.0016",
+      "signal": "绿柱"
     },
     "bollinger": {
-      "upper": "0.6212",
-      "mid": "0.5770",
-      "lower": "0.5327",
+      "upper": "0.6174",
+      "mid": "0.5796",
+      "lower": "0.5418",
       "position": "轨内"
     }
   },
   "shortSignal": {
     "signal": "⚪ 观望",
-    "strength": 0.5,
+    "strength": 1,
     "reasons": [
-      "高于MA20",
       "多头排列"
     ]
   },
   "trends": [
-    {
-      "x": 1764777600000,
-      "y": 0.6365,
-      "equityReturn": -1.8,
-      "unitMoney": ""
-    },
     {
       "x": 1764864000000,
       "y": 0.6501,
@@ -1131,13 +1124,19 @@
       "y": 0.6004,
       "equityReturn": -0.88,
       "unitMoney": ""
+    },
+    {
+      "x": 1788192000000,
+      "y": 0.58,
+      "equityReturn": -3.4,
+      "unitMoney": ""
     }
   ],
-  "fetchedAt": "2026-08-31T04:30:05.448Z",
+  "fetchedAt": "2026-08-31T14:01:59.004Z",
   "intraday": {
-    "price": 0.569,
-    "changePct": -3.89,
+    "price": 0.574,
+    "changePct": -3.04,
     "prevClose": 0.592,
-    "time": "2026-08-31T04:03:07.835Z"
+    "time": "2026-08-31T09:00:01.991Z"
   }
 }
