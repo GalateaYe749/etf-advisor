@@ -7,53 +7,49 @@
     "食品饮料"
   ],
   "tradeMode": "observe",
-  "nav": 0.6739,
-  "navDate": "2026-09-01",
+  "nav": 0.6681,
+  "navDate": "2026-09-02",
   "navHigh": 0.8898,
   "navLow": 0.6038,
-  "drawdownFromHigh": "-24.26",
-  "volatility30d": "18.01",
+  "drawdownFromHigh": "-24.92",
+  "volatility30d": "18.14",
   "returns": {
-    "1m": -2.53,
-    "3m": 0.58,
-    "6m": -12.22,
-    "1y": -18.33
+    "1m": -1.56,
+    "3m": 1.47,
+    "6m": -12.72,
+    "1y": -19.69
   },
   "tech": {
     "ma": {
-      "ma5": "0.6682",
-      "ma10": "0.6661",
-      "ma20": "0.6712",
-      "ma60": "0.6545"
+      "ma5": "0.6689",
+      "ma10": "0.6664",
+      "ma20": "0.6709",
+      "ma60": "0.6549"
     },
     "maArrangement": "缠绕",
-    "distFromMA20": "0.40",
-    "rsi14": "44.0",
+    "distFromMA20": "-0.42",
+    "rsi14": "39.9",
     "macd": {
-      "dif": "0.0004",
-      "dea": "0.0013",
-      "bar": "-0.0018",
+      "dif": "0.0003",
+      "dea": "0.0011",
+      "bar": "-0.0016",
       "signal": "绿柱"
     },
     "bollinger": {
-      "upper": "0.6864",
-      "mid": "0.6712",
-      "lower": "0.6560",
+      "upper": "0.6862",
+      "mid": "0.6709",
+      "lower": "0.6557",
       "position": "轨内"
     }
   },
   "shortSignal": {
     "signal": "⚪ 观望",
-    "strength": 0,
-    "reasons": []
+    "strength": -0.5,
+    "reasons": [
+      "RSI偏弱"
+    ]
   },
   "trends": [
-    {
-      "x": 1764950400000,
-      "y": 0.8085,
-      "equityReturn": 0.21,
-      "unitMoney": ""
-    },
     {
       "x": 1765209600000,
       "y": 0.8021,
@@ -1127,13 +1123,19 @@
       "y": 0.6739,
       "equityReturn": 1.14,
       "unitMoney": ""
+    },
+    {
+      "x": 1788364800000,
+      "y": 0.6681,
+      "equityReturn": -0.86,
+      "unitMoney": ""
     }
   ],
-  "fetchedAt": "2026-09-02T04:30:06.637Z",
+  "fetchedAt": "2026-09-02T14:01:26.324Z",
   "intraday": {
-    "price": 0.67,
-    "changePct": -0.59,
+    "price": 0.668,
+    "changePct": -0.89,
     "prevClose": 0.674,
-    "time": "2026-09-02T04:00:19.746Z"
+    "time": "2026-09-02T09:00:01.820Z"
   }
 }
