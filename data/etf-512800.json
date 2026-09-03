@@ -7,58 +7,51 @@
     "金融"
   ],
   "tradeMode": "observe",
-  "nav": 0.8448,
-  "navDate": "2026-09-02",
+  "nav": 0.8406,
+  "navDate": "2026-09-03",
   "navHigh": 0.8489,
   "navLow": 0.7321,
-  "drawdownFromHigh": "-0.48",
-  "volatility30d": "17.51",
+  "drawdownFromHigh": "-0.98",
+  "volatility30d": "17.55",
   "returns": {
-    "1m": 4.19,
-    "3m": 9.2,
-    "6m": 7.78,
-    "1y": -0.17
+    "1m": 4.88,
+    "3m": 7.26,
+    "6m": 8.41,
+    "1y": -1.08
   },
   "tech": {
     "ma": {
-      "ma5": "0.8306",
-      "ma10": "0.8265",
-      "ma20": "0.8142",
-      "ma60": "0.7946"
+      "ma5": "0.8348",
+      "ma10": "0.8287",
+      "ma20": "0.8160",
+      "ma60": "0.7952"
     },
     "maArrangement": "多头排列",
-    "distFromMA20": "3.76",
-    "rsi14": "72.0",
+    "distFromMA20": "3.01",
+    "rsi14": "72.4",
     "macd": {
-      "dif": "0.0099",
-      "dea": "0.0075",
+      "dif": "0.0104",
+      "dea": "0.0080",
       "bar": "0.0048",
       "signal": "红柱"
     },
     "bollinger": {
-      "upper": "0.8436",
-      "mid": "0.8142",
-      "lower": "0.7847",
-      "position": "上轨上方"
+      "upper": "0.8472",
+      "mid": "0.8160",
+      "lower": "0.7848",
+      "position": "轨内"
     }
   },
   "shortSignal": {
     "signal": "🔴 卖出观察",
-    "strength": -2.5,
+    "strength": -1.5,
     "reasons": [
       "RSI超买",
       "高于MA20",
-      "多头排列",
-      "突破布林上轨"
+      "多头排列"
     ]
   },
   "trends": [
-    {
-      "x": 1765209600000,
-      "y": 0.8265,
-      "equityReturn": 0.01,
-      "unitMoney": ""
-    },
     {
       "x": 1765296000000,
       "y": 0.8259,
@@ -1132,13 +1125,19 @@
       "y": 0.8448,
       "equityReturn": 0.05,
       "unitMoney": ""
+    },
+    {
+      "x": 1788451200000,
+      "y": 0.8406,
+      "equityReturn": -0.5,
+      "unitMoney": ""
     }
   ],
-  "fetchedAt": "2026-09-03T04:30:04.975Z",
+  "fetchedAt": "2026-09-03T14:00:20.108Z",
   "intraday": {
-    "price": 0.848,
-    "changePct": 0.47,
+    "price": 0.84,
+    "changePct": -0.47,
     "prevClose": 0.844,
-    "time": "2026-09-03T04:00:21.442Z"
+    "time": "2026-09-03T09:00:01.876Z"
   }
 }
