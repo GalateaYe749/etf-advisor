@@ -7,57 +7,51 @@
     "新能源"
   ],
   "tradeMode": "observe",
-  "nav": 0.8095,
-  "navDate": "2026-09-03",
+  "nav": 0.8042,
+  "navDate": "2026-09-04",
   "navHigh": 1.1822,
   "navLow": 0.7865,
-  "drawdownFromHigh": "-31.53",
-  "volatility30d": "25.83",
+  "drawdownFromHigh": "-31.97",
+  "volatility30d": "24.89",
   "returns": {
-    "1m": -5.37,
-    "3m": -22.19,
-    "6m": -26.94,
-    "1y": 2.73
+    "1m": -4.86,
+    "3m": -18.43,
+    "6m": -28.38,
+    "1y": 2.02
   },
   "tech": {
     "ma": {
-      "ma5": "0.8251",
-      "ma10": "0.8354",
-      "ma20": "0.8515",
-      "ma60": "0.8907"
+      "ma5": "0.8169",
+      "ma10": "0.8306",
+      "ma20": "0.8485",
+      "ma60": "0.8875"
     },
     "maArrangement": "空头排列",
-    "distFromMA20": "-4.93",
-    "rsi14": "29.6",
+    "distFromMA20": "-5.22",
+    "rsi14": "16.9",
     "macd": {
-      "dif": "-0.0130",
-      "dea": "-0.0098",
-      "bar": "-0.0064",
+      "dif": "-0.0145",
+      "dea": "-0.0107",
+      "bar": "-0.0076",
       "signal": "绿柱"
     },
     "bollinger": {
-      "upper": "0.8942",
-      "mid": "0.8515",
-      "lower": "0.8088",
+      "upper": "0.8953",
+      "mid": "0.8485",
+      "lower": "0.8016",
       "position": "轨内"
     }
   },
   "shortSignal": {
     "signal": "🟡 买入观察",
-    "strength": 1.5,
+    "strength": 2.5,
     "reasons": [
       "RSI超卖",
-      "低于MA20",
+      "远离MA20",
       "空头排列"
     ]
   },
   "trends": [
-    {
-      "x": 1765296000000,
-      "y": 0.9708,
-      "equityReturn": 0.58,
-      "unitMoney": ""
-    },
     {
       "x": 1765382400000,
       "y": 0.9573,
@@ -1131,13 +1125,19 @@
       "y": 0.8095,
       "equityReturn": -0.21,
       "unitMoney": ""
+    },
+    {
+      "x": 1788537600000,
+      "y": 0.8042,
+      "equityReturn": -0.65,
+      "unitMoney": ""
     }
   ],
-  "fetchedAt": "2026-09-04T04:30:06.152Z",
+  "fetchedAt": "2026-09-04T14:00:32.213Z",
   "intraday": {
-    "price": 0.815,
-    "changePct": 0.62,
+    "price": 0.805,
+    "changePct": -0.62,
     "prevClose": 0.81,
-    "time": "2026-09-04T04:00:27.629Z"
+    "time": "2026-09-04T09:00:01.849Z"
   }
 }

@@ -7,53 +7,49 @@
     "大盘"
   ],
   "tradeMode": "observe",
-  "nav": 1.4975,
-  "navDate": "2026-09-03",
+  "nav": 1.5234,
+  "navDate": "2026-09-04",
   "navHigh": 1.6944,
   "navLow": 1.3476,
-  "drawdownFromHigh": "-11.62",
-  "volatility30d": "13.42",
+  "drawdownFromHigh": "-10.09",
+  "volatility30d": "14.08",
   "returns": {
-    "1m": -2.62,
-    "3m": 1.06,
-    "6m": -1.03,
-    "1y": -3.42
+    "1m": 0.56,
+    "3m": 4.04,
+    "6m": 0.75,
+    "1y": -1.28
   },
   "tech": {
     "ma": {
-      "ma5": "1.5081",
-      "ma10": "1.5153",
-      "ma20": "1.5148",
-      "ma60": "1.4724"
+      "ma5": "1.5091",
+      "ma10": "1.5134",
+      "ma20": "1.5149",
+      "ma60": "1.4737"
     },
-    "maArrangement": "缠绕",
-    "distFromMA20": "-1.14",
-    "rsi14": "53.4",
+    "maArrangement": "空头排列",
+    "distFromMA20": "0.56",
+    "rsi14": "55.7",
     "macd": {
-      "dif": "0.0030",
-      "dea": "0.0074",
-      "bar": "-0.0088",
+      "dif": "0.0037",
+      "dea": "0.0067",
+      "bar": "-0.0060",
       "signal": "绿柱"
     },
     "bollinger": {
       "upper": "1.5391",
-      "mid": "1.5148",
+      "mid": "1.5149",
       "lower": "1.4906",
       "position": "轨内"
     }
   },
   "shortSignal": {
     "signal": "⚪ 观望",
-    "strength": 0,
-    "reasons": []
+    "strength": -1,
+    "reasons": [
+      "空头排列"
+    ]
   },
   "trends": [
-    {
-      "x": 1765296000000,
-      "y": 1.5677,
-      "equityReturn": -1.23,
-      "unitMoney": ""
-    },
     {
       "x": 1765382400000,
       "y": 1.5734,
@@ -1127,13 +1123,19 @@
       "y": 1.4975,
       "equityReturn": -0.41,
       "unitMoney": ""
+    },
+    {
+      "x": 1788537600000,
+      "y": 1.5234,
+      "equityReturn": 1.73,
+      "unitMoney": ""
     }
   ],
-  "fetchedAt": "2026-09-04T04:30:06.519Z",
+  "fetchedAt": "2026-09-04T14:00:32.729Z",
   "intraday": {
-    "price": 1.514,
-    "changePct": 2.23,
+    "price": 1.509,
+    "changePct": 1.89,
     "prevClose": 1.481,
-    "time": "2026-09-04T04:00:27.629Z"
+    "time": "2026-09-04T09:00:01.849Z"
   }
 }

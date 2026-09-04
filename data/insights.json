@@ -3,76 +3,76 @@
   "insights": [
     {
       "level": "neutral",
-      "text": "沪深300微涨0.43%，横盘震荡",
+      "text": "沪深300微跌0.1%，横盘震荡",
       "cat": "大盘",
       "for": "both"
     },
     {
       "level": "opportunity",
-      "text": "创业板ETF易方达 回撤24.1%，长线定投良机",
+      "text": "沪深300ETF华泰柏瑞 RSI=29.3，超卖区，短线反弹概率大",
+      "cat": "510300",
+      "for": "short"
+    },
+    {
+      "level": "opportunity",
+      "text": "中证500ETF南方 RSI=29.9，超卖区，短线反弹概率大",
+      "cat": "510500",
+      "for": "short"
+    },
+    {
+      "level": "opportunity",
+      "text": "创业板ETF易方达 回撤24.69%，长线定投良机",
       "cat": "159915",
       "for": "long"
     },
     {
       "level": "warning",
-      "text": "创业板ETF易方达 近3月-16.16%，长线持有无需恐慌",
+      "text": "创业板ETF易方达 近3月-13.64%，长线持有无需恐慌",
       "cat": "159915",
       "for": "long"
     },
     {
       "level": "opportunity",
-      "text": "科创50ETF华夏 回撤26.88%，长线定投良机",
+      "text": "创业板ETF易方达 短线信号：【🟡 买入观察】(RSI超卖、远离MA20)",
+      "cat": "159915",
+      "for": "short"
+    },
+    {
+      "level": "opportunity",
+      "text": "创业板ETF易方达 RSI=20.9，超卖区，短线反弹概率大",
+      "cat": "159915",
+      "for": "short"
+    },
+    {
+      "level": "opportunity",
+      "text": "A500ETF华泰柏瑞 RSI=27.3，超卖区，短线反弹概率大",
+      "cat": "563360",
+      "for": "short"
+    },
+    {
+      "level": "opportunity",
+      "text": "科创50ETF华夏 回撤28.42%，长线定投良机",
       "cat": "588000",
       "for": "long"
     },
     {
       "level": "opportunity",
-      "text": "电网设备ETF国泰 回撤70.38%，长线定投良机",
-      "cat": "561380",
-      "for": "long"
-    },
-    {
-      "level": "warning",
-      "text": "电网设备ETF国泰 近3月-67.71%，长线持有无需恐慌",
-      "cat": "561380",
-      "for": "long"
-    },
-    {
-      "level": "warning",
-      "text": "创新药ETF银华 短线信号：【🔴 卖出观察】(RSI偏弱、低于MA20)",
-      "cat": "159992",
+      "text": "科创50ETF华夏 短线信号：【🟡 买入观察】(RSI超卖、远离MA20)",
+      "cat": "588000",
       "for": "short"
     },
     {
       "level": "opportunity",
-      "text": "酒ETF鹏华 回撤32.93%，长线定投良机",
-      "cat": "512690",
-      "for": "long"
+      "text": "科创50ETF华夏 RSI=26.3，超卖区，短线反弹概率大",
+      "cat": "588000",
+      "for": "short"
     },
     {
       "level": "opportunity",
-      "text": "芯片ETF华夏 回撤66.95%，长线定投良机",
-      "cat": "159995",
-      "for": "long"
-    },
-    {
-      "level": "warning",
-      "text": "芯片ETF华夏 近3月-53.56%，长线持有无需恐慌",
-      "cat": "159995",
-      "for": "long"
-    },
-    {
-      "level": "opportunity",
-      "text": "半导体ETF国联安 回撤66.4%，长线定投良机",
-      "cat": "512480",
-      "for": "long"
-    },
-    {
-      "level": "warning",
-      "text": "半导体ETF国联安 近3月-51.99%，长线持有无需恐慌",
-      "cat": "512480",
+      "text": "电网设备ETF国泰 回撤70.64%，长线定投良机",
+      "cat": "561380",
       "for": "long"
     }
   ],
-  "updatedAt": "2026-09-04T04:30:59.359Z"
+  "updatedAt": "2026-09-04T14:01:24.257Z"
 }

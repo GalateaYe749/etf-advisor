@@ -7,37 +7,37 @@
     "消费"
   ],
   "tradeMode": "observe",
-  "nav": 0.421,
-  "navDate": "2026-09-03",
+  "nav": 0.4337,
+  "navDate": "2026-09-04",
   "navHigh": 0.6277,
   "navLow": 0.3838,
-  "drawdownFromHigh": "-32.93",
-  "volatility30d": "22.19",
+  "drawdownFromHigh": "-30.91",
+  "volatility30d": "23.81",
   "returns": {
-    "1m": -3.42,
-    "3m": -2.84,
-    "6m": -16.14,
-    "1y": -30.73
+    "1m": 0.09,
+    "3m": 1.88,
+    "6m": -13.69,
+    "1y": -28.1
   },
   "tech": {
     "ma": {
-      "ma5": "0.4230",
-      "ma10": "0.4221",
-      "ma20": "0.4297",
-      "ma60": "0.4190"
+      "ma5": "0.4250",
+      "ma10": "0.4236",
+      "ma20": "0.4296",
+      "ma60": "0.4191"
     },
     "maArrangement": "缠绕",
-    "distFromMA20": "-2.02",
-    "rsi14": "31.7",
+    "distFromMA20": "0.95",
+    "rsi14": "52.6",
     "macd": {
-      "dif": "-0.0019",
-      "dea": "-0.0006",
-      "bar": "-0.0026",
+      "dif": "-0.0010",
+      "dea": "-0.0007",
+      "bar": "-0.0006",
       "signal": "绿柱"
     },
     "bollinger": {
-      "upper": "0.4489",
-      "mid": "0.4297",
+      "upper": "0.4487",
+      "mid": "0.4296",
       "lower": "0.4105",
       "position": "轨内"
     }
@@ -45,18 +45,9 @@
   "shortSignal": {
     "signal": "⚪ 观望",
     "strength": 0,
-    "reasons": [
-      "RSI偏弱",
-      "低于MA20"
-    ]
+    "reasons": []
   },
   "trends": [
-    {
-      "x": 1765296000000,
-      "y": 0.5495,
-      "equityReturn": -1.47,
-      "unitMoney": ""
-    },
     {
       "x": 1765382400000,
       "y": 0.553,
@@ -1130,13 +1121,19 @@
       "y": 0.421,
       "equityReturn": -0.4,
       "unitMoney": ""
+    },
+    {
+      "x": 1788537600000,
+      "y": 0.4337,
+      "equityReturn": 3.02,
+      "unitMoney": ""
     }
   ],
-  "fetchedAt": "2026-09-04T04:30:05.154Z",
+  "fetchedAt": "2026-09-04T14:00:31.595Z",
   "intraday": {
-    "price": 0.435,
-    "changePct": 3.33,
+    "price": 0.434,
+    "changePct": 3.09,
     "prevClose": 0.421,
-    "time": "2026-09-04T04:00:27.629Z"
+    "time": "2026-09-04T09:00:01.849Z"
   }
 }
