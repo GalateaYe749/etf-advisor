@@ -1,46 +1,46 @@
 {
   "date": "2026-09-10",
-  "generatedAt": "2026-09-10T00:00:57.232Z",
+  "generatedAt": "2026-09-10T04:30:55.208Z",
   "marketSnapshot": {
     "indices": [
       {
         "name": "上证指数",
-        "price": 3951.51,
-        "changePct": "0.28",
-        "amount": 873734897105.6
+        "price": 3937.78,
+        "changePct": "-0.35",
+        "amount": 518005110019.3
       },
       {
         "name": "深证成指",
-        "price": 13723.32,
-        "changePct": "0.15",
-        "amount": 981871743156.8796
+        "price": 13647.49,
+        "changePct": "-0.55",
+        "amount": 573552085590.8767
       },
       {
         "name": "沪深300",
-        "price": 4572.6,
-        "changePct": "0.30",
-        "amount": 440048388790.5
+        "price": 4553.52,
+        "changePct": "-0.42",
+        "amount": 254575890263.3
       },
       {
         "name": "创业板指",
-        "price": 3354.97,
-        "changePct": "-0.14",
-        "amount": 436661586475.51
+        "price": 3350.08,
+        "changePct": "-0.15",
+        "amount": 254841602096.78
       },
       {
         "name": "科创50",
-        "price": 1580.06,
-        "changePct": "-0.69",
-        "amount": 59220164995
+        "price": 1573.29,
+        "changePct": "-0.43",
+        "amount": 34310870412
       },
       {
         "name": "北证50",
-        "price": 1081.81,
-        "changePct": "-0.41",
-        "amount": 17639421178
+        "price": 1060.97,
+        "changePct": "-1.93",
+        "amount": 10535355891
       }
     ],
-    "turnover": 1873246061440,
+    "turnover": 1102092551501,
     "turnoverDate": "2026-09-10",
     "notableMovers": [
       {
@@ -448,7 +448,7 @@
       "level": "neutral",
       "cat": "大盘",
       "for": "both",
-      "text": "沪深300微涨0.3%，横盘震荡"
+      "text": "沪深300微跌0.42%，横盘震荡"
     },
     {
       "level": "opportunity",
