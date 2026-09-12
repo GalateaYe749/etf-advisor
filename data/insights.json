@@ -1,27 +1,45 @@
 {
-  "date": "2026-09-11",
+  "date": "2026-09-12",
   "insights": [
     {
-      "level": "bearish",
-      "text": "沪深300跌1.59%，恐慌中长线是机会、短线等企稳",
+      "level": "neutral",
+      "text": "沪深300微跌0.84%，横盘震荡",
       "cat": "大盘",
       "for": "both"
     },
     {
+      "level": "warning",
+      "text": "中证500ETF南方 近3月-10.89%，长线持有无需恐慌",
+      "cat": "510500",
+      "for": "long"
+    },
+    {
+      "level": "warning",
+      "text": "中证500ETF南方 短线信号：【🔴 卖出观察】(低于MA20、MACD绿柱放大)",
+      "cat": "510500",
+      "for": "short"
+    },
+    {
       "level": "opportunity",
-      "text": "创业板ETF易方达 回撤23.49%，长线定投良机",
+      "text": "创业板ETF易方达 回撤23.86%，长线定投良机",
       "cat": "159915",
       "for": "long"
     },
     {
       "level": "warning",
-      "text": "创业板ETF易方达 近3月-12.68%，长线持有无需恐慌",
+      "text": "创业板ETF易方达 近3月-17.44%，长线持有无需恐慌",
       "cat": "159915",
       "for": "long"
     },
     {
       "level": "opportunity",
-      "text": "科创50ETF华夏 回撤28.75%，长线定投良机",
+      "text": "科创50ETF华夏 回撤29.5%，长线定投良机",
+      "cat": "588000",
+      "for": "long"
+    },
+    {
+      "level": "warning",
+      "text": "科创50ETF华夏 近3月-11.07%，长线持有无需恐慌",
       "cat": "588000",
       "for": "long"
     },
@@ -33,46 +51,28 @@
     },
     {
       "level": "warning",
-      "text": "电网设备ETF国泰 近3月-66.65%，长线持有无需恐慌",
+      "text": "电网设备ETF国泰 近3月-67.77%，长线持有无需恐慌",
       "cat": "561380",
       "for": "long"
     },
     {
       "level": "opportunity",
-      "text": "创新药ETF银华 短线信号：【🟡 买入观察】(RSI超卖、远离MA20)",
-      "cat": "159992",
-      "for": "short"
-    },
-    {
-      "level": "opportunity",
-      "text": "创新药ETF银华 RSI=26.8，超卖区，短线反弹概率大",
-      "cat": "159992",
-      "for": "short"
-    },
-    {
-      "level": "opportunity",
-      "text": "酒ETF鹏华 回撤33.41%，长线定投良机",
+      "text": "酒ETF鹏华 回撤33.73%，长线定投良机",
       "cat": "512690",
       "for": "long"
     },
     {
       "level": "opportunity",
-      "text": "芯片ETF华夏 回撤67.55%，长线定投良机",
-      "cat": "159995",
-      "for": "long"
-    },
-    {
-      "level": "warning",
-      "text": "芯片ETF华夏 近3月-53.86%，长线持有无需恐慌",
-      "cat": "159995",
-      "for": "long"
+      "text": "酒ETF鹏华 短线信号：【🟡 买入观察】(低于MA20、跌破布林下轨)",
+      "cat": "512690",
+      "for": "short"
     },
     {
       "level": "opportunity",
-      "text": "半导体ETF国联安 回撤67.32%，长线定投良机",
-      "cat": "512480",
+      "text": "芯片ETF华夏 回撤68%，长线定投良机",
+      "cat": "159995",
       "for": "long"
     }
   ],
-  "updatedAt": "2026-09-11T04:30:56.432Z"
+  "updatedAt": "2026-09-12T00:00:58.002Z"
 }

@@ -7,56 +7,49 @@
     "消费"
   ],
   "tradeMode": "observe",
-  "nav": 0.5735,
-  "navDate": "2026-09-10",
+  "nav": 0.5592,
+  "navDate": "2026-09-11",
   "navHigh": 0.8368,
   "navLow": 0.531,
-  "drawdownFromHigh": "-31.47",
-  "volatility30d": "14.94",
+  "drawdownFromHigh": "-33.17",
+  "volatility30d": "16.54",
   "returns": {
-    "1m": 0.28,
-    "3m": -2.86,
-    "6m": -20.67,
-    "1y": -19.35
+    "1m": -1.22,
+    "3m": -6.47,
+    "6m": -22.66,
+    "1y": -21.82
   },
   "tech": {
     "ma": {
-      "ma5": "0.5777",
-      "ma10": "0.5726",
+      "ma5": "0.5747",
+      "ma10": "0.5716",
       "ma20": "0.5656",
-      "ma60": "0.5601"
+      "ma60": "0.5599"
     },
     "maArrangement": "多头排列",
-    "distFromMA20": "1.40",
-    "rsi14": "66.0",
+    "distFromMA20": "-1.13",
+    "rsi14": "54.4",
     "macd": {
-      "dif": "0.0038",
+      "dif": "0.0025",
       "dea": "0.0024",
-      "bar": "0.0028",
+      "bar": "0.0002",
       "signal": "红柱"
     },
     "bollinger": {
       "upper": "0.5833",
       "mid": "0.5656",
-      "lower": "0.5479",
+      "lower": "0.5478",
       "position": "轨内"
     }
   },
   "shortSignal": {
-    "signal": "🟡 买入观察",
-    "strength": 1.5,
+    "signal": "⚪ 观望",
+    "strength": 1,
     "reasons": [
-      "RSI偏强",
       "多头排列"
     ]
   },
   "trends": [
-    {
-      "x": 1765900800000,
-      "y": 0.7552,
-      "equityReturn": 0.91,
-      "unitMoney": ""
-    },
     {
       "x": 1765987200000,
       "y": 0.7731,
@@ -1130,13 +1123,19 @@
       "y": 0.5735,
       "equityReturn": -0.81,
       "unitMoney": ""
+    },
+    {
+      "x": 1789142400000,
+      "y": 0.5592,
+      "equityReturn": -2.49,
+      "unitMoney": ""
     }
   ],
-  "fetchedAt": "2026-09-11T04:30:05.140Z",
+  "fetchedAt": "2026-09-12T00:00:06.355Z",
   "intraday": {
-    "price": 0.573,
-    "changePct": -1.04,
-    "prevClose": 0.579,
-    "time": "2026-09-10T09:00:01.732Z"
+    "price": 0.559,
+    "changePct": -2.44,
+    "prevClose": 0.573,
+    "time": "2026-09-11T09:00:01.416Z"
   }
 }
