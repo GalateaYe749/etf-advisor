@@ -3,9 +3,15 @@
   "insights": [
     {
       "level": "neutral",
-      "text": "沪深300微跌0.36%，横盘震荡",
+      "text": "沪深300微跌0.45%，横盘震荡",
       "cat": "大盘",
       "for": "both"
+    },
+    {
+      "level": "warning",
+      "text": "沪深300ETF华泰柏瑞 近3月-10.94%，长线持有无需恐慌",
+      "cat": "510300",
+      "for": "long"
     },
     {
       "level": "opportunity",
@@ -15,7 +21,7 @@
     },
     {
       "level": "warning",
-      "text": "中证500ETF南方 近3月-12.55%，长线持有无需恐慌",
+      "text": "中证500ETF南方 近3月-14.74%，长线持有无需恐慌",
       "cat": "510500",
       "for": "long"
     },
@@ -27,52 +33,46 @@
     },
     {
       "level": "opportunity",
-      "text": "创业板ETF易方达 回撤24.09%，长线定投良机",
+      "text": "创业板ETF易方达 回撤24.38%，长线定投良机",
       "cat": "159915",
       "for": "long"
     },
     {
       "level": "warning",
-      "text": "创业板ETF易方达 近3月-21.92%，长线持有无需恐慌",
+      "text": "创业板ETF易方达 近3月-24.14%，长线持有无需恐慌",
       "cat": "159915",
       "for": "long"
     },
     {
       "level": "warning",
-      "text": "创业板ETF易方达 短线信号：【🔴 卖出观察】(RSI偏弱、空头排列)",
-      "cat": "159915",
-      "for": "short"
-    },
-    {
-      "level": "warning",
-      "text": "A500ETF华泰柏瑞 近3月-10.25%，长线持有无需恐慌",
+      "text": "A500ETF华泰柏瑞 近3月-12.75%，长线持有无需恐慌",
       "cat": "563360",
       "for": "long"
     },
     {
       "level": "opportunity",
-      "text": "A500ETF华泰柏瑞 RSI=29.9，超卖区，短线反弹概率大",
-      "cat": "563360",
-      "for": "short"
+      "text": "科创50ETF华夏 回撤27.14%，长线定投良机",
+      "cat": "588000",
+      "for": "long"
+    },
+    {
+      "level": "warning",
+      "text": "科创50ETF华夏 近3月-17.48%，长线持有无需恐慌",
+      "cat": "588000",
+      "for": "long"
     },
     {
       "level": "opportunity",
-      "text": "科创50ETF华夏 回撤26.7%，长线定投良机",
-      "cat": "588000",
+      "text": "电网设备ETF国泰 回撤70.46%，长线定投良机",
+      "cat": "561380",
       "for": "long"
     },
     {
       "level": "warning",
-      "text": "科创50ETF华夏 近3月-15.36%，长线持有无需恐慌",
-      "cat": "588000",
+      "text": "电网设备ETF国泰 近3月-70.46%，长线持有无需恐慌",
+      "cat": "561380",
       "for": "long"
-    },
-    {
-      "level": "warning",
-      "text": "科创50ETF华夏 短线信号：【🔴 卖出观察】(RSI偏弱、空头排列)",
-      "cat": "588000",
-      "for": "short"
     }
   ],
-  "updatedAt": "2026-09-17T04:31:00.169Z"
+  "updatedAt": "2026-09-17T14:01:20.053Z"
 }
