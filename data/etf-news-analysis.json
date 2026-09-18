@@ -1,6 +1,6 @@
 {
   "159766": {
-    "updatedAt": "2026-09-18T00:00:55.905Z",
+    "updatedAt": "2026-09-18T00:07:54.946Z",
     "sentiment": "中性",
     "totalNews": 1,
     "positive": 0,
@@ -24,7 +24,7 @@
     ]
   },
   "159869": {
-    "updatedAt": "2026-09-18T00:00:55.906Z",
+    "updatedAt": "2026-09-18T00:07:54.947Z",
     "sentiment": "中性",
     "totalNews": 0,
     "positive": 0,
@@ -34,13 +34,13 @@
     "articles": []
   },
   "159915": {
-    "updatedAt": "2026-09-18T00:00:55.907Z",
+    "updatedAt": "2026-09-18T00:07:54.947Z",
     "sentiment": "中性",
-    "totalNews": 6,
+    "totalNews": 5,
     "positive": 0,
     "negative": 0,
-    "neutral": 6,
-    "reasoning": "共6条相关资讯，信号方向不明确（正0/负0/中6），建议持续观察等待更明确的信号。",
+    "neutral": 5,
+    "reasoning": "共5条相关资讯，信号方向不明确（正0/负0/中5），建议持续观察等待更明确的信号。",
     "articles": [
       {
         "title": "在2026黄渤海创新创业投资大会上，多位与会嘉宾指出 构建多元共生生态 打通募投管退堵点壮大耐心资本",
@@ -95,54 +95,41 @@
         "analysis": "【背景信息】创业板ETF易方达。该资讯与创业板ETF易方达有一定关联度。作为市场背景关注即可。（最新资讯，时效性高）"
       },
       {
-        "title": "美联储加息后 美股哪些板块更“抗压”？历史指向能源与科技",
+        "title": "恒指系列调整持续推进 恒生科技指数扩容本周迎关键节点",
         "summary": "",
-        "url": "https://finance.eastmoney.com/a/202609173877482416.html",
-        "source": "东方财富",
-        "time": "09-17",
+        "url": "https://www.cs.com.cn/gppd/ggzx/2026/09/16/detail_2026091610039463.html",
+        "source": "中证网",
+        "time": "09-18",
         "score": 50,
         "direction": "中性",
         "relevance": 50,
-        "recency": 30,
-        "importance": 70,
-        "analysis": "【背景信息】创业板ETF易方达。该资讯与创业板ETF易方达有一定关联度。作为市场背景关注即可。"
-      },
-      {
-        "title": "9月17日港股收盘：恒指跌0.44% 恒生科技指数跌0.34%",
-        "summary": "",
-        "url": "https://finance.eastmoney.com/a/202609173877314581.html",
-        "source": "东方财富",
-        "time": "09-17",
-        "score": 29,
-        "direction": "中性",
-        "relevance": 50,
-        "recency": 30,
+        "recency": 100,
         "importance": 0,
-        "analysis": "【背景信息】创业板ETF易方达。该资讯与创业板ETF易方达有一定关联度。作为市场背景关注即可。"
+        "analysis": "【背景信息】创业板ETF易方达。该资讯与创业板ETF易方达有一定关联度。作为市场背景关注即可。（最新资讯，时效性高）"
       }
     ]
   },
   "159920": {
-    "updatedAt": "2026-09-18T00:00:55.907Z",
-    "sentiment": "正面偏多",
+    "updatedAt": "2026-09-18T00:07:54.947Z",
+    "sentiment": "中性",
     "totalNews": 5,
-    "positive": 1,
+    "positive": 0,
     "negative": 0,
-    "neutral": 4,
-    "reasoning": "共5条相关资讯，其中1条偏正面。综合评分最高的前几条指向基本面改善信号，整体偏积极。",
+    "neutral": 5,
+    "reasoning": "共5条相关资讯，信号方向不明确（正0/负0/中5），建议持续观察等待更明确的信号。",
     "articles": [
       {
-        "title": "彤程新材、本末动力通过港交所聆讯；港交所正在筹备推出首个债券指数｜港交所早参",
+        "title": "恒指系列调整持续推进 恒生科技指数扩容本周迎关键节点",
         "summary": "",
-        "url": "https://finance.eastmoney.com/a/202609183877715612.html",
-        "source": "东方财富",
+        "url": "https://www.cs.com.cn/gppd/ggzx/2026/09/16/detail_2026091610039463.html",
+        "source": "中证网",
         "time": "09-18",
-        "score": 69,
-        "direction": "利好",
-        "relevance": 70,
+        "score": 70,
+        "direction": "中性",
+        "relevance": 100,
         "recency": 100,
-        "importance": 35,
-        "analysis": "【中等利好】恒生ETF华夏。关键词：「通过」。该资讯与恒生ETF华夏有一定关联度。综合评分中等。建议：作为辅助参考信号，不单独据此做出大额交易决策。可结合技术面（RSI/MA均线）共同判断入场时机。（最新资讯，时效性高）"
+        "importance": 0,
+        "analysis": "【行业动态】恒生ETF华夏。该资讯与恒生ETF华夏的底层资产高度相关。涉及标签：港股、大盘。该消息方向不明确，但直接涉及该行业。建议：作为背景信息持续跟踪，可能成为后续交易信号的组成部分。（最新资讯，时效性高）"
       },
       {
         "title": "港股早报 | 纳斯达克中国金龙指数小幅收红 迅策和迈富时加码AI与Token生态",
@@ -184,22 +171,22 @@
         "analysis": "【行业动态】恒生ETF华夏。该资讯与恒生ETF华夏有一定关联度。该消息方向不明确，但直接涉及该行业。建议：作为背景信息持续跟踪，可能成为后续交易信号的组成部分。（最新资讯，时效性高）"
       },
       {
-        "title": "9月17日港股收盘：恒指跌0.44% 恒生科技指数跌0.34%",
+        "title": "瑞银房东明：外资配置中国资产是大势所趋 香港在全球定价中不可或缺",
         "summary": "",
-        "url": "https://finance.eastmoney.com/a/202609173877314581.html",
+        "url": "https://finance.eastmoney.com/a/202609173876728972.html",
         "source": "东方财富",
-        "time": "09-17",
-        "score": 49,
+        "time": "09-18",
+        "score": 58,
         "direction": "中性",
-        "relevance": 100,
-        "recency": 30,
+        "relevance": 70,
+        "recency": 100,
         "importance": 0,
-        "analysis": "【行业动态】恒生ETF华夏。该资讯与恒生ETF华夏的底层资产高度相关。涉及标签：港股、大盘。该消息方向不明确，但直接涉及该行业。建议：作为背景信息持续跟踪，可能成为后续交易信号的组成部分。"
+        "analysis": "【行业动态】恒生ETF华夏。该资讯与恒生ETF华夏有一定关联度。该消息方向不明确，但直接涉及该行业。建议：作为背景信息持续跟踪，可能成为后续交易信号的组成部分。（最新资讯，时效性高）"
       }
     ]
   },
   "159928": {
-    "updatedAt": "2026-09-18T00:00:55.907Z",
+    "updatedAt": "2026-09-18T00:07:54.947Z",
     "sentiment": "中性",
     "totalNews": 0,
     "positive": 0,
@@ -209,7 +196,7 @@
     "articles": []
   },
   "159941": {
-    "updatedAt": "2026-09-18T00:00:55.907Z",
+    "updatedAt": "2026-09-18T00:07:54.948Z",
     "sentiment": "中性",
     "totalNews": 5,
     "positive": 0,
@@ -285,7 +272,7 @@
     ]
   },
   "159992": {
-    "updatedAt": "2026-09-18T00:00:55.907Z",
+    "updatedAt": "2026-09-18T00:07:54.948Z",
     "sentiment": "正面偏多",
     "totalNews": 7,
     "positive": 2,
@@ -387,7 +374,7 @@
     ]
   },
   "159995": {
-    "updatedAt": "2026-09-18T00:00:55.908Z",
+    "updatedAt": "2026-09-18T00:07:54.948Z",
     "sentiment": "正面偏多",
     "totalNews": 10,
     "positive": 1,
@@ -528,7 +515,7 @@
     ]
   },
   "510300": {
-    "updatedAt": "2026-09-18T00:00:55.908Z",
+    "updatedAt": "2026-09-18T00:07:54.948Z",
     "sentiment": "中性",
     "totalNews": 3,
     "positive": 0,
@@ -578,7 +565,7 @@
     ]
   },
   "510500": {
-    "updatedAt": "2026-09-18T00:00:55.908Z",
+    "updatedAt": "2026-09-18T00:07:54.948Z",
     "sentiment": "中性",
     "totalNews": 2,
     "positive": 0,
@@ -615,7 +602,7 @@
     ]
   },
   "512480": {
-    "updatedAt": "2026-09-18T00:00:55.908Z",
+    "updatedAt": "2026-09-18T00:07:54.949Z",
     "sentiment": "正面偏多",
     "totalNews": 13,
     "positive": 2,
@@ -782,37 +769,23 @@
     ]
   },
   "512660": {
-    "updatedAt": "2026-09-18T00:00:55.909Z",
+    "updatedAt": "2026-09-18T00:07:54.949Z",
+    "sentiment": "中性",
+    "totalNews": 0,
+    "positive": 0,
+    "negative": 0,
+    "neutral": 0,
+    "reasoning": "共0条相关资讯，信号方向不明确（正0/负0/中0），建议持续观察等待更明确的信号。",
+    "articles": []
+  },
+  "512690": {
+    "updatedAt": "2026-09-18T00:07:54.949Z",
     "sentiment": "中性",
     "totalNews": 1,
     "positive": 0,
     "negative": 0,
     "neutral": 1,
     "reasoning": "共1条相关资讯，信号方向不明确（正0/负0/中1），建议持续观察等待更明确的信号。",
-    "articles": [
-      {
-        "title": "国科军工：4.34亿元订货合同计划于2026年内完成交付",
-        "summary": "",
-        "url": "https://finance.eastmoney.com/a/202609173877593489.html",
-        "source": "东方财富",
-        "time": "09-17",
-        "score": 29,
-        "direction": "中性",
-        "relevance": 50,
-        "recency": 30,
-        "importance": 0,
-        "analysis": "【背景信息】军工ETF国泰。该资讯与军工ETF国泰有一定关联度。作为市场背景关注即可。"
-      }
-    ]
-  },
-  "512690": {
-    "updatedAt": "2026-09-18T00:00:55.909Z",
-    "sentiment": "正面偏多",
-    "totalNews": 4,
-    "positive": 1,
-    "negative": 0,
-    "neutral": 3,
-    "reasoning": "共4条相关资讯，其中1条偏正面。综合评分最高的前几条指向基本面改善信号，整体偏积极。",
     "articles": [
       {
         "title": "茅台五粮液的大商，开始卖黄酒了",
@@ -826,87 +799,35 @@
         "recency": 100,
         "importance": 0,
         "analysis": "【行业动态】酒ETF鹏华。该资讯与酒ETF鹏华的底层资产高度相关。涉及标签：白酒、消费。该消息方向不明确，但直接涉及该行业。建议：作为背景信息持续跟踪，可能成为后续交易信号的组成部分。（最新资讯，时效性高）"
-      },
-      {
-        "title": "三剑客集体涨停 白酒大商改“喝”黄酒？上市公司回应",
-        "summary": "",
-        "url": "https://finance.eastmoney.com/a/202609163876323986.html",
-        "source": "东方财富",
-        "time": "09-17",
-        "score": 54,
-        "direction": "中性",
-        "relevance": 85,
-        "recency": 30,
-        "importance": 35,
-        "analysis": "【行业动态】酒ETF鹏华。该资讯与酒ETF鹏华的底层资产高度相关。涉及标签：白酒、消费。该消息方向不明确，但直接涉及该行业。建议：作为背景信息持续跟踪，可能成为后续交易信号的组成部分。"
-      },
-      {
-        "title": "前8月河南省社会消费品零售总额增长2.5％",
-        "summary": "",
-        "url": "https://finance.eastmoney.com/a/202609173877107210.html",
-        "source": "东方财富",
-        "time": "09-17",
-        "score": 54,
-        "direction": "利好",
-        "relevance": 100,
-        "recency": 30,
-        "importance": 15,
-        "analysis": "【轻度利好】酒ETF鹏华。关键词：「增长」。该资讯与酒ETF鹏华的底层资产高度相关。涉及标签：白酒、消费。综合评分中等。建议：作为辅助参考信号，不单独据此做出大额交易决策。可结合技术面（RSI/MA均线）共同判断入场时机。"
-      },
-      {
-        "title": "茅台自营店个人每年限购5箱",
-        "summary": "",
-        "url": "https://finance.eastmoney.com/a/202609173877591529.html",
-        "source": "东方财富",
-        "time": "09-17",
-        "score": 29,
-        "direction": "中性",
-        "relevance": 50,
-        "recency": 30,
-        "importance": 0,
-        "analysis": "【背景信息】酒ETF鹏华。该资讯与酒ETF鹏华有一定关联度。作为市场背景关注即可。"
       }
     ]
   },
   "512800": {
-    "updatedAt": "2026-09-18T00:00:55.909Z",
-    "sentiment": "正面偏多",
-    "totalNews": 2,
-    "positive": 1,
+    "updatedAt": "2026-09-18T00:07:54.949Z",
+    "sentiment": "中性",
+    "totalNews": 1,
+    "positive": 0,
     "negative": 0,
     "neutral": 1,
-    "reasoning": "共2条相关资讯，其中1条偏正面。综合评分最高的前几条指向基本面改善信号，整体偏积极。",
+    "reasoning": "共1条相关资讯，信号方向不明确（正0/负0/中1），建议持续观察等待更明确的信号。",
     "articles": [
       {
-        "title": "特朗普不满美联储加息：美国利率应在1%或以下 赶紧降息！",
+        "title": "守烟火、攒底气：中国银行个人金融资产破18万亿背后",
         "summary": "",
-        "url": "https://finance.eastmoney.com/a/202609173876499410.html",
-        "source": "东方财富",
-        "time": "09-17",
-        "score": 65,
-        "direction": "利好",
-        "relevance": 65,
-        "recency": 30,
-        "importance": 100,
-        "analysis": "【强利好】银行ETF华宝。关键词：「降息」。该资讯与银行ETF华宝有一定关联度。综合评分中等。建议：作为辅助参考信号，不单独据此做出大额交易决策。可结合技术面（RSI/MA均线）共同判断入场时机。"
-      },
-      {
-        "title": "渣打银行预计美联储将在2026年12月加息25个基点",
-        "summary": "",
-        "url": "https://finance.eastmoney.com/a/202609173877529176.html",
-        "source": "东方财富",
-        "time": "09-17",
-        "score": 50,
+        "url": "https://www.cs.com.cn/yh/04/2026/09/15/detail_2026091510039384.html",
+        "source": "中证网",
+        "time": "09-18",
+        "score": 58,
         "direction": "中性",
-        "relevance": 50,
-        "recency": 30,
-        "importance": 70,
-        "analysis": "【背景信息】银行ETF华宝。该资讯与银行ETF华宝有一定关联度。作为市场背景关注即可。"
+        "relevance": 70,
+        "recency": 100,
+        "importance": 0,
+        "analysis": "【行业动态】银行ETF华宝。该资讯与银行ETF华宝有一定关联度。该消息方向不明确，但直接涉及该行业。建议：作为背景信息持续跟踪，可能成为后续交易信号的组成部分。（最新资讯，时效性高）"
       }
     ]
   },
   "513060": {
-    "updatedAt": "2026-09-18T00:00:55.910Z",
+    "updatedAt": "2026-09-18T00:07:54.951Z",
     "sentiment": "中性",
     "totalNews": 10,
     "positive": 0,
@@ -915,10 +836,49 @@
     "reasoning": "共10条相关资讯，信号方向不明确（正0/负0/中10），建议持续观察等待更明确的信号。",
     "articles": [
       {
+        "title": "港股午评：恒生指数涨0.12% 恒生科技指数涨0.87%",
+        "summary": "",
+        "url": "https://www.cs.com.cn/gppd/ggzx/2026/09/16/detail_2026091610039577.html",
+        "source": "中证网",
+        "time": "09-18",
+        "score": 70,
+        "direction": "中性",
+        "relevance": 100,
+        "recency": 100,
+        "importance": 0,
+        "analysis": "【行业动态】恒生医疗ETF博时。该资讯与恒生医疗ETF博时的底层资产高度相关。涉及标签：港股、科技。该消息方向不明确，但直接涉及该行业。建议：作为背景信息持续跟踪，可能成为后续交易信号的组成部分。（最新资讯，时效性高）"
+      },
+      {
         "title": "港股早报 | 纳斯达克中国金龙指数小幅收红 迅策和迈富时加码AI与Token生态",
         "summary": "",
         "url": "https://finance.eastmoney.com/a/202609183877719366.html",
         "source": "东方财富",
+        "time": "09-18",
+        "score": 64,
+        "direction": "中性",
+        "relevance": 85,
+        "recency": 100,
+        "importance": 0,
+        "analysis": "【行业动态】恒生医疗ETF博时。该资讯与恒生医疗ETF博时的底层资产高度相关。涉及标签：港股、科技。该消息方向不明确，但直接涉及该行业。建议：作为背景信息持续跟踪，可能成为后续交易信号的组成部分。（最新资讯，时效性高）"
+      },
+      {
+        "title": "恒指系列调整持续推进 恒生科技指数扩容本周迎关键节点",
+        "summary": "",
+        "url": "https://www.cs.com.cn/gppd/ggzx/2026/09/16/detail_2026091610039463.html",
+        "source": "中证网",
+        "time": "09-18",
+        "score": 64,
+        "direction": "中性",
+        "relevance": 85,
+        "recency": 100,
+        "importance": 0,
+        "analysis": "【行业动态】恒生医疗ETF博时。该资讯与恒生医疗ETF博时的底层资产高度相关。涉及标签：港股、科技。该消息方向不明确，但直接涉及该行业。建议：作为背景信息持续跟踪，可能成为后续交易信号的组成部分。（最新资讯，时效性高）"
+      },
+      {
+        "title": "​恒生指数高开0.5% 恒生科技指数涨0.47%",
+        "summary": "",
+        "url": "https://www.cs.com.cn/gppd/ggzx/2026/09/16/detail_2026091610039509.html",
+        "source": "中证网",
         "time": "09-18",
         "score": 64,
         "direction": "中性",
@@ -944,6 +904,19 @@
         "title": "挂牌前夕，百亿龙头股突然叫停港股IPO",
         "summary": "",
         "url": "https://finance.eastmoney.com/a/202609183877717845.html",
+        "source": "东方财富",
+        "time": "09-18",
+        "score": 58,
+        "direction": "中性",
+        "relevance": 70,
+        "recency": 100,
+        "importance": 0,
+        "analysis": "【行业动态】恒生医疗ETF博时。该资讯与恒生医疗ETF博时有一定关联度。该消息方向不明确，但直接涉及该行业。建议：作为背景信息持续跟踪，可能成为后续交易信号的组成部分。（最新资讯，时效性高）"
+      },
+      {
+        "title": "瑞银房东明：外资配置中国资产是大势所趋 香港在全球定价中不可或缺",
+        "summary": "",
+        "url": "https://finance.eastmoney.com/a/202609173876728972.html",
         "source": "东方财富",
         "time": "09-18",
         "score": 58,
@@ -991,63 +964,11 @@
         "recency": 100,
         "importance": 0,
         "analysis": "【背景信息】恒生医疗ETF博时。该资讯与恒生医疗ETF博时有一定关联度。作为市场背景关注即可。（最新资讯，时效性高）"
-      },
-      {
-        "title": "美联储加息后 美股哪些板块更“抗压”？历史指向能源与科技",
-        "summary": "",
-        "url": "https://finance.eastmoney.com/a/202609173877482416.html",
-        "source": "东方财富",
-        "time": "09-17",
-        "score": 50,
-        "direction": "中性",
-        "relevance": 50,
-        "recency": 30,
-        "importance": 70,
-        "analysis": "【背景信息】恒生医疗ETF博时。该资讯与恒生医疗ETF博时有一定关联度。作为市场背景关注即可。"
-      },
-      {
-        "title": "9月17日港股收盘：恒指跌0.44% 恒生科技指数跌0.34%",
-        "summary": "",
-        "url": "https://finance.eastmoney.com/a/202609173877314581.html",
-        "source": "东方财富",
-        "time": "09-17",
-        "score": 49,
-        "direction": "中性",
-        "relevance": 100,
-        "recency": 30,
-        "importance": 0,
-        "analysis": "【行业动态】恒生医疗ETF博时。该资讯与恒生医疗ETF博时的底层资产高度相关。涉及标签：港股、科技。该消息方向不明确，但直接涉及该行业。建议：作为背景信息持续跟踪，可能成为后续交易信号的组成部分。"
-      },
-      {
-        "title": "港股九毛九 股价真的跌到九毛九",
-        "summary": "",
-        "url": "https://finance.eastmoney.com/a/202609173877496168.html",
-        "source": "东方财富",
-        "time": "09-17",
-        "score": 37,
-        "direction": "中性",
-        "relevance": 70,
-        "recency": 30,
-        "importance": 0,
-        "analysis": "【行业动态】恒生医疗ETF博时。该资讯与恒生医疗ETF博时有一定关联度。该消息方向不明确，但直接涉及该行业。建议：作为背景信息持续跟踪，可能成为后续交易信号的组成部分。"
-      },
-      {
-        "title": "香港青年就业新福利：两年增加1万个岗位，最高补贴6000港元",
-        "summary": "",
-        "url": "https://finance.eastmoney.com/a/202609173877534436.html",
-        "source": "东方财富",
-        "time": "09-17",
-        "score": 37,
-        "direction": "中性",
-        "relevance": 70,
-        "recency": 30,
-        "importance": 0,
-        "analysis": "【行业动态】恒生医疗ETF博时。该资讯与恒生医疗ETF博时有一定关联度。该消息方向不明确，但直接涉及该行业。建议：作为背景信息持续跟踪，可能成为后续交易信号的组成部分。"
       }
     ]
   },
   "513500": {
-    "updatedAt": "2026-09-18T00:00:55.910Z",
+    "updatedAt": "2026-09-18T00:07:54.951Z",
     "sentiment": "正面偏多",
     "totalNews": 7,
     "positive": 1,
@@ -1149,14 +1070,27 @@
     ]
   },
   "515790": {
-    "updatedAt": "2026-09-18T00:00:55.910Z",
+    "updatedAt": "2026-09-18T00:07:54.951Z",
     "sentiment": "中性",
-    "totalNews": 1,
+    "totalNews": 2,
     "positive": 0,
     "negative": 0,
-    "neutral": 1,
-    "reasoning": "共1条相关资讯，信号方向不明确（正0/负0/中1），建议持续观察等待更明确的信号。",
+    "neutral": 2,
+    "reasoning": "共2条相关资讯，信号方向不明确（正0/负0/中2），建议持续观察等待更明确的信号。",
     "articles": [
+      {
+        "title": "二度冲击港股IPO 奥动新能源迎战换电行业精细化变局",
+        "summary": "",
+        "url": "https://www.cs.com.cn/ssgs/01/2026/08/07/detail_2026080710029893.html",
+        "source": "中证网",
+        "time": "09-18",
+        "score": 64,
+        "direction": "中性",
+        "relevance": 85,
+        "recency": 100,
+        "importance": 0,
+        "analysis": "【行业动态】光伏ETF华泰柏瑞。该资讯与光伏ETF华泰柏瑞的底层资产高度相关。涉及标签：光伏、新能源。该消息方向不明确，但直接涉及该行业。建议：作为背景信息持续跟踪，可能成为后续交易信号的组成部分。（最新资讯，时效性高）"
+      },
       {
         "title": "美联储加息后 美股哪些板块更“抗压”？历史指向能源与科技",
         "summary": "",
@@ -1173,14 +1107,27 @@
     ]
   },
   "516160": {
-    "updatedAt": "2026-09-18T00:00:55.911Z",
-    "sentiment": "正面偏多",
+    "updatedAt": "2026-09-18T00:07:54.951Z",
+    "sentiment": "中性",
     "totalNews": 2,
-    "positive": 1,
+    "positive": 0,
     "negative": 0,
-    "neutral": 1,
-    "reasoning": "共2条相关资讯，其中1条偏正面。综合评分最高的前几条指向基本面改善信号，整体偏积极。",
+    "neutral": 2,
+    "reasoning": "共2条相关资讯，信号方向不明确（正0/负0/中2），建议持续观察等待更明确的信号。",
     "articles": [
+      {
+        "title": "二度冲击港股IPO 奥动新能源迎战换电行业精细化变局",
+        "summary": "",
+        "url": "https://www.cs.com.cn/ssgs/01/2026/08/07/detail_2026080710029893.html",
+        "source": "中证网",
+        "time": "09-18",
+        "score": 64,
+        "direction": "中性",
+        "relevance": 85,
+        "recency": 100,
+        "importance": 0,
+        "analysis": "【行业动态】新能源ETF南方。该资讯与新能源ETF南方的底层资产高度相关。涉及标签：新能源、光伏。该消息方向不明确，但直接涉及该行业。建议：作为背景信息持续跟踪，可能成为后续交易信号的组成部分。（最新资讯，时效性高）"
+      },
       {
         "title": "美联储加息后 美股哪些板块更“抗压”？历史指向能源与科技",
         "summary": "",
@@ -1193,43 +1140,56 @@
         "recency": 30,
         "importance": 70,
         "analysis": "【背景信息】新能源ETF南方。该资讯与新能源ETF南方有一定关联度。作为市场背景关注即可。"
-      },
-      {
-        "title": "专访埃及驻华大使馆全权公使哈立德·米莱德：双方在可再生能源、绿色产业，以及人工智能应用等数字技术领域具有非常大的合作潜力",
-        "summary": "",
-        "url": "https://finance.eastmoney.com/a/202609173877580058.html",
-        "source": "东方财富",
-        "time": "09-17",
-        "score": 49,
-        "direction": "利好",
-        "relevance": 100,
-        "recency": 30,
-        "importance": 0,
-        "analysis": "【轻度利好】新能源ETF南方。关键词：「合作」。该资讯与新能源ETF南方的底层资产高度相关。涉及标签：新能源、光伏。评分偏低，信息量有限。建议：暂不作为操作依据，但持续跟踪该方向是否有后续发展。"
       }
     ]
   },
   "518880": {
-    "updatedAt": "2026-09-18T00:00:55.911Z",
-    "sentiment": "负面偏空",
+    "updatedAt": "2026-09-18T00:07:54.952Z",
+    "sentiment": "中性",
     "totalNews": 5,
-    "positive": 0,
+    "positive": 1,
     "negative": 1,
-    "neutral": 4,
-    "reasoning": "共5条相关资讯，其中1条偏负面。负面信号出现频率较高，需关注相关风险。",
+    "neutral": 3,
+    "reasoning": "共5条相关资讯，信号方向不明确（正1/负1/中3），建议持续观察等待更明确的信号。",
     "articles": [
       {
-        "title": "俄罗斯至9月11日当周央行黄金和外汇储备7582亿美元",
+        "title": "金价回落 油价冲高 两大龙头商品走势分化",
         "summary": "",
-        "url": "https://finance.eastmoney.com/a/202609173877532873.html",
-        "source": "东方财富",
-        "time": "09-17",
-        "score": 54,
+        "url": "https://www.cs.com.cn/zzqh2020/2026/09/18/detail_2026091810039982.html",
+        "source": "中证网",
+        "time": "09-18",
+        "score": 63,
         "direction": "中性",
-        "relevance": 85,
-        "recency": 30,
+        "relevance": 70,
+        "recency": 100,
+        "importance": 15,
+        "analysis": "【行业动态】黄金ETF华安。该资讯与黄金ETF华安有一定关联度。该消息方向不明确，但直接涉及该行业。建议：作为背景信息持续跟踪，可能成为后续交易信号的组成部分。（最新资讯，时效性高）"
+      },
+      {
+        "title": "​现货黄金突破4320美元/盎司",
+        "summary": "",
+        "url": "https://www.cs.com.cn/zzqh2020/2026/09/17/detail_2026091710039861.html",
+        "source": "中证网",
+        "time": "09-18",
+        "score": 61,
+        "direction": "利好",
+        "relevance": 50,
+        "recency": 100,
         "importance": 35,
-        "analysis": "【行业动态】黄金ETF华安。该资讯与黄金ETF华安的底层资产高度相关。涉及标签：黄金、避险。该消息方向不明确，但直接涉及该行业。建议：作为背景信息持续跟踪，可能成为后续交易信号的组成部分。"
+        "analysis": "【中等利好】黄金ETF华安。关键词：「突破」。该资讯与黄金ETF华安有一定关联度。综合评分中等。建议：作为辅助参考信号，不单独据此做出大额交易决策。可结合技术面（RSI/MA均线）共同判断入场时机。（最新资讯，时效性高）"
+      },
+      {
+        "title": "现货黄金日内涨幅扩大至2%",
+        "summary": "",
+        "url": "https://www.cs.com.cn/zzqh2020/2026/09/17/detail_2026091710039925.html",
+        "source": "中证网",
+        "time": "09-18",
+        "score": 50,
+        "direction": "中性",
+        "relevance": 50,
+        "recency": 100,
+        "importance": 0,
+        "analysis": "【背景信息】黄金ETF华安。该资讯与黄金ETF华安有一定关联度。作为市场背景关注即可。（最新资讯，时效性高）"
       },
       {
         "title": "今夜利好来了！股市、黄金、白银暴力拉升 原油暴跌！",
@@ -1242,32 +1202,6 @@
         "relevance": 50,
         "recency": 30,
         "importance": 50,
-        "analysis": "【背景信息】黄金ETF华安。该资讯与黄金ETF华安有一定关联度。作为市场背景关注即可。"
-      },
-      {
-        "title": "黄金涨破4350美元，日内大涨近90美元，白银大涨超2%；布油跌破103美元，跌2.75%，美油跌2%，报95.55美元；英国央行公布最新利率决议",
-        "summary": "",
-        "url": "https://finance.eastmoney.com/a/202609173877580255.html",
-        "source": "东方财富",
-        "time": "09-17",
-        "score": 40,
-        "direction": "中性",
-        "relevance": 50,
-        "recency": 30,
-        "importance": 35,
-        "analysis": "【背景信息】黄金ETF华安。该资讯与黄金ETF华安有一定关联度。作为市场背景关注即可。"
-      },
-      {
-        "title": "布油跌破103美元，黄金一日涨超60美元，英国央行公布最新利率决议",
-        "summary": "",
-        "url": "https://finance.eastmoney.com/a/202609173877478010.html",
-        "source": "东方财富",
-        "time": "09-17",
-        "score": 40,
-        "direction": "中性",
-        "relevance": 50,
-        "recency": 30,
-        "importance": 35,
         "analysis": "【背景信息】黄金ETF华安。该资讯与黄金ETF华安有一定关联度。作为市场背景关注即可。"
       },
       {
@@ -1286,14 +1220,27 @@
     ]
   },
   "561380": {
-    "updatedAt": "2026-09-18T00:00:55.912Z",
+    "updatedAt": "2026-09-18T00:07:54.953Z",
     "sentiment": "中性",
-    "totalNews": 3,
+    "totalNews": 4,
     "positive": 0,
     "negative": 0,
-    "neutral": 3,
-    "reasoning": "共3条相关资讯，信号方向不明确（正0/负0/中3），建议持续观察等待更明确的信号。",
+    "neutral": 4,
+    "reasoning": "共4条相关资讯，信号方向不明确（正0/负0/中4），建议持续观察等待更明确的信号。",
     "articles": [
+      {
+        "title": "二度冲击港股IPO 奥动新能源迎战换电行业精细化变局",
+        "summary": "",
+        "url": "https://www.cs.com.cn/ssgs/01/2026/08/07/detail_2026080710029893.html",
+        "source": "中证网",
+        "time": "09-18",
+        "score": 64,
+        "direction": "中性",
+        "relevance": 85,
+        "recency": 100,
+        "importance": 0,
+        "analysis": "【行业动态】电网设备ETF国泰。该资讯与电网设备ETF国泰的底层资产高度相关。涉及标签：电网、电力设备。该消息方向不明确，但直接涉及该行业。建议：作为背景信息持续跟踪，可能成为后续交易信号的组成部分。（最新资讯，时效性高）"
+      },
       {
         "title": "获亚马逊最高80亿美元备用发电机大单 Generac股价飙升",
         "summary": "",
@@ -1336,7 +1283,7 @@
     ]
   },
   "563360": {
-    "updatedAt": "2026-09-18T00:00:55.912Z",
+    "updatedAt": "2026-09-18T00:07:54.953Z",
     "sentiment": "中性",
     "totalNews": 3,
     "positive": 0,
@@ -1386,7 +1333,7 @@
     ]
   },
   "588000": {
-    "updatedAt": "2026-09-18T00:00:55.912Z",
+    "updatedAt": "2026-09-18T00:07:54.953Z",
     "sentiment": "中性",
     "totalNews": 5,
     "positive": 0,
@@ -1447,17 +1394,17 @@
         "analysis": "【背景信息】科创50ETF华夏。该资讯与科创50ETF华夏有一定关联度。作为市场背景关注即可。（最新资讯，时效性高）"
       },
       {
-        "title": "美联储加息后 美股哪些板块更“抗压”？历史指向能源与科技",
+        "title": "恒指系列调整持续推进 恒生科技指数扩容本周迎关键节点",
         "summary": "",
-        "url": "https://finance.eastmoney.com/a/202609173877482416.html",
-        "source": "东方财富",
-        "time": "09-17",
+        "url": "https://www.cs.com.cn/gppd/ggzx/2026/09/16/detail_2026091610039463.html",
+        "source": "中证网",
+        "time": "09-18",
         "score": 50,
         "direction": "中性",
         "relevance": 50,
-        "recency": 30,
-        "importance": 70,
-        "analysis": "【背景信息】科创50ETF华夏。该资讯与科创50ETF华夏有一定关联度。作为市场背景关注即可。"
+        "recency": 100,
+        "importance": 0,
+        "analysis": "【背景信息】科创50ETF华夏。该资讯与科创50ETF华夏有一定关联度。作为市场背景关注即可。（最新资讯，时效性高）"
       }
     ]
   }
