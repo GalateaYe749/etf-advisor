@@ -7,55 +7,50 @@
     "硬科技"
   ],
   "tradeMode": "observe",
-  "nav": 1.6955,
-  "navDate": "2026-09-17",
+  "nav": 1.7445,
+  "navDate": "2026-09-18",
   "navHigh": 2.3272,
   "navLow": 1.3235,
-  "drawdownFromHigh": "-27.14",
-  "volatility30d": "36.03",
+  "drawdownFromHigh": "-25.04",
+  "volatility30d": "37.01",
   "returns": {
-    "1m": -3.69,
-    "3m": -17.48,
-    "6m": 17.3,
-    "1y": 23.44
+    "1m": -0.02,
+    "3m": -13.66,
+    "6m": 23.71,
+    "1y": 35.19
   },
   "tech": {
     "ma": {
-      "ma5": "1.6589",
-      "ma10": "1.6675",
-      "ma20": "1.7000",
-      "ma60": "1.8593"
+      "ma5": "1.6797",
+      "ma10": "1.6753",
+      "ma20": "1.6999",
+      "ma60": "1.8526"
     },
-    "maArrangement": "空头排列",
-    "distFromMA20": "-0.26",
-    "rsi14": "42.0",
+    "maArrangement": "缠绕",
+    "distFromMA20": "2.62",
+    "rsi14": "45.7",
     "macd": {
-      "dif": "-0.0384",
-      "dea": "-0.0428",
-      "bar": "0.0088",
+      "dif": "-0.0307",
+      "dea": "-0.0405",
+      "bar": "0.0196",
       "signal": "红柱"
     },
     "bollinger": {
-      "upper": "1.7898",
-      "mid": "1.7000",
-      "lower": "1.6101",
+      "upper": "1.7897",
+      "mid": "1.6999",
+      "lower": "1.6102",
       "position": "轨内"
     }
   },
   "shortSignal": {
     "signal": "⚪ 观望",
-    "strength": -1,
+    "strength": 0.5,
     "reasons": [
-      "空头排列"
+      "高于MA20",
+      "MACD红柱放大"
     ]
   },
   "trends": [
-    {
-      "x": 1766505600000,
-      "y": 1.4111,
-      "equityReturn": 0.37,
-      "unitMoney": ""
-    },
     {
       "x": 1766592000000,
       "y": 1.4237,
@@ -1129,13 +1124,19 @@
       "y": 1.6955,
       "equityReturn": -0.6,
       "unitMoney": ""
+    },
+    {
+      "x": 1789747200000,
+      "y": 1.7445,
+      "equityReturn": 2.89,
+      "unitMoney": ""
     }
   ],
-  "fetchedAt": "2026-09-18T04:30:03.641Z",
+  "fetchedAt": "2026-09-19T00:00:02.925Z",
   "intraday": {
-    "price": 1.761,
-    "changePct": 3.83,
+    "price": 1.744,
+    "changePct": 2.83,
     "prevClose": 1.696,
-    "time": "2026-09-18T04:00:13.495Z"
+    "time": "2026-09-18T09:00:01.529Z"
   }
 }

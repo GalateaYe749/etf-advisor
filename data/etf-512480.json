@@ -7,56 +7,50 @@
     "科技"
   ],
   "tradeMode": "observe",
-  "nav": 1.0014,
-  "navDate": "2026-09-17",
+  "nav": 1.0411,
+  "navDate": "2026-09-18",
   "navHigh": 2.9872,
   "navLow": 0.9224,
-  "drawdownFromHigh": "-66.48",
-  "volatility30d": "40.67",
+  "drawdownFromHigh": "-65.15",
+  "volatility30d": "42.30",
   "returns": {
-    "1m": -4.22,
-    "3m": -60.68,
-    "6m": -36.2,
-    "1y": -24.93
+    "1m": 0.15,
+    "3m": -58.55,
+    "6m": -31.79,
+    "1y": -16.24
   },
   "tech": {
     "ma": {
-      "ma5": "0.9762",
-      "ma10": "0.9803",
-      "ma20": "1.0040",
-      "ma60": "1.2114"
+      "ma5": "0.9921",
+      "ma10": "0.9870",
+      "ma20": "1.0039",
+      "ma60": "1.1829"
     },
-    "maArrangement": "空头排列",
-    "distFromMA20": "-0.26",
-    "rsi14": "42.8",
+    "maArrangement": "缠绕",
+    "distFromMA20": "3.71",
+    "rsi14": "46.9",
     "macd": {
-      "dif": "-0.0410",
-      "dea": "-0.0510",
-      "bar": "0.0200",
+      "dif": "-0.0341",
+      "dea": "-0.0476",
+      "bar": "0.0270",
       "signal": "红柱"
     },
     "bollinger": {
-      "upper": "1.0653",
-      "mid": "1.0040",
-      "lower": "0.9426",
+      "upper": "1.0650",
+      "mid": "1.0039",
+      "lower": "0.9428",
       "position": "轨内"
     }
   },
   "shortSignal": {
     "signal": "⚪ 观望",
-    "strength": 0,
+    "strength": 0.5,
     "reasons": [
-      "MACD红柱放大",
-      "空头排列"
+      "高于MA20",
+      "MACD红柱放大"
     ]
   },
   "trends": [
-    {
-      "x": 1766505600000,
-      "y": 1.45,
-      "equityReturn": 0.95,
-      "unitMoney": ""
-    },
     {
       "x": 1766592000000,
       "y": 1.4711,
@@ -1130,13 +1124,19 @@
       "y": 1.0014,
       "equityReturn": -0.58,
       "unitMoney": ""
+    },
+    {
+      "x": 1789747200000,
+      "y": 1.0411,
+      "equityReturn": 3.96,
+      "unitMoney": ""
     }
   ],
-  "fetchedAt": "2026-09-18T04:30:04.012Z",
+  "fetchedAt": "2026-09-19T00:00:03.672Z",
   "intraday": {
-    "price": 1.05,
-    "changePct": 4.9,
+    "price": 1.041,
+    "changePct": 4,
     "prevClose": 1.001,
-    "time": "2026-09-18T04:00:13.495Z"
+    "time": "2026-09-18T09:00:01.529Z"
   }
 }
