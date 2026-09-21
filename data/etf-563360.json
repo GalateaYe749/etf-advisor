@@ -6,56 +6,49 @@
     "均衡"
   ],
   "tradeMode": "long_only",
-  "nav": 1.2629,
-  "navDate": "2026-09-18",
+  "nav": 1.272,
+  "navDate": "2026-09-21",
   "navHigh": 1.4292,
   "navLow": 1.1885,
-  "drawdownFromHigh": "-11.64",
-  "volatility30d": "16.64",
+  "drawdownFromHigh": "-11.00",
+  "volatility30d": "16.60",
   "returns": {
-    "1m": -1.73,
-    "3m": -8.92,
-    "6m": -0.66,
-    "1y": 9.22
+    "1m": -1.6,
+    "3m": -9.21,
+    "6m": 0.58,
+    "1y": 7.11
   },
   "tech": {
     "ma": {
-      "ma5": "1.2497",
-      "ma10": "1.2591",
+      "ma5": "1.2547",
+      "ma10": "1.2588",
       "ma20": "1.2693",
-      "ma60": "1.3018"
+      "ma60": "1.2997"
     },
     "maArrangement": "空头排列",
-    "distFromMA20": "-0.50",
-    "rsi14": "37.0",
+    "distFromMA20": "0.21",
+    "rsi14": "43.8",
     "macd": {
-      "dif": "-0.0126",
-      "dea": "-0.0119",
-      "bar": "-0.0014",
-      "signal": "绿柱"
+      "dif": "-0.0107",
+      "dea": "-0.0117",
+      "bar": "0.0020",
+      "signal": "红柱"
     },
     "bollinger": {
       "upper": "1.3003",
       "mid": "1.2693",
-      "lower": "1.2383",
+      "lower": "1.2382",
       "position": "轨内"
     }
   },
   "shortSignal": {
-    "signal": "🔴 卖出观察",
-    "strength": -1.5,
+    "signal": "⚪ 观望",
+    "strength": -1,
     "reasons": [
-      "RSI偏弱",
       "空头排列"
     ]
   },
   "trends": [
-    {
-      "x": 1766592000000,
-      "y": 1.2558,
-      "equityReturn": 0.54,
-      "unitMoney": ""
-    },
     {
       "x": 1766678400000,
       "y": 1.2592,
@@ -1129,13 +1122,20 @@
       "y": 1.2629,
       "equityReturn": 1.28,
       "unitMoney": ""
+    },
+    {
+      "x": 1790006400000,
+      "y": 1.272,
+      "equityReturn": 0.72,
+      "unitMoney": ""
     }
   ],
-  "fetchedAt": "2026-09-21T04:30:04.145Z",
+  "fetchedAt": "2026-09-21T14:00:22.265Z",
   "intraday": {
-    "price": 1.268,
-    "changePct": 0.4,
+    "price": 1.272,
+    "changePct": 0.71,
     "prevClose": 1.263,
-    "time": "2026-09-21T04:00:13.501Z"
+    "time": "2026-09-21T07:00:18.049Z",
+    "stale": true
   }
 }
