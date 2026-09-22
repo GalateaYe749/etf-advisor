@@ -7,55 +7,47 @@
     "新能源"
   ],
   "tradeMode": "observe",
-  "nav": 0.8196,
-  "navDate": "2026-09-21",
+  "nav": 0.8165,
+  "navDate": "2026-09-22",
   "navHigh": 1.1822,
   "navLow": 0.7865,
-  "drawdownFromHigh": "-30.67",
-  "volatility30d": "23.41",
+  "drawdownFromHigh": "-30.93",
+  "volatility30d": "22.95",
   "returns": {
-    "1m": -3.83,
-    "3m": -17.83,
-    "6m": -27.93,
-    "1y": -9.83
+    "1m": -3.05,
+    "3m": -18.95,
+    "6m": -26.92,
+    "1y": -10.46
   },
   "tech": {
     "ma": {
-      "ma5": "0.8024",
-      "ma10": "0.8046",
-      "ma20": "0.8164",
-      "ma60": "0.8494"
+      "ma5": "0.8084",
+      "ma10": "0.8044",
+      "ma20": "0.8153",
+      "ma60": "0.8456"
     },
-    "maArrangement": "空头排列",
-    "distFromMA20": "0.39",
-    "rsi14": "47.5",
+    "maArrangement": "缠绕",
+    "distFromMA20": "0.15",
+    "rsi14": "52.7",
     "macd": {
-      "dif": "-0.0129",
-      "dea": "-0.0148",
-      "bar": "0.0038",
+      "dif": "-0.0114",
+      "dea": "-0.0141",
+      "bar": "0.0054",
       "signal": "红柱"
     },
     "bollinger": {
-      "upper": "0.8531",
-      "mid": "0.8164",
-      "lower": "0.7796",
+      "upper": "0.8506",
+      "mid": "0.8153",
+      "lower": "0.7800",
       "position": "轨内"
     }
   },
   "shortSignal": {
     "signal": "⚪ 观望",
-    "strength": -1,
-    "reasons": [
-      "空头排列"
-    ]
+    "strength": 0,
+    "reasons": []
   },
   "trends": [
-    {
-      "x": 1766678400000,
-      "y": 0.97,
-      "equityReturn": 0.67,
-      "unitMoney": ""
-    },
     {
       "x": 1766764800000,
       "y": 0.9876,
@@ -1129,13 +1121,19 @@
       "y": 0.8196,
       "equityReturn": 0.58,
       "unitMoney": ""
+    },
+    {
+      "x": 1790092800000,
+      "y": 0.8165,
+      "equityReturn": -0.38,
+      "unitMoney": ""
     }
   ],
-  "fetchedAt": "2026-09-22T04:30:03.704Z",
+  "fetchedAt": "2026-09-22T14:00:23.768Z",
   "intraday": {
-    "price": 0.822,
-    "changePct": 0.24,
+    "price": 0.817,
+    "changePct": -0.37,
     "prevClose": 0.82,
-    "time": "2026-09-22T04:00:16.873Z"
+    "time": "2026-09-22T09:00:02.079Z"
   }
 }

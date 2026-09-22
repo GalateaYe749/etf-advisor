@@ -8,56 +8,49 @@
     "锂电"
   ],
   "tradeMode": "observe",
-  "nav": 2.3357,
-  "navDate": "2026-09-21",
+  "nav": 2.3331,
+  "navDate": "2026-09-22",
   "navHigh": 3.3792,
   "navLow": 2.2943,
-  "drawdownFromHigh": "-30.88",
-  "volatility30d": "20.50",
+  "drawdownFromHigh": "-30.96",
+  "volatility30d": "20.28",
   "returns": {
-    "1m": -7.76,
-    "3m": -21.99,
-    "6m": -24.94,
-    "1y": -7.57
+    "1m": -6.87,
+    "3m": -22.04,
+    "6m": -23.81,
+    "1y": -9.01
   },
   "tech": {
     "ma": {
-      "ma5": "2.3138",
-      "ma10": "2.3264",
-      "ma20": "2.3767",
-      "ma60": "2.4954"
+      "ma5": "2.3208",
+      "ma10": "2.3238",
+      "ma20": "2.3699",
+      "ma60": "2.4845"
     },
     "maArrangement": "空头排列",
-    "distFromMA20": "-1.73",
-    "rsi14": "35.6",
+    "distFromMA20": "-1.55",
+    "rsi14": "43.2",
     "macd": {
-      "dif": "-0.0537",
-      "dea": "-0.0553",
-      "bar": "0.0032",
+      "dif": "-0.0505",
+      "dea": "-0.0543",
+      "bar": "0.0076",
       "signal": "红柱"
     },
     "bollinger": {
-      "upper": "2.5096",
-      "mid": "2.3767",
-      "lower": "2.2438",
+      "upper": "2.4972",
+      "mid": "2.3699",
+      "lower": "2.2427",
       "position": "轨内"
     }
   },
   "shortSignal": {
-    "signal": "🔴 卖出观察",
-    "strength": -1.5,
+    "signal": "⚪ 观望",
+    "strength": -1,
     "reasons": [
-      "RSI偏弱",
       "空头排列"
     ]
   },
   "trends": [
-    {
-      "x": 1766678400000,
-      "y": 2.8606,
-      "equityReturn": 0.21,
-      "unitMoney": ""
-    },
     {
       "x": 1766764800000,
       "y": 2.9312,
@@ -1131,13 +1124,19 @@
       "y": 2.3357,
       "equityReturn": -0.02,
       "unitMoney": ""
+    },
+    {
+      "x": 1790092800000,
+      "y": 2.3331,
+      "equityReturn": -0.11,
+      "unitMoney": ""
     }
   ],
-  "fetchedAt": "2026-09-22T04:30:03.354Z",
+  "fetchedAt": "2026-09-22T14:00:23.284Z",
   "intraday": {
-    "price": 2.349,
-    "changePct": 0.6,
+    "price": 2.334,
+    "changePct": -0.04,
     "prevClose": 2.335,
-    "time": "2026-09-22T04:00:16.873Z"
+    "time": "2026-09-22T09:00:02.079Z"
   }
 }
