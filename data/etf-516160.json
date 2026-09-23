@@ -1132,11 +1132,12 @@
       "unitMoney": ""
     }
   ],
-  "fetchedAt": "2026-09-23T00:05:05.507Z",
+  "fetchedAt": "2026-09-23T04:06:41.811Z",
   "intraday": {
-    "price": 2.334,
-    "changePct": -0.04,
-    "prevClose": 2.335,
-    "time": "2026-09-22T09:00:02.079Z"
+    "price": 2.315,
+    "changePct": -0.81,
+    "prevClose": 2.334,
+    "time": "2026-09-23T03:28:00.956Z",
+    "stale": true
   }
 }

@@ -1,6 +1,6 @@
 {
   "date": "2026-09-23",
-  "marketStatus": "neutral",
+  "marketStatus": "bullish",
   "longTerm": {
     "summary": "月预算¥700，13只ETF本月投入",
     "actions": [
@@ -350,11 +350,11 @@
   "simSummary": {
     "longTerm": {
       "cash": 5087.7,
-      "holdingsValue": "1903.20",
-      "totalValue": "6990.90",
+      "holdingsValue": "1892.80",
+      "totalValue": "6980.50",
       "totalCost": "1912.30",
-      "pnl": "-9.10",
-      "pnlPct": "-0.48"
+      "pnl": "-19.50",
+      "pnlPct": "-1.02"
     },
     "shortTerm": {
       "cash": 3000,
@@ -364,10 +364,9 @@
       "pnl": "0.00",
       "pnlPct": "0.00"
     },
-    "totalValue": "9990.90"
+    "totalValue": "9980.50"
   },
   "notes": [
-    "[neutral] 沪深300微涨0.11%，横盘震荡",
     "[warning] 中证500ETF南方 近3月-13.44%，长线持有无需恐慌",
     "[opportunity] 创业板ETF易方达 回撤22.04%，长线定投良机",
     "[warning] 创业板ETF易方达 近3月-22.04%，长线持有无需恐慌",
@@ -378,6 +377,7 @@
     "[warning] 电网设备ETF国泰 近3月-23.68%，长线持有无需恐慌",
     "[opportunity] 酒ETF鹏华 回撤31.57%，长线定投良机",
     "[opportunity] 芯片ETF华夏 回撤65.46%，长线定投良机",
-    "[warning] 芯片ETF华夏 近3月-63.18%，长线持有无需恐慌"
+    "[warning] 芯片ETF华夏 近3月-63.18%，长线持有无需恐慌",
+    "[opportunity] 半导体ETF国联安 回撤64.83%，长线定投良机"
   ]
 }
