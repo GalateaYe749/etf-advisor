@@ -2278,7 +2278,8 @@
       "price": 7.866,
       "changePct": 0.2,
       "prevClose": 7.85,
-      "time": "2026-09-23T01:30:14.760Z"
+      "time": "2026-09-23T01:30:14.760Z",
+      "stale": true
     }
   },
   {
@@ -3415,11 +3416,10 @@
     ],
     "fetchedAt": "2026-09-23T00:05:04.324Z",
     "intraday": {
-      "price": 3.42,
-      "changePct": 0.06,
-      "prevClose": 3.418,
-      "time": "2026-09-22T09:00:02.079Z",
-      "stale": true
+      "price": 3.416,
+      "changePct": -0.12,
+      "prevClose": 3.42,
+      "time": "2026-09-23T01:45:12.787Z"
     }
   },
   {
@@ -5697,10 +5697,10 @@
     ],
     "fetchedAt": "2026-09-23T00:05:04.506Z",
     "intraday": {
-      "price": 1.76,
-      "changePct": 0.11,
+      "price": 1.763,
+      "changePct": 0.28,
       "prevClose": 1.758,
-      "time": "2026-09-23T01:30:14.760Z"
+      "time": "2026-09-23T01:45:12.787Z"
     }
   },
   {
@@ -6838,11 +6838,10 @@
     ],
     "fetchedAt": "2026-09-23T00:05:04.587Z",
     "intraday": {
-      "price": 0.732,
-      "changePct": -1.08,
-      "prevClose": 0.74,
-      "time": "2026-09-22T09:00:02.079Z",
-      "stale": true
+      "price": 0.731,
+      "changePct": -0.14,
+      "prevClose": 0.732,
+      "time": "2026-09-23T01:45:12.787Z"
     }
   },
   {
@@ -7980,10 +7979,10 @@
     ],
     "fetchedAt": "2026-09-23T00:05:04.767Z",
     "intraday": {
-      "price": 0.865,
-      "changePct": -0.23,
+      "price": 0.868,
+      "changePct": 0.12,
       "prevClose": 0.867,
-      "time": "2026-09-23T01:30:14.760Z"
+      "time": "2026-09-23T01:45:12.787Z"
     }
   },
   {
@@ -9121,11 +9120,10 @@
     ],
     "fetchedAt": "2026-09-23T00:05:04.891Z",
     "intraday": {
-      "price": 0.415,
-      "changePct": -0.24,
-      "prevClose": 0.416,
-      "time": "2026-09-22T09:00:02.079Z",
-      "stale": true
+      "price": 0.418,
+      "changePct": 0.72,
+      "prevClose": 0.415,
+      "time": "2026-09-23T01:45:12.787Z"
     }
   },
   {
@@ -10264,10 +10262,10 @@
     ],
     "fetchedAt": "2026-09-23T00:05:04.987Z",
     "intraday": {
-      "price": 1.168,
-      "changePct": 0.09,
+      "price": 1.17,
+      "changePct": 0.26,
       "prevClose": 1.167,
-      "time": "2026-09-23T01:30:14.760Z"
+      "time": "2026-09-23T01:45:12.787Z"
     }
   },
   {
@@ -11409,8 +11407,7 @@
       "price": 1.055,
       "changePct": 0.38,
       "prevClose": 1.051,
-      "time": "2026-09-23T01:27:58.909Z",
-      "stale": true
+      "time": "2026-09-23T01:45:12.787Z"
     }
   },
   {
@@ -12546,10 +12543,10 @@
     ],
     "fetchedAt": "2026-09-23T00:05:05.395Z",
     "intraday": {
-      "price": 1.163,
-      "changePct": -0.43,
+      "price": 1.155,
+      "changePct": -1.11,
       "prevClose": 1.168,
-      "time": "2026-09-23T01:30:14.760Z"
+      "time": "2026-09-23T01:45:12.787Z"
     }
   },
   {
@@ -13688,10 +13685,10 @@
     ],
     "fetchedAt": "2026-09-23T00:05:05.507Z",
     "intraday": {
-      "price": 2.327,
-      "changePct": -0.3,
+      "price": 2.324,
+      "changePct": -0.43,
       "prevClose": 2.334,
-      "time": "2026-09-23T01:30:14.760Z"
+      "time": "2026-09-23T01:45:12.787Z"
     }
   },
   {
@@ -14829,10 +14826,10 @@
     ],
     "fetchedAt": "2026-09-23T00:05:05.600Z",
     "intraday": {
-      "price": 1.086,
-      "changePct": -0.91,
+      "price": 1.081,
+      "changePct": -1.37,
       "prevClose": 1.096,
-      "time": "2026-09-23T01:30:14.760Z"
+      "time": "2026-09-23T01:45:12.787Z"
     }
   },
   {
@@ -15968,10 +15965,10 @@
     ],
     "fetchedAt": "2026-09-23T00:05:05.712Z",
     "intraday": {
-      "price": 0.839,
-      "changePct": 0,
+      "price": 0.834,
+      "changePct": -0.6,
       "prevClose": 0.839,
-      "time": "2026-09-23T01:30:14.760Z"
+      "time": "2026-09-23T01:45:12.787Z"
     }
   },
   {
@@ -17112,7 +17109,7 @@
       "price": 0.658,
       "changePct": 0,
       "prevClose": 0.658,
-      "time": "2026-09-23T01:30:14.760Z"
+      "time": "2026-09-23T01:45:12.787Z"
     }
   },
   {
@@ -18248,11 +18245,10 @@
     ],
     "fetchedAt": "2026-09-23T00:05:06.087Z",
     "intraday": {
-      "price": 0.817,
-      "changePct": -0.37,
-      "prevClose": 0.82,
-      "time": "2026-09-22T09:00:02.079Z",
-      "stale": true
+      "price": 0.819,
+      "changePct": 0.24,
+      "prevClose": 0.817,
+      "time": "2026-09-23T01:45:12.787Z"
     }
   },
   {
@@ -19390,11 +19386,10 @@
     ],
     "fetchedAt": "2026-09-23T00:05:06.266Z",
     "intraday": {
-      "price": 0.553,
-      "changePct": -0.9,
-      "prevClose": 0.558,
-      "time": "2026-09-22T09:00:02.079Z",
-      "stale": true
+      "price": 0.556,
+      "changePct": 0.54,
+      "prevClose": 0.553,
+      "time": "2026-09-23T01:45:12.787Z"
     }
   },
   {
@@ -20533,10 +20528,10 @@
     ],
     "fetchedAt": "2026-09-23T00:05:06.356Z",
     "intraday": {
-      "price": 0.595,
-      "changePct": 0.51,
+      "price": 0.596,
+      "changePct": 0.68,
       "prevClose": 0.592,
-      "time": "2026-09-23T01:30:14.760Z"
+      "time": "2026-09-23T01:45:12.787Z"
     }
   },
   {
@@ -21674,10 +21669,10 @@
     ],
     "fetchedAt": "2026-09-23T00:05:06.474Z",
     "intraday": {
-      "price": 1.471,
-      "changePct": -0.14,
+      "price": 1.462,
+      "changePct": -0.75,
       "prevClose": 1.473,
-      "time": "2026-09-23T01:30:14.760Z"
+      "time": "2026-09-23T01:45:12.787Z"
     }
   },
   {
@@ -22818,7 +22813,7 @@
       "price": 0,
       "changePct": 0,
       "prevClose": 2.727,
-      "time": "2026-09-23T01:30:14.760Z"
+      "time": "2026-09-23T01:45:12.787Z"
     }
   },
   {
@@ -23961,7 +23956,7 @@
       "price": 1.714,
       "changePct": 0,
       "prevClose": 1.714,
-      "time": "2026-09-23T01:30:14.760Z"
+      "time": "2026-09-23T01:45:12.787Z"
     }
   },
   {
@@ -25101,11 +25096,10 @@
     ],
     "fetchedAt": "2026-09-23T00:05:06.814Z",
     "intraday": {
-      "price": 8.859,
-      "changePct": -0.8,
-      "prevClose": 8.93,
-      "time": "2026-09-22T09:00:02.079Z",
-      "stale": true
+      "price": 8.914,
+      "changePct": 0.62,
+      "prevClose": 8.859,
+      "time": "2026-09-23T01:45:12.787Z"
     }
   }
 ]
