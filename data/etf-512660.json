@@ -7,38 +7,38 @@
     "军工"
   ],
   "tradeMode": "observe",
-  "nav": 1.1514,
-  "navDate": "2026-09-23",
+  "nav": 1.13,
+  "navDate": "2026-09-24",
   "navHigh": 1.6499,
   "navLow": 1.0571,
-  "drawdownFromHigh": "-30.21",
-  "volatility30d": "22.26",
+  "drawdownFromHigh": "-31.51",
+  "volatility30d": "22.89",
   "returns": {
-    "1m": 5.05,
-    "3m": -7.16,
-    "6m": -10.74,
-    "1y": -1.53
+    "1m": 2.8,
+    "3m": -8.5,
+    "6m": -13.99,
+    "1y": -4
   },
   "tech": {
     "ma": {
-      "ma5": "1.1587",
-      "ma10": "1.1575",
-      "ma20": "1.1511",
-      "ma60": "1.1452"
+      "ma5": "1.1562",
+      "ma10": "1.1529",
+      "ma20": "1.1515",
+      "ma60": "1.1431"
     },
     "maArrangement": "多头排列",
-    "distFromMA20": "0.03",
-    "rsi14": "53.9",
+    "distFromMA20": "-1.87",
+    "rsi14": "44.2",
     "macd": {
-      "dif": "0.0058",
-      "dea": "0.0048",
-      "bar": "0.0020",
-      "signal": "红柱"
+      "dif": "0.0033",
+      "dea": "0.0045",
+      "bar": "-0.0024",
+      "signal": "绿柱"
     },
     "bollinger": {
-      "upper": "1.1826",
-      "mid": "1.1511",
-      "lower": "1.1196",
+      "upper": "1.1817",
+      "mid": "1.1515",
+      "lower": "1.1214",
       "position": "轨内"
     }
   },
@@ -50,12 +50,6 @@
     ]
   },
   "trends": [
-    {
-      "x": 1767024000000,
-      "y": 1.35,
-      "equityReturn": 1.25,
-      "unitMoney": ""
-    },
     {
       "x": 1767110400000,
       "y": 1.3415,
@@ -1129,14 +1123,20 @@
       "y": 1.1514,
       "equityReturn": -1.35,
       "unitMoney": ""
+    },
+    {
+      "x": 1790265600000,
+      "y": 1.13,
+      "equityReturn": -1.86,
+      "unitMoney": ""
     }
   ],
-  "fetchedAt": "2026-09-24T04:30:04.662Z",
+  "fetchedAt": "2026-09-24T14:00:21.554Z",
   "intraday": {
-    "price": 1.155,
-    "changePct": -1.11,
-    "prevClose": 1.168,
-    "time": "2026-09-23T03:15:13.586Z",
+    "price": 1.131,
+    "changePct": -1.65,
+    "prevClose": 1.15,
+    "time": "2026-09-24T05:00:14.349Z",
     "stale": true
   }
 }

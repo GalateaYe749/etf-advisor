@@ -7,56 +7,51 @@
     "AI应用"
   ],
   "tradeMode": "observe",
-  "nav": 1.07,
-  "navDate": "2026-09-23",
+  "nav": 1.061,
+  "navDate": "2026-09-24",
   "navHigh": 1.6878,
   "navLow": 0.9929,
-  "drawdownFromHigh": "-36.60",
-  "volatility30d": "23.46",
+  "drawdownFromHigh": "-37.14",
+  "volatility30d": "22.89",
   "returns": {
-    "1m": -0.74,
-    "3m": 0.32,
-    "6m": -15.55,
-    "1y": -29.39
+    "1m": -1.12,
+    "3m": -2.53,
+    "6m": -18.26,
+    "1y": -31.37
   },
   "tech": {
     "ma": {
-      "ma5": "1.0804",
-      "ma10": "1.0842",
-      "ma20": "1.0961",
-      "ma60": "1.0950"
+      "ma5": "1.0785",
+      "ma10": "1.0790",
+      "ma20": "1.0953",
+      "ma60": "1.0944"
     },
     "maArrangement": "空头排列",
-    "distFromMA20": "-2.38",
-    "rsi14": "42.7",
+    "distFromMA20": "-3.13",
+    "rsi14": "28.0",
     "macd": {
-      "dif": "-0.0057",
-      "dea": "-0.0032",
-      "bar": "-0.0050",
+      "dif": "-0.0074",
+      "dea": "-0.0040",
+      "bar": "-0.0068",
       "signal": "绿柱"
     },
     "bollinger": {
-      "upper": "1.1427",
-      "mid": "1.0961",
-      "lower": "1.0495",
+      "upper": "1.1437",
+      "mid": "1.0953",
+      "lower": "1.0468",
       "position": "轨内"
     }
   },
   "shortSignal": {
-    "signal": "⚪ 观望",
-    "strength": -0.5,
+    "signal": "🟡 买入观察",
+    "strength": 1.5,
     "reasons": [
+      "RSI超卖",
       "低于MA20",
       "空头排列"
     ]
   },
   "trends": [
-    {
-      "x": 1767024000000,
-      "y": 1.4281,
-      "equityReturn": -1.26,
-      "unitMoney": ""
-    },
     {
       "x": 1767110400000,
       "y": 1.4351,
@@ -1130,14 +1125,20 @@
       "y": 1.07,
       "equityReturn": -2.38,
       "unitMoney": ""
+    },
+    {
+      "x": 1790265600000,
+      "y": 1.061,
+      "equityReturn": -0.84,
+      "unitMoney": ""
     }
   ],
-  "fetchedAt": "2026-09-24T04:30:04.858Z",
+  "fetchedAt": "2026-09-24T14:00:21.898Z",
   "intraday": {
-    "price": 1.068,
-    "changePct": -0.19,
+    "price": 1.064,
+    "changePct": -0.56,
     "prevClose": 1.07,
-    "time": "2026-09-24T02:00:22.347Z",
+    "time": "2026-09-24T05:00:14.349Z",
     "stale": true
   }
 }
