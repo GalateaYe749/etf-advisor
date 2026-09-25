@@ -1,6 +1,6 @@
 {
   "date": "2026-09-25",
-  "marketStatus": "neutral",
+  "marketStatus": "bearish",
   "longTerm": {
     "summary": "月预算¥700，14只ETF本月投入",
     "actions": [
@@ -125,7 +125,7 @@
         "amount": 45
       }
     ],
-    "riskLevel": "中等"
+    "riskLevel": "低（适合建仓）"
   },
   "shortTerm": {
     "summary": "8只ETF出现买入信号，可轻仓试多",
@@ -378,7 +378,6 @@
     "totalValue": "9946.70"
   },
   "notes": [
-    "[bearish] 沪深300跌1.68%，恐慌中长线是机会、短线等企稳",
     "[warning] 中证500ETF南方 近3月-14.57%，长线持有无需恐慌",
     "[opportunity] 创业板ETF易方达 回撤24.58%，长线定投良机",
     "[warning] 创业板ETF易方达 近3月-21.81%，长线持有无需恐慌",
@@ -389,6 +388,7 @@
     "[warning] 电网设备ETF国泰 近3月-20.89%，长线持有无需恐慌",
     "[opportunity] 酒ETF鹏华 回撤32.75%，长线定投良机",
     "[opportunity] 酒ETF鹏华 短线信号：【🟡 买入观察】(RSI超卖、低于MA20)",
-    "[opportunity] 酒ETF鹏华 RSI=19.1，超卖区，短线反弹概率大"
+    "[opportunity] 酒ETF鹏华 RSI=19.1，超卖区，短线反弹概率大",
+    "[opportunity] 芯片ETF华夏 回撤66.45%，长线定投良机"
   ]
 }
