@@ -361,11 +361,11 @@
   "simSummary": {
     "longTerm": {
       "cash": 5087.7,
-      "holdingsValue": "1859.00",
-      "totalValue": "6946.70",
+      "holdingsValue": "1760.20",
+      "totalValue": "6847.90",
       "totalCost": "1912.30",
-      "pnl": "-53.30",
-      "pnlPct": "-2.79"
+      "pnl": "-152.10",
+      "pnlPct": "-7.95"
     },
     "shortTerm": {
       "cash": 3000,
@@ -375,9 +375,10 @@
       "pnl": "0.00",
       "pnlPct": "0.00"
     },
-    "totalValue": "9946.70"
+    "totalValue": "9847.90"
   },
   "notes": [
+    "[bearish] 沪深300跌2.19%，恐慌中长线是机会、短线等企稳",
     "[warning] 中证500ETF南方 近3月-14.57%，长线持有无需恐慌",
     "[opportunity] 创业板ETF易方达 回撤24.58%，长线定投良机",
     "[warning] 创业板ETF易方达 近3月-21.81%，长线持有无需恐慌",
@@ -388,7 +389,6 @@
     "[warning] 电网设备ETF国泰 近3月-20.89%，长线持有无需恐慌",
     "[opportunity] 酒ETF鹏华 回撤32.75%，长线定投良机",
     "[opportunity] 酒ETF鹏华 短线信号：【🟡 买入观察】(RSI超卖、低于MA20)",
-    "[opportunity] 酒ETF鹏华 RSI=19.1，超卖区，短线反弹概率大",
-    "[opportunity] 芯片ETF华夏 回撤66.45%，长线定投良机"
+    "[opportunity] 酒ETF鹏华 RSI=19.1，超卖区，短线反弹概率大"
   ]
 }
