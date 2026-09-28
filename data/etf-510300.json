@@ -7,55 +7,52 @@
     "核心资产"
   ],
   "tradeMode": "long_only",
-  "nav": 4.5127,
-  "navDate": "2026-09-24",
+  "nav": 4.4133,
+  "navDate": "2026-09-28",
   "navHigh": 5.0878,
-  "navLow": 4.427,
-  "drawdownFromHigh": "-11.30",
-  "volatility30d": "14.61",
+  "navLow": 4.4133,
+  "drawdownFromHigh": "-13.26",
+  "volatility30d": "15.27",
   "returns": {
-    "1m": -3.06,
-    "3m": -9.05,
-    "6m": -0.75,
-    "1y": -0.6
+    "1m": -6.03,
+    "3m": -12.01,
+    "6m": -1.64,
+    "1y": -4.99
   },
   "tech": {
     "ma": {
-      "ma5": "4.5825",
-      "ma10": "4.5642",
-      "ma20": "4.6030",
-      "ma60": "4.6876"
+      "ma5": "4.5493",
+      "ma10": "4.5476",
+      "ma20": "4.5899",
+      "ma60": "4.6798"
     },
     "maArrangement": "缠绕",
-    "distFromMA20": "-1.96",
-    "rsi14": "37.9",
+    "distFromMA20": "-3.85",
+    "rsi14": "26.9",
     "macd": {
-      "dif": "-0.0335",
-      "dea": "-0.0341",
-      "bar": "0.0012",
-      "signal": "红柱"
+      "dif": "-0.0444",
+      "dea": "-0.0362",
+      "bar": "-0.0164",
+      "signal": "绿柱"
     },
     "bollinger": {
-      "upper": "4.7035",
-      "mid": "4.6030",
-      "lower": "4.5025",
-      "position": "轨内"
+      "upper": "4.7146",
+      "mid": "4.5899",
+      "lower": "4.4652",
+      "position": "下轨下方"
     }
   },
   "shortSignal": {
-    "signal": "⚪ 观望",
-    "strength": -0.5,
+    "signal": "🟢 强烈买入",
+    "strength": 3,
     "reasons": [
-      "RSI偏弱"
+      "RSI超卖",
+      "低于MA20",
+      "MACD绿柱放大",
+      "跌破布林下轨"
     ]
   },
   "trends": [
-    {
-      "x": 1767110400000,
-      "y": 4.7755,
-      "equityReturn": 0.26,
-      "unitMoney": ""
-    },
     {
       "x": 1767196800000,
       "y": 4.7536,
@@ -1129,14 +1126,20 @@
       "y": 4.5127,
       "equityReturn": -1.69,
       "unitMoney": ""
+    },
+    {
+      "x": 1790553600000,
+      "y": 4.4133,
+      "equityReturn": -2.2,
+      "unitMoney": ""
     }
   ],
-  "fetchedAt": "2026-09-28T04:30:35.482Z",
+  "fetchedAt": "2026-09-28T14:00:21.826Z",
   "intraday": {
-    "price": 4.418,
-    "changePct": -2.15,
+    "price": 4.424,
+    "changePct": -2.02,
     "prevClose": 4.515,
-    "time": "2026-09-28T02:45:15.336Z",
+    "time": "2026-09-28T06:15:15.693Z",
     "stale": true
   }
 }

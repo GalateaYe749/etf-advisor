@@ -8,56 +8,52 @@
     "锂电"
   ],
   "tradeMode": "observe",
-  "nav": 2.2636,
-  "navDate": "2026-09-24",
+  "nav": 2.2038,
+  "navDate": "2026-09-28",
   "navHigh": 3.3792,
-  "navLow": 2.2636,
-  "drawdownFromHigh": "-33.01",
-  "volatility30d": "21.20",
+  "navLow": 2.2038,
+  "drawdownFromHigh": "-34.78",
+  "volatility30d": "21.86",
   "returns": {
-    "1m": -9.5,
-    "3m": -22.31,
-    "6m": -27.67,
-    "1y": -8.95
+    "1m": -11.57,
+    "3m": -26.28,
+    "6m": -29.21,
+    "1y": -13.35
   },
   "tech": {
     "ma": {
-      "ma5": "2.3172",
-      "ma10": "2.3111",
-      "ma20": "2.3493",
-      "ma60": "2.4639"
+      "ma5": "2.2908",
+      "ma10": "2.3010",
+      "ma20": "2.3353",
+      "ma60": "2.4531"
     },
-    "maArrangement": "缠绕",
-    "distFromMA20": "-3.65",
-    "rsi14": "34.4",
+    "maArrangement": "空头排列",
+    "distFromMA20": "-5.63",
+    "rsi14": "22.5",
     "macd": {
-      "dif": "-0.0509",
-      "dea": "-0.0528",
-      "bar": "0.0038",
-      "signal": "红柱"
+      "dif": "-0.0569",
+      "dea": "-0.0536",
+      "bar": "-0.0066",
+      "signal": "绿柱"
     },
     "bollinger": {
-      "upper": "2.4536",
-      "mid": "2.3493",
-      "lower": "2.2451",
-      "position": "轨内"
+      "upper": "2.4386",
+      "mid": "2.3353",
+      "lower": "2.2320",
+      "position": "下轨下方"
     }
   },
   "shortSignal": {
-    "signal": "⚪ 观望",
-    "strength": 0,
+    "signal": "🟢 强烈买入",
+    "strength": 4,
     "reasons": [
-      "RSI偏弱",
-      "低于MA20"
+      "RSI超卖",
+      "远离MA20",
+      "空头排列",
+      "跌破布林下轨"
     ]
   },
   "trends": [
-    {
-      "x": 1767110400000,
-      "y": 2.8862,
-      "equityReturn": 0.13,
-      "unitMoney": ""
-    },
     {
       "x": 1767196800000,
       "y": 2.856,
@@ -1131,14 +1127,20 @@
       "y": 2.2636,
       "equityReturn": -2.33,
       "unitMoney": ""
+    },
+    {
+      "x": 1790611200000,
+      "y": 2.2038,
+      "equityReturn": -2.64,
+      "unitMoney": ""
     }
   ],
-  "fetchedAt": "2026-09-28T04:30:36.254Z",
+  "fetchedAt": "2026-09-28T14:00:23.137Z",
   "intraday": {
-    "price": 2.205,
-    "changePct": -2.65,
+    "price": 2.21,
+    "changePct": -2.43,
     "prevClose": 2.265,
-    "time": "2026-09-28T02:45:15.336Z",
+    "time": "2026-09-28T06:15:15.693Z",
     "stale": true
   }
 }
