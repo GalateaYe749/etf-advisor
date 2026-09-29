@@ -8,58 +8,52 @@
     "锂电"
   ],
   "tradeMode": "observe",
-  "nav": 2.2038,
-  "navDate": "2026-09-28",
+  "nav": 2.2236,
+  "navDate": "2026-09-29",
   "navHigh": 3.3792,
   "navLow": 2.2038,
-  "drawdownFromHigh": "-34.78",
-  "volatility30d": "21.86",
+  "drawdownFromHigh": "-34.20",
+  "volatility30d": "21.97",
   "returns": {
-    "1m": -11.57,
-    "3m": -26.28,
-    "6m": -29.21,
-    "1y": -13.35
+    "1m": -10.5,
+    "3m": -24.71,
+    "6m": -29.69,
+    "1y": -11.92
   },
   "tech": {
     "ma": {
-      "ma5": "2.2908",
-      "ma10": "2.3010",
-      "ma20": "2.3353",
-      "ma60": "2.4531"
+      "ma5": "2.2683",
+      "ma10": "2.2911",
+      "ma20": "2.3238",
+      "ma60": "2.4435"
     },
     "maArrangement": "空头排列",
-    "distFromMA20": "-5.63",
-    "rsi14": "22.5",
+    "distFromMA20": "-4.31",
+    "rsi14": "28.3",
     "macd": {
-      "dif": "-0.0569",
-      "dea": "-0.0536",
-      "bar": "-0.0066",
+      "dif": "-0.0593",
+      "dea": "-0.0548",
+      "bar": "-0.0090",
       "signal": "绿柱"
     },
     "bollinger": {
-      "upper": "2.4386",
-      "mid": "2.3353",
-      "lower": "2.2320",
+      "upper": "2.4229",
+      "mid": "2.3238",
+      "lower": "2.2247",
       "position": "下轨下方"
     }
   },
   "shortSignal": {
     "signal": "🟢 强烈买入",
-    "strength": 4,
+    "strength": 3,
     "reasons": [
       "RSI超卖",
-      "远离MA20",
+      "低于MA20",
       "空头排列",
       "跌破布林下轨"
     ]
   },
   "trends": [
-    {
-      "x": 1767196800000,
-      "y": 2.856,
-      "equityReturn": -1.05,
-      "unitMoney": ""
-    },
     {
       "x": 1767628800000,
       "y": 2.9161,
@@ -1133,14 +1127,20 @@
       "y": 2.2038,
       "equityReturn": -2.64,
       "unitMoney": ""
+    },
+    {
+      "x": 1790697600000,
+      "y": 2.2236,
+      "equityReturn": 0.9,
+      "unitMoney": ""
     }
   ],
-  "fetchedAt": "2026-09-29T04:30:04.766Z",
+  "fetchedAt": "2026-09-29T14:00:21.988Z",
   "intraday": {
-    "price": 2.21,
-    "changePct": -2.43,
-    "prevClose": 2.265,
-    "time": "2026-09-28T06:15:15.693Z",
+    "price": 2.222,
+    "changePct": 0.91,
+    "prevClose": 2.202,
+    "time": "2026-09-29T06:00:22.091Z",
     "stale": true
   }
 }

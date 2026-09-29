@@ -7,56 +7,51 @@
     "消费"
   ],
   "tradeMode": "observe",
-  "nav": 0.4071,
-  "navDate": "2026-09-28",
+  "nav": 0.4053,
+  "navDate": "2026-09-29",
   "navHigh": 0.607,
   "navLow": 0.3838,
-  "drawdownFromHigh": "-32.93",
-  "volatility30d": "17.60",
+  "drawdownFromHigh": "-33.23",
+  "volatility30d": "17.62",
   "returns": {
-    "1m": -3.07,
-    "3m": 3.8,
-    "6m": -16.18,
-    "1y": -35.14
+    "1m": -4.3,
+    "3m": 1.83,
+    "6m": -17.61,
+    "1y": -34.68
   },
   "tech": {
     "ma": {
-      "ma5": "0.4124",
-      "ma10": "0.4110",
-      "ma20": "0.4177",
+      "ma5": "0.4103",
+      "ma10": "0.4104",
+      "ma20": "0.4170",
       "ma60": "0.4222"
     },
-    "maArrangement": "缠绕",
-    "distFromMA20": "-2.54",
-    "rsi14": "19.4",
+    "maArrangement": "空头排列",
+    "distFromMA20": "-2.81",
+    "rsi14": "19.0",
     "macd": {
-      "dif": "-0.0045",
-      "dea": "-0.0040",
-      "bar": "-0.0010",
+      "dif": "-0.0048",
+      "dea": "-0.0041",
+      "bar": "-0.0014",
       "signal": "绿柱"
     },
     "bollinger": {
-      "upper": "0.4347",
-      "mid": "0.4177",
-      "lower": "0.4006",
+      "upper": "0.4348",
+      "mid": "0.4170",
+      "lower": "0.3991",
       "position": "轨内"
     }
   },
   "shortSignal": {
     "signal": "🟡 买入观察",
-    "strength": 2.5,
+    "strength": 1.5,
     "reasons": [
       "RSI超卖",
-      "低于MA20"
+      "低于MA20",
+      "空头排列"
     ]
   },
   "trends": [
-    {
-      "x": 1767196800000,
-      "y": 0.536,
-      "equityReturn": -0.87,
-      "unitMoney": ""
-    },
     {
       "x": 1767628800000,
       "y": 0.5463,
@@ -1130,14 +1125,20 @@
       "y": 0.4071,
       "equityReturn": -0.27,
       "unitMoney": ""
+    },
+    {
+      "x": 1790697600000,
+      "y": 0.4053,
+      "equityReturn": -0.44,
+      "unitMoney": ""
     }
   ],
-  "fetchedAt": "2026-09-29T04:30:04.468Z",
+  "fetchedAt": "2026-09-29T14:00:21.380Z",
   "intraday": {
-    "price": 0.406,
-    "changePct": 0,
+    "price": 0.405,
+    "changePct": -0.25,
     "prevClose": 0.406,
-    "time": "2026-09-29T02:00:56.463Z",
+    "time": "2026-09-29T06:00:22.091Z",
     "stale": true
   }
 }
