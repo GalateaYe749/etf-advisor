@@ -1,46 +1,46 @@
 {
   "date": "2026-09-30",
-  "generatedAt": "2026-09-30T00:06:23.821Z",
+  "generatedAt": "2026-09-30T04:08:07.434Z",
   "marketSnapshot": {
     "indices": [
       {
         "name": "上证指数",
-        "price": 3828.59,
-        "changePct": 0.13,
-        "amount": 508613373579.1
+        "price": 3835.92,
+        "changePct": 0.14,
+        "amount": 348322510478.7
       },
       {
         "name": "深证成指",
-        "price": 12881.98,
-        "changePct": 0.18,
-        "amount": 577364769917.4938
+        "price": 12894.51,
+        "changePct": -0.06,
+        "amount": 400742812884.6291
       },
       {
         "name": "沪深300",
-        "price": 4342.15,
-        "changePct": 0.03,
-        "amount": 251894320923.2
+        "price": 4348.23,
+        "changePct": 0.07,
+        "amount": 169955996022.4
       },
       {
         "name": "创业板指",
-        "price": 3140.03,
-        "changePct": 0.01,
-        "amount": 277894105280.09
+        "price": 3139.17,
+        "changePct": -0.11,
+        "amount": 197651138469.75
       },
       {
         "name": "科创50",
-        "price": 1559.78,
-        "changePct": 0.24,
-        "amount": 48059090794.3
+        "price": 1537.25,
+        "changePct": -2.04,
+        "amount": 33711090841.2
       },
       {
         "name": "北证50",
-        "price": 1037.17,
-        "changePct": 1.03,
-        "amount": 9688384740
+        "price": 1047.29,
+        "changePct": 1.45,
+        "amount": 6814405613
       }
     ],
-    "turnover": 1095666528237,
+    "turnover": 755879728976,
     "turnoverDate": "2026-09-30",
     "notableMovers": []
   },
@@ -55,10 +55,10 @@
         "cost": 0.7355,
         "date": "2026-09-02",
         "name": "电网设备ETF国泰",
-        "currentPrice": 0.673,
-        "currentValue": 1749.8,
-        "pnl": -162.5,
-        "pnlPct": -8.5,
+        "currentPrice": 0.678,
+        "currentValue": 1762.8,
+        "pnl": -149.5,
+        "pnlPct": -7.82,
         "personalAdvice": {
           "summary": "电网设备ETF国泰当前回撤72.34%，MACD绿柱 RSI 34.2",
           "longTermAction": "坚定持有并分批加仓。回撤72.34%处于极端低估区域，每月可投入¥102。建议在MA20(0.7175)下方加仓",
@@ -68,7 +68,7 @@
         }
       }
     ],
-    "totalValue": 6837.5,
+    "totalValue": 6850.5,
     "recommendations": [
       {
         "etf": "510500",
@@ -446,9 +446,9 @@
   },
   "portfolio": {
     "totalCapital": 10000,
-    "totalValue": 9837.5,
-    "totalPnlPct": -1.62,
-    "longValue": 6837.5,
+    "totalValue": 9850.5,
+    "totalPnlPct": -1.5,
+    "longValue": 6850.5,
     "shortValue": 3000
   },
   "insights": [
@@ -456,7 +456,7 @@
       "level": "neutral",
       "cat": "大盘",
       "for": "both",
-      "text": "沪深300微涨0.03%，横盘震荡"
+      "text": "沪深300微涨0.07%，横盘震荡"
     },
     {
       "level": "warning",
