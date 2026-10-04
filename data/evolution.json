@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-27T12:31:49.104979",
+  "generatedAt": "2026-10-04T08:01:41.024206",
   "targetETF": "561380 电网设备ETF国泰",
   "totalTests": 192,
   "summary": {
-    "avgPnl": -1.36,
-    "bestPnl": -0.93,
-    "worstPnl": -1.86,
+    "avgPnl": -2.34,
+    "bestPnl": -1.6,
+    "worstPnl": -3.19,
     "bestParams": {
       "stop_loss": -3,
       "take_profit": 5,
@@ -27,27 +27,27 @@
   },
   "paramImportance": {
     "stop_loss": {
-      "-3": -1.36,
-      "-5": -1.36,
-      "-7": -1.36,
-      "-10": -1.36
+      "-3": -2.34,
+      "-5": -2.34,
+      "-7": -2.34,
+      "-10": -2.34
     },
     "take_profit": {
-      "5": -1.36,
-      "8": -1.36,
-      "12": -1.36,
-      "15": -1.36
+      "5": -2.34,
+      "8": -2.34,
+      "12": -2.34,
+      "15": -2.34
     },
     "long_monthly": {
-      "500": -0.93,
-      "700": -1.3,
-      "1000": -1.86
+      "500": -1.6,
+      "700": -2.24,
+      "1000": -3.19
     },
     "dd_entry": {
-      "-15": -1.36,
-      "-20": -1.36,
-      "-25": -1.36,
-      "-30": -1.36
+      "-15": -2.34,
+      "-20": -2.34,
+      "-25": -2.34,
+      "-30": -2.34
     }
   },
   "topPerforming": [
@@ -58,7 +58,7 @@
         "long_monthly": 500,
         "dd_entry": -15
       },
-      "pnlPct": -0.93
+      "pnlPct": -1.6
     },
     {
       "params": {
@@ -67,7 +67,7 @@
         "long_monthly": 500,
         "dd_entry": -20
       },
-      "pnlPct": -0.93
+      "pnlPct": -1.6
     },
     {
       "params": {
@@ -76,7 +76,7 @@
         "long_monthly": 500,
         "dd_entry": -25
       },
-      "pnlPct": -0.93
+      "pnlPct": -1.6
     }
   ],
   "worstPerforming": [
@@ -87,7 +87,7 @@
         "long_monthly": 1000,
         "dd_entry": -20
       },
-      "pnlPct": -1.86
+      "pnlPct": -3.19
     },
     {
       "params": {
@@ -96,7 +96,7 @@
         "long_monthly": 1000,
         "dd_entry": -25
       },
-      "pnlPct": -1.86
+      "pnlPct": -3.19
     },
     {
       "params": {
@@ -105,7 +105,7 @@
         "long_monthly": 1000,
         "dd_entry": -30
       },
-      "pnlPct": -1.86
+      "pnlPct": -3.19
     }
   ],
   "recommendations": []
