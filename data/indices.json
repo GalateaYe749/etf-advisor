@@ -1,50 +1,68 @@
 [
   {
+    "code": "000001",
+    "name": "上证指数",
+    "price": 3842.19,
+    "change": 11.74,
+    "changePct": 0.31,
+    "high": 3851.22,
+    "low": 3833.09,
+    "amount": 679398992444.8,
+    "fetchedAt": "2026-10-05T06:00:16.809Z"
+  },
+  {
+    "code": "399001",
+    "name": "深证成指",
+    "price": 12887.62,
+    "change": -14.33,
+    "changePct": -0.11,
+    "high": 12966.45,
+    "low": 12854.78,
+    "amount": 758619097498.627,
+    "fetchedAt": "2026-10-05T06:00:16.809Z"
+  },
+  {
     "code": "000300",
     "name": "沪深300",
-    "price": 4365.06,
-    "change": 19.85,
-    "changePct": 0.46,
+    "price": 4357.62,
+    "change": 12.41,
+    "changePct": 0.29,
     "high": 4368.61,
     "low": 4341.88,
-    "amount": 264060865557.4,
-    "fetchedAt": "2026-09-30T05:45:13.156Z",
-    "stale": true
+    "amount": 356491548621.4,
+    "fetchedAt": "2026-10-05T06:00:16.809Z"
   },
   {
     "code": "399006",
     "name": "创业板指",
-    "price": 3148.18,
-    "change": 5.62,
-    "changePct": 0.18,
+    "price": 3135.28,
+    "change": -7.28,
+    "changePct": -0.23,
     "high": 3173.36,
     "low": 3125.49,
-    "amount": 282390792531.82,
-    "fetchedAt": "2026-09-30T05:45:13.156Z",
-    "stale": true
+    "amount": 368971648170.82,
+    "fetchedAt": "2026-10-05T06:00:16.809Z"
   },
   {
     "code": "000688",
     "name": "科创50",
-    "price": 1535.06,
-    "change": -34.28,
-    "changePct": -2.18,
+    "price": 1530.01,
+    "change": -39.33,
+    "changePct": -2.51,
     "high": 1578.96,
     "low": 1526.79,
-    "amount": 53546217742.3,
-    "fetchedAt": "2026-09-30T05:45:13.156Z",
-    "stale": true
+    "amount": 71878699989,
+    "fetchedAt": "2026-10-05T06:00:16.809Z"
   },
   {
     "code": "899050",
     "name": "北证50",
-    "price": 1045.2,
-    "change": 12.84,
-    "changePct": 1.24,
+    "price": 1039.61,
+    "change": 7.25,
+    "changePct": 0.7,
     "high": 1056.84,
     "low": 1036.13,
-    "amount": 9364099453,
-    "fetchedAt": "2026-09-30T05:45:13.156Z",
-    "stale": true
+    "amount": 12241494773,
+    "fetchedAt": "2026-10-05T06:00:16.809Z"
   }
 ]
