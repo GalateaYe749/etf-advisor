@@ -1,74 +1,68 @@
 [
   {
     "code": "000001",
-    "name": "上证指数",
-    "price": 3811.39,
-    "change": -30.8,
-    "changePct": -0.8,
+    "name": "��ָ֤��",
+    "price": 3811.9,
+    "change": -30.29,
+    "changePct": -0.79,
     "high": 3864.12,
     "low": 3795.37,
-    "amount": 763051369591.1,
-    "fetchedAt": "2026-10-08T06:45:20.880Z",
-    "stale": true
+    "amount": 811183100000,
+    "fetchedAt": "2026-10-08T14:55:35.814Z"
   },
   {
     "code": "399001",
-    "name": "深证成指",
-    "price": 12601.36,
-    "change": -286.26,
-    "changePct": -2.22,
+    "name": "��֤��ָ",
+    "price": 12620.9,
+    "change": -266.72,
+    "changePct": -2.07,
     "high": 12984.95,
     "low": 12540.73,
-    "amount": 815513921892.803,
-    "fetchedAt": "2026-10-08T06:45:20.880Z",
-    "stale": true
+    "amount": 870943810000,
+    "fetchedAt": "2026-10-08T14:55:35.814Z"
   },
   {
     "code": "000300",
-    "name": "沪深300",
-    "price": 4308.7,
-    "change": -48.92,
-    "changePct": -1.12,
+    "name": "����300",
+    "price": 4310.28,
+    "change": -47.34,
+    "changePct": -1.09,
     "high": 4383.57,
     "low": 4289.79,
-    "amount": 420288883386.7,
-    "fetchedAt": "2026-10-08T06:45:20.880Z",
-    "stale": true
+    "amount": 446208260000,
+    "fetchedAt": "2026-10-08T14:55:35.814Z"
   },
   {
     "code": "399006",
-    "name": "创业板指",
-    "price": 3030.29,
-    "change": -104.99,
-    "changePct": -3.35,
+    "name": "��ҵ��ָ",
+    "price": 3036.66,
+    "change": -98.62,
+    "changePct": -3.15,
     "high": 3168.4,
     "low": 3012.03,
-    "amount": 398745902721.51,
-    "fetchedAt": "2026-10-08T06:45:20.880Z",
-    "stale": true
+    "amount": 422754970000,
+    "fetchedAt": "2026-10-08T14:55:35.814Z"
   },
   {
     "code": "000688",
-    "name": "科创50",
-    "price": 1454.69,
-    "change": -75.32,
-    "changePct": -4.92,
+    "name": "�ƴ�50",
+    "price": 1456.32,
+    "change": -73.69,
+    "changePct": -4.82,
     "high": 1521.46,
     "low": 1446.43,
-    "amount": 78014311769,
-    "fetchedAt": "2026-10-08T06:45:20.880Z",
-    "stale": true
+    "amount": 82397690000,
+    "fetchedAt": "2026-10-08T14:55:35.814Z"
   },
   {
     "code": "899050",
-    "name": "北证50",
-    "price": 1012.07,
-    "change": -27.54,
+    "name": "��֤50",
+    "price": 1012.1,
+    "change": -27.51,
     "changePct": -2.65,
     "high": 1047.16,
-    "low": 1011.92,
-    "amount": 11404322658,
-    "fetchedAt": "2026-10-08T06:45:20.880Z",
-    "stale": true
+    "low": 1011.22,
+    "amount": 12363921100.000002,
+    "fetchedAt": "2026-10-08T14:55:35.814Z"
   }
 ]
