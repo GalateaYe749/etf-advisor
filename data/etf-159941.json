@@ -7,55 +7,50 @@
     "科技"
   ],
   "tradeMode": "observe",
-  "nav": 1.5259,
-  "navDate": "2026-09-29",
+  "nav": 1.5281,
+  "navDate": "2026-09-30",
   "navHigh": 1.5657,
   "navLow": 1.1929,
-  "drawdownFromHigh": "-2.54",
-  "volatility30d": "14.46",
+  "drawdownFromHigh": "-2.40",
+  "volatility30d": "14.44",
   "returns": {
-    "1m": 2.44,
-    "3m": 0.55,
-    "6m": 27.07,
-    "1y": 18.63
+    "1m": 2.49,
+    "3m": 2.35,
+    "6m": 28.1,
+    "1y": 17.75
   },
   "tech": {
     "ma": {
-      "ma5": "1.5330",
-      "ma10": "1.5101",
-      "ma20": "1.4969",
-      "ma60": "1.4847"
+      "ma5": "1.5292",
+      "ma10": "1.5168",
+      "ma20": "1.4998",
+      "ma60": "1.4855"
     },
     "maArrangement": "多头排列",
-    "distFromMA20": "1.94",
-    "rsi14": "59.4",
+    "distFromMA20": "1.89",
+    "rsi14": "61.7",
     "macd": {
-      "dif": "0.0120",
-      "dea": "0.0071",
-      "bar": "0.0098",
+      "dif": "0.0123",
+      "dea": "0.0081",
+      "bar": "0.0084",
       "signal": "红柱"
     },
     "bollinger": {
-      "upper": "1.5494",
-      "mid": "1.4969",
-      "lower": "1.4445",
+      "upper": "1.5525",
+      "mid": "1.4998",
+      "lower": "1.4471",
       "position": "轨内"
     }
   },
   "shortSignal": {
-    "signal": "⚪ 观望",
-    "strength": 1,
+    "signal": "🟡 买入观察",
+    "strength": 1.5,
     "reasons": [
+      "RSI偏强",
       "多头排列"
     ]
   },
   "trends": [
-    {
-      "x": 1767628800000,
-      "y": 1.3396,
-      "equityReturn": 0.5,
-      "unitMoney": ""
-    },
     {
       "x": 1767715200000,
       "y": 1.3508,
@@ -1129,9 +1124,15 @@
       "y": 1.5259,
       "equityReturn": 0.21,
       "unitMoney": ""
+    },
+    {
+      "x": 1790784000000,
+      "y": 1.5281,
+      "equityReturn": 0.14,
+      "unitMoney": ""
     }
   ],
-  "fetchedAt": "2026-10-08T09:00:50.473Z",
+  "fetchedAt": "2026-10-08T14:00:28.033Z",
   "intraday": {
     "price": 1.746,
     "changePct": 0.63,

@@ -6,46 +6,46 @@
     "成长"
   ],
   "tradeMode": "both",
-  "nav": 3.1551,
-  "navDate": "2026-09-30",
+  "nav": 3.0558,
+  "navDate": "2026-10-08",
   "navHigh": 4.3879,
   "navLow": 2.9015,
-  "drawdownFromHigh": "-28.10",
-  "volatility30d": "26.53",
+  "drawdownFromHigh": "-30.36",
+  "volatility30d": "28.04",
   "returns": {
-    "1m": -8.74,
-    "3m": -21.77,
-    "6m": -3.37,
-    "1y": 3.8
+    "1m": -10.43,
+    "3m": -24.27,
+    "6m": -3.81,
+    "1y": -0.15
   },
   "tech": {
     "ma": {
-      "ma5": "3.2374",
-      "ma10": "3.3070",
-      "ma20": "3.3237",
-      "ma60": "3.4897"
+      "ma5": "3.1684",
+      "ma10": "3.2795",
+      "ma20": "3.3100",
+      "ma60": "3.4763"
     },
     "maArrangement": "空头排列",
-    "distFromMA20": "-5.07",
-    "rsi14": "30.4",
+    "distFromMA20": "-7.68",
+    "rsi14": "26.5",
     "macd": {
-      "dif": "-0.0704",
-      "dea": "-0.0571",
-      "bar": "-0.0266",
+      "dif": "-0.0835",
+      "dea": "-0.0624",
+      "bar": "-0.0422",
       "signal": "绿柱"
     },
     "bollinger": {
-      "upper": "3.4857",
-      "mid": "3.3237",
-      "lower": "3.1618",
+      "upper": "3.5096",
+      "mid": "3.3100",
+      "lower": "3.1105",
       "position": "下轨下方"
     }
   },
   "shortSignal": {
-    "signal": "⚪ 观望",
-    "strength": 0.5,
+    "signal": "🟢 强烈买入",
+    "strength": 3,
     "reasons": [
-      "RSI偏弱",
+      "RSI超卖",
       "远离MA20",
       "MACD绿柱放大",
       "空头排列",
@@ -53,12 +53,6 @@
     ]
   },
   "trends": [
-    {
-      "x": 1767715200000,
-      "y": 3.3039,
-      "equityReturn": 0.75,
-      "unitMoney": ""
-    },
     {
       "x": 1767801600000,
       "y": 3.3144,
@@ -1132,9 +1126,15 @@
       "y": 3.1551,
       "equityReturn": -0.23,
       "unitMoney": ""
+    },
+    {
+      "x": 1791475200000,
+      "y": 3.0558,
+      "equityReturn": -3.15,
+      "unitMoney": ""
     }
   ],
-  "fetchedAt": "2026-10-08T09:00:47.243Z",
+  "fetchedAt": "2026-10-08T14:00:24.459Z",
   "intraday": {
     "price": 3.057,
     "changePct": -3.08,

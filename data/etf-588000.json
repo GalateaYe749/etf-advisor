@@ -7,55 +7,52 @@
     "硬科技"
   ],
   "tradeMode": "observe",
-  "nav": 1.6163,
-  "navDate": "2026-09-30",
+  "nav": 1.5387,
+  "navDate": "2026-10-08",
   "navHigh": 2.3272,
   "navLow": 1.3235,
-  "drawdownFromHigh": "-30.55",
-  "volatility30d": "31.69",
+  "drawdownFromHigh": "-33.88",
+  "volatility30d": "34.61",
   "returns": {
-    "1m": -9.15,
-    "3m": -22.83,
-    "6m": 18.96,
-    "1y": 14.77
+    "1m": -11.55,
+    "3m": -26.11,
+    "6m": 16.25,
+    "1y": 7.87
   },
   "tech": {
     "ma": {
-      "ma5": "1.6767",
-      "ma10": "1.7037",
-      "ma20": "1.6860",
-      "ma60": "1.7970"
+      "ma5": "1.6337",
+      "ma10": "1.6870",
+      "ma20": "1.6776",
+      "ma60": "1.7872"
     },
     "maArrangement": "缠绕",
-    "distFromMA20": "-4.13",
-    "rsi14": "43.2",
+    "distFromMA20": "-8.28",
+    "rsi14": "36.9",
     "macd": {
-      "dif": "-0.0246",
-      "dea": "-0.0233",
-      "bar": "-0.0026",
+      "dif": "-0.0344",
+      "dea": "-0.0256",
+      "bar": "-0.0176",
       "signal": "绿柱"
     },
     "bollinger": {
-      "upper": "1.7733",
-      "mid": "1.6860",
-      "lower": "1.5987",
-      "position": "轨内"
+      "upper": "1.7851",
+      "mid": "1.6776",
+      "lower": "1.5700",
+      "position": "下轨下方"
     }
   },
   "shortSignal": {
-    "signal": "⚪ 观望",
-    "strength": 0.5,
+    "signal": "🟡 买入观察",
+    "strength": 1.5,
     "reasons": [
-      "低于MA20"
+      "RSI偏弱",
+      "远离MA20",
+      "MACD绿柱放大",
+      "跌破布林下轨"
     ]
   },
   "trends": [
-    {
-      "x": 1767715200000,
-      "y": 1.5052,
-      "equityReturn": 1.85,
-      "unitMoney": ""
-    },
     {
       "x": 1767801600000,
       "y": 1.5199,
@@ -1129,9 +1126,15 @@
       "y": 1.6163,
       "equityReturn": -2.49,
       "unitMoney": ""
+    },
+    {
+      "x": 1791475200000,
+      "y": 1.5387,
+      "equityReturn": -4.8,
+      "unitMoney": ""
     }
   ],
-  "fetchedAt": "2026-10-08T09:00:47.754Z",
+  "fetchedAt": "2026-10-08T14:00:24.797Z",
   "intraday": {
     "price": 1.541,
     "changePct": -4.64,

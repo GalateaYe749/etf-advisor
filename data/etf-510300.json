@@ -7,58 +7,53 @@
     "核心资产"
   ],
   "tradeMode": "long_only",
-  "nav": 4.4312,
-  "navDate": "2026-09-30",
+  "nav": 4.3826,
+  "navDate": "2026-10-08",
   "navHigh": 5.0878,
-  "navLow": 4.4133,
-  "drawdownFromHigh": "-12.91",
-  "volatility30d": "12.71",
+  "navLow": 4.3826,
+  "drawdownFromHigh": "-13.86",
+  "volatility30d": "13.11",
   "returns": {
-    "1m": -5.55,
-    "3m": -8.64,
-    "6m": -1.56,
-    "1y": -4.3
+    "1m": -6.32,
+    "3m": -10.22,
+    "6m": -1.72,
+    "1y": -5.16
   },
   "tech": {
     "ma": {
-      "ma5": "4.4731",
-      "ma10": "4.5257",
-      "ma20": "4.5639",
-      "ma60": "4.6654"
+      "ma5": "4.4316",
+      "ma10": "4.5089",
+      "ma20": "4.5523",
+      "ma60": "4.6586"
     },
     "maArrangement": "空头排列",
-    "distFromMA20": "-2.91",
-    "rsi14": "28.3",
+    "distFromMA20": "-3.73",
+    "rsi14": "26.9",
     "macd": {
-      "dif": "-0.0564",
-      "dea": "-0.0428",
-      "bar": "-0.0272",
+      "dif": "-0.0630",
+      "dea": "-0.0469",
+      "bar": "-0.0322",
       "signal": "绿柱"
     },
     "bollinger": {
-      "upper": "4.7058",
-      "mid": "4.5639",
-      "lower": "4.4219",
-      "position": "轨内"
+      "upper": "4.7125",
+      "mid": "4.5523",
+      "lower": "4.3920",
+      "position": "下轨下方"
     }
   },
   "shortSignal": {
-    "signal": "⚪ 观望",
-    "strength": 0.5,
+    "signal": "🟡 买入观察",
+    "strength": 2,
     "reasons": [
       "RSI超卖",
       "低于MA20",
       "MACD绿柱放大",
-      "空头排列"
+      "空头排列",
+      "跌破布林下轨"
     ]
   },
   "trends": [
-    {
-      "x": 1767715200000,
-      "y": 4.9185,
-      "equityReturn": 1.54,
-      "unitMoney": ""
-    },
     {
       "x": 1767801600000,
       "y": 4.904,
@@ -1132,9 +1127,15 @@
       "y": 4.4312,
       "equityReturn": 0.3,
       "unitMoney": ""
+    },
+    {
+      "x": 1791475200000,
+      "y": 4.3826,
+      "equityReturn": -1.1,
+      "unitMoney": ""
     }
   ],
-  "fetchedAt": "2026-10-08T09:00:46.397Z",
+  "fetchedAt": "2026-10-08T14:00:23.980Z",
   "intraday": {
     "price": 4.379,
     "changePct": -1.2,

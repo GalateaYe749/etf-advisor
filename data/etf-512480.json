@@ -7,55 +7,51 @@
     "科技"
   ],
   "tradeMode": "observe",
-  "nav": 0.9542,
-  "navDate": "2026-09-30",
+  "nav": 0.9142,
+  "navDate": "2026-10-08",
   "navHigh": 2.9872,
-  "navLow": 0.9224,
-  "drawdownFromHigh": "-68.06",
-  "volatility30d": "35.93",
+  "navLow": 0.9142,
+  "drawdownFromHigh": "-69.40",
+  "volatility30d": "37.96",
   "returns": {
-    "1m": -9.8,
-    "3m": -29.04,
-    "6m": -34.94,
-    "1y": -30.54
+    "1m": -11.11,
+    "3m": -31,
+    "6m": -35.34,
+    "1y": -34.11
   },
   "tech": {
     "ma": {
-      "ma5": "0.9981",
-      "ma10": "1.0134",
-      "ma20": "0.9971",
-      "ma60": "1.0653"
+      "ma5": "0.9711",
+      "ma10": "1.0041",
+      "ma20": "0.9923",
+      "ma60": "1.0583"
     },
     "maArrangement": "缠绕",
-    "distFromMA20": "-4.30",
-    "rsi14": "44.6",
+    "distFromMA20": "-7.87",
+    "rsi14": "39.4",
     "macd": {
-      "dif": "-0.0220",
-      "dea": "-0.0256",
-      "bar": "0.0072",
-      "signal": "红柱"
+      "dif": "-0.0272",
+      "dea": "-0.0259",
+      "bar": "-0.0026",
+      "signal": "绿柱"
     },
     "bollinger": {
-      "upper": "1.0591",
-      "mid": "0.9971",
-      "lower": "0.9352",
-      "position": "轨内"
+      "upper": "1.0636",
+      "mid": "0.9923",
+      "lower": "0.9210",
+      "position": "下轨下方"
     }
   },
   "shortSignal": {
-    "signal": "⚪ 观望",
-    "strength": 0.5,
+    "signal": "🟡 买入观察",
+    "strength": 2.5,
     "reasons": [
-      "低于MA20"
+      "RSI偏弱",
+      "远离MA20",
+      "跌破布林下轨"
     ]
   },
   "trends": [
-    {
-      "x": 1767715200000,
-      "y": 1.5627,
-      "equityReturn": 2.25,
-      "unitMoney": ""
-    },
     {
       "x": 1767801600000,
       "y": 1.6008,
@@ -1129,9 +1125,15 @@
       "y": 0.9542,
       "equityReturn": -3.13,
       "unitMoney": ""
+    },
+    {
+      "x": 1791475200000,
+      "y": 0.9142,
+      "equityReturn": -4.19,
+      "unitMoney": ""
     }
   ],
-  "fetchedAt": "2026-10-08T09:00:48.688Z",
+  "fetchedAt": "2026-10-08T14:00:25.523Z",
   "intraday": {
     "price": 0.914,
     "changePct": -4.29,
