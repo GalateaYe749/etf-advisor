@@ -43,7 +43,6 @@ etf-advisor/
 │   ├── healthcheck.mjs     # 全站13项健康检查+自愈
 │   ├── backtest.py         # 回溯检验引擎
 │   ├── evolve.py           # 进化引擎参数优化器
-│   ├── deploy.sh           # 一键部署（pipeline + Git push）
 │   └── enrich-news.py      # 新闻增强
 │
 └── MEMORY.md               # 系统知识库（数据源特性、配置说明）
@@ -114,8 +113,8 @@ python3 scripts/backtest.py
 # 进化引擎（192组参数交叉测试）
 python3 scripts/evolve.py
 
-# 一键部署（pipeline + git push）
-bash scripts/deploy.sh
+# 手动推送某时段报告到飞书（morning|noon|close|evening）
+node scripts/push-feishu.mjs morning
 ```
 
 ### 5. 部署网站
