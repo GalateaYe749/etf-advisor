@@ -7,55 +7,49 @@
     "消费"
   ],
   "tradeMode": "observe",
-  "nav": 0.418,
-  "navDate": "2026-10-09",
+  "nav": 0.4186,
+  "navDate": "2026-10-12",
   "navHigh": 0.607,
   "navLow": 0.3838,
-  "drawdownFromHigh": "-31.14",
-  "volatility30d": "18.15",
+  "drawdownFromHigh": "-31.04",
+  "volatility30d": "18.06",
   "returns": {
-    "1m": -1.11,
-    "3m": 4.42,
-    "6m": -16.13,
-    "1y": -31.91
+    "1m": -0.57,
+    "3m": 7.31,
+    "6m": -16.3,
+    "1y": -30.59
   },
   "tech": {
     "ma": {
-      "ma5": "0.4125",
-      "ma10": "0.4128",
-      "ma20": "0.4159",
-      "ma60": "0.4237"
+      "ma5": "0.4148",
+      "ma10": "0.4136",
+      "ma20": "0.4151",
+      "ma60": "0.4241"
     },
-    "maArrangement": "空头排列",
-    "distFromMA20": "0.50",
-    "rsi14": "59.9",
+    "maArrangement": "缠绕",
+    "distFromMA20": "0.84",
+    "rsi14": "60.6",
     "macd": {
-      "dif": "-0.0029",
-      "dea": "-0.0038",
-      "bar": "0.0018",
+      "dif": "-0.0023",
+      "dea": "-0.0035",
+      "bar": "0.0024",
       "signal": "红柱"
     },
     "bollinger": {
-      "upper": "0.4326",
-      "mid": "0.4159",
-      "lower": "0.3992",
+      "upper": "0.4298",
+      "mid": "0.4151",
+      "lower": "0.4004",
       "position": "轨内"
     }
   },
   "shortSignal": {
     "signal": "⚪ 观望",
-    "strength": -1,
+    "strength": 0.5,
     "reasons": [
-      "空头排列"
+      "RSI偏强"
     ]
   },
   "trends": [
-    {
-      "x": 1767888000000,
-      "y": 0.5453,
-      "equityReturn": -0.35,
-      "unitMoney": ""
-    },
     {
       "x": 1767974400000,
       "y": 0.5472,
@@ -1129,13 +1123,19 @@
       "y": 0.418,
       "equityReturn": 0.43,
       "unitMoney": ""
+    },
+    {
+      "x": 1791820800000,
+      "y": 0.4186,
+      "equityReturn": 0.14,
+      "unitMoney": ""
     }
   ],
-  "fetchedAt": "2026-10-12T09:00:42.179Z",
+  "fetchedAt": "2026-10-12T14:00:32.365Z",
   "intraday": {
     "price": 0.419,
     "changePct": 0,
     "prevClose": 0.419,
-    "time": "2026-10-12T09:00:20.980Z"
+    "time": "2026-10-12T13:15:17.225Z"
   }
 }

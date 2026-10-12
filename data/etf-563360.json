@@ -6,58 +6,53 @@
     "均衡"
   ],
   "tradeMode": "long_only",
-  "nav": 1.1985,
-  "navDate": "2026-10-09",
+  "nav": 1.1843,
+  "navDate": "2026-10-12",
   "navHigh": 1.4292,
-  "navLow": 1.1885,
-  "drawdownFromHigh": "-16.14",
-  "volatility30d": "15.20",
+  "navLow": 1.1843,
+  "drawdownFromHigh": "-17.14",
+  "volatility30d": "14.93",
   "returns": {
-    "1m": -5.48,
-    "3m": -12.56,
-    "6m": -4.68,
-    "1y": -2.02
+    "1m": -6.76,
+    "3m": -12.55,
+    "6m": -4.53,
+    "1y": -2.14
   },
   "tech": {
     "ma": {
-      "ma5": "1.2063",
-      "ma10": "1.2345",
-      "ma20": "1.2469",
-      "ma60": "1.2797"
+      "ma5": "1.2012",
+      "ma10": "1.2267",
+      "ma20": "1.2429",
+      "ma60": "1.2769"
     },
     "maArrangement": "空头排列",
-    "distFromMA20": "-3.88",
-    "rsi14": "31.0",
+    "distFromMA20": "-4.71",
+    "rsi14": "29.6",
     "macd": {
-      "dif": "-0.0205",
-      "dea": "-0.0153",
-      "bar": "-0.0104",
+      "dif": "-0.0226",
+      "dea": "-0.0168",
+      "bar": "-0.0116",
       "signal": "绿柱"
     },
     "bollinger": {
-      "upper": "1.2988",
-      "mid": "1.2469",
-      "lower": "1.1949",
-      "position": "轨内"
+      "upper": "1.3008",
+      "mid": "1.2429",
+      "lower": "1.1849",
+      "position": "下轨下方"
     }
   },
   "shortSignal": {
-    "signal": "🔴 卖出观察",
-    "strength": -2,
+    "signal": "🟡 买入观察",
+    "strength": 2,
     "reasons": [
-      "RSI偏弱",
+      "RSI超卖",
       "低于MA20",
       "MACD绿柱放大",
-      "空头排列"
+      "空头排列",
+      "跌破布林下轨"
     ]
   },
   "trends": [
-    {
-      "x": 1767888000000,
-      "y": 1.3021,
-      "equityReturn": -0.5,
-      "unitMoney": ""
-    },
     {
       "x": 1767974400000,
       "y": 1.3136,
@@ -1131,13 +1126,19 @@
       "y": 1.1985,
       "equityReturn": 0.18,
       "unitMoney": ""
+    },
+    {
+      "x": 1791820800000,
+      "y": 1.1843,
+      "equityReturn": -1.18,
+      "unitMoney": ""
     }
   ],
-  "fetchedAt": "2026-10-12T09:00:41.821Z",
+  "fetchedAt": "2026-10-12T14:00:31.772Z",
   "intraday": {
     "price": 1.184,
     "changePct": -1.25,
     "prevClose": 1.199,
-    "time": "2026-10-12T09:00:20.980Z"
+    "time": "2026-10-12T13:15:17.225Z"
   }
 }
