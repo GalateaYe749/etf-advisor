@@ -7,57 +7,50 @@
     "消费"
   ],
   "tradeMode": "observe",
-  "nav": 0.5339,
-  "navDate": "2026-10-12",
+  "nav": 0.538,
+  "navDate": "2026-10-13",
   "navHigh": 0.8368,
   "navLow": 0.531,
-  "drawdownFromHigh": "-36.20",
-  "volatility30d": "18.18",
+  "drawdownFromHigh": "-35.71",
+  "volatility30d": "17.79",
   "returns": {
-    "1m": -5.85,
-    "3m": -1.59,
-    "6m": -22.14,
-    "1y": -28.22
+    "1m": -6.3,
+    "3m": -1.41,
+    "6m": -19.85,
+    "1y": -29.01
   },
   "tech": {
     "ma": {
       "ma5": "0.5375",
-      "ma10": "0.5430",
-      "ma20": "0.5516",
-      "ma60": "0.5578"
+      "ma10": "0.5411",
+      "ma20": "0.5495",
+      "ma60": "0.5579"
     },
     "maArrangement": "空头排列",
-    "distFromMA20": "-3.21",
-    "rsi14": "36.5",
+    "distFromMA20": "-2.09",
+    "rsi14": "46.6",
     "macd": {
-      "dif": "-0.0073",
-      "dea": "-0.0057",
-      "bar": "-0.0032",
+      "dif": "-0.0071",
+      "dea": "-0.0060",
+      "bar": "-0.0022",
       "signal": "绿柱"
     },
     "bollinger": {
-      "upper": "0.5824",
-      "mid": "0.5516",
-      "lower": "0.5207",
+      "upper": "0.5778",
+      "mid": "0.5495",
+      "lower": "0.5211",
       "position": "轨内"
     }
   },
   "shortSignal": {
     "signal": "⚪ 观望",
-    "strength": -1,
+    "strength": -0.5,
     "reasons": [
-      "RSI偏弱",
       "低于MA20",
       "空头排列"
     ]
   },
   "trends": [
-    {
-      "x": 1767974400000,
-      "y": 0.8105,
-      "equityReturn": 0.2,
-      "unitMoney": ""
-    },
     {
       "x": 1768233600000,
       "y": 0.8157,
@@ -1131,13 +1124,19 @@
       "y": 0.5339,
       "equityReturn": -0.96,
       "unitMoney": ""
+    },
+    {
+      "x": 1791907200000,
+      "y": 0.538,
+      "equityReturn": 0.77,
+      "unitMoney": ""
     }
   ],
-  "fetchedAt": "2026-10-13T09:00:44.959Z",
+  "fetchedAt": "2026-10-13T14:00:28.139Z",
   "intraday": {
     "price": 0.537,
     "changePct": 0.56,
     "prevClose": 0.534,
-    "time": "2026-10-13T09:00:26.129Z"
+    "time": "2026-10-13T13:12:00.712Z"
   }
 }
