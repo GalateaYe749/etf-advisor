@@ -7,58 +7,53 @@
     "硬科技"
   ],
   "tradeMode": "observe",
-  "nav": 1.5078,
-  "navDate": "2026-10-13",
+  "nav": 1.4584,
+  "navDate": "2026-10-14",
   "navHigh": 2.3272,
   "navLow": 1.3235,
-  "drawdownFromHigh": "-35.21",
-  "volatility30d": "33.95",
+  "drawdownFromHigh": "-37.33",
+  "volatility30d": "34.93",
   "returns": {
-    "1m": -9.48,
-    "3m": -29.06,
-    "6m": 13.93,
-    "1y": 5.36
+    "1m": -14.54,
+    "3m": -36.7,
+    "6m": 8.65,
+    "1y": -1.4
   },
   "tech": {
     "ma": {
-      "ma5": "1.5419",
-      "ma10": "1.6235",
-      "ma20": "1.6516",
-      "ma60": "1.7534"
+      "ma5": "1.5104",
+      "ma10": "1.5936",
+      "ma20": "1.6405",
+      "ma60": "1.7424"
     },
     "maArrangement": "空头排列",
-    "distFromMA20": "-8.71",
-    "rsi14": "34.5",
+    "distFromMA20": "-11.10",
+    "rsi14": "19.4",
     "macd": {
-      "dif": "-0.0550",
-      "dea": "-0.0374",
-      "bar": "-0.0352",
+      "dif": "-0.0626",
+      "dea": "-0.0424",
+      "bar": "-0.0404",
       "signal": "绿柱"
     },
     "bollinger": {
-      "upper": "1.8063",
-      "mid": "1.6516",
-      "lower": "1.4969",
-      "position": "轨内"
+      "upper": "1.8158",
+      "mid": "1.6405",
+      "lower": "1.4652",
+      "position": "下轨下方"
     }
   },
   "shortSignal": {
-    "signal": "⚪ 观望",
-    "strength": -1,
+    "signal": "🟢 强烈买入",
+    "strength": 3,
     "reasons": [
-      "RSI偏弱",
+      "RSI超卖",
       "远离MA20",
       "MACD绿柱放大",
-      "空头排列"
+      "空头排列",
+      "跌破布林下轨"
     ]
   },
   "trends": [
-    {
-      "x": 1768233600000,
-      "y": 1.5917,
-      "equityReturn": 2.42,
-      "unitMoney": ""
-    },
     {
       "x": 1768320000000,
       "y": 1.5473,
@@ -1132,13 +1127,19 @@
       "y": 1.5078,
       "equityReturn": 0.03,
       "unitMoney": ""
+    },
+    {
+      "x": 1791993600000,
+      "y": 1.4584,
+      "equityReturn": -3.28,
+      "unitMoney": ""
     }
   ],
-  "fetchedAt": "2026-10-14T09:00:41.050Z",
+  "fetchedAt": "2026-10-14T14:00:46.263Z",
   "intraday": {
     "price": 1.458,
     "changePct": -3.25,
     "prevClose": 1.507,
-    "time": "2026-10-14T09:00:20.989Z"
+    "time": "2026-10-14T13:00:34.155Z"
   }
 }
