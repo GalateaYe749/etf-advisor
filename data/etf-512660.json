@@ -7,58 +7,52 @@
     "军工"
   ],
   "tradeMode": "observe",
-  "nav": 1.0572,
-  "navDate": "2026-10-16",
+  "nav": 1.0712,
+  "navDate": "2026-10-19",
   "navHigh": 1.6499,
   "navLow": 1.0309,
-  "drawdownFromHigh": "-35.92",
-  "volatility30d": "23.42",
+  "drawdownFromHigh": "-35.07",
+  "volatility30d": "23.18",
   "returns": {
-    "1m": -10.29,
-    "3m": -11.16,
-    "6m": -20.05,
-    "1y": -12.16
+    "1m": -8.95,
+    "3m": -7.64,
+    "6m": -19.98,
+    "1y": -10.64
   },
   "tech": {
     "ma": {
-      "ma5": "1.0599",
-      "ma10": "1.0780",
-      "ma20": "1.1154",
-      "ma60": "1.1199"
+      "ma5": "1.0626",
+      "ma10": "1.0751",
+      "ma20": "1.1107",
+      "ma60": "1.1201"
     },
     "maArrangement": "空头排列",
-    "distFromMA20": "-5.22",
-    "rsi14": "29.3",
+    "distFromMA20": "-3.56",
+    "rsi14": "28.2",
     "macd": {
-      "dif": "-0.0236",
-      "dea": "-0.0150",
-      "bar": "-0.0172",
+      "dif": "-0.0229",
+      "dea": "-0.0166",
+      "bar": "-0.0126",
       "signal": "绿柱"
     },
     "bollinger": {
-      "upper": "1.1989",
-      "mid": "1.1154",
-      "lower": "1.0319",
+      "upper": "1.1930",
+      "mid": "1.1107",
+      "lower": "1.0284",
       "position": "轨内"
     }
   },
   "shortSignal": {
-    "signal": "🟡 买入观察",
-    "strength": 1.5,
+    "signal": "⚪ 观望",
+    "strength": 0.5,
     "reasons": [
       "RSI超卖",
-      "远离MA20",
+      "低于MA20",
       "MACD绿柱放大",
       "空头排列"
     ]
   },
   "trends": [
-    {
-      "x": 1768492800000,
-      "y": 1.515,
-      "equityReturn": -2.96,
-      "unitMoney": ""
-    },
     {
       "x": 1768579200000,
       "y": 1.5008,
@@ -1132,13 +1126,19 @@
       "y": 1.0572,
       "equityReturn": 2.55,
       "unitMoney": ""
+    },
+    {
+      "x": 1792425600000,
+      "y": 1.0712,
+      "equityReturn": 1.32,
+      "unitMoney": ""
     }
   ],
-  "fetchedAt": "2026-10-19T09:00:44.944Z",
+  "fetchedAt": "2026-10-19T14:00:46.378Z",
   "intraday": {
     "price": 1.073,
     "changePct": 1.32,
     "prevClose": 1.059,
-    "time": "2026-10-19T09:00:24.067Z"
+    "time": "2026-10-19T13:00:25.824Z"
   }
 }

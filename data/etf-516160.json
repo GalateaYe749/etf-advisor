@@ -8,59 +8,52 @@
     "锂电"
   ],
   "tradeMode": "observe",
-  "nav": 2.0636,
-  "navDate": "2026-10-16",
+  "nav": 2.057,
+  "navDate": "2026-10-19",
   "navHigh": 3.3792,
-  "navLow": 2.0636,
-  "drawdownFromHigh": "-38.93",
-  "volatility30d": "21.20",
+  "navLow": 2.057,
+  "drawdownFromHigh": "-39.13",
+  "volatility30d": "20.90",
   "returns": {
-    "1m": -12.63,
-    "3m": -16.22,
-    "6m": -30.13,
-    "1y": -22.46
+    "1m": -12.33,
+    "3m": -17.91,
+    "6m": -32.65,
+    "1y": -23.97
   },
   "tech": {
     "ma": {
-      "ma5": "2.1297",
-      "ma10": "2.1800",
-      "ma20": "2.2455",
-      "ma60": "2.3915"
+      "ma5": "2.0971",
+      "ma10": "2.1653",
+      "ma20": "2.2331",
+      "ma60": "2.3867"
     },
     "maArrangement": "空头排列",
-    "distFromMA20": "-8.10",
-    "rsi14": "13.0",
+    "distFromMA20": "-7.89",
+    "rsi14": "12.8",
     "macd": {
-      "dif": "-0.0799",
-      "dea": "-0.0658",
-      "bar": "-0.0282",
+      "dif": "-0.0842",
+      "dea": "-0.0695",
+      "bar": "-0.0294",
       "signal": "绿柱"
     },
     "bollinger": {
-      "upper": "2.4099",
-      "mid": "2.2455",
-      "lower": "2.0812",
-      "position": "下轨下方"
+      "upper": "2.4142",
+      "mid": "2.2331",
+      "lower": "2.0520",
+      "position": "轨内"
     }
   },
   "shortSignal": {
-    "signal": "🟢 强烈买入",
-    "strength": 3,
+    "signal": "🟡 买入观察",
+    "strength": 1.5,
     "reasons": [
       "RSI超卖",
       "远离MA20",
       "MACD绿柱放大",
-      "空头排列",
-      "跌破布林下轨"
+      "空头排列"
     ]
   },
   "trends": [
-    {
-      "x": 1768492800000,
-      "y": 3.0334,
-      "equityReturn": 1.04,
-      "unitMoney": ""
-    },
     {
       "x": 1768579200000,
       "y": 3.0356,
@@ -1134,13 +1127,19 @@
       "y": 2.0636,
       "equityReturn": -0.33,
       "unitMoney": ""
+    },
+    {
+      "x": 1792425600000,
+      "y": 2.057,
+      "equityReturn": -0.32,
+      "unitMoney": ""
     }
   ],
-  "fetchedAt": "2026-10-19T09:00:45.074Z",
+  "fetchedAt": "2026-10-19T14:00:46.503Z",
   "intraday": {
     "price": 2.058,
     "changePct": -0.29,
     "prevClose": 2.064,
-    "time": "2026-10-19T09:00:24.067Z"
+    "time": "2026-10-19T13:00:25.824Z"
   }
 }
