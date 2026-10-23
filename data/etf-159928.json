@@ -7,55 +7,49 @@
     "食品饮料"
   ],
   "tradeMode": "observe",
-  "nav": 0.6545,
-  "navDate": "2026-10-22",
+  "nav": 0.6639,
+  "navDate": "2026-10-23",
   "navHigh": 0.8528,
   "navLow": 0.6038,
-  "drawdownFromHigh": "-23.25",
-  "volatility30d": "14.55",
+  "drawdownFromHigh": "-22.15",
+  "volatility30d": "13.00",
   "returns": {
-    "1m": 0.06,
-    "3m": 0.21,
-    "6m": -12.99,
-    "1y": -22.54
+    "1m": 2.34,
+    "3m": -1.73,
+    "6m": -11.8,
+    "1y": -21.3
   },
   "tech": {
     "ma": {
-      "ma5": "0.6618",
-      "ma10": "0.6612",
-      "ma20": "0.6569",
-      "ma60": "0.6669"
+      "ma5": "0.6611",
+      "ma10": "0.6616",
+      "ma20": "0.6576",
+      "ma60": "0.6668"
     },
-    "maArrangement": "多头排列",
-    "distFromMA20": "-0.37",
-    "rsi14": "56.1",
+    "maArrangement": "缠绕",
+    "distFromMA20": "0.96",
+    "rsi14": "62.8",
     "macd": {
-      "dif": "-0.0007",
-      "dea": "-0.0012",
-      "bar": "0.0010",
+      "dif": "-0.0003",
+      "dea": "-0.0011",
+      "bar": "0.0016",
       "signal": "红柱"
     },
     "bollinger": {
-      "upper": "0.6691",
-      "mid": "0.6569",
-      "lower": "0.6447",
+      "upper": "0.6696",
+      "mid": "0.6576",
+      "lower": "0.6456",
       "position": "轨内"
     }
   },
   "shortSignal": {
     "signal": "⚪ 观望",
-    "strength": 1,
+    "strength": 0.5,
     "reasons": [
-      "多头排列"
+      "RSI偏强"
     ]
   },
   "trends": [
-    {
-      "x": 1769011200000,
-      "y": 0.7739,
-      "equityReturn": -1.31,
-      "unitMoney": ""
-    },
     {
       "x": 1769097600000,
       "y": 0.7719,
@@ -1129,13 +1123,19 @@
       "y": 0.6545,
       "equityReturn": -0.43,
       "unitMoney": ""
+    },
+    {
+      "x": 1792771200000,
+      "y": 0.6639,
+      "equityReturn": 1.44,
+      "unitMoney": ""
     }
   ],
-  "fetchedAt": "2026-10-23T09:00:40.909Z",
+  "fetchedAt": "2026-10-23T14:00:34.697Z",
   "intraday": {
     "price": 0.663,
     "changePct": 1.38,
     "prevClose": 0.654,
-    "time": "2026-10-23T09:00:18.953Z"
+    "time": "2026-10-23T13:00:23.523Z"
   }
 }

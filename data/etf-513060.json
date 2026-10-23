@@ -8,58 +8,51 @@
     "互联网"
   ],
   "tradeMode": "observe",
-  "nav": 0.5266,
-  "navDate": "2026-10-22",
+  "nav": 0.5334,
+  "navDate": "2026-10-23",
   "navHigh": 0.6872,
   "navLow": 0.4633,
-  "drawdownFromHigh": "-23.37",
-  "volatility30d": "35.87",
+  "drawdownFromHigh": "-22.38",
+  "volatility30d": "36.07",
   "returns": {
-    "1m": -6.99,
-    "3m": 1.09,
-    "6m": -15.16,
-    "1y": -28.66
+    "1m": -5.14,
+    "3m": -1.08,
+    "6m": -15.01,
+    "1y": -26.37
   },
   "tech": {
     "ma": {
-      "ma5": "0.5474",
-      "ma10": "0.5528",
-      "ma20": "0.5704",
-      "ma60": "0.5697"
+      "ma5": "0.5444",
+      "ma10": "0.5489",
+      "ma20": "0.5685",
+      "ma60": "0.5696"
     },
     "maArrangement": "空头排列",
-    "distFromMA20": "-7.68",
-    "rsi14": "30.5",
+    "distFromMA20": "-6.17",
+    "rsi14": "34.8",
     "macd": {
-      "dif": "-0.0092",
-      "dea": "-0.0051",
+      "dif": "-0.0103",
+      "dea": "-0.0062",
       "bar": "-0.0082",
       "signal": "绿柱"
     },
     "bollinger": {
-      "upper": "0.6140",
-      "mid": "0.5704",
-      "lower": "0.5267",
-      "position": "下轨下方"
+      "upper": "0.6151",
+      "mid": "0.5685",
+      "lower": "0.5220",
+      "position": "轨内"
     }
   },
   "shortSignal": {
-    "signal": "🟡 买入观察",
-    "strength": 1.5,
+    "signal": "⚪ 观望",
+    "strength": 0,
     "reasons": [
       "RSI偏弱",
       "远离MA20",
-      "空头排列",
-      "跌破布林下轨"
+      "空头排列"
     ]
   },
   "trends": [
-    {
-      "x": 1769011200000,
-      "y": 0.6519,
-      "equityReturn": 0.7,
-      "unitMoney": ""
-    },
     {
       "x": 1769097600000,
       "y": 0.6458,
@@ -1133,13 +1126,19 @@
       "y": 0.5266,
       "equityReturn": -5.58,
       "unitMoney": ""
+    },
+    {
+      "x": 1792771200000,
+      "y": 0.5334,
+      "equityReturn": 1.29,
+      "unitMoney": ""
     }
   ],
-  "fetchedAt": "2026-10-23T09:00:41.292Z",
+  "fetchedAt": "2026-10-23T14:00:35.066Z",
   "intraday": {
     "price": 0.531,
     "changePct": 1.72,
     "prevClose": 0.522,
-    "time": "2026-10-23T09:00:18.953Z"
+    "time": "2026-10-23T13:00:23.523Z"
   }
 }

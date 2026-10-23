@@ -7,57 +7,49 @@
     "军工"
   ],
   "tradeMode": "observe",
-  "nav": 1.0394,
-  "navDate": "2026-10-22",
+  "nav": 1.0621,
+  "navDate": "2026-10-23",
   "navHigh": 1.6499,
   "navLow": 1.0309,
-  "drawdownFromHigh": "-37.00",
-  "volatility30d": "24.16",
+  "drawdownFromHigh": "-35.63",
+  "volatility30d": "24.87",
   "returns": {
-    "1m": -8.76,
-    "3m": -1.99,
-    "6m": -24.04,
-    "1y": -15.65
+    "1m": -7.68,
+    "3m": 0.47,
+    "6m": -22.73,
+    "1y": -14.89
   },
   "tech": {
     "ma": {
-      "ma5": "1.0599",
-      "ma10": "1.0623",
-      "ma20": "1.0973",
-      "ma60": "1.1191"
+      "ma5": "1.0609",
+      "ma10": "1.0604",
+      "ma20": "1.0933",
+      "ma60": "1.1184"
     },
-    "maArrangement": "空头排列",
-    "distFromMA20": "-5.28",
-    "rsi14": "29.9",
+    "maArrangement": "缠绕",
+    "distFromMA20": "-2.85",
+    "rsi14": "41.3",
     "macd": {
-      "dif": "-0.0235",
-      "dea": "-0.0196",
-      "bar": "-0.0078",
+      "dif": "-0.0225",
+      "dea": "-0.0202",
+      "bar": "-0.0046",
       "signal": "绿柱"
     },
     "bollinger": {
-      "upper": "1.1815",
-      "mid": "1.0973",
-      "lower": "1.0131",
+      "upper": "1.1761",
+      "mid": "1.0933",
+      "lower": "1.0104",
       "position": "轨内"
     }
   },
   "shortSignal": {
-    "signal": "🟡 买入观察",
-    "strength": 2.5,
+    "signal": "⚪ 观望",
+    "strength": 0.5,
     "reasons": [
-      "RSI超卖",
-      "远离MA20",
-      "空头排列"
+      "低于MA20"
     ]
   },
   "trends": [
-    {
-      "x": 1769011200000,
-      "y": 1.4784,
-      "equityReturn": -0.07,
-      "unitMoney": ""
-    },
     {
       "x": 1769097600000,
       "y": 1.5248,
@@ -1131,13 +1123,19 @@
       "y": 1.0394,
       "equityReturn": -2.25,
       "unitMoney": ""
+    },
+    {
+      "x": 1792771200000,
+      "y": 1.0621,
+      "equityReturn": 2.18,
+      "unitMoney": ""
     }
   ],
-  "fetchedAt": "2026-10-23T09:00:40.260Z",
+  "fetchedAt": "2026-10-23T14:00:34.070Z",
   "intraday": {
     "price": 1.061,
     "changePct": 2.22,
     "prevClose": 1.038,
-    "time": "2026-10-23T09:00:18.953Z"
+    "time": "2026-10-23T13:00:23.523Z"
   }
 }

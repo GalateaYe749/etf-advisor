@@ -7,56 +7,47 @@
     "金融"
   ],
   "tradeMode": "observe",
-  "nav": 0.8607,
-  "navDate": "2026-10-22",
+  "nav": 0.8504,
+  "navDate": "2026-10-23",
   "navHigh": 0.8753,
   "navLow": 0.7321,
-  "drawdownFromHigh": "-1.67",
-  "volatility30d": "14.02",
+  "drawdownFromHigh": "-2.84",
+  "volatility30d": "14.22",
   "returns": {
-    "1m": 1.81,
-    "3m": 8.96,
-    "6m": 7.23,
-    "1y": 10.57
+    "1m": 1.27,
+    "3m": 5.23,
+    "6m": 6.34,
+    "1y": 9.5
   },
   "tech": {
     "ma": {
-      "ma5": "0.8656",
+      "ma5": "0.8633",
       "ma10": "0.8639",
-      "ma20": "0.8521",
-      "ma60": "0.8324"
+      "ma20": "0.8527",
+      "ma60": "0.8331"
     },
-    "maArrangement": "多头排列",
-    "distFromMA20": "1.01",
-    "rsi14": "63.4",
+    "maArrangement": "缠绕",
+    "distFromMA20": "-0.27",
+    "rsi14": "57.2",
     "macd": {
-      "dif": "0.0088",
-      "dea": "0.0088",
-      "bar": "0.0000",
+      "dif": "0.0074",
+      "dea": "0.0085",
+      "bar": "-0.0022",
       "signal": "绿柱"
     },
     "bollinger": {
-      "upper": "0.8795",
-      "mid": "0.8521",
-      "lower": "0.8246",
+      "upper": "0.8793",
+      "mid": "0.8527",
+      "lower": "0.8261",
       "position": "轨内"
     }
   },
   "shortSignal": {
-    "signal": "🟡 买入观察",
-    "strength": 1.5,
-    "reasons": [
-      "RSI偏强",
-      "多头排列"
-    ]
+    "signal": "⚪ 观望",
+    "strength": 0,
+    "reasons": []
   },
   "trends": [
-    {
-      "x": 1769011200000,
-      "y": 0.7771,
-      "equityReturn": -1.57,
-      "unitMoney": ""
-    },
     {
       "x": 1769097600000,
       "y": 0.7739,
@@ -1130,13 +1121,19 @@
       "y": 0.8607,
       "equityReturn": -0.27,
       "unitMoney": ""
+    },
+    {
+      "x": 1792771200000,
+      "y": 0.8504,
+      "equityReturn": -1.2,
+      "unitMoney": ""
     }
   ],
-  "fetchedAt": "2026-10-23T09:00:40.691Z",
+  "fetchedAt": "2026-10-23T14:00:34.521Z",
   "intraday": {
     "price": 0.849,
     "changePct": -1.62,
     "prevClose": 0.863,
-    "time": "2026-10-23T09:00:18.953Z"
+    "time": "2026-10-23T13:00:23.523Z"
   }
 }

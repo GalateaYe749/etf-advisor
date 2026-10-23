@@ -7,57 +7,50 @@
     "创新药"
   ],
   "tradeMode": "observe",
-  "nav": 0.7917,
-  "navDate": "2026-10-22",
+  "nav": 0.8118,
+  "navDate": "2026-10-23",
   "navHigh": 0.934,
   "navLow": 0.7072,
-  "drawdownFromHigh": "-15.24",
-  "volatility30d": "28.74",
+  "drawdownFromHigh": "-13.08",
+  "volatility30d": "29.59",
   "returns": {
-    "1m": -3.73,
-    "3m": -6.01,
-    "6m": -9.06,
-    "1y": -18.26
+    "1m": -1.74,
+    "3m": -6.8,
+    "6m": -6.3,
+    "1y": -15.71
   },
   "tech": {
     "ma": {
-      "ma5": "0.8054",
-      "ma10": "0.8143",
-      "ma20": "0.8326",
-      "ma60": "0.8545"
+      "ma5": "0.8083",
+      "ma10": "0.8111",
+      "ma20": "0.8317",
+      "ma60": "0.8534"
     },
     "maArrangement": "空头排列",
-    "distFromMA20": "-4.91",
-    "rsi14": "34.4",
+    "distFromMA20": "-2.39",
+    "rsi14": "41.9",
     "macd": {
-      "dif": "-0.0128",
-      "dea": "-0.0098",
-      "bar": "-0.0060",
+      "dif": "-0.0123",
+      "dea": "-0.0103",
+      "bar": "-0.0040",
       "signal": "绿柱"
     },
     "bollinger": {
-      "upper": "0.8801",
-      "mid": "0.8326",
-      "lower": "0.7851",
+      "upper": "0.8800",
+      "mid": "0.8317",
+      "lower": "0.7833",
       "position": "轨内"
     }
   },
   "shortSignal": {
     "signal": "⚪ 观望",
-    "strength": -1,
+    "strength": -0.5,
     "reasons": [
-      "RSI偏弱",
       "低于MA20",
       "空头排列"
     ]
   },
   "trends": [
-    {
-      "x": 1769011200000,
-      "y": 0.8626,
-      "equityReturn": -0.19,
-      "unitMoney": ""
-    },
     {
       "x": 1769097600000,
       "y": 0.8532,
@@ -1131,13 +1124,19 @@
       "y": 0.7917,
       "equityReturn": -3.05,
       "unitMoney": ""
+    },
+    {
+      "x": 1792771200000,
+      "y": 0.8118,
+      "equityReturn": 2.54,
+      "unitMoney": ""
     }
   ],
-  "fetchedAt": "2026-10-23T09:00:39.486Z",
+  "fetchedAt": "2026-10-23T14:00:33.309Z",
   "intraday": {
     "price": 0.81,
     "changePct": 2.4,
     "prevClose": 0.791,
-    "time": "2026-10-23T09:00:18.953Z"
+    "time": "2026-10-23T13:00:23.523Z"
   }
 }
