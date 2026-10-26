@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-04T12:31:46.788642",
+  "generatedAt": "2026-10-26T00:18:24.599153",
   "targetETF": "561380 电网设备ETF国泰",
   "totalTests": 192,
   "summary": {
-    "avgPnl": -2.34,
-    "bestPnl": -1.6,
-    "worstPnl": -3.19,
+    "avgPnl": -4.7,
+    "bestPnl": -3.21,
+    "worstPnl": -6.41,
     "bestParams": {
       "stop_loss": -3,
       "take_profit": 5,
@@ -27,27 +27,27 @@
   },
   "paramImportance": {
     "stop_loss": {
-      "-3": -2.34,
-      "-5": -2.34,
-      "-7": -2.34,
-      "-10": -2.34
+      "-3": -4.7,
+      "-5": -4.7,
+      "-7": -4.7,
+      "-10": -4.7
     },
     "take_profit": {
-      "5": -2.34,
-      "8": -2.34,
-      "12": -2.34,
-      "15": -2.34
+      "5": -4.7,
+      "8": -4.7,
+      "12": -4.7,
+      "15": -4.7
     },
     "long_monthly": {
-      "500": -1.6,
-      "700": -2.24,
-      "1000": -3.19
+      "500": -3.21,
+      "700": -4.49,
+      "1000": -6.41
     },
     "dd_entry": {
-      "-15": -2.34,
-      "-20": -2.34,
-      "-25": -2.34,
-      "-30": -2.34
+      "-15": -4.7,
+      "-20": -4.7,
+      "-25": -4.7,
+      "-30": -4.7
     }
   },
   "topPerforming": [
@@ -58,7 +58,7 @@
         "long_monthly": 500,
         "dd_entry": -15
       },
-      "pnlPct": -1.6
+      "pnlPct": -3.21
     },
     {
       "params": {
@@ -67,7 +67,7 @@
         "long_monthly": 500,
         "dd_entry": -20
       },
-      "pnlPct": -1.6
+      "pnlPct": -3.21
     },
     {
       "params": {
@@ -76,7 +76,7 @@
         "long_monthly": 500,
         "dd_entry": -25
       },
-      "pnlPct": -1.6
+      "pnlPct": -3.21
     }
   ],
   "worstPerforming": [
@@ -87,7 +87,7 @@
         "long_monthly": 1000,
         "dd_entry": -20
       },
-      "pnlPct": -3.19
+      "pnlPct": -6.41
     },
     {
       "params": {
@@ -96,7 +96,7 @@
         "long_monthly": 1000,
         "dd_entry": -25
       },
-      "pnlPct": -3.19
+      "pnlPct": -6.41
     },
     {
       "params": {
@@ -105,8 +105,15 @@
         "long_monthly": 1000,
         "dd_entry": -30
       },
-      "pnlPct": -3.19
+      "pnlPct": -6.41
     }
   ],
-  "recommendations": []
+  "recommendations": [
+    {
+      "param": "long_monthly",
+      "current": "700",
+      "suggested": "500",
+      "improvement": "收益提升 +1.28%"
+    }
+  ]
 }
