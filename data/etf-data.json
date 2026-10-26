@@ -1129,13 +1129,13 @@
         "unitMoney": ""
       },
       {
-        "x": 1792972800000,
+        "x": 1793030400000,
         "y": 4.1797,
         "equityReturn": -0.03,
         "unitMoney": ""
       }
     ],
-    "fetchedAt": "2026-10-26T12:00:03.463Z",
+    "fetchedAt": "2026-10-26T14:00:24.754Z",
     "intraday": {
       "price": 4.179,
       "changePct": 0.02,
@@ -1151,38 +1151,38 @@
       "中盘"
     ],
     "tradeMode": "both",
-    "nav": 6.8526,
-    "navDate": "2026-10-23",
+    "nav": 6.7497,
+    "navDate": "2026-10-26",
     "navHigh": 9.1808,
     "navLow": 6.6952,
-    "drawdownFromHigh": "-25.36",
-    "volatility30d": "23.20",
+    "drawdownFromHigh": "-26.48",
+    "volatility30d": "23.26",
     "returns": {
-      "1m": -11.1,
-      "3m": -7.56,
-      "6m": -16.98,
-      "1y": -10.46
+      "1m": -12.11,
+      "3m": -13.52,
+      "6m": -18.56,
+      "1y": -9.99
     },
     "tech": {
       "ma": {
-        "ma5": "6.8284",
-        "ma10": "6.9006",
-        "ma20": "7.2496",
-        "ma60": "7.6041"
+        "ma5": "6.8107",
+        "ma10": "6.8631",
+        "ma20": "7.1957",
+        "ma60": "7.5909"
       },
       "maArrangement": "空头排列",
-      "distFromMA20": "-5.48",
-      "rsi14": "24.4",
+      "distFromMA20": "-6.20",
+      "rsi14": "19.9",
       "macd": {
-        "dif": "-0.2536",
-        "dea": "-0.2217",
-        "bar": "-0.0638",
+        "dif": "-0.2538",
+        "dea": "-0.2279",
+        "bar": "-0.0518",
         "signal": "绿柱"
       },
       "bollinger": {
-        "upper": "8.0410",
-        "mid": "7.2496",
-        "lower": "6.4582",
+        "upper": "7.9688",
+        "mid": "7.1957",
+        "lower": "6.4226",
         "position": "轨内"
       }
     },
@@ -1197,12 +1197,6 @@
       ]
     },
     "trends": [
-      {
-        "x": 1769097600000,
-        "y": 8.4668,
-        "equityReturn": 0.55,
-        "unitMoney": ""
-      },
       {
         "x": 1769184000000,
         "y": 8.6712,
@@ -2276,9 +2270,15 @@
         "y": 6.8526,
         "equityReturn": 2.35,
         "unitMoney": ""
+      },
+      {
+        "x": 1792972800000,
+        "y": 6.7497,
+        "equityReturn": -1.5,
+        "unitMoney": ""
       }
     ],
-    "fetchedAt": "2026-10-26T12:00:03.728Z",
+    "fetchedAt": "2026-10-26T14:00:24.882Z",
     "intraday": {
       "price": 6.75,
       "changePct": -1.56,
@@ -3415,13 +3415,13 @@
         "unitMoney": ""
       },
       {
-        "x": 1792972800000,
+        "x": 1793030400000,
         "y": 2.6556,
         "equityReturn": -1.71,
         "unitMoney": ""
       }
     ],
-    "fetchedAt": "2026-10-26T12:00:03.980Z",
+    "fetchedAt": "2026-10-26T14:00:24.985Z",
     "intraday": {
       "price": 2.651,
       "changePct": -1.89,
@@ -4557,13 +4557,13 @@
         "unitMoney": ""
       },
       {
-        "x": 1792972800000,
+        "x": 1793030400000,
         "y": 1.1306,
         "equityReturn": -0.45,
         "unitMoney": ""
       }
     ],
-    "fetchedAt": "2026-10-26T12:00:04.108Z",
+    "fetchedAt": "2026-10-26T14:00:25.147Z",
     "intraday": {
       "price": 1.129,
       "changePct": -0.7,
@@ -5701,13 +5701,13 @@
         "unitMoney": ""
       },
       {
-        "x": 1792972800000,
+        "x": 1793030400000,
         "y": 1.3899,
         "equityReturn": -2.22,
         "unitMoney": ""
       }
     ],
-    "fetchedAt": "2026-10-26T12:00:04.221Z",
+    "fetchedAt": "2026-10-26T14:00:25.212Z",
     "intraday": {
       "price": 1.381,
       "changePct": -2.88,
@@ -6844,13 +6844,13 @@
         "unitMoney": ""
       },
       {
-        "x": 1792972800000,
+        "x": 1793030400000,
         "y": 0.6172,
         "equityReturn": -2.8,
         "unitMoney": ""
       }
     ],
-    "fetchedAt": "2026-10-26T12:00:04.392Z",
+    "fetchedAt": "2026-10-26T14:00:25.272Z",
     "intraday": {
       "price": 0.616,
       "changePct": -2.53,
@@ -7983,13 +7983,13 @@
         "unitMoney": ""
       },
       {
-        "x": 1792972800000,
+        "x": 1793030400000,
         "y": 0.814,
         "equityReturn": 0.27,
         "unitMoney": ""
       }
     ],
-    "fetchedAt": "2026-10-26T12:00:04.577Z",
+    "fetchedAt": "2026-10-26T14:00:25.424Z",
     "intraday": {
       "price": 0.813,
       "changePct": 0.37,
@@ -9124,13 +9124,13 @@
         "unitMoney": ""
       },
       {
-        "x": 1792972800000,
+        "x": 1793030400000,
         "y": 0.4213,
         "equityReturn": 1.59,
         "unitMoney": ""
       }
     ],
-    "fetchedAt": "2026-10-26T12:00:04.806Z",
+    "fetchedAt": "2026-10-26T14:00:25.534Z",
     "intraday": {
       "price": 0.421,
       "changePct": 1.45,
@@ -9147,58 +9147,51 @@
       "科技"
     ],
     "tradeMode": "observe",
-    "nav": 0.9084,
-    "navDate": "2026-10-23",
+    "nav": 0.8767,
+    "navDate": "2026-10-26",
     "navHigh": 3.3724,
-    "navLow": 0.8833,
-    "drawdownFromHigh": "-73.06",
-    "volatility30d": "36.64",
+    "navLow": 0.8767,
+    "drawdownFromHigh": "-74.00",
+    "volatility30d": "36.77",
     "returns": {
-      "1m": -19.15,
-      "3m": -23.93,
-      "6m": -50.54,
-      "1y": -53.16
+      "1m": -21.39,
+      "3m": -34.22,
+      "6m": -52.6,
+      "1y": -51.94
     },
     "tech": {
       "ma": {
-        "ma5": "0.8994",
-        "ma10": "0.9223",
-        "ma20": "1.0105",
-        "ma60": "1.1025"
+        "ma5": "0.8952",
+        "ma10": "0.9126",
+        "ma20": "0.9967",
+        "ma60": "1.0960"
       },
       "maArrangement": "空头排列",
-      "distFromMA20": "-10.10",
-      "rsi14": "16.2",
+      "distFromMA20": "-12.04",
+      "rsi14": "11.9",
       "macd": {
-        "dif": "-0.0674",
-        "dea": "-0.0617",
-        "bar": "-0.0114",
+        "dif": "-0.0677",
+        "dea": "-0.0628",
+        "bar": "-0.0098",
         "signal": "绿柱"
       },
       "bollinger": {
-        "upper": "1.2112",
-        "mid": "1.0105",
-        "lower": "0.8098",
+        "upper": "1.1943",
+        "mid": "0.9967",
+        "lower": "0.7990",
         "position": "轨内"
       }
     },
     "shortSignal": {
       "signal": "🟡 买入观察",
-      "strength": 1.5,
+      "strength": 2.5,
       "reasons": [
         "RSI超卖",
         "远离MA20",
-        "MACD绿柱放大",
         "空头排列"
       ]
     },
     "trends": [
-      {
-        "x": 1769097600000,
-        "y": 2.0443,
-        "equityReturn": -0.43,
-        "unitMoney": ""
-      },
       {
         "x": 1769184000000,
         "y": 2.0427,
@@ -10272,9 +10265,15 @@
         "y": 0.9084,
         "equityReturn": 2.84,
         "unitMoney": ""
+      },
+      {
+        "x": 1793030400000,
+        "y": 0.8767,
+        "equityReturn": -3.49,
+        "unitMoney": ""
       }
     ],
-    "fetchedAt": "2026-10-26T12:00:04.942Z",
+    "fetchedAt": "2026-10-26T14:00:25.663Z",
     "intraday": {
       "price": 0.875,
       "changePct": -3.74,
@@ -11411,13 +11410,13 @@
         "unitMoney": ""
       },
       {
-        "x": 1792972800000,
+        "x": 1793030400000,
         "y": 0.8047,
         "equityReturn": -3.49,
         "unitMoney": ""
       }
     ],
-    "fetchedAt": "2026-10-26T12:00:05.094Z",
+    "fetchedAt": "2026-10-26T14:00:25.749Z",
     "intraday": {
       "price": 0.801,
       "changePct": -4.19,
@@ -12554,13 +12553,13 @@
         "unitMoney": ""
       },
       {
-        "x": 1792972800000,
+        "x": 1793030400000,
         "y": 1.0549,
         "equityReturn": -0.68,
         "unitMoney": ""
       }
     ],
-    "fetchedAt": "2026-10-26T12:00:05.333Z",
+    "fetchedAt": "2026-10-26T14:00:25.860Z",
     "intraday": {
       "price": 1.054,
       "changePct": -0.66,
@@ -13699,13 +13698,13 @@
         "unitMoney": ""
       },
       {
-        "x": 1792972800000,
+        "x": 1793030400000,
         "y": 2.0016,
         "equityReturn": -0.23,
         "unitMoney": ""
       }
     ],
-    "fetchedAt": "2026-10-26T12:00:05.507Z",
+    "fetchedAt": "2026-10-26T14:00:26.081Z",
     "intraday": {
       "price": 2.004,
       "changePct": 0.1,
@@ -14840,13 +14839,13 @@
         "unitMoney": ""
       },
       {
-        "x": 1792972800000,
+        "x": 1793030400000,
         "y": 1.0306,
         "equityReturn": 2.39,
         "unitMoney": ""
       }
     ],
-    "fetchedAt": "2026-10-26T12:00:05.703Z",
+    "fetchedAt": "2026-10-26T14:00:26.146Z",
     "intraday": {
       "price": 1.031,
       "changePct": 2.79,
@@ -15987,7 +15986,7 @@
         "unitMoney": ""
       }
     ],
-    "fetchedAt": "2026-10-26T12:00:06.057Z",
+    "fetchedAt": "2026-10-26T14:00:26.298Z",
     "intraday": {
       "price": 0.864,
       "changePct": 1.77,
@@ -17122,13 +17121,13 @@
         "unitMoney": ""
       },
       {
-        "x": 1792972800000,
+        "x": 1793030400000,
         "y": 0.67,
         "equityReturn": 0.92,
         "unitMoney": ""
       }
     ],
-    "fetchedAt": "2026-10-26T12:00:06.283Z",
+    "fetchedAt": "2026-10-26T14:00:26.470Z",
     "intraday": {
       "price": 0.67,
       "changePct": 1.06,
@@ -18265,13 +18264,13 @@
         "unitMoney": ""
       },
       {
-        "x": 1792972800000,
+        "x": 1793030400000,
         "y": 0.713,
         "equityReturn": -0.59,
         "unitMoney": ""
       }
     ],
-    "fetchedAt": "2026-10-26T12:00:06.468Z",
+    "fetchedAt": "2026-10-26T14:00:26.539Z",
     "intraday": {
       "price": 0.713,
       "changePct": -0.56,
@@ -19407,13 +19406,13 @@
         "unitMoney": ""
       },
       {
-        "x": 1792972800000,
+        "x": 1793030400000,
         "y": 0.5242,
         "equityReturn": 0.94,
         "unitMoney": ""
       }
     ],
-    "fetchedAt": "2026-10-26T12:00:06.662Z",
+    "fetchedAt": "2026-10-26T14:00:26.606Z",
     "intraday": {
       "price": 0.523,
       "changePct": 0.97,
@@ -20551,13 +20550,13 @@
         "unitMoney": ""
       },
       {
-        "x": 1792972800000,
+        "x": 1793030400000,
         "y": 0.5317,
         "equityReturn": -0.32,
         "unitMoney": ""
       }
     ],
-    "fetchedAt": "2026-10-26T12:00:06.829Z",
+    "fetchedAt": "2026-10-26T14:00:26.670Z",
     "intraday": {
       "price": 0.528,
       "changePct": -0.56,
@@ -21695,13 +21694,13 @@
         "unitMoney": ""
       },
       {
-        "x": 1792972800000,
+        "x": 1793030400000,
         "y": 1.3681,
         "equityReturn": 0.44,
         "unitMoney": ""
       }
     ],
-    "fetchedAt": "2026-10-26T12:00:07.271Z",
+    "fetchedAt": "2026-10-26T14:00:26.746Z",
     "intraday": {
       "price": 1.36,
       "changePct": 0,
@@ -22842,7 +22841,7 @@
         "unitMoney": ""
       }
     ],
-    "fetchedAt": "2026-10-26T12:00:07.414Z",
+    "fetchedAt": "2026-10-26T14:00:26.822Z",
     "intraday": {
       "price": 2.603,
       "changePct": -0.08,
@@ -23980,13 +23979,13 @@
         "unitMoney": ""
       },
       {
-        "x": 1792713600000,
+        "x": 1792771200000,
         "y": 1.4494,
         "equityReturn": -0.03,
         "unitMoney": ""
       }
     ],
-    "fetchedAt": "2026-10-26T12:00:07.538Z",
+    "fetchedAt": "2026-10-26T14:00:26.898Z",
     "intraday": {
       "price": 1.661,
       "changePct": -0.42,
@@ -25130,7 +25129,7 @@
         "unitMoney": ""
       }
     ],
-    "fetchedAt": "2026-10-26T12:00:07.817Z",
+    "fetchedAt": "2026-10-26T14:00:26.990Z",
     "intraday": {
       "price": 8.185,
       "changePct": -0.17,
