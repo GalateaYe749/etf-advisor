@@ -1,6 +1,6 @@
 {
   "date": "2026-10-27",
-  "marketStatus": "neutral",
+  "marketStatus": "bearish",
   "longTerm": {
     "summary": "月预算¥700，16只ETF本月投入",
     "actions": [
@@ -149,7 +149,7 @@
         "amount": 38
       }
     ],
-    "riskLevel": "中等"
+    "riskLevel": "低（适合建仓）"
   },
   "shortTerm": {
     "summary": "8只ETF出现买入信号，可轻仓试多",
@@ -370,7 +370,7 @@
       {
         "etf": "513500",
         "name": "标普500ETF博时",
-        "nav": 2.4223,
+        "nav": 2.4379,
         "signal": "⚪ 观望",
         "score": -1,
         "reasons": [
@@ -413,11 +413,11 @@
   "simSummary": {
     "longTerm": {
       "cash": 5087.7,
-      "holdingsValue": "1601.60",
-      "totalValue": "6689.30",
+      "holdingsValue": "1567.80",
+      "totalValue": "6655.50",
       "totalCost": "1912.30",
-      "pnl": "-310.70",
-      "pnlPct": "-16.25"
+      "pnl": "-344.50",
+      "pnlPct": "-18.01"
     },
     "shortTerm": {
       "cash": 3000,
@@ -427,10 +427,10 @@
       "pnl": "0.00",
       "pnlPct": "0.00"
     },
-    "totalValue": "9689.30"
+    "totalValue": "9655.50"
   },
   "notes": [
-    "[neutral] 沪深300微跌0.13%，横盘震荡",
+    "[neutral] 沪深300微跌1.32%，横盘震荡",
     "[warning] 沪深300ETF华泰柏瑞 近3月-12.8%，长线持有无需恐慌",
     "[opportunity] 沪深300ETF华泰柏瑞 RSI=23.2，超卖区，短线反弹概率大",
     "[opportunity] 中证500ETF南方 回撤26.48%，长线定投良机",
