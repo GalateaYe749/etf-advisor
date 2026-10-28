@@ -7,57 +7,51 @@
     "军工"
   ],
   "tradeMode": "observe",
-  "nav": 1.013,
-  "navDate": "2026-10-27",
+  "nav": 1.0222,
+  "navDate": "2026-10-28",
   "navHigh": 1.6499,
   "navLow": 1.013,
-  "drawdownFromHigh": "-38.60",
-  "volatility30d": "27.38",
+  "drawdownFromHigh": "-38.04",
+  "volatility30d": "27.22",
   "returns": {
-    "1m": -12.49,
-    "3m": -6.49,
-    "6m": -28.83,
-    "1y": -18.67
+    "1m": -13,
+    "3m": -7.24,
+    "6m": -27.88,
+    "1y": -16.86
   },
   "tech": {
     "ma": {
-      "ma5": "1.0465",
-      "ma10": "1.0532",
-      "ma20": "1.0800",
-      "ma60": "1.1165"
+      "ma5": "1.0383",
+      "ma10": "1.0483",
+      "ma20": "1.0728",
+      "ma60": "1.1156"
     },
     "maArrangement": "空头排列",
-    "distFromMA20": "-6.20",
-    "rsi14": "33.3",
+    "distFromMA20": "-4.72",
+    "rsi14": "36.2",
     "macd": {
-      "dif": "-0.0248",
-      "dea": "-0.0214",
-      "bar": "-0.0068",
+      "dif": "-0.0260",
+      "dea": "-0.0223",
+      "bar": "-0.0074",
       "signal": "绿柱"
     },
     "bollinger": {
-      "upper": "1.1547",
-      "mid": "1.0800",
-      "lower": "1.0053",
+      "upper": "1.1400",
+      "mid": "1.0728",
+      "lower": "1.0055",
       "position": "轨内"
     }
   },
   "shortSignal": {
     "signal": "⚪ 观望",
-    "strength": 0,
+    "strength": -1,
     "reasons": [
       "RSI偏弱",
-      "远离MA20",
+      "低于MA20",
       "空头排列"
     ]
   },
   "trends": [
-    {
-      "x": 1769443200000,
-      "y": 1.501,
-      "equityReturn": -4.41,
-      "unitMoney": ""
-    },
     {
       "x": 1769529600000,
       "y": 1.5222,
@@ -1131,13 +1125,19 @@
       "y": 1.013,
       "equityReturn": -3.97,
       "unitMoney": ""
+    },
+    {
+      "x": 1793203200000,
+      "y": 1.0222,
+      "equityReturn": 0.91,
+      "unitMoney": ""
     }
   ],
-  "fetchedAt": "2026-10-28T09:00:47.474Z",
+  "fetchedAt": "2026-10-28T14:01:10.170Z",
   "intraday": {
     "price": 1.021,
     "changePct": 0.89,
     "prevClose": 1.012,
-    "time": "2026-10-28T09:00:25.063Z"
+    "time": "2026-10-28T13:01:09.961Z"
   }
 }

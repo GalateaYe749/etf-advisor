@@ -6,57 +6,51 @@
     "均衡"
   ],
   "tradeMode": "long_only",
-  "nav": 1.1109,
-  "navDate": "2026-10-27",
+  "nav": 1.1239,
+  "navDate": "2026-10-28",
   "navHigh": 1.4292,
   "navLow": 1.1109,
-  "drawdownFromHigh": "-22.27",
-  "volatility30d": "18.05",
+  "drawdownFromHigh": "-21.36",
+  "volatility30d": "18.36",
   "returns": {
-    "1m": -12.04,
-    "3m": -15.09,
-    "6m": -16.51,
-    "1y": -10.15
+    "1m": -11.64,
+    "3m": -14.26,
+    "6m": -15.6,
+    "1y": -7.46
   },
   "tech": {
     "ma": {
-      "ma5": "1.1250",
-      "ma10": "1.1371",
-      "ma20": "1.1774",
-      "ma60": "1.2467"
+      "ma5": "1.1227",
+      "ma10": "1.1332",
+      "ma20": "1.1699",
+      "ma60": "1.2443"
     },
     "maArrangement": "空头排列",
-    "distFromMA20": "-5.65",
-    "rsi14": "17.9",
+    "distFromMA20": "-3.93",
+    "rsi14": "26.8",
     "macd": {
-      "dif": "-0.0361",
-      "dea": "-0.0328",
-      "bar": "-0.0066",
+      "dif": "-0.0353",
+      "dea": "-0.0333",
+      "bar": "-0.0040",
       "signal": "绿柱"
     },
     "bollinger": {
-      "upper": "1.2711",
-      "mid": "1.1774",
-      "lower": "1.0837",
+      "upper": "1.2554",
+      "mid": "1.1699",
+      "lower": "1.0845",
       "position": "轨内"
     }
   },
   "shortSignal": {
     "signal": "🟡 买入观察",
-    "strength": 2.5,
+    "strength": 1.5,
     "reasons": [
       "RSI超卖",
-      "远离MA20",
+      "低于MA20",
       "空头排列"
     ]
   },
   "trends": [
-    {
-      "x": 1769443200000,
-      "y": 1.3239,
-      "equityReturn": -0.16,
-      "unitMoney": ""
-    },
     {
       "x": 1769529600000,
       "y": 1.325,
@@ -1130,13 +1124,19 @@
       "y": 1.1109,
       "equityReturn": -1.74,
       "unitMoney": ""
+    },
+    {
+      "x": 1793203200000,
+      "y": 1.1239,
+      "equityReturn": 1.17,
+      "unitMoney": ""
     }
   ],
-  "fetchedAt": "2026-10-28T09:00:46.387Z",
+  "fetchedAt": "2026-10-28T14:01:08.957Z",
   "intraday": {
     "price": 1.123,
     "changePct": 1.17,
     "prevClose": 1.11,
-    "time": "2026-10-28T09:00:25.063Z"
+    "time": "2026-10-28T13:01:09.961Z"
   }
 }
