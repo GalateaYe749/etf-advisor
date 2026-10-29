@@ -7,58 +7,51 @@
     "大盘"
   ],
   "tradeMode": "observe",
-  "nav": 1.3607,
-  "navDate": "2026-10-28",
+  "nav": 1.3528,
+  "navDate": "2026-10-29",
   "navHigh": 1.6944,
   "navLow": 1.3476,
-  "drawdownFromHigh": "-19.69",
-  "volatility30d": "17.53",
+  "drawdownFromHigh": "-20.16",
+  "volatility30d": "17.26",
   "returns": {
-    "1m": -8.19,
-    "3m": -9.09,
-    "6m": -13.56,
-    "1y": -13.34
+    "1m": -8.83,
+    "3m": -8.74,
+    "6m": -13.04,
+    "1y": -15.42
   },
   "tech": {
     "ma": {
-      "ma5": "1.3601",
-      "ma10": "1.3872",
-      "ma20": "1.4153",
-      "ma60": "1.4771"
+      "ma5": "1.3603",
+      "ma10": "1.3806",
+      "ma20": "1.4094",
+      "ma60": "1.4741"
     },
     "maArrangement": "空头排列",
-    "distFromMA20": "-3.86",
-    "rsi14": "36.2",
+    "distFromMA20": "-4.02",
+    "rsi14": "22.8",
     "macd": {
-      "dif": "-0.0305",
-      "dea": "-0.0254",
-      "bar": "-0.0102",
+      "dif": "-0.0311",
+      "dea": "-0.0265",
+      "bar": "-0.0092",
       "signal": "绿柱"
     },
     "bollinger": {
-      "upper": "1.4893",
-      "mid": "1.4153",
-      "lower": "1.3413",
+      "upper": "1.4838",
+      "mid": "1.4094",
+      "lower": "1.3351",
       "position": "轨内"
     }
   },
   "shortSignal": {
-    "signal": "🔴 卖出观察",
-    "strength": -2,
+    "signal": "🟡 买入观察",
+    "strength": 1.5,
     "reasons": [
-      "RSI偏弱",
+      "RSI超卖",
       "低于MA20",
-      "MACD绿柱放大",
       "空头排列"
     ]
   },
   "trends": [
-    {
-      "x": 1769529600000,
-      "y": 1.6458,
-      "equityReturn": 1.34,
-      "unitMoney": ""
-    },
     {
       "x": 1769616000000,
       "y": 1.6857,
@@ -1132,13 +1125,19 @@
       "y": 1.3607,
       "equityReturn": 0.22,
       "unitMoney": ""
+    },
+    {
+      "x": 1793289600000,
+      "y": 1.3528,
+      "equityReturn": -0.58,
+      "unitMoney": ""
     }
   ],
-  "fetchedAt": "2026-10-29T09:01:22.919Z",
+  "fetchedAt": "2026-10-29T14:00:40.683Z",
   "intraday": {
     "price": 1.346,
     "changePct": -0.22,
     "prevClose": 1.349,
-    "time": "2026-10-29T09:01:05.338Z"
+    "time": "2026-10-29T13:01:44.334Z"
   }
 }

@@ -7,57 +7,50 @@
     "消费"
   ],
   "tradeMode": "observe",
-  "nav": 0.518,
-  "navDate": "2026-10-28",
+  "nav": 0.5179,
+  "navDate": "2026-10-29",
   "navHigh": 0.8368,
   "navLow": 0.5129,
-  "drawdownFromHigh": "-38.10",
-  "volatility30d": "17.96",
+  "drawdownFromHigh": "-38.11",
+  "volatility30d": "17.80",
   "returns": {
-    "1m": -7.07,
-    "3m": -6.85,
-    "6m": -24.09,
-    "1y": -25.79
+    "1m": -6.41,
+    "3m": -3.9,
+    "6m": -23.3,
+    "1y": -27.3
   },
   "tech": {
     "ma": {
-      "ma5": "0.5190",
-      "ma10": "0.5211",
-      "ma20": "0.5301",
-      "ma60": "0.5530"
+      "ma5": "0.5200",
+      "ma10": "0.5203",
+      "ma20": "0.5284",
+      "ma60": "0.5522"
     },
     "maArrangement": "空头排列",
-    "distFromMA20": "-2.28",
-    "rsi14": "36.8",
+    "distFromMA20": "-1.99",
+    "rsi14": "30.7",
     "macd": {
-      "dif": "-0.0093",
+      "dif": "-0.0091",
       "dea": "-0.0091",
-      "bar": "-0.0004",
+      "bar": "0.0000",
       "signal": "绿柱"
     },
     "bollinger": {
-      "upper": "0.5505",
-      "mid": "0.5301",
-      "lower": "0.5098",
+      "upper": "0.5466",
+      "mid": "0.5284",
+      "lower": "0.5102",
       "position": "轨内"
     }
   },
   "shortSignal": {
-    "signal": "⚪ 观望",
-    "strength": -1,
+    "signal": "🔴 卖出观察",
+    "strength": -1.5,
     "reasons": [
       "RSI偏弱",
-      "低于MA20",
       "空头排列"
     ]
   },
   "trends": [
-    {
-      "x": 1769529600000,
-      "y": 0.7979,
-      "equityReturn": -1.4,
-      "unitMoney": ""
-    },
     {
       "x": 1769616000000,
       "y": 0.7886,
@@ -1131,13 +1124,19 @@
       "y": 0.518,
       "equityReturn": -0.46,
       "unitMoney": ""
+    },
+    {
+      "x": 1793289600000,
+      "y": 0.5179,
+      "equityReturn": -0.02,
+      "unitMoney": ""
     }
   ],
-  "fetchedAt": "2026-10-29T09:01:22.775Z",
+  "fetchedAt": "2026-10-29T14:00:40.431Z",
   "intraday": {
     "price": 0.517,
     "changePct": 0,
     "prevClose": 0.517,
-    "time": "2026-10-29T09:01:05.338Z"
+    "time": "2026-10-29T13:01:44.334Z"
   }
 }
