@@ -1,67 +1,62 @@
 {
   "date": "2026-11-02",
-  "generatedAt": "2026-11-02T04:02:26.028Z",
+  "generatedAt": "2026-11-02T09:02:34.691Z",
   "marketSnapshot": {
     "indices": [
       {
         "name": "上证指数",
-        "price": 3640.93,
-        "changePct": 1.16,
-        "amount": 543091370000
+        "price": 3638.03,
+        "changePct": 1.08,
+        "amount": 847459070000
       },
       {
         "name": "深证成指",
-        "price": 11092.39,
-        "changePct": 2.39,
-        "amount": 596972150000
+        "price": 11010.68,
+        "changePct": 1.63,
+        "amount": 936236270000
       },
       {
         "name": "沪深300",
-        "price": 4035.72,
-        "changePct": 1.26,
-        "amount": 333136120000
+        "price": 4016.92,
+        "changePct": 0.79,
+        "amount": 528847290000
       },
       {
         "name": "创业板指",
-        "price": 2492.91,
-        "changePct": 3.28,
-        "amount": 295334450000
+        "price": 2458.7,
+        "changePct": 1.87,
+        "amount": 466784010000
       },
       {
         "name": "科创50",
-        "price": 1195.08,
-        "changePct": 2.95,
-        "amount": 50133760000
+        "price": 1196.94,
+        "changePct": 3.11,
+        "amount": 81309900000
       },
       {
         "name": "北证50",
-        "price": 903.68,
-        "changePct": 2.03,
-        "amount": 7666098600
+        "price": 890.86,
+        "changePct": 0.58,
+        "amount": 11941816600
       }
     ],
-    "turnover": 1147729618600,
+    "turnover": 1795637156600,
     "turnoverDate": "2026-11-02",
     "notableMovers": [
       {
         "name": "中证500ETF南方",
         "code": "510500",
-        "pct": 2.63
-      },
-      {
-        "name": "创业板ETF易方达",
-        "code": "159915",
-        "pct": 3
+        "pct": 2.39
       },
       {
         "name": "科创50ETF华夏",
         "code": "588000",
-        "pct": 2.85
+        "pct": 2.61
       },
       {
         "name": "电网设备ETF国泰",
         "code": "561380",
-        "pct": 3.3
+        "pct": 2.43
       },
       {
         "name": "酒ETF鹏华",
@@ -71,12 +66,12 @@
       {
         "name": "芯片ETF华夏",
         "code": "159995",
-        "pct": 2.43
+        "pct": 2.04
       },
       {
         "name": "半导体ETF国联安",
         "code": "512480",
-        "pct": 2.78
+        "pct": 2.5
       },
       {
         "name": "军工ETF国泰",
@@ -86,12 +81,12 @@
       {
         "name": "新能源ETF南方",
         "code": "516160",
-        "pct": 2.62
+        "pct": 2.47
       },
       {
         "name": "游戏ETF华夏",
         "code": "159869",
-        "pct": 8.18
+        "pct": 8.81
       },
       {
         "name": "消费ETF汇添富",
@@ -106,12 +101,12 @@
       {
         "name": "旅游ETF富国",
         "code": "159766",
-        "pct": 2.87
+        "pct": 3.45
       },
       {
         "name": "黄金ETF华安",
         "code": "518880",
-        "pct": -2.18
+        "pct": -2.14
       }
     ]
   },
@@ -126,10 +121,10 @@
         "cost": 0.7355,
         "date": "2026-09-02",
         "name": "电网设备ETF国泰",
-        "currentPrice": 0.595,
-        "currentValue": 1547,
-        "pnl": -365.3,
-        "pnlPct": -19.1,
+        "currentPrice": 0.59,
+        "currentValue": 1534,
+        "pnl": -378.3,
+        "pnlPct": -19.78,
         "personalAdvice": {
           "summary": "电网设备ETF国泰当前回撤76.3%，MACD绿柱 RSI 26.1",
           "longTermAction": "坚定持有并分批加仓。回撤76.3%处于极端低估区域，每月可投入¥80。建议在MA20(0.6364)下方加仓",
@@ -139,7 +134,7 @@
         }
       }
     ],
-    "totalValue": 6634.7,
+    "totalValue": 6621.7,
     "recommendations": [
       {
         "etf": "510300",
@@ -553,9 +548,9 @@
   },
   "portfolio": {
     "totalCapital": 10000,
-    "totalValue": 9634.7,
-    "totalPnlPct": -3.65,
-    "longValue": 6634.7,
+    "totalValue": 9621.7,
+    "totalPnlPct": -3.78,
+    "longValue": 6621.7,
     "shortValue": 3000
   },
   "insights": [
@@ -563,7 +558,7 @@
       "level": "neutral",
       "cat": "大盘",
       "for": "both",
-      "text": "沪深300微涨1.26%，横盘震荡"
+      "text": "沪深300微涨0.79%，横盘震荡"
     },
     {
       "level": "opportunity",
