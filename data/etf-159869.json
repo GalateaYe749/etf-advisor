@@ -7,55 +7,49 @@
     "AI应用"
   ],
   "tradeMode": "observe",
-  "nav": 1.0332,
-  "navDate": "2026-11-02",
+  "nav": 1.0472,
+  "navDate": "2026-11-03",
   "navHigh": 1.6878,
   "navLow": 0.9551,
-  "drawdownFromHigh": "-38.78",
-  "volatility30d": "40.72",
+  "drawdownFromHigh": "-37.95",
+  "volatility30d": "40.88",
   "returns": {
-    "1m": -2.62,
-    "3m": 1.42,
-    "6m": -19.04,
-    "1y": -26.28
+    "1m": 1.59,
+    "3m": -2.79,
+    "6m": -18.24,
+    "1y": -26.26
   },
   "tech": {
     "ma": {
-      "ma5": "1.0018",
-      "ma10": "1.0062",
-      "ma20": "1.0218",
-      "ma60": "1.0754"
+      "ma5": "1.0117",
+      "ma10": "1.0081",
+      "ma20": "1.0222",
+      "ma60": "1.0740"
     },
-    "maArrangement": "空头排列",
-    "distFromMA20": "1.12",
-    "rsi14": "47.9",
+    "maArrangement": "缠绕",
+    "distFromMA20": "2.45",
+    "rsi14": "48.7",
     "macd": {
-      "dif": "-0.0185",
-      "dea": "-0.0192",
-      "bar": "0.0014",
+      "dif": "-0.0143",
+      "dea": "-0.0182",
+      "bar": "0.0078",
       "signal": "红柱"
     },
     "bollinger": {
-      "upper": "1.0724",
-      "mid": "1.0218",
-      "lower": "0.9712",
+      "upper": "1.0735",
+      "mid": "1.0222",
+      "lower": "0.9709",
       "position": "轨内"
     }
   },
   "shortSignal": {
     "signal": "⚪ 观望",
-    "strength": -1,
+    "strength": -0.5,
     "reasons": [
-      "空头排列"
+      "高于MA20"
     ]
   },
   "trends": [
-    {
-      "x": 1769788800000,
-      "y": 1.5899,
-      "equityReturn": -0.08,
-      "unitMoney": ""
-    },
     {
       "x": 1770048000000,
       "y": 1.5342,
@@ -1129,13 +1123,19 @@
       "y": 1.0332,
       "equityReturn": 8.18,
       "unitMoney": ""
+    },
+    {
+      "x": 1793721600000,
+      "y": 1.0472,
+      "equityReturn": 1.36,
+      "unitMoney": ""
     }
   ],
-  "fetchedAt": "2026-11-03T04:01:42.973Z",
+  "fetchedAt": "2026-11-03T14:00:53.172Z",
   "intraday": {
-    "price": 1.053,
-    "changePct": 1.54,
+    "price": 1.047,
+    "changePct": 0.96,
     "prevClose": 1.037,
-    "time": "2026-11-03T04:01:21.023Z"
+    "time": "2026-11-03T11:15:31.268Z"
   }
 }

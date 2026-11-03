@@ -7,58 +7,52 @@
     "食品饮料"
   ],
   "tradeMode": "observe",
-  "nav": 0.6901,
-  "navDate": "2026-11-02",
+  "nav": 0.7067,
+  "navDate": "2026-11-03",
   "navHigh": 0.8528,
   "navLow": 0.6038,
-  "drawdownFromHigh": "-19.08",
-  "volatility30d": "15.71",
+  "drawdownFromHigh": "-17.13",
+  "volatility30d": "17.15",
   "returns": {
-    "1m": 6.61,
-    "3m": 2.69,
-    "6m": -6.47,
-    "1y": -18.21
+    "1m": 9.31,
+    "3m": 3.77,
+    "6m": -3.21,
+    "1y": -15.54
   },
   "tech": {
     "ma": {
-      "ma5": "0.6695",
-      "ma10": "0.6657",
-      "ma20": "0.6626",
-      "ma60": "0.6660"
+      "ma5": "0.6779",
+      "ma10": "0.6700",
+      "ma20": "0.6656",
+      "ma60": "0.6662"
     },
     "maArrangement": "多头排列",
-    "distFromMA20": "4.15",
-    "rsi14": "66.9",
+    "distFromMA20": "6.17",
+    "rsi14": "71.5",
     "macd": {
-      "dif": "0.0034",
-      "dea": "0.0007",
-      "bar": "0.0054",
+      "dif": "0.0062",
+      "dea": "0.0018",
+      "bar": "0.0088",
       "signal": "红柱"
     },
     "bollinger": {
-      "upper": "0.6804",
-      "mid": "0.6626",
-      "lower": "0.6449",
+      "upper": "0.6905",
+      "mid": "0.6656",
+      "lower": "0.6407",
       "position": "上轨上方"
     }
   },
   "shortSignal": {
-    "signal": "⚪ 观望",
-    "strength": 0,
+    "signal": "⛔ 强烈卖出",
+    "strength": -3.5,
     "reasons": [
-      "RSI偏强",
-      "高于MA20",
+      "RSI超买",
+      "大幅高于MA20",
       "多头排列",
       "突破布林上轨"
     ]
   },
   "trends": [
-    {
-      "x": 1769788800000,
-      "y": 0.7777,
-      "equityReturn": -2.38,
-      "unitMoney": ""
-    },
     {
       "x": 1770048000000,
       "y": 0.7762,
@@ -1132,13 +1126,19 @@
       "y": 0.6901,
       "equityReturn": 2.12,
       "unitMoney": ""
+    },
+    {
+      "x": 1793721600000,
+      "y": 0.7067,
+      "equityReturn": 2.41,
+      "unitMoney": ""
     }
   ],
-  "fetchedAt": "2026-11-03T04:01:43.217Z",
+  "fetchedAt": "2026-11-03T14:00:53.330Z",
   "intraday": {
-    "price": 0.701,
-    "changePct": 1.59,
+    "price": 0.707,
+    "changePct": 2.46,
     "prevClose": 0.69,
-    "time": "2026-11-03T04:01:21.023Z"
+    "time": "2026-11-03T11:15:31.268Z"
   }
 }
