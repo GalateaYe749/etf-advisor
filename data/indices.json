@@ -2,67 +2,67 @@
   {
     "code": "000001",
     "name": "上证指数",
-    "price": 3609.83,
-    "change": -28.2,
-    "changePct": -0.78,
+    "price": 3613.71,
+    "change": -24.32,
+    "changePct": -0.67,
     "high": 3624.58,
     "low": 3582.1,
-    "amount": 287596240000,
-    "fetchedAt": "2026-11-03T02:14:12.136Z"
+    "amount": 436829830000,
+    "fetchedAt": "2026-11-03T03:14:12.671Z"
   },
   {
     "code": "399001",
     "name": "深证成指",
-    "price": 11071.13,
-    "change": 60.45,
-    "changePct": 0.55,
-    "high": 11089.57,
+    "price": 11017.63,
+    "change": 6.95,
+    "changePct": 0.06,
+    "high": 11093.06,
     "low": 10882.9,
-    "amount": 342055990000,
-    "fetchedAt": "2026-11-03T02:14:12.136Z"
+    "amount": 502153520000,
+    "fetchedAt": "2026-11-03T03:14:12.671Z"
   },
   {
     "code": "000300",
     "name": "沪深300",
-    "price": 4015.31,
-    "change": -1.61,
-    "changePct": -0.04,
-    "high": 4016.2,
+    "price": 4016.77,
+    "change": -0.15,
+    "changePct": 0,
+    "high": 4028.74,
     "low": 3969.55,
-    "amount": 184418580000,
-    "fetchedAt": "2026-11-03T02:14:12.136Z"
+    "amount": 290286020000,
+    "fetchedAt": "2026-11-03T03:14:12.671Z"
   },
   {
     "code": "399006",
     "name": "创业板指",
-    "price": 2462.42,
-    "change": 3.72,
-    "changePct": 0.15,
+    "price": 2442.82,
+    "change": -15.88,
+    "changePct": -0.65,
     "high": 2471.9,
     "low": 2406.64,
-    "amount": 171203010000,
-    "fetchedAt": "2026-11-03T02:14:12.136Z"
+    "amount": 251747810000,
+    "fetchedAt": "2026-11-03T03:14:12.671Z"
   },
   {
     "code": "000688",
     "name": "科创50",
-    "price": 1176.04,
-    "change": -20.9,
-    "changePct": -1.75,
+    "price": 1163.41,
+    "change": -33.53,
+    "changePct": -2.8,
     "high": 1184.53,
-    "low": 1162.34,
-    "amount": 23196510000,
-    "fetchedAt": "2026-11-03T02:14:12.136Z"
+    "low": 1158.26,
+    "amount": 39486310000,
+    "fetchedAt": "2026-11-03T03:14:12.671Z"
   },
   {
     "code": "899050",
     "name": "北证50",
-    "price": 891.44,
-    "change": 0.58,
-    "changePct": 0.07,
+    "price": 879.23,
+    "change": -11.63,
+    "changePct": -1.31,
     "high": 894.75,
-    "low": 880.14,
-    "amount": 4533244200,
-    "fetchedAt": "2026-11-03T02:14:12.136Z"
+    "low": 878.06,
+    "amount": 6889814500,
+    "fetchedAt": "2026-11-03T03:14:12.671Z"
   }
 ]
