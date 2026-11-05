@@ -7,55 +7,51 @@
     "新能源"
   ],
   "tradeMode": "observe",
-  "nav": 0.7241,
-  "navDate": "2026-11-04",
+  "nav": 0.755,
+  "navDate": "2026-11-05",
   "navHigh": 1.1822,
   "navLow": 0.67,
-  "drawdownFromHigh": "-38.75",
-  "volatility30d": "28.40",
+  "drawdownFromHigh": "-36.14",
+  "volatility30d": "31.01",
   "returns": {
-    "1m": -6.29,
-    "3m": -9.74,
-    "6m": -30.46,
-    "1y": -21.7
+    "1m": -2.74,
+    "3m": -7.36,
+    "6m": -28.81,
+    "1y": -16.91
   },
   "tech": {
     "ma": {
-      "ma5": "0.6934",
-      "ma10": "0.7009",
-      "ma20": "0.7189",
-      "ma60": "0.7920"
+      "ma5": "0.7061",
+      "ma10": "0.7057",
+      "ma20": "0.7184",
+      "ma60": "0.7903"
     },
-    "maArrangement": "空头排列",
-    "distFromMA20": "0.72",
-    "rsi14": "53.2",
+    "maArrangement": "缠绕",
+    "distFromMA20": "5.09",
+    "rsi14": "60.8",
     "macd": {
-      "dif": "-0.0241",
-      "dea": "-0.0267",
-      "bar": "0.0052",
+      "dif": "-0.0186",
+      "dea": "-0.0251",
+      "bar": "0.0130",
       "signal": "红柱"
     },
     "bollinger": {
-      "upper": "0.7694",
-      "mid": "0.7189",
-      "lower": "0.6684",
+      "upper": "0.7675",
+      "mid": "0.7184",
+      "lower": "0.6694",
       "position": "轨内"
     }
   },
   "shortSignal": {
     "signal": "⚪ 观望",
-    "strength": -1,
+    "strength": 0,
     "reasons": [
-      "空头排列"
+      "RSI偏强",
+      "大幅高于MA20",
+      "MACD红柱放大"
     ]
   },
   "trends": [
-    {
-      "x": 1770134400000,
-      "y": 1.1196,
-      "equityReturn": 5.75,
-      "unitMoney": ""
-    },
     {
       "x": 1770220800000,
       "y": 1.1555,
@@ -1129,13 +1125,19 @@
       "y": 0.7241,
       "equityReturn": 4.38,
       "unitMoney": ""
+    },
+    {
+      "x": 1793894400000,
+      "y": 0.755,
+      "equityReturn": 4.27,
+      "unitMoney": ""
     }
   ],
-  "fetchedAt": "2026-11-05T09:00:49.686Z",
+  "fetchedAt": "2026-11-05T14:00:48.158Z",
   "intraday": {
     "price": 0.757,
     "changePct": 4.27,
     "prevClose": 0.726,
-    "time": "2026-11-05T09:00:32.150Z"
+    "time": "2026-11-05T13:00:56.150Z"
   }
 }

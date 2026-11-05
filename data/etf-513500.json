@@ -7,57 +7,49 @@
     "大盘"
   ],
   "tradeMode": "observe",
-  "nav": 2.4026,
-  "navDate": "2026-11-03",
+  "nav": 2.4426,
+  "navDate": "2026-11-04",
   "navHigh": 2.5023,
   "navLow": 2.0751,
-  "drawdownFromHigh": "-3.98",
-  "volatility30d": "12.17",
+  "drawdownFromHigh": "-2.39",
+  "volatility30d": "13.04",
   "returns": {
-    "1m": -1.96,
+    "1m": -0.18,
     "3m": 2.34,
-    "6m": 3.26,
-    "1y": 6.32
+    "6m": 5.49,
+    "1y": 8.18
   },
   "tech": {
     "ma": {
-      "ma5": "2.4226",
-      "ma10": "2.4328",
-      "ma20": "2.4481",
-      "ma60": "2.4594"
+      "ma5": "2.4192",
+      "ma10": "2.4305",
+      "ma20": "2.4483",
+      "ma60": "2.4587"
     },
     "maArrangement": "空头排列",
-    "distFromMA20": "-1.86",
-    "rsi14": "37.9",
+    "distFromMA20": "-0.23",
+    "rsi14": "45.6",
     "macd": {
-      "dif": "-0.0115",
-      "dea": "-0.0056",
-      "bar": "-0.0118",
+      "dif": "-0.0098",
+      "dea": "-0.0064",
+      "bar": "-0.0068",
       "signal": "绿柱"
     },
     "bollinger": {
-      "upper": "2.5017",
-      "mid": "2.4481",
-      "lower": "2.3945",
+      "upper": "2.5018",
+      "mid": "2.4483",
+      "lower": "2.3948",
       "position": "轨内"
     }
   },
   "shortSignal": {
-    "signal": "🔴 卖出观察",
-    "strength": -2.5,
+    "signal": "⚪ 观望",
+    "strength": -1,
     "reasons": [
-      "RSI偏弱",
-      "MACD绿柱放大",
       "空头排列"
     ]
   },
   "trends": [
-    {
-      "x": 1770048000000,
-      "y": 2.2965,
-      "equityReturn": 0.56,
-      "unitMoney": ""
-    },
     {
       "x": 1770134400000,
       "y": 2.274,
@@ -1131,13 +1123,19 @@
       "y": 2.4026,
       "equityReturn": 0.37,
       "unitMoney": ""
+    },
+    {
+      "x": 1793808000000,
+      "y": 2.4426,
+      "equityReturn": 1.66,
+      "unitMoney": ""
     }
   ],
-  "fetchedAt": "2026-11-05T09:00:50.206Z",
+  "fetchedAt": "2026-11-05T14:00:48.525Z",
   "intraday": {
     "price": 2.645,
     "changePct": 1.19,
     "prevClose": 2.614,
-    "time": "2026-11-05T09:00:32.150Z"
+    "time": "2026-11-05T13:00:56.150Z"
   }
 }

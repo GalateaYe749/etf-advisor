@@ -7,57 +7,53 @@
     "消费"
   ],
   "tradeMode": "observe",
-  "nav": 0.5512,
-  "navDate": "2026-11-04",
+  "nav": 0.5637,
+  "navDate": "2026-11-05",
   "navHigh": 0.8368,
   "navLow": 0.5129,
-  "drawdownFromHigh": "-34.13",
-  "volatility30d": "18.42",
+  "drawdownFromHigh": "-32.64",
+  "volatility30d": "19.57",
   "returns": {
-    "1m": 2.47,
-    "3m": -3.67,
-    "6m": -15.45,
-    "1y": -24.34
+    "1m": 3.87,
+    "3m": -2.44,
+    "6m": -15.33,
+    "1y": -22.29
   },
   "tech": {
     "ma": {
-      "ma5": "0.5364",
-      "ma10": "0.5277",
-      "ma20": "0.5286",
-      "ma60": "0.5498"
+      "ma5": "0.5455",
+      "ma10": "0.5327",
+      "ma20": "0.5301",
+      "ma60": "0.5497"
     },
-    "maArrangement": "缠绕",
-    "distFromMA20": "4.28",
-    "rsi14": "69.6",
+    "maArrangement": "多头排列",
+    "distFromMA20": "6.34",
+    "rsi14": "74.0",
     "macd": {
-      "dif": "-0.0020",
-      "dea": "-0.0065",
-      "bar": "0.0090",
+      "dif": "0.0006",
+      "dea": "-0.0051",
+      "bar": "0.0114",
       "signal": "红柱"
     },
     "bollinger": {
-      "upper": "0.5497",
-      "mid": "0.5286",
-      "lower": "0.5075",
+      "upper": "0.5561",
+      "mid": "0.5301",
+      "lower": "0.5041",
       "position": "上轨上方"
     }
   },
   "shortSignal": {
-    "signal": "⚪ 观望",
-    "strength": -1,
+    "signal": "🔴 卖出观察",
+    "strength": -2.5,
     "reasons": [
-      "RSI偏强",
-      "高于MA20",
+      "RSI超买",
+      "大幅高于MA20",
+      "MACD红柱放大",
+      "多头排列",
       "突破布林上轨"
     ]
   },
   "trends": [
-    {
-      "x": 1770134400000,
-      "y": 0.7999,
-      "equityReturn": 1.64,
-      "unitMoney": ""
-    },
     {
       "x": 1770220800000,
       "y": 0.8225,
@@ -1131,13 +1127,19 @@
       "y": 0.5512,
       "equityReturn": 0.27,
       "unitMoney": ""
+    },
+    {
+      "x": 1793894400000,
+      "y": 0.5637,
+      "equityReturn": 2.27,
+      "unitMoney": ""
     }
   ],
-  "fetchedAt": "2026-11-05T09:00:49.799Z",
+  "fetchedAt": "2026-11-05T14:00:48.242Z",
   "intraday": {
     "price": 0.564,
     "changePct": 2.73,
     "prevClose": 0.549,
-    "time": "2026-11-05T09:00:32.150Z"
+    "time": "2026-11-05T13:00:56.150Z"
   }
 }
