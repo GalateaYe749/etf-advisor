@@ -7,55 +7,50 @@
     "AI应用"
   ],
   "tradeMode": "observe",
-  "nav": 1.0472,
-  "navDate": "2026-11-03",
+  "nav": 1.0686,
+  "navDate": "2026-11-04",
   "navHigh": 1.6878,
   "navLow": 0.9551,
-  "drawdownFromHigh": "-37.95",
-  "volatility30d": "40.88",
+  "drawdownFromHigh": "-36.69",
+  "volatility30d": "41.32",
   "returns": {
-    "1m": 1.59,
-    "3m": -2.79,
-    "6m": -18.24,
+    "1m": 2.86,
+    "3m": -0.07,
+    "6m": -17.01,
     "1y": -26.26
   },
   "tech": {
     "ma": {
-      "ma5": "1.0117",
-      "ma10": "1.0081",
-      "ma20": "1.0222",
-      "ma60": "1.0740"
+      "ma5": "1.0225",
+      "ma10": "1.0134",
+      "ma20": "1.0237",
+      "ma60": "1.0726"
     },
     "maArrangement": "缠绕",
-    "distFromMA20": "2.45",
-    "rsi14": "48.7",
+    "distFromMA20": "4.39",
+    "rsi14": "53.9",
     "macd": {
-      "dif": "-0.0143",
-      "dea": "-0.0182",
-      "bar": "0.0078",
+      "dif": "-0.0092",
+      "dea": "-0.0165",
+      "bar": "0.0146",
       "signal": "红柱"
     },
     "bollinger": {
-      "upper": "1.0735",
-      "mid": "1.0222",
-      "lower": "0.9709",
+      "upper": "1.0784",
+      "mid": "1.0237",
+      "lower": "0.9689",
       "position": "轨内"
     }
   },
   "shortSignal": {
     "signal": "⚪ 观望",
-    "strength": -0.5,
+    "strength": 0.5,
     "reasons": [
-      "高于MA20"
+      "高于MA20",
+      "MACD红柱放大"
     ]
   },
   "trends": [
-    {
-      "x": 1770048000000,
-      "y": 1.5342,
-      "equityReturn": -3.5,
-      "unitMoney": ""
-    },
     {
       "x": 1770134400000,
       "y": 1.5795,
@@ -1129,13 +1124,19 @@
       "y": 1.0472,
       "equityReturn": 1.36,
       "unitMoney": ""
+    },
+    {
+      "x": 1793808000000,
+      "y": 1.0686,
+      "equityReturn": 2.04,
+      "unitMoney": ""
     }
   ],
-  "fetchedAt": "2026-11-04T09:01:02.826Z",
+  "fetchedAt": "2026-11-05T00:30:27.590Z",
   "intraday": {
     "price": 1.068,
     "changePct": 2.01,
     "prevClose": 1.047,
-    "time": "2026-11-04T09:00:44.558Z"
+    "time": "2026-11-04T13:15:11.746Z"
   }
 }

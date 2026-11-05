@@ -8,57 +8,50 @@
     "锂电"
   ],
   "tradeMode": "observe",
-  "nav": 1.9773,
-  "navDate": "2026-11-03",
+  "nav": 2.0523,
+  "navDate": "2026-11-04",
   "navHigh": 3.3792,
   "navLow": 1.9057,
-  "drawdownFromHigh": "-41.49",
-  "volatility30d": "25.84",
+  "drawdownFromHigh": "-39.27",
+  "volatility30d": "28.14",
   "returns": {
-    "1m": -10.28,
-    "3m": -18.85,
-    "6m": -38.65,
-    "1y": -25.95
+    "1m": -7.7,
+    "3m": -15.03,
+    "6m": -35.32,
+    "1y": -24.25
   },
   "tech": {
     "ma": {
-      "ma5": "1.9489",
-      "ma10": "1.9641",
-      "ma20": "2.0557",
-      "ma60": "2.3044"
+      "ma5": "1.9646",
+      "ma10": "1.9710",
+      "ma20": "2.0462",
+      "ma60": "2.2972"
     },
     "maArrangement": "空头排列",
-    "distFromMA20": "-3.81",
-    "rsi14": "33.5",
+    "distFromMA20": "0.30",
+    "rsi14": "48.0",
     "macd": {
-      "dif": "-0.0934",
-      "dea": "-0.0960",
-      "bar": "0.0052",
+      "dif": "-0.0819",
+      "dea": "-0.0931",
+      "bar": "0.0224",
       "signal": "红柱"
     },
     "bollinger": {
-      "upper": "2.2753",
-      "mid": "2.0557",
-      "lower": "1.8360",
+      "upper": "2.2488",
+      "mid": "2.0462",
+      "lower": "1.8437",
       "position": "轨内"
     }
   },
   "shortSignal": {
     "signal": "⚪ 观望",
-    "strength": -1,
+    "strength": 0,
     "reasons": [
-      "RSI偏弱",
-      "低于MA20",
+      "MACD红柱放大",
       "空头排列"
     ]
   },
   "trends": [
-    {
-      "x": 1770048000000,
-      "y": 2.9179,
-      "equityReturn": -1.8,
-      "unitMoney": ""
-    },
     {
       "x": 1770134400000,
       "y": 3.0233,
@@ -1132,13 +1125,19 @@
       "y": 1.9773,
       "equityReturn": 1.38,
       "unitMoney": ""
+    },
+    {
+      "x": 1793808000000,
+      "y": 2.0523,
+      "equityReturn": 3.79,
+      "unitMoney": ""
     }
   ],
-  "fetchedAt": "2026-11-04T09:01:02.745Z",
+  "fetchedAt": "2026-11-05T00:30:27.523Z",
   "intraday": {
     "price": 2.053,
     "changePct": 3.63,
     "prevClose": 1.981,
-    "time": "2026-11-04T09:00:44.558Z"
+    "time": "2026-11-04T13:15:11.746Z"
   }
 }

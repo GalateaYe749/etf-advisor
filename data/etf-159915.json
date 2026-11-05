@@ -6,58 +6,51 @@
     "成长"
   ],
   "tradeMode": "both",
-  "nav": 2.4073,
-  "navDate": "2026-11-03",
+  "nav": 2.5613,
+  "navDate": "2026-11-04",
   "navHigh": 4.3879,
   "navLow": 2.4073,
-  "drawdownFromHigh": "-45.14",
-  "volatility30d": "40.28",
+  "drawdownFromHigh": "-41.63",
+  "volatility30d": "44.10",
   "returns": {
-    "1m": -23.81,
-    "3m": -29.24,
-    "6m": -34.17,
-    "1y": -18.99
+    "1m": -19.01,
+    "3m": -21.59,
+    "6m": -28.95,
+    "1y": -16.33
   },
   "tech": {
     "ma": {
-      "ma5": "2.4995",
-      "ma10": "2.5726",
-      "ma20": "2.7480",
-      "ma60": "3.2105"
+      "ma5": "2.4814",
+      "ma10": "2.5575",
+      "ma20": "2.7183",
+      "ma60": "3.1947"
     },
     "maArrangement": "空头排列",
-    "distFromMA20": "-12.40",
-    "rsi14": "25.1",
+    "distFromMA20": "-5.78",
+    "rsi14": "38.3",
     "macd": {
-      "dif": "-0.2054",
-      "dea": "-0.1893",
-      "bar": "-0.0322",
+      "dif": "-0.1939",
+      "dea": "-0.1904",
+      "bar": "-0.0070",
       "signal": "绿柱"
     },
     "bollinger": {
-      "upper": "3.1741",
-      "mid": "2.7480",
-      "lower": "2.3219",
+      "upper": "3.1080",
+      "mid": "2.7183",
+      "lower": "2.3286",
       "position": "轨内"
     }
   },
   "shortSignal": {
-    "signal": "🟡 买入观察",
-    "strength": 1.5,
+    "signal": "⚪ 观望",
+    "strength": 0,
     "reasons": [
-      "RSI超卖",
+      "RSI偏弱",
       "远离MA20",
-      "MACD绿柱放大",
       "空头排列"
     ]
   },
   "trends": [
-    {
-      "x": 1770048000000,
-      "y": 3.2517,
-      "equityReturn": -2.45,
-      "unitMoney": ""
-    },
     {
       "x": 1770134400000,
       "y": 3.3123,
@@ -1131,13 +1124,19 @@
       "y": 2.4073,
       "equityReturn": -2.73,
       "unitMoney": ""
+    },
+    {
+      "x": 1793808000000,
+      "y": 2.5613,
+      "equityReturn": 6.4,
+      "unitMoney": ""
     }
   ],
-  "fetchedAt": "2026-11-04T09:01:01.899Z",
+  "fetchedAt": "2026-11-05T00:30:26.840Z",
   "intraday": {
     "price": 2.561,
     "changePct": 6.58,
     "prevClose": 2.403,
-    "time": "2026-11-04T09:00:44.558Z"
+    "time": "2026-11-04T13:15:11.746Z"
   }
 }
